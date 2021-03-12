@@ -1224,7 +1224,7 @@ export default {
         dueDayValueLeft: '{day} days left',
         dueDayValueOver: '{day} days overdue',
         payConfirmMsg: 'You will pay {amount} from your wallet ({balance})',
-        requireTopup: 'You balance ({balance}) not enough to pay {amount}. Top-up now?',
+        requireTopup: 'Your balance ({balance}) not enough to pay {amount}. Top-up now?',
         backBtn: 'Back to list',
         cancel: 'Cancel',
         payForThisTerm: 'Pay for this term',
@@ -4064,7 +4064,7 @@ export default {
           desc: 'Send your funds via wire, Zelle, or ACH through a linked US bank account.',
         },
         2: {
-          desc: 'You balance will update according to our service times.',
+          desc: 'Your balance will update according to our service times.',
         },
         3: {
           desc: 'Earn {interest}% APY or escrow your balance with Prime Trust.',
