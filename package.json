@@ -34,5 +34,8 @@
     "request": "^2.87.0",
     "rimraf": "^2.6.2",
     "unzip": "^0.1.11"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   }
 }
