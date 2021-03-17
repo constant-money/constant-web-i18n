@@ -1633,6 +1633,10 @@ export default {
         title: 'Lend Crypto',
         desc: 'Get {interest}% APY on BTC, ETH,<br/>and BNB.',
       },
+      depositCrypto: {
+        title: 'Deposit Crypto',
+        desc: 'Automatic {interest}% APY.<br/>Withdraw anytime.',
+      },
       borrow: {
         title: 'Borrow',
         desc: '          <p>Get cash for crypto without needing to sell.</p>        '
@@ -1669,6 +1673,10 @@ export default {
       investFlexCrypto: {
         title: 'Lend Crypto',
         desc: 'Get {percent}% APY on BTC, ETH,<br/>and BNB.',
+      },
+      depositCrypto: {
+        title: 'Deposit Crypto',
+        desc: 'Automatic {percent}% APY.<br/>Withdraw anytime.',
       },
       investLO: {
         title: 'Loan Originator',
@@ -3271,7 +3279,7 @@ export default {
         },
         deposit: 'to deposit now',
         btn1: 'Invest now',
-        gotoVerifyKyc: 'Go to verify now',
+        gotoVerifyKyc: 'Verify now',
         btnKyc1: '<a>Verify your ID</a> to invest'
       },
       intro: {
@@ -5245,7 +5253,8 @@ export default {
       otpNotMatched: 'Sorry, your Google authentication code didn\'t match. Please check and try again. If the problem continues, check the date set on your phone. Google authentication won\'t work if the date set on your phone is incorrect.',
       invalidStatus: 'This order has been processed. Please refresh the page to see update!',
       requestFailed: 'Something went wrong. Please refresh your browser and try again.',
-      need_kyc: 'For your security, please verify your identity before investing or withdrawing fiat (USD, for example). This step isn’t required for stablecoins.',
+      need_kyc: 'For your security, please verify your identity (KYC). Until you\'re verified, you won\'t be able to use any of our products or services.',
+      old_user_need_kyc: 'For your security, please verify your identity (KYC) before {date}. After this date, you will be unable to use the platform unless your identity has been identified.',
       invalidBankAccountName: 'For your security, the beneficiary name must match the name you registered when signing up with MyConstant. Please enter a different name or email hello@myconstant.com if you need help',
       registerWithExistEmail: 'This email already exists in our system. Please try another.',
       generalCode500: 'Something went wrong, please try again! (500)',
