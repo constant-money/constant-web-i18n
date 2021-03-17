@@ -1268,6 +1268,8 @@
 %%%.headerBar.extraMenu.investLO.desc%%%,"Earn up to 11% APR. Terms from <br/>6-15 months. Includes loan originator’s <br/>buy-back guarantee in case of default."
 %%%.headerBar.extraMenu.investFlexCrypto.title%%%,"Lend Crypto"
 %%%.headerBar.extraMenu.investFlexCrypto.desc%%%,"Get {interest}% APY on BTC, ETH,<br/>and BNB."
+%%%.headerBar.extraMenu.depositCrypto.title%%%,"Deposit Crypto"
+%%%.headerBar.extraMenu.depositCrypto.desc%%%,"Automatic {interest}% APY.<br/>Withdraw anytime."
 %%%.headerBar.extraMenu.borrow.title%%%,"Borrow"
 %%%.headerBar.extraMenu.borrow.desc%%%,"          <p>Get cash for crypto without needing to sell.</p>        "
 %%%.headerBar.extraMenu.borrowFiat.title%%%,"Crypto-backed Loans"
@@ -1287,6 +1289,8 @@
 %%%.headerBar.extraMenuMobile.investCustom.desc%%%,"Your terms. Best rates.<br/>Backed by crypto."
 %%%.headerBar.extraMenuMobile.investFlexCrypto.title%%%,"Lend Crypto"
 %%%.headerBar.extraMenuMobile.investFlexCrypto.desc%%%,"Get {percent}% APY on BTC, ETH,<br/>and BNB."
+%%%.headerBar.extraMenuMobile.depositCrypto.title%%%,"Deposit Crypto"
+%%%.headerBar.extraMenuMobile.depositCrypto.desc%%%,"Automatic {percent}% APY.<br/>Withdraw anytime."
 %%%.headerBar.extraMenuMobile.investLO.title%%%,"Loan Originator"
 %%%.headerBar.extraMenuMobile.investLO.desc%%%,"Earn up to 11% APR. Terms from 6-15 months. 
 Includes loan originator’s buy-back guarantee 
@@ -2458,7 +2462,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.home1.lendingSection.form.tooltip.maxTerm%%%,"<p>Choose instant access to withdraw your funds at any time for free. Otherwise, pick a fixed term to get our best rates.</p>"
 %%%.home1.lendingSection.form.deposit%%%,"to deposit now"
 %%%.home1.lendingSection.form.btn1%%%,"Invest now"
-%%%.home1.lendingSection.form.gotoVerifyKyc%%%,"Go to verify now"
+%%%.home1.lendingSection.form.gotoVerifyKyc%%%,"Verify now"
 %%%.home1.lendingSection.form.btnKyc1%%%,"<a>Verify your ID</a> to invest"
 %%%.home1.lendingSection.intro.content%%%,"
             <p class=""topText"">Invest the way you want</p>
@@ -3771,7 +3775,8 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.error.serverCode.otpNotMatched%%%,"Sorry, your Google authentication code didn't match. Please check and try again. If the problem continues, check the date set on your phone. Google authentication won't work if the date set on your phone is incorrect."
 %%%.error.serverCode.invalidStatus%%%,"This order has been processed. Please refresh the page to see update!"
 %%%.error.serverCode.requestFailed%%%,"Something went wrong. Please refresh your browser and try again."
-%%%.error.serverCode.need_kyc%%%,"For your security, please verify your identity before investing or withdrawing fiat (USD, for example). This step isn’t required for stablecoins."
+%%%.error.serverCode.need_kyc%%%,"For your security, please verify your identity (KYC). Until you're verified, you won't be able to use any of our products or services."
+%%%.error.serverCode.old_user_need_kyc%%%,"For your security, please verify your identity (KYC) before {date}. After this date, you will be unable to use the platform unless your identity has been identified."
 %%%.error.serverCode.invalidBankAccountName%%%,"For your security, the beneficiary name must match the name you registered when signing up with MyConstant. Please enter a different name or email hello@myconstant.com if you need help"
 %%%.error.serverCode.registerWithExistEmail%%%,"This email already exists in our system. Please try another."
 %%%.error.serverCode.generalCode500%%%,"Something went wrong, please try again! (500)"

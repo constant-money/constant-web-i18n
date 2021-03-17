@@ -1685,6 +1685,10 @@
                 "title": "%%%.headerBar.extraMenu.investFlexCrypto.title%%%",
                 "desc": "%%%.headerBar.extraMenu.investFlexCrypto.desc%%%"
             },
+            "depositCrypto": {
+                "title": "%%%.headerBar.extraMenu.depositCrypto.title%%%",
+                "desc": "%%%.headerBar.extraMenu.depositCrypto.desc%%%"
+            },
             "borrow": {
                 "title": "%%%.headerBar.extraMenu.borrow.title%%%",
                 "desc": "%%%.headerBar.extraMenu.borrow.desc%%%"
@@ -1721,6 +1725,10 @@
             "investFlexCrypto": {
                 "title": "%%%.headerBar.extraMenuMobile.investFlexCrypto.title%%%",
                 "desc": "%%%.headerBar.extraMenuMobile.investFlexCrypto.desc%%%"
+            },
+            "depositCrypto": {
+                "title": "%%%.headerBar.extraMenuMobile.depositCrypto.title%%%",
+                "desc": "%%%.headerBar.extraMenuMobile.depositCrypto.desc%%%"
             },
             "investLO": {
                 "title": "%%%.headerBar.extraMenuMobile.investLO.title%%%",
@@ -5054,6 +5062,7 @@
             "invalidStatus": "%%%.error.serverCode.invalidStatus%%%",
             "requestFailed": "%%%.error.serverCode.requestFailed%%%",
             "need_kyc": "%%%.error.serverCode.need_kyc%%%",
+            "old_user_need_kyc": "%%%.error.serverCode.old_user_need_kyc%%%",
             "invalidBankAccountName": "%%%.error.serverCode.invalidBankAccountName%%%",
             "registerWithExistEmail": "%%%.error.serverCode.registerWithExistEmail%%%",
             "generalCode500": "%%%.error.serverCode.generalCode500%%%",
