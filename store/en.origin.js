@@ -679,23 +679,19 @@
                 },
                 "redeemingAch": {
                     "label": "%%%.me.history.reserveType.redeemingAch.label%%%",
-                    "desc": "%%%.me.history.reserveType.redeemingAch.desc%%%",
-                    "desc1": "%%%.me.history.reserveType.redeemingAch.desc1%%%"
+                    "desc": "%%%.me.history.reserveType.redeemingAch.desc%%%"
                 },
                 "redeemingWire": {
                     "label": "%%%.me.history.reserveType.redeemingWire.label%%%",
-                    "desc": "%%%.me.history.reserveType.redeemingWire.desc%%%",
-                    "desc1": "%%%.me.history.reserveType.redeemingWire.desc1%%%"
+                    "desc": "%%%.me.history.reserveType.redeemingWire.desc%%%"
                 },
                 "redeemingZelle": {
                     "label": "%%%.me.history.reserveType.redeemingZelle.label%%%",
-                    "desc": "%%%.me.history.reserveType.redeemingZelle.desc%%%",
-                    "desc1": "%%%.me.history.reserveType.redeemingZelle.desc1%%%"
+                    "desc": "%%%.me.history.reserveType.redeemingZelle.desc%%%"
                 },
                 "redeemingFiat": {
                     "label": "%%%.me.history.reserveType.redeemingFiat.label%%%",
-                    "desc": "%%%.me.history.reserveType.redeemingFiat.desc%%%",
-                    "desc1": "%%%.me.history.reserveType.redeemingFiat.desc1%%%"
+                    "desc": "%%%.me.history.reserveType.redeemingFiat.desc%%%"
                 },
                 "cancelled": {
                     "label": "%%%.me.history.reserveType.cancelled.label%%%",

@@ -496,16 +496,12 @@
 %%%.me.history.reserveType.transferring.label%%%,"In progress"
 %%%.me.history.reserveType.redeemingAch.label%%%,"Processing (ACH)"
 %%%.me.history.reserveType.redeemingAch.desc%%%,"Your withdrawal is being processed. ACH withdrawals may take 3-5 business days (weekends not included) to reach your account."
-%%%.me.history.reserveType.redeemingAch.desc1%%%,"Sorry, it's taking a little longer to process your withdrawal. We're working with our custodian to get your money to you as soon as possible. In the meantime, you earn 12% APY on your withdrawal amount for every day we're late. For more info, please email us on hello@myconstant.com."
 %%%.me.history.reserveType.redeemingWire.label%%%,"Processing (Wire)"
 %%%.me.history.reserveType.redeemingWire.desc%%%,"Your withdrawal is being processed. Wires may take 2-5 business days (not including weekends) to reach your account."
-%%%.me.history.reserveType.redeemingWire.desc1%%%,"Sorry, it's taking a little longer to process your withdrawal. We're working with our custodian to get your money to you as soon as possible. In the meantime, you earn 12% APY on your withdrawal amount for every day we're late. For more info, please email us on hello@myconstant.com."
 %%%.me.history.reserveType.redeemingZelle.label%%%,"Processing (Zelle)"
 %%%.me.history.reserveType.redeemingZelle.desc%%%,"Your withdrawal is being processed. Zelle withdrawals may take up to 1 business day to reach your account (weekends not included)."
-%%%.me.history.reserveType.redeemingZelle.desc1%%%,"Sorry, it's taking a little longer to process your withdrawal. We're working with our custodian to get your money to you as soon as possible. In the meantime, you earn 12% APY on your withdrawal amount for every day we're late. For more info, please email us on hello@myconstant.com."
 %%%.me.history.reserveType.redeemingFiat.label%%%,"In progress"
 %%%.me.history.reserveType.redeemingFiat.desc%%%,"Your withdrawal is being processed. It may take 3-5 business days (not including weekends) to reach your account."
-%%%.me.history.reserveType.redeemingFiat.desc1%%%,"Sorry, it's taking a little longer to process your withdrawal. We're working with our custodian to get your money to you as soon as possible. In the meantime, you earn 12% APY on your withdrawal amount for every day we're late. For more info, please email us on hello@myconstant.com."
 %%%.me.history.reserveType.cancelled.label%%%,"Canceled"
 %%%.me.history.reserveType.cancelled.desc%%%,"Your transaction was canceled."
 %%%.me.history.reserveType.done.label%%%,"Successful"
@@ -3083,10 +3079,11 @@ Click confirm to start your term and receive your loan. Once your term begins yo
           <p>For example, if your balance is $5,000, your Instant Credit limit is $6,000. This means you’ll earn 4% APY on a transaction of up to $6,000 while your ACH is processed.</p>
         "
 %%%.depositCrypto.contentHtml%%%,"
-      <h1 class=""hightlight"">Deposit {numCollateral}+ supported cryptos.</h1>
+      <h1 class=""hightlight"">Deposit {numCollateral} supported cryptos.</h1>
       <div class=""h1"">Earn 4% APY on your idle stablecoins.</div>
       <div class=""h1 last"">Borrow instantly against your portfolio.</div>
       <p>Deposit cryptocurrencies and stablecoins to your MyConstant wallet. Earn an automatic 4% APY on all USD-backed stablecoin deposits. Get an instant multi-collateral credit line from just 6% APR. Top-up collateral automatically when markets fall.</p>
+      <p><a href=""/getprices"" class=""underline"" target=""_blank"">How long will it take to process your deposit?</a></p>
       <p><a href=""https://blog.myconstant.com/how-we-protect-your-money-and-collateral/"" class=""underline"" target=""_blank"">How we protect your assets</a></p>
     "
 %%%.depositCrypto.howItWorks.title%%%,"How it works"
@@ -3192,8 +3189,8 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.getPrices.withdrawCollateral.head1%%%,"Collateral withdrawal"
 %%%.getPrices.withdrawCollateral.head2%%%,"Funds received in your wallet"
 %%%.getPrices.withdrawCollateral.head3%%%,"Fee"
-%%%.getPrices.withdrawCollateralData.title1%%%,"BTC, ETH, ERC20, BEP2, TOMO, ZXC: <$10,000"
-%%%.getPrices.withdrawCollateralData.title2%%%,"BTC, ETH, ERC20, BEP2, TOMO, ZXC: >$10.000"
+%%%.getPrices.withdrawCollateralData.title1%%%,"BTC, ETH, ERC20, BEP2, TOMO, FIRO, INCOG, VET, TRX: <$10,000"
+%%%.getPrices.withdrawCollateralData.title2%%%,"BTC, ETH, ERC20, BEP2, TOMO, FIRO, INCOG, VET, TRX: >=$10.000"
 %%%.getPrices.withdrawCollateralData.title3%%%,"Others"
 %%%.getPrices.withdrawCollateralNote%%%,"
       <p class=""title"">* About collateral issue, please ping <a href=""https://t.me/andy_9210"" class=""underline"" target=""_blank""><strong>@andy_9210</strong></a> on telegram to get direct support.</p>
