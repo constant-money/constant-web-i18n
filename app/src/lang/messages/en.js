@@ -627,22 +627,18 @@ export default {
         redeemingAch: {
           label: 'Processing (ACH)',
           desc: 'Your withdrawal is being processed. ACH withdrawals may take 3-5 business days (weekends not included) to reach your account.',
-          desc1: 'Sorry, it\'s taking a little longer to process your withdrawal. We\'re working with our custodian to get your money to you as soon as possible. In the meantime, you earn 12% APY on your withdrawal amount for every day we\'re late. For more info, please email us on hello@myconstant.com.',
         },
         redeemingWire: {
           label: 'Processing (Wire)',
           desc: 'Your withdrawal is being processed. Wires may take 2-5 business days (not including weekends) to reach your account.',
-          desc1: 'Sorry, it\'s taking a little longer to process your withdrawal. We\'re working with our custodian to get your money to you as soon as possible. In the meantime, you earn 12% APY on your withdrawal amount for every day we\'re late. For more info, please email us on hello@myconstant.com.',
         },
         redeemingZelle: {
           label: 'Processing (Zelle)',
           desc: 'Your withdrawal is being processed. Zelle withdrawals may take up to 1 business day to reach your account (weekends not included).',
-          desc1: 'Sorry, it\'s taking a little longer to process your withdrawal. We\'re working with our custodian to get your money to you as soon as possible. In the meantime, you earn 12% APY on your withdrawal amount for every day we\'re late. For more info, please email us on hello@myconstant.com.',
         },
         redeemingFiat: {
           label: 'In progress',
           desc: 'Your withdrawal is being processed. It may take 3-5 business days (not including weekends) to reach your account.',
-          desc1: 'Sorry, it\'s taking a little longer to process your withdrawal. We\'re working with our custodian to get your money to you as soon as possible. In the meantime, you earn 12% APY on your withdrawal amount for every day we\'re late. For more info, please email us on hello@myconstant.com.',
         },
         cancelled: {
           label: 'Canceled',
@@ -4182,10 +4178,11 @@ export default {
   },
   depositCrypto: {
     contentHtml: `
-      <h1 class="hightlight">Deposit {numCollateral}+ supported cryptos.</h1>
+      <h1 class="hightlight">Deposit {numCollateral} supported cryptos.</h1>
       <div class="h1">Earn 4% APY on your idle stablecoins.</div>
       <div class="h1 last">Borrow instantly against your portfolio.</div>
       <p>Deposit cryptocurrencies and stablecoins to your MyConstant wallet. Earn an automatic 4% APY on all USD-backed stablecoin deposits. Get an instant multi-collateral credit line from just 6% APR. Top-up collateral automatically when markets fall.</p>
+      <p><a href="/getprices" class="underline" target="_blank">How long will it take to process your deposit?</a></p>
       <p><a href="https://blog.myconstant.com/how-we-protect-your-money-and-collateral/" class="underline" target="_blank">How we protect your assets</a></p>
     `,
     howItWorks: {
@@ -4365,8 +4362,8 @@ export default {
       head3: 'Fee'
     },
     withdrawCollateralData: {
-      title1: 'BTC, ETH, ERC20, BEP2, TOMO, ZXC: <$10,000',
-      title2: 'BTC, ETH, ERC20, BEP2, TOMO, ZXC: >$10.000',
+      title1: 'BTC, ETH, ERC20, BEP2, TOMO, FIRO, INCOG, VET, TRX: <$10,000',
+      title2: 'BTC, ETH, ERC20, BEP2, TOMO, FIRO, INCOG, VET, TRX: >=$10.000',
       title3: 'Others'
     },
     withdrawCollateralNote: `
