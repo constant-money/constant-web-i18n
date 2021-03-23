@@ -1683,7 +1683,7 @@
             },
             "depositCrypto": {
                 "title": "Deposit Crypto",
-                "desc": "Automatic {interest}% APY.<br/>Withdraw anytime."
+                "desc": "Deposit over {numCollateral} supported cryptos. Withdraw anytime."
             },
             "borrow": {
                 "title": "Borrow",
@@ -1724,7 +1724,7 @@
             },
             "depositCrypto": {
                 "title": "Deposit Crypto",
-                "desc": "Automatic {percent}% APY.<br/>Withdraw anytime."
+                "desc": "Deposit over {numCollateral} supported cryptos. Withdraw anytime."
             },
             "investLO": {
                 "title": "Loan Originator",
@@ -3353,7 +3353,7 @@
                 "minuteWindowDescription": "For the sake of security, this session will time-out after 3 days. If you need a little longer, just re-enter the amount you would like to invest when you’re ready.",
                 "paymentMethods": {
                     "email": {
-                        "titleDesc": "<p>Fast. Free. Easy.<br/><i>Less than ${max} per transaction</i></p>",
+                        "titleDesc": "<p>Fast. Free. Easy.<br/><i>Up to ${max} per transaction</i></p>",
                         "note": "Before making a transfer, please enter the full name associated with the Zelle account here",
                         "paymentInfo": "              <div class=\"row\">                <div class=\"col\">                    <label>Amount</label>                    <p>{amount} USD</p>                </div>                <div class=\"col\">                    <label>Send to</label>                    <p>{email}</p>                </div>              </div>              <div class=\"row\">                <div class=\"col\">                    <label>Full name</label>                    <p>{name}</p>                </div>                <div class=\"col\">                    <label>Type</label>                    <p>{type}</p>                </div>              </div>            ",
                         "placeholder": "Please enter the full name here",
@@ -5501,7 +5501,8 @@
         "invalid_payment_method": "To deposit USD, you must be a KYC-verified US citizen. Please choose another currency to deposit.",
         "makeLocalOrderFailed": "Sorry, we couldn't create your order this time. Please try again. If you continue experiencing problems, please contact us at hello@myconstant.com. Thank you.",
         "invalid_amount": "Invalid amount, please check your amount and try again",
-        "validation_error": "Ensure that there are no more than 10 digits before the decimal point."
+        "validation_error": "Ensure that there are no more than 10 digits before the decimal point.",
+        "zelleOverLimit": "Sorry, Zelle restrictions mean we're unable to process any further Zelle deposit at the moment."
     },
     "send": {
         "invalidBankAccountName": "For your security, the beneficiary name must match the name you registered when signing up with MyConstant. Please enter a different name or email hello@myconstant.com if you need help",

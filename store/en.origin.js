@@ -5501,7 +5501,8 @@
         "invalid_payment_method": "%%%.saving.invalid_payment_method%%%",
         "makeLocalOrderFailed": "%%%.saving.makeLocalOrderFailed%%%",
         "invalid_amount": "%%%.saving.invalid_amount%%%",
-        "validation_error": "%%%.saving.validation_error%%%"
+        "validation_error": "%%%.saving.validation_error%%%",
+        "zelleOverLimit": "%%%.saving.zelleOverLimit%%%"
     },
     "send": {
         "invalidBankAccountName": "%%%.send.invalidBankAccountName%%%",
