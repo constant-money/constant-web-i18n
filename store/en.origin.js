@@ -1529,7 +1529,8 @@
                 "messageConfirmDisable": "%%%.me.notificationSetting.secondaryMarketSetting.messageConfirmDisable%%%",
                 "disableSuccess": "%%%.me.notificationSetting.secondaryMarketSetting.disableSuccess%%%",
                 "messageConfirmUpdate": "%%%.me.notificationSetting.secondaryMarketSetting.messageConfirmUpdate%%%",
-                "interestInRange": "%%%.me.notificationSetting.secondaryMarketSetting.interestInRange%%%"
+                "interestInRange": "%%%.me.notificationSetting.secondaryMarketSetting.interestInRange%%%",
+                "updateSuccess": "%%%.me.notificationSetting.secondaryMarketSetting.updateSuccess%%%"
             }
         },
         "batchTransfer": {
@@ -3363,11 +3364,15 @@
                     },
                     "primetrust": {
                         "titleDesc": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.titleDesc%%%",
+                        "feeCreditTitleDesc": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCreditTitleDesc%%%",
                         "referNoteDesc": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.referNoteDesc%%%",
                         "minuteWindow": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.minuteWindow%%%",
                         "minuteWindowDescription": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.minuteWindowDescription%%%",
+                        "needHelp": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.needHelp%%%",
                         "subtitleGeneral": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.subtitleGeneral%%%",
-                        "subtitleInvest": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.subtitleInvest%%%"
+                        "subtitleInvest": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.subtitleInvest%%%",
+                        "feeCredit": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCredit%%%",
+                        "feeCreditDesc": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCreditDesc%%%"
                     },
                     "plaid": {
                         "title": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.title%%%",
