@@ -1482,6 +1482,7 @@ export default {
         disableSuccess: 'Successfully Disabled',
         messageConfirmUpdate: 'You’re about to change your notification settings to a minimum interest rate of {rate}% and maximum term of {term} months. Do you want to proceed?',
         interestInRange: 'Min rate must be greater than or equal to {min} and less than or equal to {max}',
+        updateSuccess: 'Update successfully',
       }
     },
     batchTransfer: { title: 'Batch Transfers' },
@@ -2930,8 +2931,12 @@ export default {
       withdraw: {
         confirmTemplate: {
           title: 'Thank you!',
-          description: `Your funds are on the way to your recipient's bank account. Times may vary based on the bank and location. Please view our <a href="/getPrices" target="_blank" class="colorLight semiBold">service times</a> for an estimation of when funds will reach you.<br/>While MyConstant processes your deposits and withdrawals free of charge, transaction fees may be applied separately by your financial institution.`,
-          contact: 'If you have any questions, feel free to reach out to <a class="colorLight semiBold" href="mailto:hello@myconstant.com">hello@myconstant.com</a> anytime.',
+          description: `
+            <div class="bold">Your funds are on the way to your recipient's bank account.</div>
+            <div>Times may vary based on the bank and location.</div>
+            <div>Please view our <a href="/getPrices" target="_blank" class="underline">service times</a> for an estimation of when funds will reach you. While MyConstant processes your deposits and withdrawals free of charge, transaction fees may be applied separately by your financial institution.</div>
+          `,
+          contact: 'If you have any questions, feel free to reach out to <a class="underline" href="mailto:hello@myconstant.com">hello@myconstant.com</a> anytime.',
           actionTitle: 'Back to homepage'
         }
       }
@@ -3330,13 +3335,13 @@ export default {
         accountAddress: 'Account address',
         bankPhone: 'Bank phone',
         refNumber: 'Reference number',
-        updateBalanceNote: "Please note it might take <strong>up to 1 business day</strong> to update your balance after receiving your deposit. We're working hard to reduce this time, so thanks for your patience.",
+        updateBalanceNote: "Please note it might take <strong class='yellow'>up to 1 business day</strong> to update your balance after receiving your deposit. We're working hard to reduce this time, so thanks for your patience.",
         referNote: 'Your reference number is {refNumber}',
         minuteWindow: 'Please complete your transfer within 3 days.',
         minuteWindowDescription: 'For the sake of security, this session will time-out after 3 days. If you need a little longer, just re-enter the amount you would like to invest when you’re ready.',
         paymentMethods: {
           email: {
-            titleDesc: '<p>Fast. Free. Easy.<br/><i>Up to ${max} per transaction</i></p>',
+            titleDesc: '<p>Fast. Free. Easy.<br/>Up to ${max} per transaction</p>',
             note: 'Before making a transfer, please enter the full name associated with the Zelle account here',
             paymentInfo: '              <div class="row">                <div class="col">                    <label>Amount</label>                    <p>{amount} USD</p>                </div>                <div class="col">                    <label>Send to</label>                    <p>{email}</p>                </div>              </div>              <div class="row">                <div class="col">                    <label>Full name</label>                    <p>{name}</p>                </div>                <div class="col">                    <label>Type</label>                    <p>{type}</p>                </div>              </div>            ',
             placeholder: 'Please enter the full name here',
@@ -3345,29 +3350,37 @@ export default {
             referNoteDesc: 'Please include your reference number when you make your Zelle transfer so we can match your deposit to your account.',
           },
           primetrust: {
-            titleDesc: '<p>Fast. Flexible. Secure.<br/><i>Unlimited amount</i></p>',
+            titleDesc: '<p>Fast. Secure. Unlimited.<br/>Get $15 cashback when sending over $2,000</p>',
+            feeCreditTitleDesc: 'All wires of over $2,000 qualify for $15 cashback paid straight into your MyConstant balance. This helps cover the wire fee.',
             referNoteDesc: 'To receive your deposit you MUST include this reference number when your wire your funds from your bank.',
             minuteWindow: '15 MINUTE WINDOW',
             minuteWindowDescription: 'Please complete your transfer within 15 minutes. After that, your order will be automatically cancelled.',
+            needHelp:`
+              <div class="need-help">
+                <div>Need help?</div>
+                <div><a target="_blank" class="underline" href="https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/">Check out our guide to Prime Trust transfers.</a></div>
+              </div>
+            `,
             subtitleGeneral: `
               <p>Please wire your deposit of \${amount} using reference number {refNumber} to Prime Trust using the details below. When you have made your transfer, please email your wire receipt to <a href="mailto:finance@myconstant.com">finance@myconstant.com</a>.</p>
-              <p>Need help? <a target="_blank" href="https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/">Check out our guide to Prime Trust transfers.</a></p>
             `,
             subtitleInvest: `
               <p>To complete your investment of \${amount} at {interest}% for {term} days, please wire your funds to our custodial partner, Prime Trust, using the details below.</p>
               <p>IMPORTANT: Please include your reference number {refNumber} so we can match your deposit to your account. To speed this up, please email your wire receipt to <a href="mailto:finance@myconstant.com">finance@myconstant.com</a>.</p>
-              <p>Need help? <a target="_blank" href="https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/">View our guide to Prime Trust wire transfers.</a></p>
+              <div class="need-help"><strong>Need help?</strong> <a target="_blank" href="https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/">View our guide to Prime Trust wire transfers.</a></div>
             `,
+            feeCredit: 'No-fee credit',
+            feeCreditDesc: 'For wire transfers above $2,000, you receive an additional credit of $15 in your MyConstant balance. This helps cover the wire fee.'
           },
           plaid: {
             title: 'Transfer via ACH to earn {rate}% instantly',
-            titleDesc: '<p>Instant interest. Linked US bank only.<br/><i>Less than ${max} per transaction</i></p>',
+            titleDesc: '<p>Instant interest. Linked US bank only.<br/>Less than ${max} per transaction</p>',
             subtitle: {
               enoughInstantCredit: '<p>Invest your deposit of ${instantAmount} instantly while your ACH clears. Get {flexRate}% APY through Flex or invest in a fixed term loan for up to {maxRate}%. (Please note: While you can invest your deposit instantly, you can’t withdraw it until your ACH clears.)</p>',
               overInstantCredit: '<p>Invest up to ${instantAmount} of your deposit instantly while your ACH clears. Get {flexRate}% APY through Flex or invest in a fixed term loan for up to {maxRate}%. The remainder of your deposit will credit when your funds reach us. (Please note: While you can invest up to ${instantAmount} of your deposit instantly, you can’t withdraw it until your ACH clears.)</p>',
               investNote: '<p>Get an instant 4% APY on any Plaid ACH deposit up to ${instantAmount}. Your investment of ${amount} at {interest}% for {term} days will start after your ACH clears.</p>',
-              pleaseNote: '<p>Please note: ACH transfers are available for linked US bank accounts only, and can take <strong>up to 5 business days</strong> to clear.</p>',
-              haveLinkedBank: '<p>Please choose a linked bank account below and then click <strong>Submit</strong>.</p>',
+              pleaseNote: '<p><strong>Please note:</strong> ACH transfers are available for linked US bank accounts only, and can take <strong>up to 5 business days</strong> to clear.</p>',
+              haveLinkedBank: '<p>Please choose a linked bank account below and then click <strong class="yellow">Submit</strong>.</p>',
               attention: `
                 <div class="bold">Attention!</div>
                 <p >To avoid an ACH reversal, please make sure you have <strong>sufficient funds within at least the next 48 hours</strong> in your bank account. The penalties for all ACH reversals result in a temporary suspension of your account as well as fees incurred.</p>
@@ -3389,8 +3402,8 @@ export default {
               investNoteInstantCredit: `
                 <p>While your ACH clears, you’ll earn {flexRate}% APY instantly on \${instantAmount} through our Instant Credit program. You can also reinvest Instant Credit in a fixed-term loan for up to 7% APR.</p>
               `,
-              pleaseNote: '<p>Please note: ACH transfers are available for linked US bank accounts only and each ACH deposit can take <strong>up to 5 business days</strong> to clear.</p>',
-              haveLinkedBank: '<div>To confirm your deposit, please choose a linked bank account below and then click <strong>Submit</strong>.</div>',
+              pleaseNote: '<p><strong>Please note:</strong> ACH transfers are available for linked US bank accounts only and each ACH deposit can take <strong>up to 5 business days</strong> to clear.</p>',
+              haveLinkedBank: '<div>To confirm your deposit, please choose a linked bank account below and then click <strong class="yellow">Submit</strong>.</div>',
             },
             subTitleSplitInvestment: {
               splitNote: `
@@ -3400,11 +3413,11 @@ export default {
               investNote: `
                     <p>The funds for each investment will be taken from the same linked bank account you choose from below.</p>
                 `,
-              pleaseNote: '<p>Please note: ACH transfers are available for linked US bank accounts only and each ACH transaction can take <strong>up to 5 business days</strong> to clear.</p>',
-              haveLinkedBank: '<div>To split your investments, please choose a linked bank account below and then click <strong>Submit</strong>.</div>',
+              pleaseNote: '<p><strong>Please note:</strong> ACH transfers are available for linked US bank accounts only and each ACH transaction can take <strong>up to 5 business days</strong> to clear.</p>',
+              haveLinkedBank: '<div>To split your investments, please choose a linked bank account below and then click <strong class="yellow">Submit</strong>.</div>',
             },
             noBankDesc: '<p>Link a US bank account to do ACH transfers through our partner, Plaid.</p><p>You don’t have any linked bank accounts at the moment. To link a US bank account to do ACH transfers, please click <strong>+ Add new bank</strong>.</p>',
-            updateBalanceNoteInWorkingTime: 'Please note it might take <strong>up to five business days</strong> for the ACH transfer to complete and show in your account.',
+            updateBalanceNoteInWorkingTime: 'Please note it might take <strong class="yellow">up to five business days</strong> for the ACH transfer to complete and show in your account.',
             confirmMessage: `
               <p class="text-left">Please ensure you have sufficient funds in your bank account to avoid an ACH reversal. All ACH reversals result in temporary suspension of your account and <strong>fees up to $50 for each reversal.</strong></p>
               <p class="text-left">When you're ready, please click <strong>Confirm</strong> and start your transfer.</p>
@@ -3413,7 +3426,7 @@ export default {
               <p class="text-left">Once you click <span class="yellow">Confirm</span>, <br/>you will not be able to cancel the transfer.</p>
             `,
             referNoteDesc: `
-              <h4>By clicking Submit, you confirm to</h4>
+              <p class="title">By clicking Submit, you confirm to</p>
             `,
             checkListNote: `
               <ul>
@@ -3472,7 +3485,7 @@ export default {
             titleDesc: 'Instantly. Free. <span class="yellow">3% cashback</span> to your Flex.'
           }
         },
-        updateBalanceNoteInWorkingTime: 'Please note it might take <strong>up to 1 hour</strong> to update your balance after receiving your deposit. We\'re working hard to reduce this time, so thanks for your patience.',
+        updateBalanceNoteInWorkingTime: 'Please note it might take <strong class="yellow">up to 1 hour</strong> to update your balance after receiving your deposit. We\'re working hard to reduce this time, so thanks for your patience.',
         bankChargeFeeInfo: `
           <h3 style="color: #757575;font-size: 16px; border-bottom: 1px solid #EEEEEE">Notice about intermediary bank fees</h3>
           <p class="text-left">The global banking system is imperfect, and some banks lack the direct relationships that support international wire transfers. These banks may depend on one or more intermediary banks (banks in addition to yours and ours) to help process the wire.</p>  
