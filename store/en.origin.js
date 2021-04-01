@@ -3590,7 +3590,6 @@
                 "loansOriginated_desc": "%%%.loanOriginators.loanOriginator.headers.loansOriginated_desc%%%",
                 "buyBackGuarantee_desc": "%%%.loanOriginators.loanOriginator.headers.buyBackGuarantee_desc%%%",
                 "country_desc": "%%%.loanOriginators.loanOriginator.headers.country_desc%%%",
-                "skinInTheGame": "%%%.loanOriginators.loanOriginator.headers.skinInTheGame%%%",
                 "founded": "%%%.loanOriginators.loanOriginator.headers.founded%%%",
                 "employees": "%%%.loanOriginators.loanOriginator.headers.employees%%%",
                 "joinedConstant": "%%%.loanOriginators.loanOriginator.headers.joinedConstant%%%",
@@ -3600,7 +3599,9 @@
                 "lastUpdated": "%%%.loanOriginators.loanOriginator.headers.lastUpdated%%%",
                 "market_desc": "%%%.loanOriginators.loanOriginator.headers.market_desc%%%",
                 "lastUpdated_desc": "%%%.loanOriginators.loanOriginator.headers.lastUpdated_desc%%%",
-                "loanOutstandingConstant_desc": "%%%.loanOriginators.loanOriginator.headers.loanOutstandingConstant_desc%%%"
+                "loanOutstandingConstant_desc": "%%%.loanOriginators.loanOriginator.headers.loanOutstandingConstant_desc%%%",
+                "skinInTheGame": "%%%.loanOriginators.loanOriginator.headers.skinInTheGame%%%",
+                "skinInTheGame_desc": "%%%.loanOriginators.loanOriginator.headers.skinInTheGame_desc%%%"
             },
             "footer": {
                 "desc": "%%%.loanOriginators.loanOriginator.footer.desc%%%"
@@ -3763,6 +3764,7 @@
                 "legalEntity": "%%%.loanOriginators.manualInvest.details.legalEntity%%%",
                 "paymentSchedule": "%%%.loanOriginators.manualInvest.details.paymentSchedule%%%",
                 "availableAmount": "%%%.loanOriginators.manualInvest.details.availableAmount%%%",
+                "availableBalance": "%%%.loanOriginators.manualInvest.details.availableBalance%%%",
                 "yourInvestment": "%%%.loanOriginators.manualInvest.details.yourInvestment%%%",
                 "paymentSchedule_desc": "%%%.loanOriginators.manualInvest.details.paymentSchedule_desc%%%",
                 "loanOriginator_desc": "%%%.loanOriginators.manualInvest.details.loanOriginator_desc%%%"
@@ -4349,7 +4351,8 @@
             "maxValues": "%%%.app.common.maxValues%%%",
             "uploading": "%%%.app.common.uploading%%%",
             "fileupload": "%%%.app.common.fileupload%%%",
-            "retry": "%%%.app.common.retry%%%"
+            "retry": "%%%.app.common.retry%%%",
+            "remove": "%%%.app.common.remove%%%"
         },
         "local": {
             "type": {
@@ -5714,6 +5717,72 @@
             "subtitle": "%%%.giftCard.successBox.subtitle%%%",
             "note": "%%%.giftCard.successBox.note%%%",
             "newOrder": "%%%.giftCard.successBox.newOrder%%%"
+        }
+    },
+    "registerAccreditation": {
+        "pending": "%%%.registerAccreditation.pending%%%",
+        "approved": "%%%.registerAccreditation.approved%%%",
+        "yourAccreditation": {
+            "date": "%%%.registerAccreditation.yourAccreditation.date%%%",
+            "type": "%%%.registerAccreditation.yourAccreditation.type%%%",
+            "option": "%%%.registerAccreditation.yourAccreditation.option%%%",
+            "status": "%%%.registerAccreditation.yourAccreditation.status%%%",
+            "assets": "%%%.registerAccreditation.yourAccreditation.assets%%%",
+            "income": "%%%.registerAccreditation.yourAccreditation.income%%%",
+            "options": {
+                "1": "%%%.registerAccreditation.yourAccreditation.options.1%%%",
+                "2": "%%%.registerAccreditation.yourAccreditation.options.2%%%",
+                "3": "%%%.registerAccreditation.yourAccreditation.options.3%%%",
+                "4": "%%%.registerAccreditation.yourAccreditation.options.4%%%"
+            }
+        },
+        "netWorths": "%%%.registerAccreditation.netWorths%%%",
+        "yes": "%%%.registerAccreditation.yes%%%",
+        "no": "%%%.registerAccreditation.no%%%",
+        "agreement": "%%%.registerAccreditation.agreement%%%",
+        "accreditation_evidence_location": "%%%.registerAccreditation.accreditation_evidence_location%%%",
+        "verifierRole": "%%%.registerAccreditation.verifierRole%%%",
+        "verifierEmail": "%%%.registerAccreditation.verifierEmail%%%",
+        "accreditation": "%%%.registerAccreditation.accreditation%%%",
+        "photoIncome1": "%%%.registerAccreditation.photoIncome1%%%",
+        "photoIncome2": "%%%.registerAccreditation.photoIncome2%%%",
+        "accreditationAlt": "%%%.registerAccreditation.accreditationAlt%%%",
+        "title1": "%%%.registerAccreditation.title1%%%",
+        "desc1": "%%%.registerAccreditation.desc1%%%",
+        "income": {
+            "title": "%%%.registerAccreditation.income.title%%%",
+            "alt": "%%%.registerAccreditation.income.alt%%%",
+            "description": "%%%.registerAccreditation.income.description%%%"
+        },
+        "assets": {
+            "title": "%%%.registerAccreditation.assets.title%%%",
+            "alt": "%%%.registerAccreditation.assets.alt%%%",
+            "description": "%%%.registerAccreditation.assets.description%%%"
+        },
+        "text1": "%%%.registerAccreditation.text1%%%",
+        "text2": "%%%.registerAccreditation.text2%%%",
+        "text3": "%%%.registerAccreditation.text3%%%",
+        "text4": "%%%.registerAccreditation.text4%%%",
+        "investment_advisor": "%%%.registerAccreditation.investment_advisor%%%",
+        "broker": "%%%.registerAccreditation.broker%%%",
+        "accountant": "%%%.registerAccreditation.accountant%%%",
+        "lawyer": "%%%.registerAccreditation.lawyer%%%",
+        "ssn": "%%%.registerAccreditation.ssn%%%",
+        "accreditation_evidence_allow_credit_report": "%%%.registerAccreditation.accreditation_evidence_allow_credit_report%%%",
+        "totalDebt": "%%%.registerAccreditation.totalDebt%%%",
+        "photoEvidence": "%%%.registerAccreditation.photoEvidence%%%",
+        "photoCreditReport": "%%%.registerAccreditation.photoCreditReport%%%",
+        "status": "%%%.registerAccreditation.status%%%",
+        "alert": {
+            "success": "%%%.registerAccreditation.alert.success%%%"
+        },
+        "requireAccretationDialog": {
+            "title": "%%%.registerAccreditation.requireAccretationDialog.title%%%",
+            "titlePending": "%%%.registerAccreditation.requireAccretationDialog.titlePending%%%",
+            "message": "%%%.registerAccreditation.requireAccretationDialog.message%%%",
+            "messagePending": "%%%.registerAccreditation.requireAccretationDialog.messagePending%%%",
+            "confirmTitle": "%%%.registerAccreditation.requireAccretationDialog.confirmTitle%%%",
+            "confirmTitlePending": "%%%.registerAccreditation.requireAccretationDialog.confirmTitlePending%%%"
         }
     }
 }
