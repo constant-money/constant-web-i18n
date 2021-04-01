@@ -1624,7 +1624,7 @@ export default {
       },
       investLO: {
         title: 'Loan Originator',
-        desc: 'Earn up to 11% APR. Terms from <br/>6-15 months. Includes loan originator’s <br/>buy-back guarantee in case of default.'
+        desc: 'Earn up to 11% APR. Terms from <br/>6-15 months. Accredited investors only.'
       },
       investFlexCrypto: {
         title: 'Lend Crypto',
@@ -3651,7 +3651,6 @@ export default {
         loansOriginated_desc: 'The total amount of loans of all loan types issued to borrowers by the loan originator on the MyConstant marketplace.',
         buyBackGuarantee_desc: "A buy-back guarantee is a guarantee issued by the loan originator to the investor for a particular loan, where the loan orginator promises to rebuy the loan from the investor if that particular loan is delayed by more than 60 days. The buy-back guarantee is given at an individual loan level and is marked with the symbol of a shield. If a loan with a buy-back guarantee is delayed by more than 60 days, the loan originator will buy back the loan from the investor at the nominal value of outstanding principal plus accrued interest. A buy-back guarantee is only as good as the loan originator's financial capability to honor such guarantee at the time of a buy-back event being triggered. A buy-back guarantee is NOT a guarantee from the MyConstant marketplace and its associates.",
         country_desc: 'The flags indicate the country where the loan originator company was incorporated.',
-        skinInTheGame: 'Skin in the Game',
         founded: 'Founded',
         employees: 'Employees',
         joinedConstant: 'Joined MyConstant',
@@ -3661,7 +3660,12 @@ export default {
         lastUpdated: 'Last Updated',
         market_desc: 'The flags indicate the countries where the loan originator has issued the loans listed on the MyConstant marketplace.',
         lastUpdated_desc: 'The date the loan originator publishes its financial statements on the MyConstant marketplace.',
-        loanOutstandingConstant_desc: 'The total outstanding principal of loans issued to borrowers by the Loan Originator since its inception until now that are listed on the MyConstant marketplace.'
+        loanOutstandingConstant_desc: 'The total outstanding principal of loans issued to borrowers by the Loan Originator since its inception until now that are listed on the MyConstant marketplace.',
+        skinInTheGame: 'Skin in the Game',
+        skinInTheGame_desc: `
+          <p>The phrase "Skin in the Game" refers to the equity stake (ownership interest) that an owner of an investment retains after the investment is sold to external investors. This is to ensure the interests of the originator of the asset are aligned with the interests of the external investors, as both sides have a stake (an ownership interest) in the investment.</p>
+          <p>On the MyConstant marketplace, all loan originators are required to maintain a certain percentage interest in each loan which is their stake in the loan. For example, if a loan originator with 10% skin in the game issues a EUR1000 loan to a borrower, only EUR 900 of this loan will be available for external investors to invest in and the loan originator will keep a stake of EUR100, equal to 10% of the Loan.</p>
+        `,
       },
       footer: { desc: 'Showing {start} - {end} of {total} selected entries' },
       news: { title: 'Recent News' }
@@ -3813,6 +3817,7 @@ export default {
         legalEntity: 'Legal Entity',
         paymentSchedule: 'Payment Schedule',
         availableAmount: 'Available amount:',
+        availableBalance: 'Available balance:',
         yourInvestment: 'Your investment: ',
         paymentSchedule_desc: 'The detailed schedule of loan payments for each Loan that is contractually set at the start of the orginal Loan Agreement or Loan Assignment Agreement. In the Assignment Agreement, this refers to the Claim Payment Schedule which is the schedule payments calculated based on the Loan Amount transferred to the Investor from the Loan Originator.',
         loanOriginator_desc: 'The lending company that originates and services the loans listed on the MyConstant marketplace.'
@@ -4463,6 +4468,7 @@ export default {
       uploading: 'Uploading...',
       fileupload: 'Upload',
       retry: 'Something wrong happened. Please retry again.',
+      remove: 'Remove',
     },
     local: { type: { buy: 'Deposit', sell: 'Withdraw' } },
     goToHomePage: 'Go to Home page',
@@ -5976,5 +5982,71 @@ export default {
       note: 'If you have any queries regarding your order, please contact our Customer Services team on <a href="mailto://hello@myconstant.com">hello@myconstant.com</a>',
       newOrder: 'Place new order',
     },
+  },
+  registerAccreditation: {
+    pending: 'Pending',
+    approved: 'Approved',
+    yourAccreditation: {
+      date: 'Date',
+      type: 'Type',
+      option: 'Provide Evidence Method',
+      status: 'Status',
+      assets: 'Assets',
+      income: 'Income',
+      options: {
+        '1': 'Send verification request to my lawyer, CPA, investment adviser or broker',
+        '2': 'Upload document (in English or with English Translation)',
+        '3': 'Send verification request to my lawyer, CPA, investment adviser or broker',
+        '4': 'Upload a credit report stating your liabilities that is dated within the last 30 days.'
+      },
+    },
+    netWorths: 'Networths',
+    yes: 'Yes',
+    no: 'No',
+    agreement: 'I authorize AngelList in writing to periodically obtain my credit report for a transaction I am initiating. AngelList may use this data and share it with any issuer solely to verify my investor status in compliance with SEC requirements.',
+    accreditation_evidence_location: 'Do you have a U.S. Social Security Number?',
+    verifierRole: 'Verifier Role',
+    verifierEmail: 'Verifier Email',
+    accreditation: 'Accreditation',
+    photoIncome1: 'Photo Income 2020',
+    photoIncome2: 'Photo Income 2021',
+    accreditationAlt: 'Required by U.S. law for investing in 506(c) fundraisings',
+    title1: 'How is asdf accredited?',
+    desc1: 'We require proof of accreditation from you that meets the more stringent standard the SEC has put in place – the 506(c) standard – which should work for all accredited deals, including ones that publicly discuss their financing.',
+    income: {
+      title: 'Income',
+      alt: 'Valid for 1 tax year',
+      description: 'Income of $200k, or $300k with spouse, in each of past 2 years and expecting same or more this year'
+    },
+    assets: {
+      title: 'Assets',
+      alt: 'Valid for 3 months',
+      description: 'Net worth of $1M, individually or joint with spouse, excluding your primary residence'
+    },
+    text1: 'Provide evidence of accreditation',
+    text2: 'They\'ll be asked to confirm that they have seen evidence of your claimed status. No documentation required.',
+    text3: 'W2, 1040, other IRS or foreign tax authority document containing salary for the past 2 years (2020 and 2021), or a letter from your lawyer, accountant, investment advisor, or investment broker',
+    text4: 'Upload a statement from a financial institution, asset appraisals, or letter from your lawyer, accountant, investment advisor or investment broker indicating net assets',
+    investment_advisor: 'Investment Adviser (SEC Registered)',
+    broker: 'Investment Broker (SEC Registered)',
+    accountant: 'Accountant (must be CPA)',
+    lawyer: 'Lawyer',
+    ssn: 'Social Security Number',
+    accreditation_evidence_allow_credit_report: 'I authorize AngelList in writing to periodically obtain my credit report for a transaction I am initiating. AngelList may use this data and share it with any issuer solely to verify my investor status in compliance with SEC requirements.',
+    totalDebt: 'Total Debt',
+    photoEvidence: 'Photo evidence',
+    photoCreditReport: 'Credit report',
+    status: 'Status',
+    alert: {
+      success: 'Saving Form Submitted'
+    },
+    requireAccretationDialog: {
+      title: 'Sorry, you\'re not accredited yet',
+      titlePending: 'Sorry, your accreditation is still pending',
+      message: 'To invest in Loan Originator loans, you must be an accredited investor. Please register your accreditation now.',
+      messagePending: 'Please wait until your accreditation registration is complete before investing. You can track your registration status by clicking View registration status below.',
+      confirmTitle: 'Register now',
+      confirmTitlePending: 'View registration status',
+    }
   }
 };
