@@ -3304,7 +3304,8 @@
                 "deposit": "%%%.home1.lendingSection.form.deposit%%%",
                 "btn1": "%%%.home1.lendingSection.form.btn1%%%",
                 "gotoVerifyKyc": "%%%.home1.lendingSection.form.gotoVerifyKyc%%%",
-                "btnKyc1": "%%%.home1.lendingSection.form.btnKyc1%%%"
+                "btnKyc1": "%%%.home1.lendingSection.form.btnKyc1%%%",
+                "validateReferralPromotionAmountMax": "%%%.home1.lendingSection.form.validateReferralPromotionAmountMax%%%"
             },
             "intro": {
                 "content": "%%%.home1.lendingSection.intro.content%%%",
@@ -4738,7 +4739,9 @@
                 "type": "%%%.yourReferral.referralHistory.headers.type%%%",
                 "yourEarnings": "%%%.yourReferral.referralHistory.headers.yourEarnings%%%",
                 "yourEarningsDesc": "%%%.yourReferral.referralHistory.headers.yourEarningsDesc%%%",
-                "date": "%%%.yourReferral.referralHistory.headers.date%%%"
+                "date": "%%%.yourReferral.referralHistory.headers.date%%%",
+                "instantBonus": "%%%.yourReferral.referralHistory.headers.instantBonus%%%",
+                "interestBonus": "%%%.yourReferral.referralHistory.headers.interestBonus%%%"
             },
             "affiliateNoRecord": "%%%.yourReferral.referralHistory.affiliateNoRecord%%%",
             "affiliateNoRecordMobile": "%%%.yourReferral.referralHistory.affiliateNoRecordMobile%%%"
