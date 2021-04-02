@@ -3281,7 +3281,8 @@ export default {
         deposit: 'to deposit now',
         btn1: 'Invest now',
         gotoVerifyKyc: 'Verify now',
-        btnKyc1: '<a>Verify your ID</a> to invest'
+        btnKyc1: '<a>Verify your ID</a> to invest',
+        validateReferralPromotionAmountMax: 'The maximum you can lend is ${amount}'
       },
       intro: {
         content: `
@@ -4919,6 +4920,8 @@ export default {
         yourEarnings: 'Your earnings',
         yourEarningsDesc: 'As soon as you’ve earned at least 1 cent, you can track your earnings below.',
         date: 'Date',
+        instantBonus: 'Instant Bonus',
+        interestBonus: 'Interest Bonus',
       },
       affiliateNoRecord: '<p>Start referring now and in addition to your usual rewards you’ll also qualify for our Luminary badges (Bronze is worth $10!)</p>',
       affiliateNoRecordMobile: '<p>Refer now to earn Luminary badge and $10 reward.</p>',
@@ -4926,13 +4929,13 @@ export default {
     banner: {
       title: `<h1>Get a free \${referralReward} bonus for every friend you refer.</h1>`,
       desc: `
-        <p>Tell your friends and family about us and get \${referralReward} free for each person who signs up and deposits USD (US citizens only). You also earn <strong style="color:#F7B500;">{referralFlexReward}% of their Flex interest</strong>, compounded and paid every second. Refer as many friends as you like, however you like, and <strong style="color:#F7B500;">grow your money together</strong>.</p>
+        <p>Tell your friends and family about us and get \${referralReward} free for each person who signs up and deposits USD (US citizens only). You also earn <strong style="color:#F7B500;">{referralFlexReward}% of their Instant Access interest</strong>, compounded and paid every second. Refer as many friends as you like, however you like, and <strong style="color:#F7B500;">grow your money together</strong>.</p>
       `,
       titleNonUS: `
-        <h1>Refer friends and earn <br/>{referralFlexReward}% of their Flex interest</h1>
+        <h1>Refer friends and earn <br/>{referralFlexReward}% of their Instant Access interest</h1>
       `,
       descNonUS: `
-        <p>Tell your friends and family about us and <strong style="color:#F7B500;">get {referralFlexReward}% of their Flex interest</strong> for each person who signs up and deposits USD. Refer as many friends as you like, however you like, and <strong style="color:#F7B500;">grow your money together</strong>.</p>
+        <p>Tell your friends and family about us and <strong style="color:#F7B500;">get {referralFlexReward}% of their Instant Access interest</strong> for each person who signs up and deposits USD. Refer as many friends as you like, however you like, and <strong style="color:#F7B500;">grow your money together</strong>.</p>
       `,
       greeting: `<h1>Hello {name},</h1>`,
       invite: 'Invite friends',
@@ -4942,12 +4945,12 @@ export default {
       formula: {
         '0': 'For every friend who signs up and deposits USD',
         '1': ' ',
-        '2': 'of your friends’ Flex interest',
+        '2': 'of your friends’ Instant Access interest',
         '3': ' ',
         '4': 'for your friend if they’re a US resident'
       },
-      // desc: '        <div class="section-desc-title">INVITE FRIENDS, EARN TOGETHER</div>        <div><strong>Earn ${referralReward} for every friend who signs up and deposits USD</strong>, paid instantly, and with no limits.</div>        <div><strong>Then earn {referralFlexReward}% of their Flex interest</strong>, capped at a generous $1,000,000.</div>        <div><strong>Your friend gets a 30-day ${kYCTrialAmount} trial bonus</strong> and keeps the interest (US referees only).</div>      ',
-      // descNonUS: '        <div class="section-desc-title">INVITE FRIENDS, EARN TOGETHER</div>        <div><strong>Earn {referralFlexReward}% of their Flex interest</strong>, capped at a generous $1,000,000.</div>        <div><strong>Your friend gets a 30-day ${kYCTrialAmount} trial bonus</strong> and keeps the interest (US referees only).</div>      ',
+      // desc: '        <div class="section-desc-title">INVITE FRIENDS, EARN TOGETHER</div>        <div><strong>Earn ${referralReward} for every friend who signs up and deposits USD</strong>, paid instantly, and with no limits.</div>        <div><strong>Then earn {referralFlexReward}% of their Instant Access interest</strong>, capped at a generous $1,000,000.</div>        <div><strong>Your friend gets a 30-day ${kYCTrialAmount} trial bonus</strong> and keeps the interest (US referees only).</div>      ',
+      // descNonUS: '        <div class="section-desc-title">INVITE FRIENDS, EARN TOGETHER</div>        <div><strong>Earn {referralFlexReward}% of their Instant Access interest</strong>, capped at a generous $1,000,000.</div>        <div><strong>Your friend gets a 30-day ${kYCTrialAmount} trial bonus</strong> and keeps the interest (US referees only).</div>      ',
       // data: {
       //   '0': {
       //     title: 'EARN TOGETHER',
@@ -4977,7 +4980,7 @@ export default {
         },
         2: {
           title: 'MULTIPLY YOUR EARNINGS',
-          desc: 'Refer as many people as you like and <strong>get paid 10%</strong> on all their Flex earnings, capped at $1,000,000.',
+          desc: 'Refer as many people as you like and <strong>get paid 10%</strong> on all their Instant Access earnings, capped at $1,000,000.',
         },
         3: {
           title: 'PROFIT IN ANY MARKET',
@@ -4993,7 +4996,7 @@ export default {
     //   title: 'What’s in it for them?',
     //   content: {
     //     left: '          <p class="content-title">${kYCTrialAmount} trial bonus</p>          <p class="content-desc">When your referree signs up and passes KYC, we’ll deposit a ${kYCTrialAmount} bonus in their account. This lasts for 30 days*, at the end of which, we reclaim the bonus but your referee keeps all the interest.</p>          <p class="content-desc font-italic">*30-day trial bonus (US residents only).</p>        ',
-    //     right: '          <div>            <div class="content-title">4% APY</div>            <p class="content-desc">on all <strong>Flex</strong> deposits</p>          </div>          <div>            <div class="content-title">{rate}% APR</div>            <p class="content-desc">on <strong>crypto-backed</strong> investments</p>          </div>          <div>            <div class="content-title">11% APR</div>            <p class="content-desc">on <strong>Loan Originator</strong> investments</p>          </div>        '
+    //     right: '          <div>            <div class="content-title">4% APY</div>            <p class="content-desc">on all <strong>Instant Access</strong> deposits</p>          </div>          <div>            <div class="content-title">{rate}% APR</div>            <p class="content-desc">on <strong>crypto-backed</strong> investments</p>          </div>          <div>            <div class="content-title">11% APR</div>            <p class="content-desc">on <strong>Loan Originator</strong> investments</p>          </div>        '
     //   }
     // },
     howItWorks: {
@@ -5017,15 +5020,15 @@ export default {
         },
         '4': {
           title: ' ',
-          desc: 'You get {referralFlexReward}% of their Flex earnings, compounded and paid every second.'
+          desc: 'You get {referralFlexReward}% of their Instant Access earnings, compounded and paid every second.'
         }
       },
-      desc: '      <p>There are <strong>no limits</strong> to the number of people you can refer for the ${referralReward} bonus.</p>      <p>Your Flex earnings are capped at $1,000,000.</p>',
-      descNonUS: '      <p>You <strong>earn {referralFlexReward}% of your friends\' earned Flex interest</strong> during their first year, capped at a generous $1,000,000.</p>'
+      desc: '      <p>There are <strong>no limits</strong> to the number of people you can refer for the ${referralReward} bonus. Your Instant Access earnings are capped at $1,000,000.</p>',
+      descNonUS: '      <p>You <strong>earn {referralFlexReward}% of your friends\' earned Instant Access interest</strong> during their first year, capped at a generous $1,000,000.</p>'
     },
     terms: {
-      normal: '        <h3 class="semiBold">Terms and Conditions</h3>        <ol>          <li><p>To qualify for the ${referralReward} bonus, your referee must be a US citizen.</p></li>          <li><p>The bonus is paid when your referee signs up, passes KYC, and deposits USD.</p></li>          <li><p>Your referral interest is calculated on the interest your friends earn with our Flex account.</p></li>          <li><p>Referral interest is paid to you by MyConstant and does not deduct from your friends’ earned Flex interest.</p></li>          <li>            <p>The amount you earn depends on how your friends use the platform:</p>            <p>You earn {referralFlexReward}% of your friends’ earned Flex interest during their first year. We pay this interest every second that your friends are earning. (Your friends can also refer others to boost your and their earnings, too).</p>          </li>          <li><p>You can invite as many friends as you like.</p></li>          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>          <li><p>The maximum you can earn is $1,000,000.</p></li>          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>          <li><p>When 365 days have passed following your friend’s sign-up, you’ll no longer earn on their Flex interest. For example, on the 366th day, you won\'t earn interest but on the 365th one you will.</p></li>          <li><p>For friends referred before the effective date (2020/02/17), you’ll earn on their Flex transactions after the effective date only.</p></li>          <li><p>MyConstant reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>        </ol>        <p class="bold effective">Effective as of {date}</p>      ',
-      normalNonUS: `        <h3 class="semiBold">Terms and Conditions</h3>        <ol><li><p>Your reward is paid when your referee makes their first fiat deposit.</p></li>          <li><p>Your referral interest is calculated on the interest your friends earn with our Flex account.</p></li>          <li><p>Referral interest is paid to you by MyConstant and does not deduct from your friends’ earned Flex interest.</p></li>          <li>            <p>The amount you earn depends on how your friends use the platform:</p>            <p>You earn {referralFlexReward}% of your friends’ earned Flex interest during their first year. We pay this interest every second that your friends are earning. (Your friends can also refer others to boost your and their earnings, too).</p>          </li>          <li><p>You can invite as many friends as you like.</p></li>          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>          <li><p>The maximum you can earn is $1,000,000.</p></li>          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>          <li><p>When 365 days have passed following your friend’s sign-up, you’ll no longer earn on their Flex interest. For example, on the 366th day, you won't earn interest but on the 365th one you will.</p></li>          <li><p>For friends referred before the effective date (2020/02/17), you’ll earn on their Flex transactions after the effective date only.</p></li>          <li><p>MyConstant reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>        </ol>        <p class="bold effective">Effective as of {date}</p>      `,
+      normal: '        <h3 class="semiBold">Terms and Conditions</h3>        <ol>          <li><p>To qualify for the ${referralReward} bonus, your referee must be a US citizen.</p></li>          <li><p>The bonus is paid when your referee signs up, passes KYC, and deposits USD.</p></li>          <li><p>Your referral interest is calculated on the interest your friends earn with our Instant Access account.</p></li>          <li><p>Referral interest is paid to you by MyConstant and does not deduct from your friends’ earned Instant Access interest.</p></li>          <li>            <p>The amount you earn depends on how your friends use the platform:</p>            <p>You earn {referralFlexReward}% of your friends’ earned Instant Access interest during their first year. We pay this interest every second that your friends are earning. (Your friends can also refer others to boost your and their earnings, too).</p>          </li>          <li><p>You can invite as many friends as you like.</p></li>          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>          <li><p>The maximum you can earn is $1,000,000.</p></li>          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>          <li><p>When 365 days have passed following your friend’s sign-up, you’ll no longer earn on their Instant Access interest. For example, on the 366th day, you won\'t earn interest but on the 365th one you will.</p></li>          <li><p>For friends referred before the effective date (2020/02/17), you’ll earn on their Instant Access transactions after the effective date only.</p></li>          <li><p>MyConstant reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>        </ol>        <p class="bold effective">Effective as of {date}</p>      ',
+      normalNonUS: `        <h3 class="semiBold">Terms and Conditions</h3>        <ol><li><p>Your reward is paid when your referee makes their first fiat deposit.</p></li>          <li><p>Your referral interest is calculated on the interest your friends earn with our Instant Access account.</p></li>          <li><p>Referral interest is paid to you by MyConstant and does not deduct from your friends’ earned Instant Access interest.</p></li>          <li>            <p>The amount you earn depends on how your friends use the platform:</p>            <p>You earn {referralFlexReward}% of your friends’ earned Instant Access interest during their first year. We pay this interest every second that your friends are earning. (Your friends can also refer others to boost your and their earnings, too).</p>          </li>          <li><p>You can invite as many friends as you like.</p></li>          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>          <li><p>The maximum you can earn is $1,000,000.</p></li>          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>          <li><p>When 365 days have passed following your friend’s sign-up, you’ll no longer earn on their Instant Access interest. For example, on the 366th day, you won't earn interest but on the 365th one you will.</p></li>          <li><p>For friends referred before the effective date (2020/02/17), you’ll earn on their Instant Access transactions after the effective date only.</p></li>          <li><p>MyConstant reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>        </ol>        <p class="bold effective">Effective as of {date}</p>      `,
     },
     materials: {
       title: 'We make referring easy',
