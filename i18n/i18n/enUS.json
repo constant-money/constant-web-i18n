@@ -5746,18 +5746,18 @@
         "accreditation": "Accreditation",
         "photoIncome1": "Photo Income 2020",
         "photoIncome2": "Photo Income 2021",
-        "accreditationAlt": "Required by U.S. law for investing in 506(c) fundraisings",
-        "title1": "How is asdf accredited?",
+        "accreditationAlt": "US law requires you to be accredited to invest in 506(c) fundraising offerings",
+        "title1": "How are you accredited?",
         "desc1": "We require proof of accreditation from you that meets the more stringent standard the SEC has put in place – the 506(c) standard – which should work for all accredited deals, including ones that publicly discuss their financing.",
         "income": {
             "title": "Income",
             "alt": "Valid for 1 tax year",
-            "description": "Income of $200k, or $300k with spouse, in each of past 2 years and expecting same or more this year"
+            "description": "Income of $200,000, or $300,000 with spouse, in each of the past 2 years and expecting the same or more this year."
         },
         "assets": {
             "title": "Assets",
             "alt": "Valid for 3 months",
-            "description": "Net worth of $1M, individually or joint with spouse, excluding your primary residence"
+            "description": "Net worth of at least $1,000,000, individually or joint with spouse, excluding your primary residence"
         },
         "text1": "Provide evidence of accreditation",
         "text2": "They'll be asked to confirm that they have seen evidence of your claimed status. No documentation required.",
