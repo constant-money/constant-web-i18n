@@ -1350,7 +1350,7 @@ export default {
       linkBankSectionTitle: 'Link your bank account',
       linkBankSectionDesc: '<p>Deposit or withdraw using ACH bank transfers with Plaid. Link up to two bank accounts now to save time and money transferring funds to and from your MyConstant account.<br/>Since most savings accounts limit the number of withdrawals, we recommend you link a checking account not a savings account to avoid ACH reversals.<br/><a href="https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/" target="_blank">How to avoid ACH reversals</a>.</p>',
       linkBankImportantNote: '<strong>Please note</strong>: When you link a bank account via Plaid, your bank is assigned a unique ID. For your security, Plaid ACH deposits can only be withdrawn again <strong>via the same method and bank ID</strong> from which you deposited for a period of 60 days. This restriction <strong>does not</strong> apply to deposits via wire or Zelle.',
-      unlinkBankSectionTitle: 'International Bank',
+      unlinkBankSectionTitle: 'Withdrawal Bank',
       unlinkBankSectionDesc: '<p>Nice – email confirmations are enabled on all withdrawals and transfers. Whenever you withdraw or transfer USD, cryptocurrency, or stablecoins, we’ll email you a link to authorize the transaction.</p>',
       nonUSbankSectionTitle: 'Add a bank account for deposits and withdrawals',
       nonUSbankSectionDesc: '<p>Speed up the transfer process by adding your bank account details below. Once saved, you can preselect these details the next time you create a deposit or withdrawal order instead of entering them manually.</p>',
@@ -2923,7 +2923,7 @@ export default {
       send: {
         confirmTemplate: {
           title: 'Thank you!',
-          description: `Your funds are on the way to your recipient's bank account. Times may vary based on the bank and location. Please view our <a href="/getPrices" target="_blank" class="colorLight semiBold">service times</a> for an estimation of when funds will reach you.<br/>While MyConstant processes your deposits and withdrawals free of charge, transaction fees may be applied separately by your financial institution.`,
+          description: `Your funds are on the way to your recipient's bank account. Times may vary based on the bank and location. Please view our <a href="/getPrices" target="_blank" class="semiBold">service times</a> for an estimation of when funds will reach you.<br/>While MyConstant processes your deposits and withdrawals free of charge, transaction fees may be applied separately by your financial institution.`,
           contact: 'If you have any questions, feel free to reach out to <a class="colorLight semiBold" href="mailto:hello@myconstant.com">hello@myconstant.com</a> anytime.',
           actionTitle: 'Make another transfer'
         }
@@ -4886,6 +4886,7 @@ export default {
           <div><span>{numReferees}</span> /{maxReferees}</div>
           <div>investors</div>
         `,
+        contentMobile: '<div>You referred <span>{numReferees}/{maxReferees}</span> investors</div>',
         referring_friend_10_referees: '<strong style="color:#F7B500;">{numReferees} referees left</strong> to earn ${rewardAmount} & a bronze Headhunter badge',
         referring_friend_50_referees: '<strong style="color:#F7B500;">{numReferees} referees left</strong> to earn ${rewardAmount} & a silver Headhunter badge',
         referring_friend_100_referees: '<strong style="color:#F7B500;">{numReferees} referees left</strong> to earn ${rewardAmount} & a gold Headhunter badge',
@@ -4897,6 +4898,7 @@ export default {
           <div><span>{investedAmount}</span></div>
           <div>/ {maxInvestAmount} USD</div>
         `,
+        contentMobile: '<div>Your referees invested <span>{investedAmount} / {maxInvestAmount} USD</span></div>',
         referring_invest_100k: '<strong style="color:#F7B500;">{investAmount} USD left</strong> to earn ${rewardAmount} & a bronze Luminary badge',
         referring_invest_200k: '<strong style="color:#F7B500;">{investAmount} USD left</strong> to earn ${rewardAmount} & a silver Luminary badge',
         referring_invest_500k: '<strong style="color:#F7B500;">{investAmount} USD left</strong> to earn ${rewardAmount} & a gold Luminary badge',
@@ -4932,7 +4934,7 @@ export default {
         <p>Tell your friends and family about us and get \${referralReward} free for each person who signs up and deposits USD (US citizens only). You also earn <strong style="color:#F7B500;">{referralFlexReward}% of their Instant Access interest</strong>, compounded and paid every second. Refer as many friends as you like, however you like, and <strong style="color:#F7B500;">grow your money together</strong>.</p>
       `,
       titleNonUS: `
-        <h1>Refer friends and earn <br/>{referralFlexReward}% of their Instant Access interest</h1>
+        <h1>Refer friends and earn <br/><span class="yellow">{referralFlexReward}% of their Instant Access interest</span></h1>
       `,
       descNonUS: `
         <p>Tell your friends and family about us and <strong style="color:#F7B500;">get {referralFlexReward}% of their Instant Access interest</strong> for each person who signs up and deposits USD. Refer as many friends as you like, however you like, and <strong style="color:#F7B500;">grow your money together</strong>.</p>
