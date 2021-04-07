@@ -4710,6 +4710,7 @@
             "headHunterBadge": {
                 "title": "%%%.yourReferral.referralUsers.headHunterBadge.title%%%",
                 "content": "%%%.yourReferral.referralUsers.headHunterBadge.content%%%",
+                "contentMobile": "%%%.yourReferral.referralUsers.headHunterBadge.contentMobile%%%",
                 "referring_friend_10_referees": "%%%.yourReferral.referralUsers.headHunterBadge.referring_friend_10_referees%%%",
                 "referring_friend_50_referees": "%%%.yourReferral.referralUsers.headHunterBadge.referring_friend_50_referees%%%",
                 "referring_friend_100_referees": "%%%.yourReferral.referralUsers.headHunterBadge.referring_friend_100_referees%%%"
@@ -4717,6 +4718,7 @@
             "luminaryBadge": {
                 "title": "%%%.yourReferral.referralUsers.luminaryBadge.title%%%",
                 "content": "%%%.yourReferral.referralUsers.luminaryBadge.content%%%",
+                "contentMobile": "%%%.yourReferral.referralUsers.luminaryBadge.contentMobile%%%",
                 "referring_invest_100k": "%%%.yourReferral.referralUsers.luminaryBadge.referring_invest_100k%%%",
                 "referring_invest_200k": "%%%.yourReferral.referralUsers.luminaryBadge.referring_invest_200k%%%",
                 "referring_invest_500k": "%%%.yourReferral.referralUsers.luminaryBadge.referring_invest_500k%%%"
