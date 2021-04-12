@@ -4395,11 +4395,6 @@
         "goToLoginPage": "%%%.app.goToLoginPage%%%"
     },
     "affiliates": {
-        "greetingForm": {
-            "title": "%%%.affiliates.greetingForm.title%%%",
-            "monthVolume": "%%%.affiliates.greetingForm.monthVolume%%%",
-            "inviteFriends": "%%%.affiliates.greetingForm.inviteFriends%%%"
-        },
         "applyForm": {
             "applyNow": "%%%.affiliates.applyForm.applyNow%%%",
             "titleReward": "%%%.affiliates.applyForm.titleReward%%%",
@@ -4721,6 +4716,7 @@
         },
         "referralUsers": {
             "title": "%%%.yourReferral.referralUsers.title%%%",
+            "affiliateTitle": "%%%.yourReferral.referralUsers.affiliateTitle%%%",
             "headers": {
                 "email": "%%%.yourReferral.referralUsers.headers.email%%%",
                 "status": "%%%.yourReferral.referralUsers.headers.status%%%",
@@ -4765,6 +4761,7 @@
         },
         "referralHistory": {
             "title": "%%%.yourReferral.referralHistory.title%%%",
+            "affiliateTitle": "%%%.yourReferral.referralHistory.affiliateTitle%%%",
             "headers": {
                 "email": "%%%.yourReferral.referralHistory.headers.email%%%",
                 "friendEarnings": "%%%.yourReferral.referralHistory.headers.friendEarnings%%%",
