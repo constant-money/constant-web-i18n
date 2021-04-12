@@ -471,7 +471,27 @@ export default {
     openOrders: {
       withdrawals: 'Withdrawals',
       transfers: 'Transfers',
-    }
+    },
+    shortSelling: {
+      title: 'Crypto - Short selling',
+      tabs: {
+        transfer: 'Transfer',
+        borrow: 'Borrow',
+        repay: 'Repay',
+        interest: 'Interest',
+      },
+      headers: {
+        date: 'Date',
+        pair: 'Pair',
+        interest: 'Interest',
+        amount: 'Amount',
+        borrowAmount: 'Borrowed',
+        collateralAmount: 'Sold amount',
+        fee: 'Fee',
+        from: 'From',
+        to: 'To',
+      }
+    },
   },
   me: {
     history: {
@@ -809,6 +829,7 @@ export default {
         secondInvestmentsLODesc: 'Buy and sell matched investments on our secondary market. Sell your investment to end your term early or buy another investor’s order to earn their interest. View or cancel your secondary market orders below.',
         spendings: 'Gift Cards',
         spendingsDesc: 'Gift cards and other items or services bought using your MyConstant balance.',
+        shortSelling: 'Short selling',
         termStatusFilter: {
           investment: {
             pending: 'Pending',
@@ -1266,6 +1287,7 @@ export default {
       invest: 'Invest',
       accountActivities: 'Account Activity',
       addressBook: 'Saved wallet addresses',
+      shortSelling: 'Short selling',
     },
     kyc: {
       verifiedTitle: 'You have verified your ID',
@@ -1642,6 +1664,10 @@ export default {
         title: 'Crypto-backed Loans',
         desc: 'Your terms. Best rates.<br/>No credit checks.'
       },
+      cryptoShort: {
+        title: 'Short Selling',
+        desc: 'Short BTC, ETH, and BNB. High risk. High reward.'
+      },
       borrowCoins: {
         title: 'Crypto Credit',
         desc: 'Borrow cash, get crypto.<br/>No exchanges.'
@@ -1686,6 +1712,10 @@ export default {
       borrowFiat: {
         title: 'Crypto-backed Loans',
         desc: 'Your terms. Best rates. No credit checks.'
+      },
+      cryptoShort: {
+        title: 'Short Selling',
+        desc: 'Short BTC, ETH, and BNB. High risk. High reward.'
       },
       borrowCoins: {
         title: 'Crypto Credit',
@@ -4464,8 +4494,8 @@ export default {
       warning6h: 'Please complete your transfer within 6 hours.',
       timeoutDepositWarning: 'For the sake of security, this order will time-out after 6 hours. If you need a little longer, just re-enter the amount you’d like to invest when you’re ready.',
       copiedAddress: 'Address is copied to clipboard',
-      minValues: 'Must greater than {min}',
-      maxValues: 'Must less than {max}',
+      minValues: 'Must be greater than {min}',
+      maxValues: 'Must be less than {max}',
       uploading: 'Uploading...',
       fileupload: 'Upload',
       retry: 'Something wrong happened. Please retry again.',
@@ -6053,5 +6083,57 @@ export default {
       confirmTitle: 'Register now',
       confirmTitlePending: 'View registration status',
     }
+  },
+  cryptoShort: {
+    intro: {
+      content: `
+        <p class="topText">Predict a bear market?</p>
+        <h1 class="hightlight">Earn big when prices drop.</h1>
+        <h2 class="last">High risk. High reward.</h2>
+        <p>Bet against the market to hedge your returns. Borrow against USD to short BTC, ETH, or BNB at just 6% APR. If the price falls, repay and keep the profits (minus matching fee and interest).</p>
+        <p>Please note: Short selling is a high-risk trading strategy and you could lose some or all of your USD collateral.</p>
+      `,
+    },
+    borrowForm:  {
+      toolTipCollateral: 'The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to 200% of the value of your USD collateral. For example, if you have $1,000 in your pair balance, you can short up to $2,000 worth of the crypto in that pair.',
+      toolTipTakeProfit: 'Take profit is the price at which you repay your shorted cryptocurrency. This should be at least 5% below the current market price. When the take profit price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your pair balance. You keep the profits minus interest and matching fee.',
+      toolTipStopLoss: 'The stop loss is the price at which you repay your shorted crypto to avoid accumulated losses. It should be at least 5% above the current market price. When the stop loss price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your pair balance. This minimizes further losses in the event of price rises.',
+    },
+    howItWorks: {
+      0: {
+        title: 'Choose the crypto you want to short',
+        desc: 'We support BTC, ETH, and BNB pairs.'
+      },
+      1: {
+        title: 'Transfer USD to your pair balance',
+        desc: 'If you don\'t have USD in your account, you\'ll need to deposit first.',
+      },
+      2: {
+        title: 'Set stop loss and take profit prices',
+        desc: 'Select an upper and lower price point to protect your gains and limit losses.',
+      },
+      3: {
+        title: 'We sell the crypto at market prices',
+        desc: 'The proceeds go back to your USD pair balance.',
+      },
+      4: {
+        title: 'Repay the crypto, pocketing any difference',
+        desc: 'If your prediction pays off, you keep the profits.',
+      },
+    }
+  },
+  pairBalance: {
+    header: {
+      pair: 'Pair',
+      availableBalance: 'Available balance',
+      collateralBalance: 'Collateral balance',
+      cryptoBorrowed: 'Crypto borrowed',
+      interest: 'Interest due',
+      totalRepayable: 'Total repayable',
+      collateralRate: 'Collateral rate',
+      tpAndSl: 'TP / SL',
+      PnL: 'Profit / Loss',
+    },
+    noRecord: 'No record found',
   }
 };
