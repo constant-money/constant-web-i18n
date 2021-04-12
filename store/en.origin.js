@@ -519,6 +519,26 @@
         "openOrders": {
             "withdrawals": "%%%.history.openOrders.withdrawals%%%",
             "transfers": "%%%.history.openOrders.transfers%%%"
+        },
+        "shortSelling": {
+            "title": "%%%.history.shortSelling.title%%%",
+            "tabs": {
+                "transfer": "%%%.history.shortSelling.tabs.transfer%%%",
+                "borrow": "%%%.history.shortSelling.tabs.borrow%%%",
+                "repay": "%%%.history.shortSelling.tabs.repay%%%",
+                "interest": "%%%.history.shortSelling.tabs.interest%%%"
+            },
+            "headers": {
+                "date": "%%%.history.shortSelling.headers.date%%%",
+                "pair": "%%%.history.shortSelling.headers.pair%%%",
+                "interest": "%%%.history.shortSelling.headers.interest%%%",
+                "amount": "%%%.history.shortSelling.headers.amount%%%",
+                "borrowAmount": "%%%.history.shortSelling.headers.borrowAmount%%%",
+                "collateralAmount": "%%%.history.shortSelling.headers.collateralAmount%%%",
+                "fee": "%%%.history.shortSelling.headers.fee%%%",
+                "from": "%%%.history.shortSelling.headers.from%%%",
+                "to": "%%%.history.shortSelling.headers.to%%%"
+            }
         }
     },
     "me": {
@@ -856,6 +876,7 @@
                 "secondInvestmentsLODesc": "%%%.me.proSaving.listApplications.secondInvestmentsLODesc%%%",
                 "spendings": "%%%.me.proSaving.listApplications.spendings%%%",
                 "spendingsDesc": "%%%.me.proSaving.listApplications.spendingsDesc%%%",
+                "shortSelling": "%%%.me.proSaving.listApplications.shortSelling%%%",
                 "termStatusFilter": {
                     "investment": {
                         "pending": "%%%.me.proSaving.listApplications.termStatusFilter.investment.pending%%%",
@@ -1307,7 +1328,8 @@
             "flex": "%%%.me.navigation.flex%%%",
             "invest": "%%%.me.navigation.invest%%%",
             "accountActivities": "%%%.me.navigation.accountActivities%%%",
-            "addressBook": "%%%.me.navigation.addressBook%%%"
+            "addressBook": "%%%.me.navigation.addressBook%%%",
+            "shortSelling": "%%%.me.navigation.shortSelling%%%"
         },
         "kyc": {
             "verifiedTitle": "%%%.me.kyc.verifiedTitle%%%",
@@ -1694,6 +1716,10 @@
                 "title": "%%%.headerBar.extraMenu.borrowFiat.title%%%",
                 "desc": "%%%.headerBar.extraMenu.borrowFiat.desc%%%"
             },
+            "cryptoShort": {
+                "title": "%%%.headerBar.extraMenu.cryptoShort.title%%%",
+                "desc": "%%%.headerBar.extraMenu.cryptoShort.desc%%%"
+            },
             "borrowCoins": {
                 "title": "%%%.headerBar.extraMenu.borrowCoins.title%%%",
                 "desc": "%%%.headerBar.extraMenu.borrowCoins.desc%%%"
@@ -1738,6 +1764,10 @@
             "borrowFiat": {
                 "title": "%%%.headerBar.extraMenuMobile.borrowFiat.title%%%",
                 "desc": "%%%.headerBar.extraMenuMobile.borrowFiat.desc%%%"
+            },
+            "cryptoShort": {
+                "title": "%%%.headerBar.extraMenuMobile.cryptoShort.title%%%",
+                "desc": "%%%.headerBar.extraMenuMobile.cryptoShort.desc%%%"
             },
             "borrowCoins": {
                 "title": "%%%.headerBar.extraMenuMobile.borrowCoins.title%%%",
@@ -5789,5 +5819,51 @@
             "confirmTitle": "%%%.registerAccreditation.requireAccretationDialog.confirmTitle%%%",
             "confirmTitlePending": "%%%.registerAccreditation.requireAccretationDialog.confirmTitlePending%%%"
         }
+    },
+    "cryptoShort": {
+        "intro": {
+            "content": "%%%.cryptoShort.intro.content%%%"
+        },
+        "borrowForm": {
+            "toolTipCollateral": "%%%.cryptoShort.borrowForm.toolTipCollateral%%%",
+            "toolTipTakeProfit": "%%%.cryptoShort.borrowForm.toolTipTakeProfit%%%",
+            "toolTipStopLoss": "%%%.cryptoShort.borrowForm.toolTipStopLoss%%%"
+        },
+        "howItWorks": {
+            "0": {
+                "title": "%%%.cryptoShort.howItWorks.0.title%%%",
+                "desc": "%%%.cryptoShort.howItWorks.0.desc%%%"
+            },
+            "1": {
+                "title": "%%%.cryptoShort.howItWorks.1.title%%%",
+                "desc": "%%%.cryptoShort.howItWorks.1.desc%%%"
+            },
+            "2": {
+                "title": "%%%.cryptoShort.howItWorks.2.title%%%",
+                "desc": "%%%.cryptoShort.howItWorks.2.desc%%%"
+            },
+            "3": {
+                "title": "%%%.cryptoShort.howItWorks.3.title%%%",
+                "desc": "%%%.cryptoShort.howItWorks.3.desc%%%"
+            },
+            "4": {
+                "title": "%%%.cryptoShort.howItWorks.4.title%%%",
+                "desc": "%%%.cryptoShort.howItWorks.4.desc%%%"
+            }
+        }
+    },
+    "pairBalance": {
+        "header": {
+            "pair": "%%%.pairBalance.header.pair%%%",
+            "availableBalance": "%%%.pairBalance.header.availableBalance%%%",
+            "collateralBalance": "%%%.pairBalance.header.collateralBalance%%%",
+            "cryptoBorrowed": "%%%.pairBalance.header.cryptoBorrowed%%%",
+            "interest": "%%%.pairBalance.header.interest%%%",
+            "totalRepayable": "%%%.pairBalance.header.totalRepayable%%%",
+            "collateralRate": "%%%.pairBalance.header.collateralRate%%%",
+            "tpAndSl": "%%%.pairBalance.header.tpAndSl%%%",
+            "PnL": "%%%.pairBalance.header.PnL%%%"
+        },
+        "noRecord": "%%%.pairBalance.noRecord%%%"
     }
 }
