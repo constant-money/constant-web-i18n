@@ -86,7 +86,7 @@
     },
     "registerBonus": {
         "title": "Fancy $10 to get started?",
-        "description": "Create your account and verify your ID to get a free $1500 Flex trial in your first month. We'll take the money back after 30 days, but you keep the interest.",
+        "description": "Create your account and verify your ID to get a free $1500 Instant-access investing trial in your first month. We'll take the money back after 30 days, but you keep the interest.",
         "numLeft": "{numLeft} BONUSES LEFT",
         "forUsOnly": "Promotion for US customers only"
     },
@@ -262,7 +262,7 @@
             },
             "9": {
                 "question": "Can I earn all the benefits at once?",
-                "answer": "          <p>          Interest from referrals is exclusive to each level of membership. The instant credit reward can each be earned only one time per each level. For example, if you invest $100,000, you’ll get $150 + 1 STAR + 20% of earned interest from referred friends’ Flex accounts (until your membership points expire).           </p>          "
+                "answer": "          <p>          Interest from referrals is exclusive to each level of membership. The instant credit reward can each be earned only one time per each level. For example, if you invest $100,000, you’ll get $150 + 1 STAR + 20% of earned interest from referred friends’ Instant-access investing accounts (until your membership points expire).           </p>          "
             },
             "10": {
                 "question": "How do I redeem STAR?",
@@ -292,9 +292,9 @@
             "level0": "Member"
         },
         "desc": {
-            "level1": "<h4>What you get:</h4>              <p><i class=\"fal fa-check\"></i> US members: ${referralReward} credit every time you refer a friend.</p>              <p><i class=\"fal fa-check\"></i> {referralFlexReward}% of all earned interest from Flex accounts of referred friends during their first year.</p>            <p><i class=\"fal fa-check\"></i> 1,000 Membership points.</p>",
-            "level2": "<h4>What you get:</h4>              <p><i class=\"fal fa-check\"></i> ${cashback} credit to your MyConstant account the first time you reach Platinum (after leaving a review on Trustpilot).</p>              <p><i class=\"fal fa-check\"></i> US members: ${referralReward} credit every time you refer a friend.</p>              <p><i class=\"fal fa-check\"></i> {referralFlexReward}% of all earned interest from Flex accounts of referred friends during their first year.</p>            ",
-            "level3": "<h4>What you get:</h4>              <p><i class=\"fal fa-check\"></i> ${cashback} credit to your MyConstant account the first time you reach Diamond (after leaving a review on Trustpilot).</p>              <p><i class=\"fal fa-check\"></i> US members: ${referralReward} credit every time you refer a friend.</p>              <p><i class=\"fal fa-check\"></i> {referralFlexReward}% of all earned interest from Flex accounts of referred friends during their first year.</p>              <p><i class=\"fal fa-check\"></i> Up to 6 ACH transfers per month.</p>              <p><i class=\"fal fa-check\"></i> {bonus} STAR token to redeem for a {bonus}% bonus or discounted interest.</p>            "
+            "level1": "<h4>What you get:</h4>              <p><i class=\"fal fa-check\"></i> US members: ${referralReward} credit every time you refer a friend.</p>              <p><i class=\"fal fa-check\"></i> {referralFlexReward}% of all earned interest from Instant-access investing accounts of referred friends during their first year.</p>            <p><i class=\"fal fa-check\"></i> 1,000 Membership points.</p>",
+            "level2": "<h4>What you get:</h4>              <p><i class=\"fal fa-check\"></i> ${cashback} credit to your MyConstant account the first time you reach Platinum (after leaving a review on Trustpilot).</p>              <p><i class=\"fal fa-check\"></i> US members: ${referralReward} credit every time you refer a friend.</p>              <p><i class=\"fal fa-check\"></i> {referralFlexReward}% of all earned interest from Instant-access investing accounts of referred friends during their first year.</p>            ",
+            "level3": "<h4>What you get:</h4>              <p><i class=\"fal fa-check\"></i> ${cashback} credit to your MyConstant account the first time you reach Diamond (after leaving a review on Trustpilot).</p>              <p><i class=\"fal fa-check\"></i> US members: ${referralReward} credit every time you refer a friend.</p>              <p><i class=\"fal fa-check\"></i> {referralFlexReward}% of all earned interest from Instant-access investing accounts of referred friends during their first year.</p>              <p><i class=\"fal fa-check\"></i> Up to 6 ACH transfers per month.</p>              <p><i class=\"fal fa-check\"></i> {bonus} STAR token to redeem for a {bonus}% bonus or discounted interest.</p>            "
         },
         "membershipPoints": "Your Membership Points",
         "title": {
@@ -858,7 +858,7 @@
                 "balanceCoin": "Coin balance",
                 "saving": "Invest now",
                 "deposit": "Deposit",
-                "depositDesc": "Store your money in USD. Earn 4% APY with Flex.",
+                "depositDesc": "Store your money in USD. Earn 4% APY with Instant-access investing.",
                 "withdraw": "Withdraw",
                 "withdrawDesc": "Withdraw funds to your bank account or wallet address.",
                 "withdrawFiat": "USD",
@@ -1489,15 +1489,15 @@
             "changeSuccess": "Your password was changed successfully"
         },
         "flexInterestConfig": {
-            "title": "Earn 4% APY on your balance with Flex",
+            "title": "Earn 4% APY on your balance with Instant-access investing",
             "desc": "What would you like to do with your balance?",
-            "label": "Earn 4% APY through Flex",
-            "noteOn": "<p>Your balance is earning 4% APY through Flex. You can withdraw anytime for free.</p>",
-            "descDesc": "<p>You can choose to earn 4% APY on your balance with Flex.</p>                <p>Flex is a lending pool that uses Compound Finance technology to earn you interest. All lending is secured by borrower collateral, which protects your funds, and you can withdraw anytime for free.</p>                <p>If you disable Flex, your balance will be escrowed with Prime Trust, an accredited US financial institution. Prime Trust store your funds across multiple insured bank accounts, giving total coverage of $130,000,000, but you won’t earn interest.</p>",
+            "label": "Earn 4% APY through Instant-access investing",
+            "noteOn": "<p>Your balance is earning 4% APY through Instant-access investing. You can withdraw anytime for free.</p>",
+            "descDesc": "<p>You can choose to earn 4% APY on your balance with Instant-access investing.</p>                <p>Instant-access investing is a lending pool that uses Compound Finance technology to earn you interest. All lending is secured by borrower collateral, which protects your funds, and you can withdraw anytime for free.</p>                <p>If you disable Instant-access investing, your balance will be escrowed with Prime Trust, an accredited US financial institution. Prime Trust store your funds across multiple insured bank accounts, giving total coverage of $130,000,000, but you won’t earn interest.</p>",
             "enableFlex": {
                 "messageConfirm": {
                     "true": "Your balance is escrowed with Prime Trust and insured to $130,000,000.",
-                    "false": "Your balance earns 4% APY through Flex. You can withdraw anytime for free."
+                    "false": "Your balance earns 4% APY through Instant-access investing. You can withdraw anytime for free."
                 },
                 "confirm": {
                     "title": "Yes"
@@ -1507,7 +1507,7 @@
                 },
                 "enableFlexSuccess": {
                     "true": "<p>Your balance will be escrowed with Prime Trust, an accredited US financial institution. Prime Trust stores your funds across multiple insured bank accounts, giving total coverage of $130,000,000. You can withdraw anytime for free, but your balance will not earn interest.</p><a href=\"https://blog.myconstant.com/meet-scott-purcell-—-ceo-of-prime-trust\" class=\"underline\" target=\"_blank\">Find out more about Prime Trust</a>",
-                    "false": "<p>Congratulations! Your balance will now earn 4% APY through Flex. You can withdraw anytime for free and your balance is protected by borrower collateral.</p><a href=\"https://blog.myconstant.com/flex-or-prime-trust-you-decide!\" class=\"underline\" target=\"_blank\">Find out how Flex works</a>"
+                    "false": "<p>Congratulations! Your balance will now earn 4% APY through Instant-access investing. You can withdraw anytime for free and your balance is protected by borrower collateral.</p><a href=\"https://blog.myconstant.com/flex-or-prime-trust-you-decide!\" class=\"underline\" target=\"_blank\">Find out how Instant-access investing works</a>"
                 }
             },
             "noteOff": "<p>Your balance is escrowed with Prime Trust and insured to $130,000,000.</p>"
@@ -3338,7 +3338,7 @@
                 "validateReferralPromotionAmountMax": "The maximum you can lend is ${amount}"
             },
             "intro": {
-                "content": "\n            <p class=\"topText\">Invest the way you want</p>\n            <h1 style=\"color:#F5A623;\">Earn 20x more than a CD<sup>*</sup>.</h1>\n            <div class=\"h1\">Start investing from just $10.</div>\n            <div class=\"h1\">Instant access or fixed terms.</div>\n            <p />\n            <p>Invest in people and businesses around the world for a return of up to {rate}% APR. Withdraw anytime for free or invest in a fixed-term loan for the best rates. All lending is backed by cryptocurrency collateral. No fees.</p>\n        ",
+                "content": "\n            <p class=\"topText\">Invest the way you want</p>\n            <div class=\"h1\" style=\"color:#F5A623;\">Earn 20x more than a CD<sup>*</sup>.</div>\n            <div class=\"h1\">Start investing from just $10.</div>\n            <h1>Instant access or fixed terms.</h1>\n            <p />\n            <p>Invest in people and businesses around the world for a return of up to {rate}% APR. Withdraw anytime for free or invest in a fixed-term loan for the best rates. All lending is backed by cryptocurrency collateral. No fees.</p>\n        ",
                 "contentPromotion": "\n            <p class=\"topText\">Invest the way you want</p>\n            <h1 style=\"color:#F5A623;\">Earn {promotionRate}% APR on your <br/>first 30-day investment.</h1>\n            <p>Triple your returns on your first fixed-term investment. Lend at least ${promotionAmount} for 30 days and you’ll earn {promotionRate}% APR<sup>*</sup> (up to 9x higher than a CD). All lending is backed by collateral which is sold if the borrower defaults. No fees. When your investment matures, withdraw or reinvest for free.</p>\n            <p class=\"reference\"><sup>*</sup> To qualify, you must invest within 30 days of passing KYC. The {promotionRate}% APR introductory rate applies to the first ${promotionAmount} of your investment only (you’ll earn our usual 6% APR rate on any remaining amount).</p>\n        ",
                 "youtube": {
                     "title": "Why invest with MyConstant?"
@@ -3409,8 +3409,8 @@
                         "title": "Transfer via ACH to earn {rate}% instantly",
                         "titleDesc": "<p>Instant interest. Linked US bank only.<br/>Less than ${max} per transaction</p>",
                         "subtitle": {
-                            "enoughInstantCredit": "<p>Invest your deposit of ${instantAmount} instantly while your ACH clears. Get {flexRate}% APY through Flex or invest in a fixed term loan for up to {maxRate}%. (Please note: While you can invest your deposit instantly, you can’t withdraw it until your ACH clears.)</p>",
-                            "overInstantCredit": "<p>Invest up to ${instantAmount} of your deposit instantly while your ACH clears. Get {flexRate}% APY through Flex or invest in a fixed term loan for up to {maxRate}%. The remainder of your deposit will credit when your funds reach us. (Please note: While you can invest up to ${instantAmount} of your deposit instantly, you can’t withdraw it until your ACH clears.)</p>",
+                            "enoughInstantCredit": "<p>Invest your deposit of ${instantAmount} instantly while your ACH clears. Get {flexRate}% APY through Instant-access investing or invest in a fixed term loan for up to {maxRate}%. (Please note: While you can invest your deposit instantly, you can’t withdraw it until your ACH clears.)</p>",
+                            "overInstantCredit": "<p>Invest up to ${instantAmount} of your deposit instantly while your ACH clears. Get {flexRate}% APY through Instant-access investing or invest in a fixed term loan for up to {maxRate}%. The remainder of your deposit will credit when your funds reach us. (Please note: While you can invest up to ${instantAmount} of your deposit instantly, you can’t withdraw it until your ACH clears.)</p>",
                             "investNote": "<p>Get an instant 4% APY on any Plaid ACH deposit up to ${instantAmount}. Your investment of ${amount} at {interest}% for {term} days will start after your ACH clears.</p>",
                             "pleaseNote": "<p><strong>Please note:</strong> ACH transfers are available for linked US bank accounts only, and can take <strong>up to 5 business days</strong> to clear.</p>",
                             "haveLinkedBank": "<p>Please choose a linked bank account below and then click <strong class=\"yellow\">Submit</strong>.</p>",
@@ -3466,7 +3466,7 @@
                         "insufficient_bank_account": "<p>Sorry, your deposit amount can't be higher than 70% of your available bank balance. Please enter a smaller amount.</p><p><strong>Important</strong>: please ensure you don't exceed this limit while your deposit is being processed otherwise your ACH will be reversed.</p>"
                     },
                     "gift_card": {
-                        "titleDesc": "Instantly. Free. <span class=\"yellow\">3% cashback</span> to your Flex."
+                        "titleDesc": "Instantly. Free. <span class=\"yellow\">3% cashback</span> to your Instant-access investing."
                     }
                 },
                 "updateBalanceNoteInWorkingTime": "Please note it might take <strong class=\"yellow\">up to 1 hour</strong> to update your balance after receiving your deposit. We're working hard to reduce this time, so thanks for your patience.",
@@ -3995,8 +3995,8 @@
         },
         "faqs": {
             "0": {
-                "question": "What is Flex?",
-                "answer": "      <p>Flex is a deposit account that earns you 4% APY through automatic lending. When you deposit money into Flex, it goes into a liquidity pool managed by Compound Finance. Borrowers who’ve put up collateral can then secure loans from the pool in return for interest – and we pay that interest to you. Since your deposits go to a pool rather than individual borrowers, you can withdraw or deposit anytime, as often as you like, and without any fees.</p>      <p><a href=\"https://blog.myconstant.com/flex-apy-account-compound-finance\" class=\"underline\" target=\"_blank\">How Flex works.</a></p>      "
+                "question": "What is Instant-access investing?",
+                "answer": "      <p>Instant-access investing is a deposit account that earns you 4% APY through automatic lending. When you deposit money into Instant-access investing, it goes into a liquidity pool managed by Compound Finance. Borrowers who’ve put up collateral can then secure loans from the pool in return for interest – and we pay that interest to you. Since your deposits go to a pool rather than individual borrowers, you can withdraw or deposit anytime, as often as you like, and without any fees.</p>      <p><a href=\"https://blog.myconstant.com/flex-apy-account-compound-finance\" class=\"underline\" target=\"_blank\">How Instant-access investing works.</a></p>      "
             },
             "1": {
                 "question": "Why 4% APY?",
@@ -4004,11 +4004,11 @@
             },
             "2": {
                 "question": "What is Compound Finance?",
-                "answer": "      <p>Compound Finance is a technology that intelligently manages a lending pool of over $150 million in assets (as of September 2019). Flex interfaces with this technology through an API that allows you to withdraw your deposits and earned interest at any time.</p>      <p>Compound Finance lends in a similar way to banks: your deposits go in and are lent to borrowers in exchange for interest and collateral. But since Compound Finance is a technology, there is no need for branches or staff, so you enjoy a much better interest rate!</p>      <p><a href=\"https://compound.finance/\" class=\"underline\" target=\"_blank\">Learn more about Compound Finance.</a></p>      "
+                "answer": "      <p>Compound Finance is a technology that intelligently manages a lending pool of over $150 million in assets (as of September 2019). Instant-access investing interfaces with this technology through an API that allows you to withdraw your deposits and earned interest at any time.</p>      <p>Compound Finance lends in a similar way to banks: your deposits go in and are lent to borrowers in exchange for interest and collateral. But since Compound Finance is a technology, there is no need for branches or staff, so you enjoy a much better interest rate!</p>      <p><a href=\"https://compound.finance/\" class=\"underline\" target=\"_blank\">Learn more about Compound Finance.</a></p>      "
             },
             "3": {
-                "question": "Do you have a referral program for Flex?",
-                "answer": "Yes, we do. For every friend you refer to Flex, you’ll get 10% of their interest earnings for the first year (up to a maximum of $1,000,000). For more details, <a href=\"/referral\">visit your Referrals page.</a>"
+                "question": "Do you have a referral program for Instant-access investing?",
+                "answer": "Yes, we do. For every friend you refer to Instant-access investing, you’ll get 10% of their interest earnings for the first year (up to a maximum of $1,000,000). For more details, <a href=\"/referral\">visit your Referrals page.</a>"
             },
             "4": {
                 "question": "Can I withdraw anytime?",
@@ -4016,19 +4016,19 @@
             },
             "5": {
                 "question": "How do my deposits earn interest?",
-                "answer": "Flex uses an API with Compound Finance to lend your deposits to a liquidity pool. Others borrow from the pool in return for putting up collateral, and you earn the interest. In other words, Flex is very similar to how investments work on MyConstant, only with Flex you can withdraw anytime."
+                "answer": "Instant-access investing uses an API with Compound Finance to lend your deposits to a liquidity pool. Others borrow from the pool in return for putting up collateral, and you earn the interest. In other words, Instant-access investing is very similar to how investments work on MyConstant, only with Instant-access investing you can withdraw anytime."
             },
             "6": {
                 "question": "Are my deposits insured?",
                 "answer": "      <p>Not always, no. While held with our trust partner, Prime Trust, your deposits are covered by a $130,000,000 insurance policy. However, we expect deposits will spend most of their time earning interest through Compound Finance, so will instead be protected by collateral put up by Compound's users.</p>      <p><a href=\"https://blog.myconstant.com/flex-or-prime-trust-constant\" class=\"underline\" target=\"_blank\">Earn interest on your deposits or insure them?</a></p>      "
             },
             "7": {
-                "question": "Can I deposit collateral or other cryptocurrency into Flex?",
-                "answer": "At the moment, Flex only accepts USD and USD-backed stablecoins."
+                "question": "Can I deposit collateral or other cryptocurrency into Instant-access investing?",
+                "answer": "At the moment, Instant-access investing only accepts USD and USD-backed stablecoins."
             },
             "8": {
                 "question": "Can I earn interest while waiting for an investment order to match?",
-                "answer": "No, your funds are set aside while waiting for a match so won't earn interest on Flex. If you decide to cancel the order, your funds will return to earning interest in Flex."
+                "answer": "No, your funds are set aside while waiting for a match so won't earn interest on Instant-access investing. If you decide to cancel the order, your funds will return to earning interest in Instant-access investing."
             },
             "9": {
                 "question": "Will the interest rate change?",
@@ -4036,11 +4036,11 @@
             },
             "10": {
                 "question": "Are there any fees?",
-                "answer": "No – all deposits and fiat withdrawals on Flex are free. Withdrawals in stablecoins are charged at $1 per transaction (no limit). \n"
+                "answer": "No – all deposits and withdrawals on Instant-access investing are free."
             },
             "11": {
                 "question": "How does MyConstant make money?",
-                "answer": "Flex deposits earn interest through an API with Compound Finance, another lending platform. Compound sets interest rates according to supply and demand, and MyConstant will make a slim profit on any difference between the Flex and Compound rates."
+                "answer": "Instant-access investing deposits earn interest through an API with Compound Finance, another lending platform. Compound sets interest rates according to supply and demand, and MyConstant will make a slim profit on any difference between the Instant-access investing and Compound rates."
             }
         }
     },
@@ -4081,7 +4081,7 @@
             },
             "1": {
                 "question": "How do I insure my deposits?",
-                "answer": "\n          <p>Your balance earns 4% APY by default through <a href=\"/flex\" class=\"underline\">Flex</a>, our anytime-withdrawal investment account. If you’d prefer not to use Flex, you can disable it from <a href=\"/accounts\" class=\"underline\">your Accounts page</a> (under Accounts detail).</p>\n          <p>Disabling Flex means your money will remain with Prime Trust, our accredited US custodian, who will store your funds across multiple insured bank accounts to an aggregate limit of $130,000,000. You will be able to withdraw uninvested funds at anytime for free, but you won’t earn any interest on your balance.</p>\n        "
+                "answer": "\n          <p>Your balance earns 4% APY by default through <a href=\"/flex\" class=\"underline\">Instant-access investing</a>, our anytime-withdrawal investment account. If you’d prefer not to use Instant-access investing, you can disable it from <a href=\"/accounts\" class=\"underline\">your Accounts page</a> (under Accounts detail).</p>\n          <p>Disabling Instant-access investing means your money will remain with Prime Trust, our accredited US custodian, who will store your funds across multiple insured bank accounts to an aggregate limit of $130,000,000. You will be able to withdraw uninvested funds at anytime for free, but you won’t earn any interest on your balance.</p>\n        "
             },
             "2": {
                 "question": "What deposit methods do you accept?",
@@ -4395,17 +4395,12 @@
         "goToLoginPage": "Go to Sign In page"
     },
     "affiliates": {
-        "greetingForm": {
-            "title": "\n        <h2>Hello {name},</h2>\n        <p><strong style=\"color:#F7B500;\">Get $20</strong> for every person<sup>1</sup> you refer (no limits) plus <strong style=\"color:#F7B500;\">20% of their Flex interest</strong> in their first year (capped at $1 million). Refer as many people as you like.</p>\n        <p class=\"reference\"><sup>1</sup> To qualify for the $20 reward, your referee must be a US citizen (see Affiliate Terms and Conditions).</p>\n      ",
-            "monthVolume": "Your {month} volume",
-            "inviteFriends": "Invite friends"
-        },
         "applyForm": {
             "applyNow": "Apply now",
-            "titleReward": "\n        <p class=\"header\">Get paid for your content.</p>\n        <p>Become a MyConstant affiliate and earn money on your content. <strong>Get ${affiliateReward}</strong><sup>1</sup> for every person<sup>2</sup> you refer plus <strong>20% of their Flex interest in their first year</strong> (capped at $1 million). Refer as many people as you like. </p>\n        ",
+            "titleReward": "\n        <h1 class=\"header\">Get paid for your content.</h1>\n        <p>Become a MyConstant affiliate and earn money on your content. <strong>Get ${affiliateReward}</strong><sup>1</sup> for every person<sup>2</sup> you refer plus <strong>20% of their Instant-access investment interest in their first year</strong> (capped at $1 million). Refer as many people as you like. </p>\n        ",
             "titleDescReward": "\n        <p class=\"reference clearBottom\"><sup>1</sup> Valid until {affiliateRewardEnd}</p>\n        <p class=\"reference\"><sup>2</sup> To qualify for the ${affiliateReward} reward, your referee must be a US citizen (see Affiliate Terms and Conditions).</p>\n        ",
-            "title": "\n        <p class=\"header\">You create, we pay</p>\n        <p>Become a MyConstant affiliate and get paid for your content. <strong style=\"color:#F7B500;\">Get ${affiliateReward}</strong> for every person<sup>1</sup> you refer (no limits) plus <strong style=\"color:#F7B500;\">20% of their Flex interest</strong> in their first year (capped at $1 million). Refer as many people as you like.</p>\n        ",
-            "titleDesc": "\n        <p class=\"reference\"><sup>1</sup> To qualify for the ${affiliateReward} reward, your referee must be a US citizen (see Affiliate Terms and Conditions).</p>\n        ",
+            "title": "\n        <h1 class=\"header\">You create, we pay</h1>\n        <p><strong class=\"yellow\">Get ${affiliateReward}</strong> for every person<sup>1</sup> you refer (no limits) plus <strong class=\"yellow\">20% of their Instant-access investment interest</strong> in their first year (capped at $1 million). Refer as many people as you like.</p>\n        ",
+            "titleDesc": "\n        <p class=\"reference\"><sup>1</sup> To qualify for the ${affiliateReward} reward, your referee must be a US citizen.</p>\n        ",
             "userName": "Your name",
             "userEmail": "Your email address",
             "notValidEmail": "Invalid email address",
@@ -4444,7 +4439,7 @@
                 "3": " ",
                 "4": "per registration",
                 "5": " ",
-                "6": "of referee’s Flex interest",
+                "6": "of referee’s Instant-access investment interest",
                 "7": " ",
                 "8": "for your referee"
             },
@@ -4492,14 +4487,14 @@
                 },
                 "3": {
                     "title": " ",
-                    "desc": "Your referee invests in Flex for {flexRate}% APY."
+                    "desc": "Your referee invests in Instant-access investing for {flexRate}% APY."
                 },
                 "4": {
                     "title": " ",
-                    "desc": "You get 20% of their Flex earnings, paid every second."
+                    "desc": "You get 20% of their Instant-access investment earnings, paid every second."
                 }
             },
-            "desc": "      <p>There are <strong>no limits</strong> to the number of people you can refer for the ${affiliateReward} bonus.</p>      <p>Your Flex earnings are capped at $1,000,000.</p>"
+            "desc": "      <p>There are <strong>no limits</strong> to the number of people you can refer for the ${affiliateReward} bonus.</p>      <p>Your Instant-access investment earnings are capped at $1,000,000.</p>"
         },
         "aboutYou": {
             "title": "About you",
@@ -4522,7 +4517,7 @@
         "faqs": {
             "0": {
                 "question": "What is the MyConstant affiliate program?",
-                "answer": "          <p>          The MyConstant Affiliate Program rewards you for referring people to MyConstant through your website, service, or platform. For every person who signs up using your referral link, you’ll earn a ${affiliateReward} bonus, paid immediately upon them making their first deposit (minimum $10). You’ll also earn 20% of their Flex earnings, paid every second, and capped at $1,000,000.          </p>          <p>          We track your referrals using cookies with a 30-day lifespan. If someone clicks your affiliate link and signs up within a 30-day period, you’ll earn the bonus and commission – even if they don’t sign up immediately. Of course, should your referee clear their cookies, we won’t be able to track them, so please bear this in mind. You want people to sign up as soon as possible.          </p>          "
+                "answer": "          <p>          The MyConstant Affiliate Program rewards you for referring people to MyConstant through your website, service, or platform. For every person who signs up using your referral link, you’ll earn a ${affiliateReward} bonus, paid immediately upon them making their first deposit (minimum $10). You’ll also earn 20% of their Instant-access investment earnings, paid every second, and capped at $1,000,000.          </p>          <p>          We track your referrals using cookies with a 30-day lifespan. If someone clicks your affiliate link and signs up within a 30-day period, you’ll earn the bonus and commission – even if they don’t sign up immediately. Of course, should your referee clear their cookies, we won’t be able to track them, so please bear this in mind. You want people to sign up as soon as possible.          </p>          "
             },
             "1": {
                 "question": "What are milestone rewards?",
@@ -4635,7 +4630,7 @@
             "desc": "Unlike traditional P2P platforms that prey on vulnerable borrowers and expect investors to shoulder the risk, MyConstant is designed to protect them both."
         },
         "terms": {
-            "content": "\n        <h3 class=\"section-title\">Terms and Conditions</h3>\n        <ol>\n          <li>\n            <p>The amount you earn depends on how your referees use the platform:</p>\n            <p class=\"desc\">You earn 20% of your referees’ earned Flex interest. We pay this interest every second that your referees earn.</p>\n          </li>\n          <li><p>We will pay you ${affiliateReward} for every person who signs up using your referral link, passes KYC and makes a deposit into MyConstant. If they don't meet these requirements, you don't earn the ${affiliateReward} bonus.</p></li>\n          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>\n          <li><p>The maximum affiliate interest you can earn through Flex is $1,000,000.</p></li>\n          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>\n          <li><p>If you make false or misleading statements about MyConstant, use MyConstant keywords in Google ads, use visitor exchange systems, forced clicks, and other methods that lead to unqualified traffic, send spam with MyConstant ads or use other aggressive marketing methods, your affiliate earnings will be forfeit and your membership cancelled.</p></li>\n          <li><p>To qualify for affiliate earnings, your referees must be US citizens.</p></li>\n          <li><p>To qualify for the ${periodCountReward} milestone reward, your referees must have been referred and have made their first deposit within the rolling 30-day period. Deposits outside of the rolling 30-day period don’t count. The rolling 30-day period is the immediate 30 days before today or 30 days from your previous milestone award date, whichever is the latest.</p></li>\n          <li><p>To qualify for the ${periodVolumeReward} milestone reward, your referees must have been referred and have deposited a combined total of at least ${periodVolume} within the rolling 90-day period.  Deopsits outside of the rolling 90-day period don’t count. The rolling 90-day period is the immediate 90 days before today or 90 days from your previous milestone award date, whichever is the latest.</p></li>\n          <li><p>Milestone rewards are unlimited. Rolling timelines are reset whenever you earn a milestone.</p></li>\n          <li><p>MyConstant reserves the right to change the terms of the affiliate program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>\n        </ol>\n      "
+            "content": "\n        <h3 class=\"section-title\">Terms and Conditions</h3>\n        <ol>\n          <li>\n            <p>The amount you earn depends on how your referees use the platform:</p>\n            <p class=\"desc\">You earn 20% of your referees’ earned Instant-access investment interest. We pay this interest every second that your referees earn.</p>\n          </li>\n          <li><p>We will pay you ${affiliateReward} for every person who signs up using your referral link, passes KYC and makes a deposit into MyConstant. If they don't meet these requirements, you don't earn the ${affiliateReward} bonus.</p></li>\n          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>\n          <li><p>The maximum affiliate interest you can earn through Instant-access investing is $1,000,000.</p></li>\n          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>\n          <li><p>If you make false or misleading statements about MyConstant, use MyConstant keywords in Google ads, use visitor exchange systems, forced clicks, and other methods that lead to unqualified traffic, send spam with MyConstant ads or use other aggressive marketing methods, your affiliate earnings will be forfeit and your membership cancelled.</p></li>\n          <li><p>To qualify for affiliate earnings, your referees must be US citizens.</p></li>\n          <li><p>To qualify for the ${periodCountReward} milestone reward, your referees must have been referred and have made their first deposit within the rolling 30-day period. Deposits outside of the rolling 30-day period don’t count. The rolling 30-day period is the immediate 30 days before today or 30 days from your previous milestone award date, whichever is the latest.</p></li>\n          <li><p>To qualify for the ${periodVolumeReward} milestone reward, your referees must have been referred and have deposited a combined total of at least ${periodVolume} within the rolling 90-day period.  Deopsits outside of the rolling 90-day period don’t count. The rolling 90-day period is the immediate 90 days before today or 90 days from your previous milestone award date, whichever is the latest.</p></li>\n          <li><p>Milestone rewards are unlimited. Rolling timelines are reset whenever you earn a milestone.</p></li>\n          <li><p>MyConstant reserves the right to change the terms of the affiliate program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>\n        </ol>\n      "
         },
         "milestone": {
             "title": "MILESTONES",
@@ -4721,6 +4716,7 @@
         },
         "referralUsers": {
             "title": "Invited friends",
+            "affiliateTitle": "Pending referral",
             "headers": {
                 "email": "Email",
                 "status": "Status",
@@ -4765,6 +4761,7 @@
         },
         "referralHistory": {
             "title": "Latest referral history",
+            "affiliateTitle": "Successful referral",
             "headers": {
                 "email": "Email",
                 "friendEarnings": "Friend's earnings",
@@ -4780,9 +4777,9 @@
         },
         "banner": {
             "title": "<h1>Get a free ${referralReward} bonus for every friend you refer.</h1>",
-            "desc": "\n        <p>Tell your friends and family about us and get ${referralReward} free for each person who signs up and deposits USD (US citizens only). You also earn <strong style=\"color:#F7B500;\">{referralFlexReward}% of their Instant Access interest</strong>, compounded and paid every second. Refer as many friends as you like, however you like, and <strong style=\"color:#F7B500;\">grow your money together</strong>.</p>\n      ",
-            "titleNonUS": "\n        <h1>Refer friends and earn <br/><span class=\"yellow\">{referralFlexReward}% of their Instant Access interest</span></h1>\n      ",
-            "descNonUS": "\n        <p>Tell your friends and family about us and <strong style=\"color:#F7B500;\">get {referralFlexReward}% of their Instant Access interest</strong> for each person who signs up and deposits USD. Refer as many friends as you like, however you like, and <strong style=\"color:#F7B500;\">grow your money together</strong>.</p>\n      ",
+            "desc": "\n        <p>Tell your friends and family about us and get ${referralReward} free for each person who signs up and deposits USD (US citizens only). You also earn <strong style=\"color:#F7B500;\">{referralFlexReward}% of their Instant-access investment interest</strong>, compounded and paid every second. Refer as many friends as you like, however you like, and <strong style=\"color:#F7B500;\">grow your money together</strong>.</p>\n      ",
+            "titleNonUS": "\n        <h1>Refer friends and earn <br/><span class=\"yellow\">{referralFlexReward}% of their Instant-access investment interest</span></h1>\n      ",
+            "descNonUS": "\n        <p>Tell your friends and family about us and <strong style=\"color:#F7B500;\">get {referralFlexReward}% of their Instant-access investment interest</strong> for each person who signs up and deposits USD. Refer as many friends as you like, however you like, and <strong style=\"color:#F7B500;\">grow your money together</strong>.</p>\n      ",
             "greeting": "<h1>Hello {name},</h1>",
             "invite": "Invite friends"
         },
@@ -4791,7 +4788,7 @@
             "formula": {
                 "0": "For every friend who signs up and deposits USD",
                 "1": " ",
-                "2": "of your friends’ Instant Access interest",
+                "2": "of your friends’ Instant-access investment interest",
                 "3": " ",
                 "4": "for your friend if they’re a US resident"
             },
@@ -4810,7 +4807,7 @@
                 },
                 "2": {
                     "title": "MULTIPLY YOUR EARNINGS",
-                    "desc": "Refer as many people as you like and <strong>get paid 10%</strong> on all their Instant Access earnings, capped at $1,000,000."
+                    "desc": "Refer as many people as you like and <strong>get paid 10%</strong> on all their Instant-access investment earnings, capped at $1,000,000."
                 },
                 "3": {
                     "title": "PROFIT IN ANY MARKET",
@@ -4843,15 +4840,15 @@
                 },
                 "4": {
                     "title": " ",
-                    "desc": "You get {referralFlexReward}% of their Instant Access earnings, compounded and paid every second."
+                    "desc": "You get {referralFlexReward}% of their Instant-access investment earnings, compounded and paid every second."
                 }
             },
-            "desc": "      <p>There are <strong>no limits</strong> to the number of people you can refer for the ${referralReward} bonus. Your Instant Access earnings are capped at $1,000,000.</p>",
-            "descNonUS": "      <p>You <strong>earn {referralFlexReward}% of your friends' earned Instant Access interest</strong> during their first year, capped at a generous $1,000,000.</p>"
+            "desc": "      <p>There are <strong>no limits</strong> to the number of people you can refer for the ${referralReward} bonus. Your Instant-access investment earnings earnings are capped at $1,000,000.</p>",
+            "descNonUS": "      <p>You <strong>earn {referralFlexReward}% of your friends' earned Instant-access investment interest</strong> during their first year, capped at a generous $1,000,000.</p>"
         },
         "terms": {
-            "normal": "        <h3 class=\"semiBold\">Terms and Conditions</h3>        <ol>          <li><p>To qualify for the ${referralReward} bonus, your referee must be a US citizen.</p></li>          <li><p>The bonus is paid when your referee signs up, passes KYC, and deposits USD.</p></li>          <li><p>Your referral interest is calculated on the interest your friends earn with our Instant Access account.</p></li>          <li><p>Referral interest is paid to you by MyConstant and does not deduct from your friends’ earned Instant Access interest.</p></li>          <li>            <p>The amount you earn depends on how your friends use the platform:</p>            <p>You earn {referralFlexReward}% of your friends’ earned Instant Access interest during their first year. We pay this interest every second that your friends are earning. (Your friends can also refer others to boost your and their earnings, too).</p>          </li>          <li><p>You can invite as many friends as you like.</p></li>          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>          <li><p>The maximum you can earn is $1,000,000.</p></li>          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>          <li><p>When 365 days have passed following your friend’s sign-up, you’ll no longer earn on their Instant Access interest. For example, on the 366th day, you won't earn interest but on the 365th one you will.</p></li>          <li><p>For friends referred before the effective date (2020/02/17), you’ll earn on their Instant Access transactions after the effective date only.</p></li>          <li><p>MyConstant reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>        </ol>        <p class=\"bold effective\">Effective as of {date}</p>      ",
-            "normalNonUS": "        <h3 class=\"semiBold\">Terms and Conditions</h3>        <ol><li><p>Your reward is paid when your referee makes their first fiat deposit.</p></li>          <li><p>Your referral interest is calculated on the interest your friends earn with our Instant Access account.</p></li>          <li><p>Referral interest is paid to you by MyConstant and does not deduct from your friends’ earned Instant Access interest.</p></li>          <li>            <p>The amount you earn depends on how your friends use the platform:</p>            <p>You earn {referralFlexReward}% of your friends’ earned Instant Access interest during their first year. We pay this interest every second that your friends are earning. (Your friends can also refer others to boost your and their earnings, too).</p>          </li>          <li><p>You can invite as many friends as you like.</p></li>          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>          <li><p>The maximum you can earn is $1,000,000.</p></li>          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>          <li><p>When 365 days have passed following your friend’s sign-up, you’ll no longer earn on their Instant Access interest. For example, on the 366th day, you won't earn interest but on the 365th one you will.</p></li>          <li><p>For friends referred before the effective date (2020/02/17), you’ll earn on their Instant Access transactions after the effective date only.</p></li>          <li><p>MyConstant reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>        </ol>        <p class=\"bold effective\">Effective as of {date}</p>      "
+            "normal": "        <h2 class=\"semiBold\">Terms and Conditions</h2>        <ol>          <li><p>To qualify for the ${referralReward} bonus, your referee must be a US citizen.</p></li>          <li><p>The bonus is paid when your referee signs up, passes KYC, and deposits USD.</p></li>          <li><p>Your referral interest is calculated on the interest your friends earn with our Instant-access account.</p></li>          <li><p>Referral interest is paid to you by MyConstant and does not deduct from your friends’ earned Instant-access investment interest.</p></li>          <li>            <p>The amount you earn depends on how your friends use the platform:</p>            <p>You earn {referralFlexReward}% of your friends’ earned Instant-access investment interest during their first year. We pay this interest every second that your friends are earning. (Your friends can also refer others to boost your and their earnings, too).</p>          </li>          <li><p>You can invite as many friends as you like.</p></li>          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>          <li><p>The maximum you can earn is $1,000,000.</p></li>          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>          <li><p>When 365 days have passed following your friend’s sign-up, you’ll no longer earn on their Instant-access investment interest. For example, on the 366th day, you won't earn interest but on the 365th one you will.</p></li>          <li><p>For friends referred before the effective date (2020/02/17), you’ll earn on their Instant-access investment transactions after the effective date only.</p></li>          <li><p>MyConstant reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>        </ol>        <p class=\"bold effective\">Effective as of {date}</p>      ",
+            "normalNonUS": "        <h2 class=\"semiBold\">Terms and Conditions</h2>        <ol><li><p>Your reward is paid when your referee makes their first fiat deposit.</p></li>          <li><p>Your referral interest is calculated on the interest your friends earn with our Instant-access account.</p></li>          <li><p>Referral interest is paid to you by MyConstant and does not deduct from your friends’ earned Instant-access investment interest.</p></li>          <li>            <p>The amount you earn depends on how your friends use the platform:</p>            <p>You earn {referralFlexReward}% of your friends’ earned Instant-access investment interest during their first year. We pay this interest every second that your friends are earning. (Your friends can also refer others to boost your and their earnings, too).</p>          </li>          <li><p>You can invite as many friends as you like.</p></li>          <li><p>Your referral earnings are paid in USD, directly into your MyConstant account.</p></li>          <li><p>The maximum you can earn is $1,000,000.</p></li>          <li><p>You can’t self-invite by creating multiple accounts. If we detect such activity, all referrals and earnings (if any) will be forfeit.</p></li>          <li><p>When 365 days have passed following your friend’s sign-up, you’ll no longer earn on their Instant-access investment interest. For example, on the 366th day, you won't earn interest but on the 365th one you will.</p></li>          <li><p>For friends referred before the effective date (2020/02/17), you’ll earn on their Instant-access investment transactions after the effective date only.</p></li>          <li><p>MyConstant reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.</p></li>        </ol>        <p class=\"bold effective\">Effective as of {date}</p>      "
         },
         "materials": {
             "title": "We make referring easy",
@@ -4905,7 +4902,7 @@
         "depositCollateralTitle": "Deposit",
         "topupSuccess": "Top-up Collateral successfully",
         "depositSuccess": "Deposit Collateral successfully",
-        "flexBalance": "Flex Balance",
+        "flexBalance": "Instant-access investing Balance",
         "cryptoWallet": "Crypto Wallet",
         "recommendMessage": "To restore your collateral value to the recommended {recommendedRate}%, please top up {amount} {currency}",
         "errorMaxValue": "Amount must less than {max}",
@@ -5115,7 +5112,7 @@
             "generalError": "Oops! Something went wrong, please try again",
             "collateralSuspendRecall": "Sorry, you can't recall excess on {symbol} collateral due to pricing volatility. We regularly review market activity and {symbol} prices are highly volatile at the moment. We've therefore limited recall excess on {symbol} to protect you from an increased risk of liquidation. For more information, please contact hello@myconstant.com.",
             "not_enough_balance": "Your balance is insufficient. Please deposit sufficient funds.",
-            "violateBonusPolicy": "Your bonus can't be withdrawn for 30 days. This gives you time to try our platform and make some money through our Flex account.",
+            "violateBonusPolicy": "Your bonus can't be withdrawn for 30 days. This gives you time to try our platform and make some money through our Instant-access investing account.",
             "reserveNotEnough": "Sorry, we can't create your order at the moment. Please contact us at hello@myconstant.com and we'll help fix this issue for you.",
             "already_bought_void_term_deposit": "You’ve already joined the matching queue for this order. Our system will randomly select a buyer to fulfil this order in priority of membership level. If you’re selected, your investment will start automatically and we’ll notify you by email.",
             "firstBuy2ndOrderMessage": "You’ve joined the matching queue for this order. Our system will randomly select a buyer to fulfil this order in priority of membership level. If you’re selected, your investment will start automatically and we’ll notify you by email.",
@@ -5407,13 +5404,13 @@
                         "desc": "            <p>Prime Trust is the accredited custodian of our USD reserve. When you deposit, your unloaned funds are stored across multiple bank accounts <strong>insured to a total of $130,000,000</strong>. </p>            "
                     },
                     "1": {
-                        "desc": "            <p>When you invest in Flex, your money supplies loans to collateralized borrowers and liquidity to decentralized exchanges. <strong>Flex is a multi-market investment product</strong> that spreads risk across multiple platforms to offer you a consistent return and the convenience of unlimited free withdrawals.</p>            "
+                        "desc": "            <p>When you invest in Instant-access investing, your money supplies loans to collateralized borrowers and liquidity to decentralized exchanges. <strong>Instant-access investing is a multi-market investment product</strong> that spreads risk across multiple platforms to offer you a consistent return and the convenience of unlimited free withdrawals.</p>            "
                     }
                 }
             }
         },
         "promotionFlex": {
-            "title": "        <p class=\"header\">Get 4% APY on your free ${kYCTrialAmount} bonus now</p>        <p>Enjoy up to 50x better interest than a bank with Flex, our anytime-withdrawal investment account. Sign up and verify your ID (pass KYC) now to get a free ${kYCTrialAmount} bonus to start. After 30 days, we reclaim the bonus but you keep the interest.</p>        <p>This offer is for a limited time and only available to US citizens.</p>      ",
+            "title": "        <p class=\"header\">Get 4% APY on your free ${kYCTrialAmount} bonus now</p>        <p>Enjoy up to 50x better interest than a bank with Instant-access investing, our anytime-withdrawal investment account. Sign up now to get a free ${kYCTrialAmount} bonus to start. After 30 days, we reclaim the bonus but you keep the interest.</p>        <p>This offer is only available for a limited time.</p>      ",
             "howItWorks": {
                 "title": "How It Works",
                 "data": {
@@ -5446,7 +5443,7 @@
                         "desc": "            <p>Prime Trust is the accredited custodian of our USD reserve. When you deposit, your unloaned funds are stored across multiple bank accounts <strong>insured to a total of $130,000,000</strong>. </p>            "
                     },
                     "1": {
-                        "desc": "            <p>When you invest in Flex, your money supplies loans to collateralized borrowers and liquidity to decentralized exchanges. <strong>Flex is a multi-market investment product</strong> that spreads risk across multiple platforms to offer you a consistent return and the convenience of unlimited free withdrawals.</p>            "
+                        "desc": "            <p>When you invest in Instant-access investing, your money supplies loans to collateralized borrowers and liquidity to decentralized exchanges. <strong>Instant-access investing is a multi-market investment product</strong> that spreads risk across multiple platforms to offer you a consistent return and the convenience of unlimited free withdrawals.</p>            "
                     }
                 }
             }
@@ -5822,7 +5819,7 @@
     },
     "cryptoShort": {
         "intro": {
-            "content": "\n        <p class=\"topText\">Predict a bear market?</p>\n        <h1 class=\"hightlight\">Earn big when prices drop.</h1>\n        <h2 class=\"last\">High risk. High reward.</h2>\n        <p>Bet against the market to hedge your returns. Borrow against USD to short BTC, ETH, or BNB at just 6% APR. If the price falls, repay and keep the profits (minus matching fee and interest).</p>\n        <p>Please note: Short selling is a high-risk trading strategy and you could lose some or all of your USD collateral.</p>\n      "
+            "content": "\n        <h2>Predict a bear market?</h2>\n        <h1 class=\"hightlight\">Earn big when prices drop.</h1>\n        <h2 class=\"last\">High risk. High reward.</h2>\n        <p>Bet against the market to hedge your returns. Borrow against USD to short BTC, ETH, or BNB at just {interest}% APR. If the price falls, repay and keep the profits (minus matching fee and interest).</p>\n        <p>Please note: Short selling is a high-risk trading strategy and you could lose some or all of your USD collateral.</p>\n      "
         },
         "borrowForm": {
             "toolTipCollateral": "The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to 200% of the value of your USD collateral. For example, if you have $1,000 in your pair balance, you can short up to $2,000 worth of the crypto in that pair.",
