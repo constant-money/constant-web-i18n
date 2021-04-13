@@ -4096,7 +4096,7 @@ export default {
   depositFiat: {
     contentHtml: `
         <h1 class="hightlight">Top up your USD account.</h1>
-        <div class="h1">Send via ACH, wire, or Zelle.</div>
+        <div class="h1">Send via ACH, wire.</div>
         <div class="h1 last">Insure or invest your balance.</div>
         <p>Deposit USD into your MyConstant account through our licensed custodian, Prime Trust. Earn an automatic {interest}% APY on your available balance or store it in an insured escrow. Link up to two US bank accounts for ACH transfers through Plaid. No fees.</p>`,
     learnMore: 'Learn more here',
@@ -4114,7 +4114,7 @@ export default {
           desc: 'Create your deposit order',
         },
         1: {
-          desc: 'Send your funds via wire, Zelle, or ACH through a linked US bank account.',
+          desc: 'Send your funds via wire, or ACH through a linked US bank account.',
         },
         2: {
           desc: 'Your balance will update according to our service times.',
@@ -4133,7 +4133,7 @@ export default {
         answer: `
           <p>To deposit into your MyConstant account, click <strong>Make a deposit</strong> from <a href="/accounts" class="underline">your Accounts page</a> or visit the <a href="/deposit-fiat" class="underline">deposit page</a> directly.</p>
           <p>Choose how much you want to deposit and then click <strong>Deposit now</strong>.</p>
-          <p>On the next screen, you can choose from three deposit methods. We support Zelle for amounts under $2,000, ACH transfers for linked US accounts up to $5,000, and wire transfers which are unlimited.</p>
+          <p>On the next screen, you can choose from three deposit methods. We support ACH transfers for linked US accounts up to $5,000, and wire transfers which are unlimited.</p>
           <p>Choose the appropriate deposit method and then follow the on-screen instructions. If you don’t have a linked US bank account, you can set one up using the on-screen link.</p>
           <p>Once we receive your deposit, which may take 1-5 business days depending on the method you choose, your balance will update within 1 business day.</p>
           <p>Please note, non-diamond members are only allowed to have 1 active ACH transfer active at a time.</p>
@@ -4150,7 +4150,7 @@ export default {
       2: {
         question: 'What deposit methods do you accept?',
         answer: `
-          <p>We currently support Zelle for amounts under $2,000, ACH transfers for <a href="https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/" class="underline" target="_blank">linked US accounts</a> up to $5,000 per transaction, and wire transfers which are unlimited.</p>
+          <p>We currently support ACH transfers for <a href="https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/" class="underline" target="_blank">linked US accounts</a> up to $5,000 per transaction, and wire transfers which are unlimited.</p>
           <p>In the interest of security, we’re in the process of moving all cash management to our custodial partner, Prime Trust. This means in the future we won’t need to handle your funds at all.</p>
           <p>However, we’re somewhat limited by the deposit methods Prime Trust accept, and it’s likely Zelle will be phased out in the next few months.</p>
         `
@@ -4161,7 +4161,6 @@ export default {
           <p>This depends on the deposit method you choose.</p>
           <p>Here’s a brief summary:</p>
           <p>
-            <div>Zelle: 1 business day.</div>
             <div>ACH: 3-5 business days.</div>
             <div>Wire: 1-2 business days.</div>
           </p>
@@ -4171,7 +4170,7 @@ export default {
       4: {
         question: 'Are there any limits on deposits?',
         answer: `
-          <p>Yes. We currently support Zelle for amounts under $2,000 and ACH transfers for <a href="https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/" class="underline" target="_blank">linked US accounts</a> up to $5,000. The maximum you can send via a linked US account is $50,000 per day. Wire transfers are unlimited.</p>
+          <p>Yes. We currently support ACH transfers for <a href="https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/" class="underline" target="_blank">linked US accounts</a> up to $5,000. The maximum you can send via a linked US account is $50,000 per day. Wire transfers are unlimited.</p>
         `
       },
       5: {
@@ -4201,20 +4200,20 @@ export default {
           <p>If your account incurs multiple ACH reversals you’ll lose your Instant Credit benefits and might be charged a fee of up to $20. Please read <a href="https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/" class="underline" target="_blank">our guide</a> carefully to learn how to correctly link a US bank account for ACH transfers.</p>
         `
       },
+      // 8: {
+      //   question: 'Why do you limit Zelle deposits?',
+      //   answer: `
+      //     <p>Our custodial partner, Prime Trust, doesn’t currently support Zelle transfers. Until now, we’ve accepted these deposits and then transferred them to Prime Trust on your behalf. However, this is both inefficient and means you have to entrust us with your money.</p>
+      //     <p>Our aim has always to be a non-custodial platform, and as a result, we’re phasing out Zelle so Prime Trust manages all cashflow on our behalf. You have the option of Zelle deposits during this transitionary period as we know it’s convenient for you, but limited to under $2,000 per transaction.</p>
+      //   `
+      // },
       8: {
-        question: 'Why do you limit Zelle deposits?',
-        answer: `
-          <p>Our custodial partner, Prime Trust, doesn’t currently support Zelle transfers. Until now, we’ve accepted these deposits and then transferred them to Prime Trust on your behalf. However, this is both inefficient and means you have to entrust us with your money.</p>
-          <p>Our aim has always to be a non-custodial platform, and as a result, we’re phasing out Zelle so Prime Trust manages all cashflow on our behalf. You have the option of Zelle deposits during this transitionary period as we know it’s convenient for you, but limited to under $2,000 per transaction.</p>
-        `
-      },
-      9: {
         question: 'Why can’t I send an ACH from outside the US?',
         answer: `
           <p>Our custodial partner, Prime Trust, accepts ACH through Plaid, an ACH processor. At the moment, you can only link US bank accounts through Plaid. If you bank outside of the US, please send a wire instead.</p>
         `
       },
-      10: {
+      9: {
         question: 'What are Instant Credits?',
         answer: `
           <p>Instant Credits is a program we developed to pay you interest on ACH deposits while they’re being processed. ACH transfers can take up to 5 business days and your funds wouldn’t normally earn interest during this time. But with Instant Credits, you earn 4% APY from the moment you create the ACH transfer.</p>
@@ -4462,7 +4461,7 @@ export default {
       content: `
         <p class="topText">How would you like your money?</p>
         <h1 class="last">Withdraw to your bank account or instantly as a gift card</h1>
-        <p>Withdraw funds to your bank account via Wire, Zelle, or ACH. Or, withdraw instantly as a gift card and get up to 3% cashback on 40+ retailers. All withdrawals – including gift cards – are free and unlimited.</p>
+        <p>Withdraw funds to your bank account via Wire, or ACH. Or, withdraw instantly as a gift card and get up to 3% cashback on 40+ retailers. All withdrawals – including gift cards – are free and unlimited.</p>
       `
     }
   },
