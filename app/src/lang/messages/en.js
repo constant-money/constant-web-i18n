@@ -1372,7 +1372,7 @@ export default {
       linkBankSectionTitle: 'Link your bank account',
       linkBankSectionDesc: '<p>Deposit or withdraw using ACH bank transfers with Plaid. Link up to two bank accounts now to save time and money transferring funds to and from your MyConstant account.<br/>Since most savings accounts limit the number of withdrawals, we recommend you link a checking account not a savings account to avoid ACH reversals.<br/><a href="https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/" target="_blank">How to avoid ACH reversals</a>.</p>',
       linkBankImportantNote: '<strong>Please note</strong>: When you link a bank account via Plaid, your bank is assigned a unique ID. For your security, Plaid ACH deposits can only be withdrawn again <strong>via the same method and bank ID</strong> from which you deposited for a period of 60 days. This restriction <strong>does not</strong> apply to deposits via wire or Zelle.',
-      unlinkBankSectionTitle: 'Withdrawal Bank',
+      unlinkBankSectionTitle: 'International Bank',
       unlinkBankSectionDesc: '<p>Nice – email confirmations are enabled on all withdrawals and transfers. Whenever you withdraw or transfer USD, cryptocurrency, or stablecoins, we’ll email you a link to authorize the transaction.</p>',
       nonUSbankSectionTitle: 'Add a bank account for deposits and withdrawals',
       nonUSbankSectionDesc: '<p>Speed up the transfer process by adding your bank account details below. Once saved, you can preselect these details the next time you create a deposit or withdrawal order instead of entering them manually.</p>',
@@ -4537,6 +4537,7 @@ export default {
       notValidEmail: 'Invalid email address',
       requestSuccess: 'Successfully Requested',
       becomeAffiliate: 'Become our affiliate',
+      inviteFriends: 'Invite friends',
     },
     becomeAffiliateForm: {
       title: 'Ready to start earning?',
