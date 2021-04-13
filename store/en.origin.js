@@ -4405,7 +4405,8 @@
             "userEmail": "%%%.affiliates.applyForm.userEmail%%%",
             "notValidEmail": "%%%.affiliates.applyForm.notValidEmail%%%",
             "requestSuccess": "%%%.affiliates.applyForm.requestSuccess%%%",
-            "becomeAffiliate": "%%%.affiliates.applyForm.becomeAffiliate%%%"
+            "becomeAffiliate": "%%%.affiliates.applyForm.becomeAffiliate%%%",
+            "inviteFriends": "%%%.affiliates.applyForm.inviteFriends%%%"
         },
         "becomeAffiliateForm": {
             "title": "%%%.affiliates.becomeAffiliateForm.title%%%",
