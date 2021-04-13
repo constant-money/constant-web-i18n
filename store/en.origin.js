@@ -4114,10 +4114,6 @@
             "9": {
                 "question": "%%%.depositFiat.faqs.9.question%%%",
                 "answer": "%%%.depositFiat.faqs.9.answer%%%"
-            },
-            "10": {
-                "question": "%%%.depositFiat.faqs.10.question%%%",
-                "answer": "%%%.depositFiat.faqs.10.answer%%%"
             }
         }
     },
