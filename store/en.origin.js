@@ -3320,6 +3320,7 @@
                 "textRegister": "%%%.home1.lendingSection.form.textRegister%%%",
                 "btnBorrow": "%%%.home1.lendingSection.form.btnBorrow%%%",
                 "btnDeposit": "%%%.home1.lendingSection.form.btnDeposit%%%",
+                "btnChat": "%%%.home1.lendingSection.form.btnChat%%%",
                 "text1": "%%%.home1.lendingSection.form.text1%%%",
                 "placeholder": {
                     "amount": "%%%.home1.lendingSection.form.placeholder.amount%%%"
@@ -5652,6 +5653,7 @@
         "callText": "%%%.contactSupport.callText%%%",
         "bookText": "%%%.contactSupport.bookText%%%",
         "chatText": "%%%.contactSupport.chatText%%%",
+        "liveChatText": "%%%.contactSupport.liveChatText%%%",
         "timeSupport": "%%%.contactSupport.timeSupport%%%"
     },
     "withdrawFees": {
