@@ -66,7 +66,7 @@ export default {
       email: 'Your email',
       password: 'Password',
       registerFailed: 'Failed while creating your account, please try again',
-      passwordTooWeak: 'Your password must contain at least eight characters, including (at least) one number, one uppercase character, and one lowercase character.',
+      passwordTooWeak: 'At least 8 characters, a capital letter, a lowercase character, and a number',
       notValidEmail: 'Invalid email address',
       requiredEmail: 'Email is required',
       requiredPassword: 'Password is required',
@@ -6097,7 +6097,7 @@ export default {
       `,
     },
     borrowForm:  {
-      toolTipCollateral: 'The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to 200% of the value of your USD collateral. For example, if you have $1,000 in your pair balance, you can short up to $2,000 worth of the crypto in that pair.',
+      toolTipCollateral: 'The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to {upToRate}% of the value of your USD collateral. For example, if you have ${egBase} in your pair balance, you can short up to ${egUpTo} worth of the crypto in that pair.',
       toolTipTakeProfit: 'Take profit is the price at which you repay your shorted cryptocurrency. This should be at least 5% below the current market price. When the take profit price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your pair balance. You keep the profits minus interest and matching fee.',
       toolTipStopLoss: 'The stop loss is the price at which you repay your shorted crypto to avoid accumulated losses. It should be at least 5% above the current market price. When the stop loss price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your pair balance. This minimizes further losses in the event of price rises.',
     },
