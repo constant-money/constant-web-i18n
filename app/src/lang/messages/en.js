@@ -66,7 +66,7 @@ export default {
       email: 'Your email',
       password: 'Password',
       registerFailed: 'Failed while creating your account, please try again',
-      passwordTooWeak: 'At least 8 characters, a capital letter, a lowercase character, and a number',
+      passwordTooWeak: 'At least <span class="green">8 characters</span>, a capital letter, a lowercase character, and a number',
       notValidEmail: 'Invalid email address',
       requiredEmail: 'Email is required',
       requiredPassword: 'Password is required',
@@ -3299,6 +3299,7 @@ export default {
         textRegister: 'Sign up',
         btnBorrow: 'to borrow now',
         btnDeposit: 'to deposit now',
+        btnChat: 'to chat now',
         text1: 'Set your own lending terms',
         placeholder: { amount: 'How much do you want to lend?' },
         maxTerm: 'Length of term',
@@ -4526,9 +4527,9 @@ export default {
         `,
       title: `
         <h1 class="header">You create, we pay</h1>
-        <p><strong class="yellow">Get \${affiliateReward}</strong> for every person<sup>1</sup> you refer (no limits) plus <strong class="yellow">20% of their Instant-access investment interest</strong> in their first year (capped at $1 million). Refer as many people as you like.</p>
         `,
       titleDesc: `
+        <p><strong class="yellow">Get \${affiliateReward}</strong> for every person<sup>1</sup> you refer (no limits) plus <strong class="yellow">20% of their Instant-access investment interest</strong> in their first year (capped at $1 million). Refer as many people as you like.</p>
         <p class="reference"><sup>1</sup> To qualify for the \${affiliateReward} reward, your referee must be a US citizen.</p>
         `,
       userName: 'Your name',
@@ -5914,6 +5915,7 @@ export default {
     callText: 'Call us on (+1) 646 809 8338',
     bookText: 'Book a call',
     chatText: 'Log in to Messenger',
+    liveChatText: 'Chat',
     timeSupport: 'We\'re available <strong>Mon-Fri 9am-5pm</strong> and<br /> <strong>Mon-Thurs 7pm-4am PST</strong>'
   },
   withdrawFees: {
