@@ -1666,7 +1666,7 @@ export default {
       },
       cryptoShort: {
         title: 'Short Selling',
-        desc: 'Short BTC, ETH, and BNB. High risk. High reward.'
+        desc: 'Short BTC, ETH, and BNB.<br/>High risk. High reward.'
       },
       borrowCoins: {
         title: 'Crypto Credit',
@@ -6094,8 +6094,6 @@ export default {
         <h2>Predict a bear market?</h2>
         <h1 class="hightlight">Earn big when prices drop.</h1>
         <h2 class="last">High risk. High reward.</h2>
-        <p>Bet against the market to hedge your returns. Borrow against USD to short BTC, ETH, or BNB at just {interest}% APR. If the price falls, repay and keep the profits (minus matching fee and interest).</p>
-        <p>Please note: Short selling is a high-risk trading strategy and you could lose some or all of your USD collateral.</p>
       `,
     },
     borrowForm:  {
