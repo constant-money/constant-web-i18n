@@ -1718,7 +1718,7 @@
             },
             "cryptoShort": {
                 "title": "Short Selling",
-                "desc": "Short BTC, ETH, and BNB. High risk. High reward."
+                "desc": "Short BTC, ETH, and BNB.<br/>High risk. High reward."
             },
             "borrowCoins": {
                 "title": "Crypto Credit",
@@ -5818,7 +5818,7 @@
     },
     "cryptoShort": {
         "intro": {
-            "content": "\n        <h2>Predict a bear market?</h2>\n        <h1 class=\"hightlight\">Earn big when prices drop.</h1>\n        <h2 class=\"last\">High risk. High reward.</h2>\n        <p>Bet against the market to hedge your returns. Borrow against USD to short BTC, ETH, or BNB at just {interest}% APR. If the price falls, repay and keep the profits (minus matching fee and interest).</p>\n        <p>Please note: Short selling is a high-risk trading strategy and you could lose some or all of your USD collateral.</p>\n      "
+            "content": "\n        <h2>Predict a bear market?</h2>\n        <h1 class=\"hightlight\">Earn big when prices drop.</h1>\n        <h2 class=\"last\">High risk. High reward.</h2>\n      "
         },
         "borrowForm": {
             "toolTipCollateral": "The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to {upToRate}% of the value of your USD collateral. For example, if you have ${egBase} in your pair balance, you can short up to ${egUpTo} worth of the crypto in that pair.",

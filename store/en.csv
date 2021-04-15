@@ -1288,7 +1288,7 @@
 %%%.headerBar.extraMenu.borrowFiat.title%%%,"Crypto-backed Loans"
 %%%.headerBar.extraMenu.borrowFiat.desc%%%,"Your terms. Best rates.<br/>No credit checks."
 %%%.headerBar.extraMenu.cryptoShort.title%%%,"Short Selling"
-%%%.headerBar.extraMenu.cryptoShort.desc%%%,"Short BTC, ETH, and BNB. High risk. High reward."
+%%%.headerBar.extraMenu.cryptoShort.desc%%%,"Short BTC, ETH, and BNB.<br/>High risk. High reward."
 %%%.headerBar.extraMenu.borrowCoins.title%%%,"Crypto Credit"
 %%%.headerBar.extraMenu.borrowCoins.desc%%%,"Borrow cash, get crypto.<br/>No exchanges."
 %%%.headerBar.yourSaving%%%,"Accounts"
@@ -4354,8 +4354,6 @@ Please choose another time period."
         <h2>Predict a bear market?</h2>
         <h1 class=""hightlight"">Earn big when prices drop.</h1>
         <h2 class=""last"">High risk. High reward.</h2>
-        <p>Bet against the market to hedge your returns. Borrow against USD to short BTC, ETH, or BNB at just {interest}% APR. If the price falls, repay and keep the profits (minus matching fee and interest).</p>
-        <p>Please note: Short selling is a high-risk trading strategy and you could lose some or all of your USD collateral.</p>
       "
 %%%.cryptoShort.borrowForm.toolTipCollateral%%%,"The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to {upToRate}% of the value of your USD collateral. For example, if you have ${egBase} in your pair balance, you can short up to ${egUpTo} worth of the crypto in that pair."
 %%%.cryptoShort.borrowForm.toolTipTakeProfit%%%,"Take profit is the price at which you repay your shorted cryptocurrency. This should be at least 5% below the current market price. When the take profit price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your pair balance. You keep the profits minus interest and matching fee."
