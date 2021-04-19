@@ -3355,7 +3355,7 @@ export default {
       },
       confirm: {
         thankYou1: 'Almost there.',
-        thankMsgDeposit: '<div>Please deposit {amount} to complete your investment.</div>',
+        thankMsgDeposit: '<p>Please deposit {amount} to complete your investment.</p>',
         amount: 'Amount',
         bankName: 'Bank name',
         routingNumberWire: 'Routing number for Wire',
@@ -3394,7 +3394,7 @@ export default {
               </div>
             `,
             subtitleGeneral: `
-              <p>Please wire your deposit of \${amount} using reference number {refNumber} to Prime Trust using the details below. When you have made your transfer, please email your wire receipt to <a href="mailto:finance@myconstant.com">finance@myconstant.com</a>.</p>
+              <p>Please wire your deposit of \${amount} using reference number {refNumber} to Prime Trust using the details below. When you have made your transfer, please email your wire receipt to <a href="mailto:finance@myconstant.com" style="color:#0053E2;">finance@myconstant.com</a>.</p>
             `,
             subtitleInvest: `
               <p>To complete your investment of \${amount} at {interest}% for {term} days, please wire your funds to our custodial partner, Prime Trust, using the details below.</p>
