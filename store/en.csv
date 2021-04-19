@@ -2520,7 +2520,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.home1.lendingSection.alert.needKyc%%%,""
 %%%.home1.lendingSection.alert.buy2ndDesc%%%,"Click confirm to agree to the <a href=""{loanTermUrl}"" target=""_blank"" class=""underline"">terms of the loan</a>, start your term, and begin earning interest. Once confirmed, you can’t cancel this investment but you can sell it early on the secondary market."
 %%%.home1.lendingSection.confirm.thankYou1%%%,"Almost there."
-%%%.home1.lendingSection.confirm.thankMsgDeposit%%%,"<div>Please deposit {amount} to complete your investment.</div>"
+%%%.home1.lendingSection.confirm.thankMsgDeposit%%%,"<p>Please deposit {amount} to complete your investment.</p>"
 %%%.home1.lendingSection.confirm.amount%%%,"Amount"
 %%%.home1.lendingSection.confirm.bankName%%%,"Bank name"
 %%%.home1.lendingSection.confirm.routingNumberWire%%%,"Routing number for Wire"
@@ -2555,7 +2555,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
               </div>
             "
 %%%.home1.lendingSection.confirm.paymentMethods.primetrust.subtitleGeneral%%%,"
-              <p>Please wire your deposit of ${amount} using reference number {refNumber} to Prime Trust using the details below. When you have made your transfer, please email your wire receipt to <a href=""mailto:finance@myconstant.com"">finance@myconstant.com</a>.</p>
+              <p>Please wire your deposit of ${amount} using reference number {refNumber} to Prime Trust using the details below. When you have made your transfer, please email your wire receipt to <a href=""mailto:finance@myconstant.com"" style=""color:#0053E2;"">finance@myconstant.com</a>.</p>
             "
 %%%.home1.lendingSection.confirm.paymentMethods.primetrust.subtitleInvest%%%,"
               <p>To complete your investment of ${amount} at {interest}% for {term} days, please wire your funds to our custodial partner, Prime Trust, using the details below.</p>
