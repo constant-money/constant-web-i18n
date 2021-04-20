@@ -309,7 +309,7 @@ export default {
       title: 'Membership points record',
       headers: {
         date: 'Date and time',
-        pointEarned: 'Point earned',
+        pointEarned: 'Points earned',
         status: 'Status',
         activity: 'Activity',
         membershipStatus: 'Membership status',
@@ -318,6 +318,7 @@ export default {
         collateral_loan_matched: 'Borrowed ${amount}',
         lo_investment_investment: 'Invested ${amount}',
         saving_termdeposit: 'Invested ${amount}',
+        saving_lottery_term: 'Invested ${amount}',
         user_badge_result: 'Achieved {badgeName} Badge',
         user_referral_kyc_passed: 'Your referee passed KYC – you\'ve earned 200 points',
         users__referee: 'Your referee deposited at least $50 – you\'ve upgraded to Diamond for 30 days',
@@ -3382,12 +3383,12 @@ export default {
             referNoteDesc: 'Please include your reference number when you make your Zelle transfer so we can match your deposit to your account.',
           },
           primetrust: {
-            titleDesc: '<p>Fast. Secure. Unlimited.<br/>Get $15 cashback when sending over $2,000</p>',
-            feeCreditTitleDesc: 'All wires of over $2,000 qualify for $15 cashback paid straight into your MyConstant balance. This helps cover the wire fee.',
+            titleDesc: '<p>Fast. Secure. Unlimited.<br/>Get ${creditWire} cashback when sending from ${amountWire} or over</p>',
+            feeCreditTitleDesc: 'All wires from ${amountWire} or over qualify for ${creditWire} cashback paid straight into your MyConstant balance. This helps cover the wire fee.',
             referNoteDesc: 'To receive your deposit you MUST include this reference number when your wire your funds from your bank.',
             minuteWindow: '15 MINUTE WINDOW',
             minuteWindowDescription: 'Please complete your transfer within 15 minutes. After that, your order will be automatically cancelled.',
-            needHelp:`
+            needHelp: `
               <div class="need-help">
                 <div>Need help?</div>
                 <div><a target="_blank" class="underline" href="https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/">Check out our guide to Prime Trust transfers.</a></div>
@@ -3402,7 +3403,7 @@ export default {
               <div class="need-help"><strong>Need help?</strong> <a target="_blank" href="https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/">View our guide to Prime Trust wire transfers.</a></div>
             `,
             feeCredit: 'No-fee credit',
-            feeCreditDesc: 'For wire transfers above $2,000, you receive an additional credit of $15 in your MyConstant balance. This helps cover the wire fee.'
+            feeCreditDesc: 'For wire transfers from ${amountWire} or over, you receive an additional credit of ${creditWire} in your MyConstant balance. This helps cover the wire fee.',
           },
           plaid: {
             title: 'Transfer via ACH to earn {rate}% instantly',
