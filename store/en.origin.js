@@ -352,6 +352,7 @@
                 "collateral_loan_matched": "%%%.memberShip.pointHistory.activity.collateral_loan_matched%%%",
                 "lo_investment_investment": "%%%.memberShip.pointHistory.activity.lo_investment_investment%%%",
                 "saving_termdeposit": "%%%.memberShip.pointHistory.activity.saving_termdeposit%%%",
+                "saving_lottery_term": "%%%.memberShip.pointHistory.activity.saving_lottery_term%%%",
                 "user_badge_result": "%%%.memberShip.pointHistory.activity.user_badge_result%%%",
                 "user_referral_kyc_passed": "%%%.memberShip.pointHistory.activity.user_referral_kyc_passed%%%",
                 "users__referee": "%%%.memberShip.pointHistory.activity.users__referee%%%",
