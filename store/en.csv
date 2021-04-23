@@ -3129,10 +3129,10 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.depositCrypto.howItWorks.data.4.desc%%%,"Withdraw anytime to your wallet of choice."
 %%%.cryptoLend.contentHtml%%%,"
       <p class=""topText"">Lend your idle cryptos</p>
-      <h1 class=""hightlight"">Earn up to 9% APR.</h1>
+      <h1 class=""hightlight"">Earn up to {prvInterest}% APR.</h1>
       <h2>Invest BTC, ETH, and BNB.</h2>
       <h2 class=""last"">No fees, penalties, or lock-ups.</h2>
-      <p>Invest your idle cryptocurrencies and get up to 9% APR. Unlock the best rate when you receive interest in PRV. Otherwise, earn {interest}% APY in BTC, ETH, or BNB, compounded and paid every second. Withdraw interest and principal anytime. All lending backed by MyConstant Guarantee<sup>1</sup>.</p>
+      <p>Invest your idle cryptocurrencies and get up to {prvInterest}% APR. Unlock the best rate when you receive interest in PRV. Otherwise, earn {interest}% APY in BTC, ETH, or BNB, compounded and paid every second. Withdraw interest and principal anytime. All lending backed by MyConstant Guarantee<sup>1</sup>.</p>
       <p><sup>1</sup>The MyConstant Guarantee defines a limit of investment within which MyConstant can protect invested funds from loss or theft while in the custody of third parties.</p>
     "
 %%%.cryptoLend.learnMore%%%,"Learn more here"
