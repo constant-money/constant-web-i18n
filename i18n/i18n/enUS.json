@@ -1412,6 +1412,7 @@
             "beneficiaryStreet": "Beneficiary street",
             "beneficiaryRegion": "Beneficiary region",
             "beneficiaryPostalCode": "Beneficiary postal code",
+            "iban": "IBAN",
             "linkBankSectionTitle": "Link your bank account",
             "linkBankSectionDesc": "<p>Deposit or withdraw using ACH bank transfers with Plaid. Link up to two bank accounts now to save time and money transferring funds to and from your MyConstant account.<br/>Since most savings accounts limit the number of withdrawals, we recommend you link a checking account not a savings account to avoid ACH reversals.<br/><a href=\"https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/\" target=\"_blank\">How to avoid ACH reversals</a>.</p>",
             "linkBankImportantNote": "<strong>Please note</strong>: When you link a bank account via Plaid, your bank is assigned a unique ID. For your security, Plaid ACH deposits can only be withdrawn again <strong>using the same withdrawal method and bank ID</strong> from which you deposited for a period of 60 days. This restriction <strong>does not</strong> apply to deposits via wire or Zelle.",
@@ -1790,7 +1791,7 @@
     },
     "ourPress": {
         "title": "Our <span style=\"color: #F9A00F\">Press</span>",
-        "desc": "<p>Our high-yield, collateral-backed investments have gotten a lot of press. Click <strong>View press</strong> below to find out what finance’s most respected publications think about us.</p>"
+        "desc": "<p>Our high-yield, collateral-backed, peer-to-peer investments have gotten a lot of press. Click <strong>View press</strong> below to find out what finance’s most respected publications think about us.</p>"
     },
     "testimonials": {
         "title": "Let’s get to know each other better",
@@ -1832,7 +1833,7 @@
             "desc": "<p>The top US banks lend your deposits but keep most of the profits. With us, you keep all the interest you make – up to {investRate}% APR, which is over 20x better interest than a CD.</p>"
         },
         "howItWorks": {
-            "title": "How it works",
+            "title": "How MyConstant works",
             "desc": "MyConstant connects investors with borrowers to do business together. Crypto <a class=\"glossary-word\">collateral</a> backs investors’ funds while our custodial partner safely manages the movement of funds and collateral.",
             "data": {
                 "0": {
@@ -1846,8 +1847,8 @@
             }
         },
         "banner": {
-            "title1": "Experience multi-market <span style=\"color:#F5A623;\">peer-to-peer</span> lending.",
-            "subTitle": "\n        <p>Invest in people and businesses around the world for up to {investRate}% <a class=\"glossary-word\">APR</a>. All lending is backed by cryptocurrency <a class=\"glossary-word\">collateral</a>. Earn across multiple markets, spreading risk and maximizing reward. No investing fees. Free USD withdrawals. 24-7 customer support.</p>\n        <p>Or borrow against {numCollateral}+ cryptocurrencies from just {borrowRate}% <a class=\"glossary-word\">APR</a>. Get the cash or crypto you need instantly without having to sell your portfolio. Your crypto is securely stored and returned to you when you repay.</p>\n      ",
+            "title": "Invest in global <span style=\"color:#F5A623;\">peer-to-peer (P2P)</span> lending with USD or crypto.",
+            "subTitle": "\n        <p> P2P lending allows you to invest in people and businesses around the world for up to {investRate}% <a class=\"glossary-word\">APR</a>.  7% APR. All lending is backed by cryptocurrency <a class=\"glossary-word\">collateral</a>. Earn across multiple markets, spreading risk and maximizing reward. No investing fees. Free USD withdrawals. 24-7 customer support.</p>\n        <p>Or borrow against {numCollateral}+ cryptocurrencies from just {borrowRate}% <a class=\"glossary-word\">APR</a>. Get the cash or crypto you need instantly without having to sell your portfolio. Your crypto is securely stored and returned to you when you repay.</p>\n      ",
             "newMessage": "Why invest with MyConstant?",
             "viewMore": "...more",
             "intro": {
@@ -2327,14 +2328,14 @@
     "home": {
         "constantLoan": {
             "intro": {
-                "content": "\n            <p class=\"topText\">Borrow the way you want</p>\n            <h1 class=\"hightlight\">Borrow from just {rate}% APR.</h1>\n            <h2>Combine {numCollateral}+ cryptos as collateral.</h2>\n            <h2 class=\"last\">Get cash or coins without selling up.</h2>\n            <p>Get a loan in minutes from just {rate}% APR. Withdraw in fiat, stablecoins, or trade your loan for cryptocurrency at the best prices. Your collateral is securely stored and returned when you repay. No exchanges. No trading fees. Trade or cash-in the value of your portfolio without selling up.</p>\n        ",
+                "content": "\n            <h1>Get a <span class=\"orange\">crypto-backed loan</span> against multi-coin collateral.</h1>\n            <p>Borrow against your multi-crypto portfolio in minutes from just {rate}% APR. Withdraw in fiat, stablecoins, or trade your loan for cryptocurrency at the best prices. Your collateral is securely stored and returned when you repay. No exchanges. No trading fees. Trade or cash-in the value of your portfolio without selling up.</p>\n        ",
                 "youtube": {
                     "title": "Why borrow with MyConstant?"
                 },
                 "desc": {
-                    "1": "Withdraw in cash or crypto",
-                    "2": "Secure escrow",
-                    "3": "No credit checks"
+                    "1": "Borrow from just {rate}% APR",
+                    "2": "Combine {numCollateral}+ cryptos as collateral",
+                    "3": "Get cash or coins without selling up"
                 }
             },
             "exchange": {
@@ -2398,7 +2399,7 @@
                 "overBorrowTerm": "At the moment, with this term and rate you can only borrow a maximum ${max} amount. Please adjust the amount of money borrowed or try again using a different term and rate. Thank you."
             },
             "what": {
-                "title": "Why borrow with us?",
+                "title": "Why borrow against your crypto with MyConstant?",
                 "data": {
                     "0": {
                         "title": "Withdraw in fiat or crypto",
@@ -2423,7 +2424,7 @@
                 }
             },
             "howItWorks": {
-                "title": "How it works",
+                "title": "How to get a crypto-backed loan",
                 "data": {
                     "0": {
                         "title": "{step}. Choose a term",
@@ -3340,15 +3341,15 @@
                 "validateReferralPromotionAmountMax": "The maximum you can lend is ${amount}"
             },
             "intro": {
-                "content": "\n            <p class=\"topText\">Invest the way you want</p>\n            <div class=\"h1\" style=\"color:#F5A623;\">Earn 20x more than a CD<sup>*</sup>.</div>\n            <div class=\"h1\">Start investing from just $10.</div>\n            <h1>Instant access or fixed terms.</h1>\n            <p />\n            <p>Invest in people and businesses around the world for a return of up to {rate}% APR. Withdraw anytime for free or invest in a fixed-term loan for the best rates. All lending is backed by cryptocurrency collateral. No fees.</p>\n        ",
+                "content": "\n          <h1><span class=\"orange\">Lend money online</span> to earn up to 20x better interest than a Certificate of deposit (CD).</h1>\n          <p>Earn up to {rate}% APR by investing in P2P loans to people and businesses around the world. Withdraw anytime for free or invest in a fixed-term loan for the best rates. All lending is backed by cryptocurrency collateral. No fees.</p>\n        ",
                 "contentPromotion": "\n            <p class=\"topText\">Invest the way you want</p>\n            <h1 style=\"color:#F5A623;\">Earn {promotionRate}% APR on your <br/>first 30-day investment.</h1>\n            <p>Triple your returns on your first fixed-term investment. Lend at least ${promotionAmount} for 30 days and you’ll earn {promotionRate}% APR<sup>*</sup> (up to 9x higher than a CD). All lending is backed by collateral which is sold if the borrower defaults. No fees. When your investment matures, withdraw or reinvest for free.</p>\n            <p class=\"reference\"><sup>*</sup> To qualify, you must invest within 30 days of passing KYC. The {promotionRate}% APR introductory rate applies to the first ${promotionAmount} of your investment only (you’ll earn our usual 6% APR rate on any remaining amount).</p>\n        ",
                 "youtube": {
                     "title": "Why invest with MyConstant?"
                 },
                 "desc": {
-                    "1": "All lending backed by crypto",
-                    "2": "Instant access or fixed term",
-                    "3": "24/7 customer support"
+                    "1": "Earn 20x more than a CD",
+                    "2": "Start investing from just $10",
+                    "3": "Instant access or fixed terms"
                 }
             },
             "alert": {
@@ -3478,7 +3479,7 @@
             }
         },
         "whyInvest": {
-            "title": "Why invest with us?",
+            "title": "Why lend money online with MyConstant?",
             "data": {
                 "0": {
                     "title": "Immediate returns",
@@ -3503,7 +3504,7 @@
             }
         },
         "howItWorks": {
-            "title": "How to invest",
+            "title": "How to lend money on MyConstant",
             "data": {
                 "0": {
                     "title": "1. Set your own terms",
@@ -4047,17 +4048,18 @@
         }
     },
     "depositFiat": {
-        "contentHtml": "\n        <h1 class=\"hightlight\">Top up your USD account.</h1>\n        <div class=\"h1\">Send via ACH, wire.</div>\n        <div class=\"h1 last\">Insure or invest your balance.</div>\n        <p>Deposit USD into your MyConstant account through our licensed custodian, Prime Trust. Earn an automatic {interest}% APY on your available balance or store it in an insured escrow. Link up to two US bank accounts for ACH transfers through Plaid. No fees.</p>",
+        "contentHtml": "\n        <h1><span class=\"orange\">Deposit money online</span> to earn interest, compounded and paid every second.</h1>\n        <p>Deposit your USD online into your MyConstant account through our licensed custodian, Prime Trust. Earn an automatic {interest}% APY interest, compounded and paid every second, or store it in an insured escrow. Link up to two US bank accounts for ACH transfers through Plaid. No fees.</p>",
         "learnMore": "Learn more here",
         "intro": {
             "desc": {
-                "1": "Multiple markets",
-                "2": "Compounded & paid every second",
-                "3": "Unlimited free withdrawals"
+                "1": "Top up your USD account",
+                "2": "Earn up to 50x better interest than a Savings Account",
+                "3": "Send via ACH, wire",
+                "4": "Insure or invest your balance"
             }
         },
         "howItWorks": {
-            "title": "How it works",
+            "title": "How to deposit your money on MyConstant",
             "data": {
                 "0": {
                     "desc": "Create your deposit order"
@@ -4075,52 +4077,17 @@
                     "desc": "Invest in a fixed-term loan or withdraw at anytime for free."
                 }
             }
-        },
-        "faqs": {
-            "0": {
-                "question": "How do I deposit?",
-                "answer": "\n          <p>To deposit into your MyConstant account, click <strong>Make a deposit</strong> from <a href=\"/accounts\" class=\"underline\">your Accounts page</a> or visit the <a href=\"/deposit-fiat\" class=\"underline\">deposit page</a> directly.</p>\n          <p>Choose how much you want to deposit and then click <strong>Deposit now</strong>.</p>\n          <p>On the next screen, you can choose from three deposit methods. We support ACH transfers for linked US accounts up to $5,000, and wire transfers which are unlimited.</p>\n          <p>Choose the appropriate deposit method and then follow the on-screen instructions. If you don’t have a linked US bank account, you can set one up using the on-screen link.</p>\n          <p>Once we receive your deposit, which may take 1-5 business days depending on the method you choose, your balance will update within 1 business day.</p>\n          <p>Please note, non-diamond members are only allowed to have 1 active ACH transfer active at a time.</p>\n          <p>Please read our <a href=\"/getPrices\" class=\"underline\">service times</a> for more information.</p>\n        "
-            },
-            "1": {
-                "question": "How do I insure my deposits?",
-                "answer": "\n          <p>Your balance earns 4% APY by default through <a href=\"/flex\" class=\"underline\">Instant-access investing</a>, our anytime-withdrawal investment account. If you’d prefer not to use Instant-access investing, you can disable it from <a href=\"/accounts\" class=\"underline\">your Accounts page</a> (under Accounts detail).</p>\n          <p>Disabling Instant-access investing means your money will remain with Prime Trust, our accredited US custodian, who will store your funds across multiple insured bank accounts to an aggregate limit of $130,000,000. You will be able to withdraw uninvested funds at anytime for free, but you won’t earn any interest on your balance.</p>\n        "
-            },
-            "2": {
-                "question": "What deposit methods do you accept?",
-                "answer": "\n          <p>We currently support ACH transfers for <a href=\"https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/\" class=\"underline\" target=\"_blank\">linked US accounts</a> up to $5,000 per transaction, and wire transfers which are unlimited.</p>\n          <p>In the interest of security, we’re in the process of moving all cash management to our custodial partner, Prime Trust. This means in the future we won’t need to handle your funds at all.</p>\n          <p>However, we’re somewhat limited by the deposit methods Prime Trust accept, and it’s likely Zelle will be phased out in the next few months.</p>\n        "
-            },
-            "3": {
-                "question": "How long do deposits take?",
-                "answer": "\n          <p>This depends on the deposit method you choose.</p>\n          <p>Here’s a brief summary:</p>\n          <p>\n            <div>ACH: 3-5 business days.</div>\n            <div>Wire: 1-2 business days.</div>\n          </p>\n          <p>Your bank might delay these times if they need a manual review or there’s missing information. For a full breakdown of timings, please <a href=\"/getPrices\" class=\"underline\">check out our service times</a>.</p>\n        "
-            },
-            "4": {
-                "question": "Are there any limits on deposits?",
-                "answer": "\n          <p>Yes. We currently support ACH transfers for <a href=\"https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/\" class=\"underline\" target=\"_blank\">linked US accounts</a> up to $5,000. The maximum you can send via a linked US account is $50,000 per day. Wire transfers are unlimited.</p>\n        "
-            },
-            "5": {
-                "question": "What’s the difference between a wire and an ACH bank transfer?",
-                "answer": "\n          <p>A wire is typically faster and more expensive than an ACH. Wires are settled between banks and are considered “cleared” money and can’t be reversed.</p>\n          <p>ACH transfers, on the other hand, are settled in batches by an automated clearing system. This makes them much cheaper than wires, but mistakes result in reversals, and repeated reversals will incur fees.</p>\n        "
-            },
-            "6": {
-                "question": "How do I link my bank account for ACH transfers?",
-                "answer": "\n          <p>Please check out <a href=\"https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/\" class=\"underline\" target=\"_blank\">our guide</a> for step-by-step instructions.</p>\n        "
-            },
-            "7": {
-                "question": "What is an ACH reversal and how can I avoid them?",
-                "answer": "\n          <p>ACH reversals happen when the transfer gets canceled. Usually because of incorrect information, duplicate transfers, insufficient funds, or the bank account doesn’t support ACH transfers. To avoid ACH reversals, please ensure you:</p>\n          <p>\n            <ol>\n              <li>Link a bank account that supports ACH.</li>\n              <li>Have enough money in your account for at least 48 hours after your ACH request.</li>\n              <li>Link a checking account, not a savings account, to avoid any withdrawal limits.</li>\n            </ol>\n          </p>\n          <p>If your account incurs multiple ACH reversals you’ll lose your Instant Credit benefits and might be charged a fee of up to $20. Please read <a href=\"https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/\" class=\"underline\" target=\"_blank\">our guide</a> carefully to learn how to correctly link a US bank account for ACH transfers.</p>\n        "
-            },
-            "8": {
-                "question": "Why can’t I send an ACH from outside the US?",
-                "answer": "\n          <p>Our custodial partner, Prime Trust, accepts ACH through Plaid, an ACH processor. At the moment, you can only link US bank accounts through Plaid. If you bank outside of the US, please send a wire instead.</p>\n        "
-            },
-            "9": {
-                "question": "What are Instant Credits?",
-                "answer": "\n          <p>Instant Credits is a program we developed to pay you interest on ACH deposits while they’re being processed. ACH transfers can take up to 5 business days and your funds wouldn’t normally earn interest during this time. But with Instant Credits, you earn 4% APY from the moment you create the ACH transfer.</p>\n          <p>Until your ACH has finished processing, you won’t be able to withdraw or invest your deposit in a crypto-backed or Loan Originator loan. Instant Credits transaction limits are calculated using the formula below:</p>\n          <p class=\"font-italic\">Your Instant Credit Limit = Your current balance + $1,000 (max $25,000 per transaction)</p>\n          <p>For example, if your balance is $5,000, your Instant Credit limit is $6,000. This means you’ll earn 4% APY on a transaction of up to $6,000 while your ACH is processed.</p>\n        "
-            }
         }
     },
     "depositCrypto": {
-        "contentHtml": "\n      <h1 class=\"hightlight\">Deposit {numCollateral} supported cryptos.</h1>\n      <div class=\"h1\">Earn 4% APY on your idle stablecoins.</div>\n      <div class=\"h1 last\">Borrow instantly against your portfolio.</div>\n      <p>Deposit cryptocurrencies and stablecoins to your MyConstant wallet. Earn an automatic 4% APY on all USD-backed stablecoin deposits. Get an instant multi-collateral credit line from just 6% APR. Top-up collateral automatically when markets fall.</p>\n      <p><a href=\"/getprices\" class=\"underline\" target=\"_blank\">How long will it take to process your deposit?</a></p>\n      <p><a href=\"https://blog.myconstant.com/how-we-protect-your-money-and-collateral/\" class=\"underline\" target=\"_blank\">How we protect your assets</a></p>\n    ",
+        "contentHtml": "\n      <h1>Your online <span class=\"orange\">multi-cryptocurrency wallet</span><br/> for lending and borrowing.</h1>\n      <p>Deposit cryptocurrencies and stablecoins to your MyConstant wallet. Earn an automatic 4% APY on all USD-backed stablecoin deposits. Get an instant multi-collateral credit line from just 6% APR. Top-up collateral automatically when markets fall.</p>\n      <p><a href=\"/getprices\" class=\"underline\" target=\"_blank\">How long will it take to process your deposit?</a></p>\n      <p><a href=\"https://blog.myconstant.com/how-we-protect-your-money-and-collateral/\" class=\"underline\" target=\"_blank\">How we protect your assets</a></p>\n    ",
+        "intro": {
+            "desc": {
+                "1": "Deposit {numCollateral} supported cryptos",
+                "2": "Earn {flexInterest}% APY on your idle stablecoins",
+                "3": "Borrow instantly against your portfolio"
+            }
+        },
         "howItWorks": {
             "title": "How it works",
             "data": {
@@ -4143,17 +4110,17 @@
         }
     },
     "cryptoLend": {
-        "contentHtml": "\n      <p class=\"topText\">Lend your idle cryptos</p>\n      <h1 class=\"hightlight\">Earn up to {prvInterest}% APR.</h1>\n      <h2>Invest BTC, ETH, and BNB.</h2>\n      <h2 class=\"last\">No fees, penalties, or lock-ups.</h2>\n      <p>Invest your idle cryptocurrencies and get up to {prvInterest}% APR. Unlock the best rate when you receive interest in PRV. Otherwise, earn {interest}% APY in BTC, ETH, or BNB, compounded and paid every second. Withdraw interest and principal anytime. All lending backed by MyConstant Guarantee<sup>1</sup>.</p>\n      <p><sup>1</sup>The MyConstant Guarantee defines a limit of investment within which MyConstant can protect invested funds from loss or theft while in the custody of third parties.</p>\n    ",
+        "contentHtml": "\n      <h1><span class=\"orange\">Earn interest on your cryptos</span> with our P2P crypto-lending platform</h1>\n      <p>Lend your cryptocurrencies to earn up to {prvInterest}% APR. Unlock the best rate when you receive interest in PRV. Otherwise, earn {interest}% APY in BTC, ETH, or BNB, compounded and paid every second. Withdraw interest and principal anytime. All lending backed by MyConstant Guarantee<sup>1</sup>.</p>\n      <p><sup>1</sup>The MyConstant Guarantee defines a limit of investment within which MyConstant can protect invested funds from loss or theft while in the custody of third parties.</p>\n    ",
         "learnMore": "Learn more here",
         "intro": {
             "desc": {
-                "1": "Investments protected by MyConstant Guarantee",
-                "2": "Interest compounded and paid every second",
-                "3": "Withdraw anytime"
+                "1": "Earn up to {prvInterest}% APR",
+                "2": "Invest BTC, ETH, and BNB",
+                "3": "No fees, penalties, or lock-ups"
             }
         },
         "whyInvest": {
-            "title": "Why invest with us?",
+            "title": "Why lend crypto on MyConstant?",
             "data": {
                 "0": {
                     "title": "Immediate growth",
@@ -4174,7 +4141,7 @@
             }
         },
         "howItWorks": {
-            "title": "How it works",
+            "title": "How crypto lending works",
             "data": {
                 "0": {
                     "title": "Deposit your crypto",
@@ -5186,6 +5153,7 @@
         "btnSecondaryMarket": "Secondary market",
         "btnLOSecondaryMarket": "<div class=\"textLeft\"><small>Secondary market</small><div>Loan Originator</div></div>",
         "btnLoans": "Loans",
+        "btnShortSelling": "Short selling",
         "btnLoansC2C": "Crypto Credit",
         "btnLoanSettings": "<div class=\"textLeft\"><small>Loan</small><div>Settings</div></div>",
         "btnSpending": "Gift Cards",
@@ -5541,7 +5509,8 @@
         "makeLocalOrderFailed": "Sorry, we couldn't create your order this time. Please try again. If you continue experiencing problems, please contact us at hello@myconstant.com. Thank you.",
         "invalid_amount": "Invalid amount, please check your amount and try again",
         "validation_error": "Ensure that there are no more than 10 digits before the decimal point.",
-        "zelleOverLimit": "Sorry, Zelle restrictions mean we're unable to process any further Zelle deposit at the moment."
+        "zelleOverLimit": "Sorry, Zelle restrictions mean we're unable to process any further Zelle deposit at the moment.",
+        "not_able_to_generate_ref_code": "Oops, we couldn't generate a reference code for your deposit. Please refresh this page and try again. If the problem continues, drop us an email at hello@myconstant.com."
     },
     "send": {
         "invalidBankAccountName": "For your security, the beneficiary name must match the name you registered when signing up with MyConstant. Please enter a different name or email hello@myconstant.com if you need help",
