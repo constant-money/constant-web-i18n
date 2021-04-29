@@ -1366,7 +1366,6 @@ export default {
       titleAddBank: 'Add a new bank',
       routingNumber: 'Routing number',
       achCheckType: 'Ach Check Type',
-
       bankAccountType: 'Bank Account Type',
       beneficiaryStreet: 'Beneficiary street',
       beneficiaryRegion: 'Beneficiary region',
