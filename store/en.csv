@@ -1327,7 +1327,7 @@ in case of default."
 %%%.headerBar.extraMenuMobile.borrowPRV.desc%%%,"Borrow against PRV from 6% APR. Secure escrow. No credit checks"
 %%%.headerBar.extraMenuMobile.pro.desc%%%,"Track rates. Buy and sell investments."
 %%%.ourPress.title%%%,"Our <span style=""color: #F9A00F"">Press</span>"
-%%%.ourPress.desc%%%,"<p>Our high-yield, collateral-backed investments have gotten a lot of press. Click <strong>View press</strong> below to find out what finance’s most respected publications think about us.</p>"
+%%%.ourPress.desc%%%,"<p>Our high-yield, collateral-backed, peer-to-peer investments have gotten a lot of press. Click <strong>View press</strong> below to find out what finance’s most respected publications think about us.</p>"
 %%%.testimonials.title%%%,"Let’s get to know each other better"
 %%%.testimonials.desc%%%,"Transparency is important to us. Below, you’ll find reviews, testimonials, case studies, and other important information so you can use our platform with confidence."
 %%%.testimonials.viewAll%%%,"View All"
@@ -1346,15 +1346,15 @@ in case of default."
 %%%.newHome.whyItBetter.data.4.desc%%%,"As long as you have the <a class=""glossary-word"">collateral</a> to back your loan, you’re always approved."
 %%%.newHome.whyItBetter2.title%%%,"You deserve a better rate"
 %%%.newHome.whyItBetter2.desc%%%,"<p>The top US banks lend your deposits but keep most of the profits. With us, you keep all the interest you make – up to {investRate}% APR, which is over 20x better interest than a CD.</p>"
-%%%.newHome.howItWorks.title%%%,"How it works"
+%%%.newHome.howItWorks.title%%%,"How MyConstant works"
 %%%.newHome.howItWorks.desc%%%,"MyConstant connects investors with borrowers to do business together. Crypto <a class=""glossary-word"">collateral</a> backs investors’ funds while our custodial partner safely manages the movement of funds and collateral."
 %%%.newHome.howItWorks.data.0.title%%%,"Investors"
 %%%.newHome.howItWorks.data.0.desc%%%,"Investors deposit any amount and choose to either Lend USD or Lend Crypto."
 %%%.newHome.howItWorks.data.1.title%%%,"Collateralized borrowers"
 %%%.newHome.howItWorks.data.1.desc%%%,"Borrowers must put up to 200% of the loan amount in <a class=""glossary-word"">cryptocurrency</a> or a portfolio of cryptocurrencies to obtain the loan."
-%%%.newHome.banner.title1%%%,"Experience multi-market <span style=""color:#F5A623;"">peer-to-peer</span> lending."
+%%%.newHome.banner.title%%%,"Invest in global <span style=""color:#F5A623;"">peer-to-peer (P2P)</span> lending with USD or crypto."
 %%%.newHome.banner.subTitle%%%,"
-        <p>Invest in people and businesses around the world for up to {investRate}% <a class=""glossary-word"">APR</a>. All lending is backed by cryptocurrency <a class=""glossary-word"">collateral</a>. Earn across multiple markets, spreading risk and maximizing reward. No investing fees. Free USD withdrawals. 24-7 customer support.</p>
+        <p> P2P lending allows you to invest in people and businesses around the world for up to {investRate}% <a class=""glossary-word"">APR</a>.  7% APR. All lending is backed by cryptocurrency <a class=""glossary-word"">collateral</a>. Earn across multiple markets, spreading risk and maximizing reward. No investing fees. Free USD withdrawals. 24-7 customer support.</p>
         <p>Or borrow against {numCollateral}+ cryptocurrencies from just {borrowRate}% <a class=""glossary-word"">APR</a>. Get the cash or crypto you need instantly without having to sell your portfolio. Your crypto is securely stored and returned to you when you repay.</p>
       "
 %%%.newHome.banner.newMessage%%%,"Why invest with MyConstant?"
@@ -1654,16 +1654,13 @@ Crypto Collateral"
 %%%.modules.faqs.viewLess%%%,"View less"
 %%%.modules.faqs.explore_our_app%%%,"<span style=""color: #F9A00F"">Explore</span> our app"
 %%%.home.constantLoan.intro.content%%%,"
-            <p class=""topText"">Borrow the way you want</p>
-            <h1 class=""hightlight"">Borrow from just {rate}% APR.</h1>
-            <h2>Combine {numCollateral}+ cryptos as collateral.</h2>
-            <h2 class=""last"">Get cash or coins without selling up.</h2>
-            <p>Get a loan in minutes from just {rate}% APR. Withdraw in fiat, stablecoins, or trade your loan for cryptocurrency at the best prices. Your collateral is securely stored and returned when you repay. No exchanges. No trading fees. Trade or cash-in the value of your portfolio without selling up.</p>
+            <h1>Get a <span class=""orange"">crypto-backed loan</span> against multi-coin collateral.</h1>
+            <p>Borrow against your multi-crypto portfolio in minutes from just {rate}% APR. Withdraw in fiat, stablecoins, or trade your loan for cryptocurrency at the best prices. Your collateral is securely stored and returned when you repay. No exchanges. No trading fees. Trade or cash-in the value of your portfolio without selling up.</p>
         "
 %%%.home.constantLoan.intro.youtube.title%%%,"Why borrow with MyConstant?"
-%%%.home.constantLoan.intro.desc.1%%%,"Withdraw in cash or crypto"
-%%%.home.constantLoan.intro.desc.2%%%,"Secure escrow"
-%%%.home.constantLoan.intro.desc.3%%%,"No credit checks"
+%%%.home.constantLoan.intro.desc.1%%%,"Borrow from just {rate}% APR"
+%%%.home.constantLoan.intro.desc.2%%%,"Combine {numCollateral}+ cryptos as collateral"
+%%%.home.constantLoan.intro.desc.3%%%,"Get cash or coins without selling up"
 %%%.home.constantLoan.exchange.amountLabel%%%,"How much do you want to borrow?"
 %%%.home.constantLoan.exchange.collateralRequiredLabel%%%,"Collateral required ({value}% LTV)"
 %%%.home.constantLoan.exchange.minTerm%%%,"Length of term"
@@ -1726,7 +1723,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.home.constantLoan.exchange.overCollateralCap%%%,"We've reached our collateral limit on new loans against {symbol}. Please choose another cryptocurrency as collateral."
 %%%.home.constantLoan.exchange.overBorrowAmount%%%,"Sorry, the maximum you can borrow in one order is ${max}. Please choose a smaller amount and try again. <a href=""#landing-faqs"">Why is there a maximum?</a>"
 %%%.home.constantLoan.exchange.overBorrowTerm%%%,"At the moment, with this term and rate you can only borrow a maximum ${max} amount. Please adjust the amount of money borrowed or try again using a different term and rate. Thank you."
-%%%.home.constantLoan.what.title%%%,"Why borrow with us?"
+%%%.home.constantLoan.what.title%%%,"Why borrow against your crypto with MyConstant?"
 %%%.home.constantLoan.what.data.0.title%%%,"Withdraw in fiat or crypto"
 %%%.home.constantLoan.what.data.0.desc%%%,"<p>Get USD straight to your bank account or trade your loan for cryptocurrency. We search multiple exchanges for the best prices in the market and never charge you trading fees.</p>"
 %%%.home.constantLoan.what.data.1.title%%%,"Flexible terms"
@@ -1737,7 +1734,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.home.constantLoan.what.data.3.desc%%%,"<p>Smart contracts and Prime Trust custody protect your collateral while ensuring we can return it to you as quickly as possible.</p>"
 %%%.home.constantLoan.what.data.4.title%%%,"No credit scoring"
 %%%.home.constantLoan.what.data.4.desc%%%,"<p>No credit scoring or background checks. Get funds instantly, no month-long waiting games for approval.</p>"
-%%%.home.constantLoan.howItWorks.title%%%,"How it works"
+%%%.home.constantLoan.howItWorks.title%%%,"How to get a crypto-backed loan"
 %%%.home.constantLoan.howItWorks.data.0.title%%%,"{step}. Choose a term"
 %%%.home.constantLoan.howItWorks.data.0.desc%%%,"<p>Borrow any amount for 30, 90, or 180 days. The shorter your term, the lower the interest.</p>"
 %%%.home.constantLoan.howItWorks.data.1.title%%%,"{step}. Choose cash or crypto"
@@ -2490,12 +2487,8 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.home1.lendingSection.form.btnKyc1%%%,"<a>Verify your ID</a> to invest"
 %%%.home1.lendingSection.form.validateReferralPromotionAmountMax%%%,"The maximum you can lend is ${amount}"
 %%%.home1.lendingSection.intro.content%%%,"
-            <p class=""topText"">Invest the way you want</p>
-            <div class=""h1"" style=""color:#F5A623;"">Earn 20x more than a CD<sup>*</sup>.</div>
-            <div class=""h1"">Start investing from just $10.</div>
-            <h1>Instant access or fixed terms.</h1>
-            <p />
-            <p>Invest in people and businesses around the world for a return of up to {rate}% APR. Withdraw anytime for free or invest in a fixed-term loan for the best rates. All lending is backed by cryptocurrency collateral. No fees.</p>
+          <h1><span class=""orange"">Lend money online</span> to earn up to 20x better interest than a Certificate of deposit (CD).</h1>
+          <p>Earn up to {rate}% APR by investing in P2P loans to people and businesses around the world. Withdraw anytime for free or invest in a fixed-term loan for the best rates. All lending is backed by cryptocurrency collateral. No fees.</p>
         "
 %%%.home1.lendingSection.intro.contentPromotion%%%,"
             <p class=""topText"">Invest the way you want</p>
@@ -2504,9 +2497,9 @@ Click confirm to start your term and receive your loan. Once your term begins yo
             <p class=""reference""><sup>*</sup> To qualify, you must invest within 30 days of passing KYC. The {promotionRate}% APR introductory rate applies to the first ${promotionAmount} of your investment only (you’ll earn our usual 6% APR rate on any remaining amount).</p>
         "
 %%%.home1.lendingSection.intro.youtube.title%%%,"Why invest with MyConstant?"
-%%%.home1.lendingSection.intro.desc.1%%%,"All lending backed by crypto"
-%%%.home1.lendingSection.intro.desc.2%%%,"Instant access or fixed term"
-%%%.home1.lendingSection.intro.desc.3%%%,"24/7 customer support"
+%%%.home1.lendingSection.intro.desc.1%%%,"Earn 20x more than a CD"
+%%%.home1.lendingSection.intro.desc.2%%%,"Start investing from just $10"
+%%%.home1.lendingSection.intro.desc.3%%%,"Instant access or fixed terms"
 %%%.home1.lendingSection.alert.investUsingBalanceConfirm%%%,"Click confirm to start your term and begin earning interest. Once you confirm, you won’t be able to cancel your investment but can sell it on our secondary market."
 %%%.home1.lendingSection.alert.investNotUsingBalanceConfirm%%%,"Click confirm and you’ll start earning interest as soon as we receive your funds. Once your term starts, you won’t be able to cancel your investment but can sell it on our secondary market."
 %%%.home1.lendingSection.alert.invalid_payment_method%%%,"To invest USD, you must be a KYC-verified US citizen. Please choose another currency to deposit."
@@ -2669,7 +2662,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
         "
 %%%.home1.lendingSection.confirm.bankChargeFeeTitle%%%,"Intermediary bank fees"
 %%%.home1.lendingSection.confirm.makeLocalOrderFailed%%%,"Sorry, we couldn't create your order this time. Please try again. If you continue experiencing problems, please contact us at hello@myconstant.com. Thank you."
-%%%.home1.whyInvest.title%%%,"Why invest with us?"
+%%%.home1.whyInvest.title%%%,"Why lend money online with MyConstant?"
 %%%.home1.whyInvest.data.0.title%%%,"Immediate returns"
 %%%.home1.whyInvest.data.0.desc%%%,"<p>Start earning interest the moment you deposit.</p>"
 %%%.home1.whyInvest.data.1.title%%%,"Flexible terms"
@@ -2685,7 +2678,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.home1.whyInvest.data.3.desc%%%,"<p>No fees to invest or withdraw USD.</p>"
 %%%.home1.whyInvest.data.4.title%%%,"24/7 customer support"
 %%%.home1.whyInvest.data.4.desc%%%,"<p>Call, email, or message us on social media at any time of the day or night.</p>"
-%%%.home1.howItWorks.title%%%,"How to invest"
+%%%.home1.howItWorks.title%%%,"How to lend money on MyConstant"
 %%%.home1.howItWorks.data.0.title%%%,"1. Set your own terms"
 %%%.home1.howItWorks.data.0.desc%%%,"Choose instant access or a fixed term of 30, 60, or 180 days."
 %%%.home1.howItWorks.data.1.title%%%,"2. Deposit your funds"
@@ -3033,28 +3026,28 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.deposit.faqs.11.question%%%,"How does MyConstant make money?"
 %%%.deposit.faqs.11.answer%%%,"Instant-access investing deposits earn interest through an API with Compound Finance, another lending platform. Compound sets interest rates according to supply and demand, and MyConstant will make a slim profit on any difference between the Instant-access investing and Compound rates."
 %%%.depositFiat.contentHtml%%%,"
-        <h1 class=""hightlight"">Top up your USD account.</h1>
-        <div class=""h1"">Send via ACH, wire.</div>
-        <div class=""h1 last"">Insure or invest your balance.</div>
-        <p>Deposit USD into your MyConstant account through our licensed custodian, Prime Trust. Earn an automatic {interest}% APY on your available balance or store it in an insured escrow. Link up to two US bank accounts for ACH transfers through Plaid. No fees.</p>"
+        <h1><span class=""orange"">Deposit money online</span> to earn interest, compounded and paid every second.</h1>
+        <p>Deposit your USD online into your MyConstant account through our licensed custodian, Prime Trust. Earn an automatic {interest}% APY interest, compounded and paid every second, or store it in an insured escrow. Link up to two US bank accounts for ACH transfers through Plaid. No fees.</p>"
 %%%.depositFiat.learnMore%%%,"Learn more here"
-%%%.depositFiat.intro.desc.1%%%,"Multiple markets"
-%%%.depositFiat.intro.desc.2%%%,"Compounded & paid every second"
-%%%.depositFiat.intro.desc.3%%%,"Unlimited free withdrawals"
-%%%.depositFiat.howItWorks.title%%%,"How it works"
+%%%.depositFiat.intro.desc.1%%%,"Top up your USD account"
+%%%.depositFiat.intro.desc.2%%%,"Earn up to 50x better interest than a Savings Account"
+%%%.depositFiat.intro.desc.3%%%,"Send via ACH, wire"
+%%%.depositFiat.intro.desc.4%%%,"Insure or invest your balance"
+%%%.depositFiat.howItWorks.title%%%,"How to deposit your money on MyConstant"
 %%%.depositFiat.howItWorks.data.0.desc%%%,"Create your deposit order"
 %%%.depositFiat.howItWorks.data.1.desc%%%,"Send your funds via wire, or ACH through a linked US bank account."
 %%%.depositFiat.howItWorks.data.2.desc%%%,"Your balance will update according to our service times."
 %%%.depositFiat.howItWorks.data.3.desc%%%,"Earn {interest}% APY or escrow your balance with Prime Trust."
 %%%.depositFiat.howItWorks.data.4.desc%%%,"Invest in a fixed-term loan or withdraw at anytime for free."
 %%%.depositCrypto.contentHtml%%%,"
-      <h1 class=""hightlight"">Deposit {numCollateral} supported cryptos.</h1>
-      <div class=""h1"">Earn 4% APY on your idle stablecoins.</div>
-      <div class=""h1 last"">Borrow instantly against your portfolio.</div>
+      <h1>Your online <span class=""orange"">multi-cryptocurrency wallet</span><br/> for lending and borrowing.</h1>
       <p>Deposit cryptocurrencies and stablecoins to your MyConstant wallet. Earn an automatic 4% APY on all USD-backed stablecoin deposits. Get an instant multi-collateral credit line from just 6% APR. Top-up collateral automatically when markets fall.</p>
       <p><a href=""/getprices"" class=""underline"" target=""_blank"">How long will it take to process your deposit?</a></p>
       <p><a href=""https://blog.myconstant.com/how-we-protect-your-money-and-collateral/"" class=""underline"" target=""_blank"">How we protect your assets</a></p>
     "
+%%%.depositCrypto.intro.desc.1%%%,"Deposit {numCollateral} supported cryptos"
+%%%.depositCrypto.intro.desc.2%%%,"Earn {flexInterest}% APY on your idle stablecoins"
+%%%.depositCrypto.intro.desc.3%%%,"Borrow instantly against your portfolio"
 %%%.depositCrypto.howItWorks.title%%%,"How it works"
 %%%.depositCrypto.howItWorks.data.0.desc%%%,"Create your deposit order"
 %%%.depositCrypto.howItWorks.data.1.desc%%%,"Copy our wallet address or scan the QR code using your wallet app."
@@ -3062,18 +3055,15 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.depositCrypto.howItWorks.data.3.desc%%%,"Borrow against your portfolio or top-up an existing loan."
 %%%.depositCrypto.howItWorks.data.4.desc%%%,"Withdraw anytime to your wallet of choice."
 %%%.cryptoLend.contentHtml%%%,"
-      <p class=""topText"">Lend your idle cryptos</p>
-      <h1 class=""hightlight"">Earn up to {prvInterest}% APR.</h1>
-      <h2>Invest BTC, ETH, and BNB.</h2>
-      <h2 class=""last"">No fees, penalties, or lock-ups.</h2>
-      <p>Invest your idle cryptocurrencies and get up to {prvInterest}% APR. Unlock the best rate when you receive interest in PRV. Otherwise, earn {interest}% APY in BTC, ETH, or BNB, compounded and paid every second. Withdraw interest and principal anytime. All lending backed by MyConstant Guarantee<sup>1</sup>.</p>
+      <h1><span class=""orange"">Earn interest on your cryptos</span> with our P2P crypto-lending platform</h1>
+      <p>Lend your cryptocurrencies to earn up to {prvInterest}% APR. Unlock the best rate when you receive interest in PRV. Otherwise, earn {interest}% APY in BTC, ETH, or BNB, compounded and paid every second. Withdraw interest and principal anytime. All lending backed by MyConstant Guarantee<sup>1</sup>.</p>
       <p><sup>1</sup>The MyConstant Guarantee defines a limit of investment within which MyConstant can protect invested funds from loss or theft while in the custody of third parties.</p>
     "
 %%%.cryptoLend.learnMore%%%,"Learn more here"
-%%%.cryptoLend.intro.desc.1%%%,"Investments protected by MyConstant Guarantee"
-%%%.cryptoLend.intro.desc.2%%%,"Interest compounded and paid every second"
-%%%.cryptoLend.intro.desc.3%%%,"Unlimited free withdrawals"
-%%%.cryptoLend.whyInvest.title%%%,"Why invest with us?"
+%%%.cryptoLend.intro.desc.1%%%,"Earn up to {prvInterest}% APR"
+%%%.cryptoLend.intro.desc.2%%%,"Invest BTC, ETH, and BNB"
+%%%.cryptoLend.intro.desc.3%%%,"No fees, penalties, or lock-ups"
+%%%.cryptoLend.whyInvest.title%%%,"Why lend crypto on MyConstant?"
 %%%.cryptoLend.whyInvest.data.0.title%%%,"Immediate growth"
 %%%.cryptoLend.whyInvest.data.0.desc%%%,"<p>Watch your crypto grow, second by second, from the moment you invest.</p>"
 %%%.cryptoLend.whyInvest.data.1.title%%%,"Earn on idle assets"
@@ -3082,7 +3072,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.cryptoLend.whyInvest.data.2.desc%%%,"<p>We don't charge you a penny to invest or deposit (though you might pay network fees to send your crypto).</p>"
 %%%.cryptoLend.whyInvest.data.3.title%%%,"Withdraw anytime"
 %%%.cryptoLend.whyInvest.data.3.desc%%%,"<p>Withdraw your cryptocurrency instantly whenever you need it. No limits.</p>"
-%%%.cryptoLend.howItWorks.title%%%,"How it works"
+%%%.cryptoLend.howItWorks.title%%%,"How crypto lending works"
 %%%.cryptoLend.howItWorks.data.0.title%%%,"Deposit your crypto"
 %%%.cryptoLend.howItWorks.data.0.desc%%%,"<p>Send your crypto to our lending pool and we’ll redistribute it among our trusted exchange partners, including the Incognito pDEX.</p>"
 %%%.cryptoLend.howItWorks.data.1.title%%%,"Earn {interest}% APY"

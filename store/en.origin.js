@@ -1847,7 +1847,7 @@
             }
         },
         "banner": {
-            "title1": "%%%.newHome.banner.title1%%%",
+            "title": "%%%.newHome.banner.title%%%",
             "subTitle": "%%%.newHome.banner.subTitle%%%",
             "newMessage": "%%%.newHome.banner.newMessage%%%",
             "viewMore": "%%%.newHome.banner.viewMore%%%",
@@ -4054,7 +4054,8 @@
             "desc": {
                 "1": "%%%.depositFiat.intro.desc.1%%%",
                 "2": "%%%.depositFiat.intro.desc.2%%%",
-                "3": "%%%.depositFiat.intro.desc.3%%%"
+                "3": "%%%.depositFiat.intro.desc.3%%%",
+                "4": "%%%.depositFiat.intro.desc.4%%%"
             }
         },
         "howItWorks": {
@@ -4080,6 +4081,13 @@
     },
     "depositCrypto": {
         "contentHtml": "%%%.depositCrypto.contentHtml%%%",
+        "intro": {
+            "desc": {
+                "1": "%%%.depositCrypto.intro.desc.1%%%",
+                "2": "%%%.depositCrypto.intro.desc.2%%%",
+                "3": "%%%.depositCrypto.intro.desc.3%%%"
+            }
+        },
         "howItWorks": {
             "title": "%%%.depositCrypto.howItWorks.title%%%",
             "data": {
