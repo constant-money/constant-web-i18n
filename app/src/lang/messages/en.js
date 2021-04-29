@@ -1366,6 +1366,7 @@ export default {
       titleAddBank: 'Add a new bank',
       routingNumber: 'Routing number',
       achCheckType: 'Ach Check Type',
+
       bankAccountType: 'Bank Account Type',
       beneficiaryStreet: 'Beneficiary street',
       beneficiaryRegion: 'Beneficiary region',
@@ -1739,7 +1740,7 @@ export default {
   },
   ourPress: {
     title: 'Our <span style="color: #F9A00F">Press</span>',
-    desc: '<p>Our high-yield, collateral-backed investments have gotten a lot of press. Click <strong>View press</strong> below to find out what finance’s most respected publications think about us.</p>',
+    desc: '<p>Our high-yield, collateral-backed, peer-to-peer investments have gotten a lot of press. Click <strong>View press</strong> below to find out what finance’s most respected publications think about us.</p>',
   },
   testimonials: {
     title: 'Let’s get to know each other better',
@@ -1781,7 +1782,7 @@ export default {
       desc: '<p>The top US banks lend your deposits but keep most of the profits. With us, you keep all the interest you make – up to {investRate}% APR, which is over 20x better interest than a CD.</p>',
     },
     howItWorks: {
-      title: 'How it works',
+      title: 'How MyConstant works',
       desc: 'MyConstant connects investors with borrowers to do business together. Crypto <a class="glossary-word">collateral</a> backs investors’ funds while our custodial partner safely manages the movement of funds and collateral.',
       data: {
         '0': {
@@ -1795,9 +1796,9 @@ export default {
       }
     },
     banner: {
-      title1: 'Experience multi-market <span style="color:#F5A623;">peer-to-peer</span> lending.',
+      title: 'Invest in global <span style="color:#F5A623;">peer-to-peer (P2P)</span> lending with USD or crypto.',
       subTitle: `
-        <p>Invest in people and businesses around the world for up to {investRate}% <a class="glossary-word">APR</a>. All lending is backed by cryptocurrency <a class="glossary-word">collateral</a>. Earn across multiple markets, spreading risk and maximizing reward. No investing fees. Free USD withdrawals. 24-7 customer support.</p>
+        <p> P2P lending allows you to invest in people and businesses around the world for up to {investRate}% <a class="glossary-word">APR</a>.  7% APR. All lending is backed by cryptocurrency <a class="glossary-word">collateral</a>. Earn across multiple markets, spreading risk and maximizing reward. No investing fees. Free USD withdrawals. 24-7 customer support.</p>
         <p>Or borrow against {numCollateral}+ cryptocurrencies from just {borrowRate}% <a class="glossary-word">APR</a>. Get the cash or crypto you need instantly without having to sell your portfolio. Your crypto is securely stored and returned to you when you repay.</p>
       `,
       newMessage: 'Why invest with MyConstant?',
@@ -2295,17 +2296,14 @@ export default {
     constantLoan: {
       intro: {
         content: `
-            <p class="topText">Borrow the way you want</p>
-            <h1 class="hightlight">Borrow from just {rate}% APR.</h1>
-            <h2>Combine {numCollateral}+ cryptos as collateral.</h2>
-            <h2 class="last">Get cash or coins without selling up.</h2>
-            <p>Get a loan in minutes from just {rate}% APR. Withdraw in fiat, stablecoins, or trade your loan for cryptocurrency at the best prices. Your collateral is securely stored and returned when you repay. No exchanges. No trading fees. Trade or cash-in the value of your portfolio without selling up.</p>
+            <h1>Get a <span class="orange">crypto-backed loan</span> against multi-coin collateral.</h1>
+            <p>Borrow against your multi-crypto portfolio in minutes from just {rate}% APR. Withdraw in fiat, stablecoins, or trade your loan for cryptocurrency at the best prices. Your collateral is securely stored and returned when you repay. No exchanges. No trading fees. Trade or cash-in the value of your portfolio without selling up.</p>
         `,
         youtube: { title: 'Why borrow with MyConstant?' },
         desc: {
-          '1': 'Withdraw in cash or crypto',
-          '2': 'Secure escrow',
-          '3': 'No credit checks'
+          '1': 'Borrow from just {rate}% APR',
+          '2': 'Combine {numCollateral}+ cryptos as collateral',
+          '3': 'Get cash or coins without selling up'
         }
       },
       exchange: {
@@ -2369,7 +2367,7 @@ export default {
         overBorrowTerm: 'At the moment, with this term and rate you can only borrow a maximum ${max} amount. Please adjust the amount of money borrowed or try again using a different term and rate. Thank you.',
       },
       what: {
-        title: 'Why borrow with us?',
+        title: 'Why borrow against your crypto with MyConstant?',
         data: {
           0: {
             title: 'Withdraw in fiat or crypto',
@@ -2394,7 +2392,7 @@ export default {
         }
       },
       howItWorks: {
-        title: 'How it works',
+        title: 'How to get a crypto-backed loan',
         data: {
           0: {
             title: '{step}. Choose a term',
@@ -3319,12 +3317,8 @@ export default {
       },
       intro: {
         content: `
-            <p class="topText">Invest the way you want</p>
-            <div class="h1" style="color:#F5A623;">Earn 20x more than a CD<sup>*</sup>.</div>
-            <div class="h1">Start investing from just $10.</div>
-            <h1>Instant access or fixed terms.</h1>
-            <p />
-            <p>Invest in people and businesses around the world for a return of up to {rate}% APR. Withdraw anytime for free or invest in a fixed-term loan for the best rates. All lending is backed by cryptocurrency collateral. No fees.</p>
+          <h1><span class="orange">Lend money online</span> to earn up to 20x better interest than a Certificate of deposit (CD).</h1>
+          <p>Earn up to {rate}% APR by investing in P2P loans to people and businesses around the world. Withdraw anytime for free or invest in a fixed-term loan for the best rates. All lending is backed by cryptocurrency collateral. No fees.</p>
         `,
         contentPromotion: `
             <p class="topText">Invest the way you want</p>
@@ -3334,9 +3328,9 @@ export default {
         `,
         youtube: { title: 'Why invest with MyConstant?' },
         desc: {
-          '1': 'All lending backed by crypto',
-          '2': 'Instant access or fixed term',
-          '3': '24/7 customer support',
+          '1': 'Earn 20x more than a CD',
+          '2': 'Start investing from just $10',
+          '3': 'Instant access or fixed terms',
         }
       },
       alert: {
@@ -3531,7 +3525,7 @@ export default {
       }
     },
     whyInvest: {
-      title: 'Why invest with us?',
+      title: 'Why lend money online with MyConstant?',
       data: {
         0: {
           title: 'Immediate returns',
@@ -3561,7 +3555,7 @@ export default {
       }
     },
     howItWorks: {
-      title: 'How to invest',
+      title: 'How to lend money on MyConstant',
       data: {
         0: {
           title: '1. Set your own terms',
@@ -4098,20 +4092,19 @@ export default {
   },
   depositFiat: {
     contentHtml: `
-        <h1 class="hightlight">Top up your USD account.</h1>
-        <div class="h1">Send via ACH, wire.</div>
-        <div class="h1 last">Insure or invest your balance.</div>
-        <p>Deposit USD into your MyConstant account through our licensed custodian, Prime Trust. Earn an automatic {interest}% APY on your available balance or store it in an insured escrow. Link up to two US bank accounts for ACH transfers through Plaid. No fees.</p>`,
+        <h1><span class="orange">Deposit money online</span> to earn interest, compounded and paid every second.</h1>
+        <p>Deposit your USD online into your MyConstant account through our licensed custodian, Prime Trust. Earn an automatic {interest}% APY interest, compounded and paid every second, or store it in an insured escrow. Link up to two US bank accounts for ACH transfers through Plaid. No fees.</p>`,
     learnMore: 'Learn more here',
     intro: {
       desc: {
-        '1': 'Multiple markets',
-        '2': 'Compounded & paid every second',
-        '3': 'Unlimited free withdrawals'
+        '1': 'Top up your USD account',
+        '2': 'Earn up to 50x better interest than a Savings Account',
+        '3': 'Send via ACH, wire',
+        '4': 'Insure or invest your balance',
       }
     },
     howItWorks: {
-      title: 'How it works',
+      title: 'How to deposit your money on MyConstant',
       data: {
         0: {
           desc: 'Create your deposit order',
@@ -4133,13 +4126,18 @@ export default {
   },
   depositCrypto: {
     contentHtml: `
-      <h1 class="hightlight">Deposit {numCollateral} supported cryptos.</h1>
-      <div class="h1">Earn 4% APY on your idle stablecoins.</div>
-      <div class="h1 last">Borrow instantly against your portfolio.</div>
+      <h1>Your online <span class="orange">multi-cryptocurrency wallet</span><br/> for lending and borrowing.</h1>
       <p>Deposit cryptocurrencies and stablecoins to your MyConstant wallet. Earn an automatic 4% APY on all USD-backed stablecoin deposits. Get an instant multi-collateral credit line from just 6% APR. Top-up collateral automatically when markets fall.</p>
       <p><a href="/getprices" class="underline" target="_blank">How long will it take to process your deposit?</a></p>
       <p><a href="https://blog.myconstant.com/how-we-protect-your-money-and-collateral/" class="underline" target="_blank">How we protect your assets</a></p>
     `,
+    intro: {
+      desc: {
+        '1': 'Deposit {numCollateral} supported cryptos',
+        '2': 'Earn {flexInterest}% APY on your idle stablecoins',
+        '3': 'Borrow instantly against your portfolio',
+      }
+    },
     howItWorks: {
       title: 'How it works',
       data: {
@@ -4163,23 +4161,20 @@ export default {
   },
   cryptoLend: {
     contentHtml: `
-      <p class="topText">Lend your idle cryptos</p>
-      <h1 class="hightlight">Earn up to {prvInterest}% APR.</h1>
-      <h2>Invest BTC, ETH, and BNB.</h2>
-      <h2 class="last">No fees, penalties, or lock-ups.</h2>
-      <p>Invest your idle cryptocurrencies and get up to {prvInterest}% APR. Unlock the best rate when you receive interest in PRV. Otherwise, earn {interest}% APY in BTC, ETH, or BNB, compounded and paid every second. Withdraw interest and principal anytime. All lending backed by MyConstant Guarantee<sup>1</sup>.</p>
+      <h1><span class="orange">Earn interest on your cryptos</span> with our P2P crypto-lending platform</h1>
+      <p>Lend your cryptocurrencies to earn up to {prvInterest}% APR. Unlock the best rate when you receive interest in PRV. Otherwise, earn {interest}% APY in BTC, ETH, or BNB, compounded and paid every second. Withdraw interest and principal anytime. All lending backed by MyConstant Guarantee<sup>1</sup>.</p>
       <p><sup>1</sup>The MyConstant Guarantee defines a limit of investment within which MyConstant can protect invested funds from loss or theft while in the custody of third parties.</p>
     `,
     learnMore: 'Learn more here',
     intro: {
       desc: {
-        1: 'Investments protected by MyConstant Guarantee',
-        2: 'Interest compounded and paid every second',
-        3: 'Unlimited free withdrawals',
+        1: 'Earn up to {prvInterest}% APR',
+        2: 'Invest BTC, ETH, and BNB',
+        3: 'No fees, penalties, or lock-ups',
       }
     },
     whyInvest: {
-      title: 'Why invest with us?',
+      title: 'Why lend crypto on MyConstant?',
       data: {
         0: {
           title: 'Immediate growth',
@@ -4200,7 +4195,7 @@ export default {
       }
     },
     howItWorks: {
-      title: 'How it works',
+      title: 'How crypto lending works',
       data: {
         0: {
           title: 'Deposit your crypto',

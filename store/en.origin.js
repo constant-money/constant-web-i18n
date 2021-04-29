@@ -1412,6 +1412,7 @@
             "beneficiaryStreet": "%%%.me.bankInfo.beneficiaryStreet%%%",
             "beneficiaryRegion": "%%%.me.bankInfo.beneficiaryRegion%%%",
             "beneficiaryPostalCode": "%%%.me.bankInfo.beneficiaryPostalCode%%%",
+            "iban": "%%%.me.bankInfo.iban%%%",
             "linkBankSectionTitle": "%%%.me.bankInfo.linkBankSectionTitle%%%",
             "linkBankSectionDesc": "%%%.me.bankInfo.linkBankSectionDesc%%%",
             "linkBankImportantNote": "%%%.me.bankInfo.linkBankImportantNote%%%",
@@ -4075,48 +4076,6 @@
                     "desc": "%%%.depositFiat.howItWorks.data.4.desc%%%"
                 }
             }
-        },
-        "faqs": {
-            "0": {
-                "question": "%%%.depositFiat.faqs.0.question%%%",
-                "answer": "%%%.depositFiat.faqs.0.answer%%%"
-            },
-            "1": {
-                "question": "%%%.depositFiat.faqs.1.question%%%",
-                "answer": "%%%.depositFiat.faqs.1.answer%%%"
-            },
-            "2": {
-                "question": "%%%.depositFiat.faqs.2.question%%%",
-                "answer": "%%%.depositFiat.faqs.2.answer%%%"
-            },
-            "3": {
-                "question": "%%%.depositFiat.faqs.3.question%%%",
-                "answer": "%%%.depositFiat.faqs.3.answer%%%"
-            },
-            "4": {
-                "question": "%%%.depositFiat.faqs.4.question%%%",
-                "answer": "%%%.depositFiat.faqs.4.answer%%%"
-            },
-            "5": {
-                "question": "%%%.depositFiat.faqs.5.question%%%",
-                "answer": "%%%.depositFiat.faqs.5.answer%%%"
-            },
-            "6": {
-                "question": "%%%.depositFiat.faqs.6.question%%%",
-                "answer": "%%%.depositFiat.faqs.6.answer%%%"
-            },
-            "7": {
-                "question": "%%%.depositFiat.faqs.7.question%%%",
-                "answer": "%%%.depositFiat.faqs.7.answer%%%"
-            },
-            "8": {
-                "question": "%%%.depositFiat.faqs.8.question%%%",
-                "answer": "%%%.depositFiat.faqs.8.answer%%%"
-            },
-            "9": {
-                "question": "%%%.depositFiat.faqs.9.question%%%",
-                "answer": "%%%.depositFiat.faqs.9.answer%%%"
-            }
         }
     },
     "depositCrypto": {
@@ -5186,6 +5145,7 @@
         "btnSecondaryMarket": "%%%.menuMobile.btnSecondaryMarket%%%",
         "btnLOSecondaryMarket": "%%%.menuMobile.btnLOSecondaryMarket%%%",
         "btnLoans": "%%%.menuMobile.btnLoans%%%",
+        "btnShortSelling": "%%%.menuMobile.btnShortSelling%%%",
         "btnLoansC2C": "%%%.menuMobile.btnLoansC2C%%%",
         "btnLoanSettings": "%%%.menuMobile.btnLoanSettings%%%",
         "btnSpending": "%%%.menuMobile.btnSpending%%%",
@@ -5541,7 +5501,8 @@
         "makeLocalOrderFailed": "%%%.saving.makeLocalOrderFailed%%%",
         "invalid_amount": "%%%.saving.invalid_amount%%%",
         "validation_error": "%%%.saving.validation_error%%%",
-        "zelleOverLimit": "%%%.saving.zelleOverLimit%%%"
+        "zelleOverLimit": "%%%.saving.zelleOverLimit%%%",
+        "not_able_to_generate_ref_code": "%%%.saving.not_able_to_generate_ref_code%%%"
     },
     "send": {
         "invalidBankAccountName": "%%%.send.invalidBankAccountName%%%",
