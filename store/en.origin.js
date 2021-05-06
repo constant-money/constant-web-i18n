@@ -538,7 +538,8 @@
                 "collateralAmount": "%%%.history.shortSelling.headers.collateralAmount%%%",
                 "fee": "%%%.history.shortSelling.headers.fee%%%",
                 "from": "%%%.history.shortSelling.headers.from%%%",
-                "to": "%%%.history.shortSelling.headers.to%%%"
+                "to": "%%%.history.shortSelling.headers.to%%%",
+                "status": "%%%.history.shortSelling.headers.status%%%"
             }
         }
     },
@@ -1372,7 +1373,6 @@
             "lUpload": "%%%.me.kyc.lUpload%%%",
             "lUploadOcr": "%%%.me.kyc.lUploadOcr%%%",
             "descIDUpload": "%%%.me.kyc.descIDUpload%%%",
-            "descIDOcrUpload": "%%%.me.kyc.descIDOcrUpload%%%",
             "selfie": "%%%.me.kyc.selfie%%%",
             "btnSubmit": "%%%.me.kyc.btnSubmit%%%",
             "plAddrCountry": "%%%.me.kyc.plAddrCountry%%%",
@@ -1381,11 +1381,15 @@
             "lAddrUpload": "%%%.me.kyc.lAddrUpload%%%",
             "descAddrUpload": "%%%.me.kyc.descAddrUpload%%%",
             "btnBack": "%%%.me.kyc.btnBack%%%",
+            "verified": "%%%.me.kyc.verified%%%",
+            "verifiedNonUS": "%%%.me.kyc.verifiedNonUS%%%",
             "reviewing": "%%%.me.kyc.reviewing%%%",
+            "reviewingNonUS": "%%%.me.kyc.reviewingNonUS%%%",
             "rejected": "%%%.me.kyc.rejected%%%",
             "uploadImageClick": "%%%.me.kyc.uploadImageClick%%%",
             "discardNoteTitle": "%%%.me.kyc.discardNoteTitle%%%",
-            "discardNote": "%%%.me.kyc.discardNote%%%"
+            "discardNote": "%%%.me.kyc.discardNote%%%",
+            "seeFullDetail": "%%%.me.kyc.seeFullDetail%%%"
         },
         "bankInfo": {
             "subject": "%%%.me.bankInfo.subject%%%",
@@ -1570,8 +1574,6 @@
             "pleaseVerify": "%%%.me.emailVerification.pleaseVerify%%%",
             "resent": "%%%.me.emailVerification.resent%%%",
             "sent": "%%%.me.emailVerification.sent%%%",
-            "sendCodeSuccess": "%%%.me.emailVerification.sendCodeSuccess%%%",
-            "sendCodeFailed": "%%%.me.emailVerification.sendCodeFailed%%%",
             "verifyFailed": "%%%.me.emailVerification.verifyFailed%%%",
             "verifySuccess": "%%%.me.emailVerification.verifySuccess%%%",
             "pleaseUpdateEmail": "%%%.me.emailVerification.pleaseUpdateEmail%%%",
@@ -1656,7 +1658,8 @@
                 "kyc": "%%%.me.getStarted.steps.kyc%%%",
                 "kycDesc": "%%%.me.getStarted.steps.kycDesc%%%",
                 "bank": "%%%.me.getStarted.steps.bank%%%",
-                "bankDesc": "%%%.me.getStarted.steps.bankDesc%%%"
+                "bankDesc": "%%%.me.getStarted.steps.bankDesc%%%",
+                "addBank": "%%%.me.getStarted.steps.addBank%%%"
             },
             "verifyEmailMessage": "%%%.me.getStarted.verifyEmailMessage%%%",
             "resendVerify": "%%%.me.getStarted.resendVerify%%%",

@@ -380,6 +380,7 @@
 %%%.history.shortSelling.headers.fee%%%,"Fee"
 %%%.history.shortSelling.headers.from%%%,"From"
 %%%.history.shortSelling.headers.to%%%,"To"
+%%%.history.shortSelling.headers.status%%%,"Status"
 %%%.me.history.source%%%,"Source"
 %%%.me.history.local%%%,"Location"
 %%%.me.history.ip%%%,"IP"
@@ -999,9 +1000,9 @@
 %%%.me.kyc.verifiedTitle%%%,"You have verified your ID"
 %%%.me.kyc.verifyingTitle%%%,"Thank you. We're processing your KYC details..."
 %%%.me.kyc.lFirstName%%%,"First Name"
-%%%.me.kyc.lMiddleName%%%,"Middle Name"
+%%%.me.kyc.lMiddleName%%%,"Mid Name (optional)"
 %%%.me.kyc.lLastName%%%,"Last Name"
-%%%.me.kyc.lBirthday%%%,"Birthday"
+%%%.me.kyc.lBirthday%%%,"Date of Birth"
 %%%.me.kyc.lGender%%%,"Gender"
 %%%.me.kyc.lTaxCountry%%%,"Country listed on your ID"
 %%%.me.kyc.lPhone%%%,"Phone Number"
@@ -1014,7 +1015,7 @@
 %%%.me.kyc.needEmail%%%,"You need to verify your email first."
 %%%.me.kyc.updateSuccess%%%,"Update successfully"
 %%%.me.kyc.plFirstName%%%,"First Name"
-%%%.me.kyc.plMiddleName%%%,"Middle Name (Optional)"
+%%%.me.kyc.plMiddleName%%%,"Mid Name (optional)"
 %%%.me.kyc.plLastName%%%,"Last Name"
 %%%.me.kyc.plEmail%%%,"Email Address"
 %%%.me.kyc.lEmail%%%,"Email Address"
@@ -1035,20 +1036,55 @@
 %%%.me.kyc.lUpload%%%,"Upload an image of THE {face} of your {type}"
 %%%.me.kyc.lUploadOcr%%%,"Upload an image of THE {face} of your ID (passport, driver's license, or other government-issued ID)"
 %%%.me.kyc.descIDUpload%%%,"Please make sure that the photo is complete and clearly visible, in JPG, JPEG, PNG, or PDF format, and is smaller than 10MB."
-%%%.me.kyc.descIDOcrUpload%%%,"Please make sure that the photo is complete and clearly visible, in JPG, JPEG, or PNG format, and is smaller than 10MB."
 %%%.me.kyc.selfie%%%,"Upload an image of your SELFIE"
 %%%.me.kyc.btnSubmit%%%,"Submit"
 %%%.me.kyc.plAddrCountry%%%,"Select your country"
 %%%.me.kyc.plAddrCity%%%,"Select your city"
-%%%.me.kyc.titleStep2%%%,"Thanks. Now we need a proof of address."
+%%%.me.kyc.titleStep2%%%,"One last step! Please provide your proof of address"
 %%%.me.kyc.lAddrUpload%%%,"To verify the address above, please upload a document that meets <a href=""https://myconstantp2p.medium.com/how-to-verify-your-id-on-constant-kyc-1a9d08ae0a"" class=""underline"" target=""_blank"" >these criteria</a>."
-%%%.me.kyc.descAddrUpload%%%,"<div><p>Valid documents: utility bill, phone bill, mortgage statement, tenancy agreement, bank/credit card statement, insurance letter (motor, home, or life), or financial statement (pension, endowment).</p><p><strong style=""color:#F5A623;"">Document must be dated within the last 90 days.</strong></p><p>Please ensure your proof of address is an exact match with the address provided in your application, including all shorthands and abbreviations.</p><p>Please make sure that the photo is complete and clearly visible, in JPG, JPEG, PNG or PDF, and is smaller than 10MB.</p></div>"
+%%%.me.kyc.descAddrUpload%%%,"
+        <p>Provide one of the below proof of address documents, which match the address provided in your KYC application.</p>
+        <div class=""row"">
+          <div class=""col"">
+            <ul>
+              <li>Utility/Phone bill</li>
+              <li>Mortgage statement</li>
+              <li>Rent agreement</li>
+            </ul>
+          </div>
+          <div class=""col"">
+            <ul>
+              <li>Bank/Credit card statement</li>
+              <li>Insurance letter</li>
+              <li>Financial statement</li>
+            </ul>
+          </div>
+        </div>
+        <div>Be sure the documents are dated within the last 90 days, and in JPG, JPEG PNG or PDF form - smaller than 10MB.</div>
+      "
 %%%.me.kyc.btnBack%%%,"Back"
-%%%.me.kyc.reviewing%%%,"        <p>Thanks, it’s nice to meet you.</p>        <p>          We’re looking over your information and will let you know once you’re          good to go.        </p>      "
-%%%.me.kyc.rejected%%%,"<p>We couldn’t verify your ID automatically, so your KYC documents are in manual review. It might take a little longer to verify you but no more than 7 business days. If you have any questions, please email us on <a href=""mailto:hello@myconstant.com"">hello@myconstant.com</a>.</p>"
+%%%.me.kyc.verified%%%,"
+        <p>You have passed the KYC on {verifiedDate} and <strong>${trialAmount} trial bonus</strong> has been credit to your account.</p>
+      "
+%%%.me.kyc.verifiedNonUS%%%,"
+        <p>You have passed the KYC on {verifiedDate}.</p>
+      "
+%%%.me.kyc.reviewing%%%,"
+        <h2>We are reviewing your application</h2>
+        <p>It may takes up to 7 business days to review your application. Once approved, <strong>${trialAmount} trial bonus</strong> will credit to your account instantly.</p>
+      "
+%%%.me.kyc.reviewingNonUS%%%,"
+        <h2>We are reviewing your application</h2>
+        <p>It may takes up to 7 business days to review your application.</p>
+      "
+%%%.me.kyc.rejected%%%,"
+        <h2>Your KYC verification is taking longer than expected</h2>
+        <p>We were unable to verify your KYC automatically, so we’re manually reviewing your application. We apologize for the delay, but rest assured, we’ll get back to you soon.</p>
+      "
 %%%.me.kyc.uploadImageClick%%%,"Click here to upload your images."
 %%%.me.kyc.discardNoteTitle%%%,"Your KYC application has not yet been approved due to:"
 %%%.me.kyc.discardNote%%%,"Please make sure all your documents are in order and just click submit again."
+%%%.me.kyc.seeFullDetail%%%,"See your full details"
 %%%.me.bankInfo.subject%%%,"Bank account details for receiving withdrawals or transfers "
 %%%.me.bankInfo.btnAdd%%%,"Add a new bank"
 %%%.me.bankInfo.emptyBank%%%,"Make a deposit to get started."
@@ -1086,7 +1122,7 @@
 %%%.me.bankInfo.errorLinkBank%%%,"<p>For further information about the error, please go <a target=""_blank"" href=""https://blog.myconstant.com/plaid-errors-and-what-to-do-about-them/"">here</a>.</p>"
 %%%.me.bankInfo.btnCancel%%%,"Cancel"
 %%%.me.bankInfo.dialog.delete.title%%%,"Confirm Delete"
-%%%.me.bankInfo.dialog.delete.body%%%,"Are you sure to delete?"
+%%%.me.bankInfo.dialog.delete.body%%%,"Are you sure you want to delete this bank account?"
 %%%.me.bankInfo.dialog.delete.confirm%%%,"Yes"
 %%%.me.bankInfo.dialog.delete.cancel%%%,"No"
 %%%.me.bankInfo.dialog.update.title%%%,"Confirm Update"
@@ -1116,7 +1152,7 @@
 %%%.me.accountInfo.nickname_note%%%,"What should we call you?"
 %%%.me.accountInfo.enable2Fa%%%,"Enable 2FA to add extra security to your account"
 %%%.me.accountInfo.alert.success%%%,"Your name was changed successfully"
-%%%.me.accountInfo.emailNotVerified%%%,"Please verify your email."
+%%%.me.accountInfo.emailNotVerified%%%,"Please verify your email"
 %%%.me.accountInfo.verifyBtn%%%,"Resend verification"
 %%%.me.accountInfo.enableSms%%%,"Enable SMS Authentication"
 %%%.me.changeRef.title%%%,"Change your referral code"
@@ -1183,14 +1219,12 @@
 %%%.me.emailVerification.pleaseVerify%%%,"Please verify your email to activate your account"
 %%%.me.emailVerification.resent%%%,"Resend email verification"
 %%%.me.emailVerification.sent%%%,"Sent email"
-%%%.me.emailVerification.sendCodeSuccess%%%,"Verify code was sent successfully to your email, please check."
-%%%.me.emailVerification.sendCodeFailed%%%,"Failed while sending verify code, please try again!"
 %%%.me.emailVerification.verifyFailed%%%,"Verify failed, please try again!"
 %%%.me.emailVerification.verifySuccess%%%,"Your email was verified successfully."
 %%%.me.emailVerification.pleaseUpdateEmail%%%,"Please update your email to activate your account"
 %%%.me.emailVerification.updateEmail%%%,"Update Email"
 %%%.me.emailVerification.alreadyVerified%%%,"Your email address has already been verified. Thank you"
-%%%.me.accountLevel.alert.sendEmailCodeSuccess%%%,"We sent a verification code to your email"
+%%%.me.accountLevel.alert.sendEmailCodeSuccess%%%,"We've sent a verification link to the email address you used to sign up. Please click the link in this email to verify your email address."
 %%%.me.smsSettings.disableSms%%%,"Disable SMS Authentication"
 %%%.me.smsSettings.inputAuthCode%%%,"Step 1: Enter your Google Authentication code."
 %%%.me.smsSettings.phoneNumber%%%,"Step 2: Enter your mobile number and then click “Send code”."
@@ -1248,10 +1282,14 @@
 %%%.me.getStarted.steps.verifyEmail%%%,"Verify email"
 %%%.me.getStarted.steps.verifyEmailDesc%%%,"Submit KYC now"
 %%%.me.getStarted.steps.kyc%%%,"Submit KYC"
-%%%.me.getStarted.steps.kycDesc%%%,"Receive <strong>${amount}</strong> trial bonus after passing KYC"
+%%%.me.getStarted.steps.kycDesc%%%,"<strong>${amount}</strong> trial bonus"
 %%%.me.getStarted.steps.bank%%%,"Link bank account"
-%%%.me.getStarted.steps.bankDesc%%%,"Receive <strong>200 points</strong> instantly"
-%%%.me.getStarted.verifyEmailMessage%%%,"<p>Done! We have sent a verification to your e-mail.<br/>Please check your mailbox.</p>"
+%%%.me.getStarted.steps.bankDesc%%%,"<strong>{value}</strong> {unit}"
+%%%.me.getStarted.steps.addBank%%%,"Add bank account"
+%%%.me.getStarted.verifyEmailMessage%%%,"
+        <h2>Verify Your Email</h2>
+        <p>Check your email and click the link to activate your account<br/>(or Spam & Junk section).</p>
+      "
 %%%.me.getStarted.resendVerify%%%,"Resend email verification"
 %%%.me.getStarted.title%%%,"<h2>Let's get you set up...</h2>"
 %%%.me.getStarted.suggestTrialBonus%%%,"<p>Get a <strong>free ${amount} trial bonus</strong> when you pass KYC.</p>"
