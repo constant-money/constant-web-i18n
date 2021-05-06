@@ -491,6 +491,7 @@ export default {
         fee: 'Fee',
         from: 'From',
         to: 'To',
+        status: 'Status',
       }
     },
   },
@@ -1294,9 +1295,9 @@ export default {
       verifiedTitle: 'You have verified your ID',
       verifyingTitle: 'Thank you. We\'re processing your KYC details...',
       lFirstName: 'First Name',
-      lMiddleName: 'Middle Name',
+      lMiddleName: 'Mid Name (optional)',
       lLastName: 'Last Name',
-      lBirthday: 'Birthday',
+      lBirthday: 'Date of Birth',
       lGender: 'Gender',
       lTaxCountry: 'Country listed on your ID',
       lPhone: 'Phone Number',
@@ -1309,7 +1310,7 @@ export default {
       needEmail: 'You need to verify your email first.',
       updateSuccess: 'Update successfully',
       plFirstName: 'First Name',
-      plMiddleName: 'Middle Name (Optional)',
+      plMiddleName: 'Mid Name (optional)',
       plLastName: 'Last Name',
       plEmail: 'Email Address',
       lEmail: 'Email Address',
@@ -1330,20 +1331,55 @@ export default {
       lUpload: 'Upload an image of THE {face} of your {type}',
       lUploadOcr: 'Upload an image of THE {face} of your ID (passport, driver\'s license, or other government-issued ID)',
       descIDUpload: 'Please make sure that the photo is complete and clearly visible, in JPG, JPEG, PNG, or PDF format, and is smaller than 10MB.',
-      descIDOcrUpload: 'Please make sure that the photo is complete and clearly visible, in JPG, JPEG, or PNG format, and is smaller than 10MB.',
       selfie: 'Upload an image of your SELFIE',
       btnSubmit: 'Submit',
       plAddrCountry: 'Select your country',
       plAddrCity: 'Select your city',
-      titleStep2: 'Thanks. Now we need a proof of address.',
+      titleStep2: 'One last step! Please provide your proof of address',
       lAddrUpload: 'To verify the address above, please upload a document that meets <a href="https://myconstantp2p.medium.com/how-to-verify-your-id-on-constant-kyc-1a9d08ae0a" class="underline" target="_blank" >these criteria</a>.',
-      descAddrUpload: '<div><p>Valid documents: utility bill, phone bill, mortgage statement, tenancy agreement, bank/credit card statement, insurance letter (motor, home, or life), or financial statement (pension, endowment).</p><p><strong style="color:#F5A623;">Document must be dated within the last 90 days.</strong></p><p>Please ensure your proof of address is an exact match with the address provided in your application, including all shorthands and abbreviations.</p><p>Please make sure that the photo is complete and clearly visible, in JPG, JPEG, PNG or PDF, and is smaller than 10MB.</p></div>',
+      descAddrUpload: `
+        <p>Provide one of the below proof of address documents, which match the address provided in your KYC application.</p>
+        <div class="row">
+          <div class="col">
+            <ul>
+              <li>Utility/Phone bill</li>
+              <li>Mortgage statement</li>
+              <li>Rent agreement</li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>Bank/Credit card statement</li>
+              <li>Insurance letter</li>
+              <li>Financial statement</li>
+            </ul>
+          </div>
+        </div>
+        <div>Be sure the documents are dated within the last 90 days, and in JPG, JPEG PNG or PDF form - smaller than 10MB.</div>
+      `,
       btnBack: 'Back',
-      reviewing: '        <p>Thanks, it’s nice to meet you.</p>        <p>          We’re looking over your information and will let you know once you’re          good to go.        </p>      ',
-      rejected: '<p>We couldn’t verify your ID automatically, so your KYC documents are in manual review. It might take a little longer to verify you but no more than 7 business days. If you have any questions, please email us on <a href="mailto:hello@myconstant.com">hello@myconstant.com</a>.</p>',
+      verified:`
+        <p>You have passed the KYC on {verifiedDate} and <strong>\${trialAmount} trial bonus</strong> has been credit to your account.</p>
+      `,
+      verifiedNonUS:`
+        <p>You have passed the KYC on {verifiedDate}.</p>
+      `,
+      reviewing:`
+        <h2>We are reviewing your application</h2>
+        <p>It may takes up to 7 business days to review your application. Once approved, <strong>\${trialAmount} trial bonus</strong> will credit to your account instantly.</p>
+      `,
+      reviewingNonUS:`
+        <h2>We are reviewing your application</h2>
+        <p>It may takes up to 7 business days to review your application.</p>
+      `,
+      rejected: `
+        <h2>Your KYC verification is taking longer than expected</h2>
+        <p>We were unable to verify your KYC automatically, so we’re manually reviewing your application. We apologize for the delay, but rest assured, we’ll get back to you soon.</p>
+      `,
       uploadImageClick: 'Click here to upload your images.',
       discardNoteTitle: 'Your KYC application has not yet been approved due to:',
       discardNote: 'Please make sure all your documents are in order and just click submit again.',
+      seeFullDetail: 'See your full details',
     },
     bankInfo: {
       subject: 'Bank account details for receiving withdrawals or transfers ',
@@ -1385,7 +1421,7 @@ export default {
       dialog: {
         delete: {
           title: 'Confirm Delete',
-          body: 'Are you sure to delete?',
+          body: 'Are you sure you want to delete this bank account?',
           confirm: 'Yes',
           cancel: 'No'
         },
@@ -1427,7 +1463,7 @@ export default {
       nickname_note: 'What should we call you?',
       enable2Fa: 'Enable 2FA to add extra security to your account',
       alert: { success: 'Your name was changed successfully' },
-      emailNotVerified: 'Please verify your email.',
+      emailNotVerified: 'Please verify your email',
       verifyBtn: 'Resend verification',
       enableSms: 'Enable SMS Authentication'
     },
@@ -1518,8 +1554,6 @@ export default {
       pleaseVerify: 'Please verify your email to activate your account',
       resent: 'Resend email verification',
       sent: 'Sent email',
-      sendCodeSuccess: 'Verify code was sent successfully to your email, please check.',
-      sendCodeFailed: 'Failed while sending verify code, please try again!',
       verifyFailed: 'Verify failed, please try again!',
       verifySuccess: 'Your email was verified successfully.',
       pleaseUpdateEmail: 'Please update your email to activate your account',
@@ -1528,7 +1562,7 @@ export default {
     },
     accountLevel: {
       alert: {
-        sendEmailCodeSuccess: 'We sent a verification code to your email'
+        sendEmailCodeSuccess: 'We\'ve sent a verification link to the email address you used to sign up. Please click the link in this email to verify your email address.'
       }
     },
     smsSettings: {
@@ -1602,16 +1636,20 @@ export default {
         verifyEmail: 'Verify email',
         verifyEmailDesc: 'Submit KYC now',
         kyc: 'Submit KYC',
-        kycDesc: 'Receive <strong>${amount}</strong> trial bonus after passing KYC',
+        kycDesc: '<strong>${amount}</strong> trial bonus',
         bank: 'Link bank account',
-        bankDesc: 'Receive <strong>200 points</strong> instantly',
+        bankDesc: '<strong>{value}</strong> {unit}',
+        addBank: 'Add bank account',
       },
-      verifyEmailMessage: '<p>Done! We have sent a verification to your e-mail.<br/>Please check your mailbox.</p>',
+      verifyEmailMessage: `
+        <h2>Verify Your Email</h2>
+        <p>Check your email and click the link to activate your account<br/>(or Spam & Junk section).</p>
+      `,
       resendVerify: 'Resend email verification',
       title: '<h2>Let\'s get you set up...</h2>',
       suggestTrialBonus: '<p>Get a <strong>free ${amount} trial bonus</strong> when you pass KYC.</p>',
       suggestLinkBank: '<p>Almost there! Link your bank account for easy deposits and withdrawals.</p>',
-      suggestInvestBorrow: 'Your\'re all set! <a href="/invest">Invest</a> or <a href="/borrow">borrow</a> now.'
+      suggestInvestBorrow: 'Your\'re all set! <a href="/invest">Invest</a> or <a href="/borrow">borrow</a> now.',
     },
   },
   headerBar: {
