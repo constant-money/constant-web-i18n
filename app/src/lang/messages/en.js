@@ -6037,9 +6037,9 @@ export default {
       `,
     },
     borrowForm:  {
-      toolTipCollateral: 'The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to {upToRate}% of the value of your USD collateral. For example, if you have ${egBase} in your pair balance, you can short up to ${egUpTo} worth of the crypto in that pair.',
-      toolTipTakeProfit: 'Take profit is the price at which you repay your shorted cryptocurrency. This should be at least 5% below the current market price. When the take profit price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your pair balance. You keep the profits minus interest and matching fee.',
-      toolTipStopLoss: 'The stop loss is the price at which you repay your shorted crypto to avoid accumulated losses. It should be at least 5% above the current market price. When the stop loss price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your pair balance. This minimizes further losses in the event of price rises.',
+      toolTipCollateral: 'The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to {upToRate}% of the value of your USD collateral. For example, if you have ${egBase} in your short-selling balance, you can short up to ${egUpTo} worth of the crypto in that pair.',
+      toolTipTakeProfit: 'Take profit is the price at which you repay your shorted cryptocurrency. This should be at least 5% below the current market price. When the take profit price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. You keep the profits minus interest and matching fee.',
+      toolTipStopLoss: 'The stop loss is the price at which you repay your shorted crypto to avoid accumulated losses. It should be at least 5% above the current market price. When the stop loss price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. This minimizes further losses in the event of price rises.',
     },
     howItWorks: {
       0: {
@@ -6047,7 +6047,7 @@ export default {
         desc: 'We support BTC, ETH, and BNB pairs.'
       },
       1: {
-        title: 'Transfer USD to your pair balance',
+        title: 'Transfer USD to your short-selling balance',
         desc: 'If you don\'t have USD in your account, you\'ll need to deposit first.',
       },
       2: {
@@ -6056,7 +6056,7 @@ export default {
       },
       3: {
         title: 'We sell the crypto at market prices',
-        desc: 'The proceeds go back to your USD pair balance.',
+        desc: 'The proceeds go back to your USD short-selling balance.',
       },
       4: {
         title: 'Repay the crypto, pocketing any difference',
@@ -6067,7 +6067,7 @@ export default {
   pairBalance: {
     header: {
       pair: 'Pair',
-      availableBalance: 'Available balance',
+      availableBalance: 'Short-selling balance',
       collateralBalance: 'Collateral balance',
       cryptoBorrowed: 'Crypto borrowed',
       interest: 'Interest due',
