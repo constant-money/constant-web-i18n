@@ -1835,8 +1835,8 @@ export default {
     banner: {
       title: 'Invest in global <span style="color:#F5A623;">peer-to-peer (P2P)</span> lending with USD or crypto.',
       subTitle: `
-        <p> P2P lending allows you to invest in people and businesses around the world for up to {investRate}% <a class="glossary-word">APR</a>.  7% APR. All lending is backed by cryptocurrency <a class="glossary-word">collateral</a>. Earn across multiple markets, spreading risk and maximizing reward. No investing fees. Free USD withdrawals. 24-7 customer support.</p>
-        <p>Or borrow against {numCollateral}+ cryptocurrencies from just {borrowRate}% <a class="glossary-word">APR</a>. Get the cash or crypto you need instantly without having to sell your portfolio. Your crypto is securely stored and returned to you when you repay.</p>
+        <p> P2P lending allows you to invest in people and businesses around the world for up to {investRate}% <a class="glossary-word">APR</a>. All lending is backed by cryptocurrency <a class="glossary-word">collateral</a>. Earn across multiple markets, spreading risk and maximizing reward. No investing fees. Free USD withdrawals. 24-7 customer support.</p>
+        <p>Or borrow against {numCollateral} cryptocurrencies from just {borrowRate}% <a class="glossary-word">APR</a>. Get the cash or crypto you need instantly without having to sell your portfolio. Your crypto is securely stored and returned to you when you repay.</p>
       `,
       newMessage: 'Why invest with MyConstant?',
       viewMore: '...more',
