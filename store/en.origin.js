@@ -536,11 +536,13 @@
                 "amount": "%%%.history.shortSelling.headers.amount%%%",
                 "borrowAmount": "%%%.history.shortSelling.headers.borrowAmount%%%",
                 "collateralAmount": "%%%.history.shortSelling.headers.collateralAmount%%%",
+                "triggerPrice": "%%%.history.shortSelling.headers.triggerPrice%%%",
                 "fee": "%%%.history.shortSelling.headers.fee%%%",
                 "from": "%%%.history.shortSelling.headers.from%%%",
                 "to": "%%%.history.shortSelling.headers.to%%%",
                 "status": "%%%.history.shortSelling.headers.status%%%"
-            }
+            },
+            "cancelSuccess": "%%%.history.shortSelling.cancelSuccess%%%"
         }
     },
     "me": {
@@ -5794,9 +5796,12 @@
             "content": "%%%.cryptoShort.intro.content%%%"
         },
         "borrowForm": {
+            "tooltipMarketPrice": "%%%.cryptoShort.borrowForm.tooltipMarketPrice%%%",
             "toolTipCollateral": "%%%.cryptoShort.borrowForm.toolTipCollateral%%%",
             "toolTipTakeProfit": "%%%.cryptoShort.borrowForm.toolTipTakeProfit%%%",
-            "toolTipStopLoss": "%%%.cryptoShort.borrowForm.toolTipStopLoss%%%"
+            "toolTipStopLoss": "%%%.cryptoShort.borrowForm.toolTipStopLoss%%%",
+            "successShortMarket": "%%%.cryptoShort.borrowForm.successShortMarket%%%",
+            "successShort": "%%%.cryptoShort.borrowForm.successShort%%%"
         },
         "howItWorks": {
             "0": {
