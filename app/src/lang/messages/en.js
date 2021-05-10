@@ -488,11 +488,13 @@ export default {
         amount: 'Amount',
         borrowAmount: 'Borrowed',
         collateralAmount: 'Sold amount',
+        triggerPrice: 'Trigger price',
         fee: 'Fee',
         from: 'From',
         to: 'To',
         status: 'Status',
-      }
+      },
+      cancelSuccess: 'Done! Your order to short {amount} {crypto} once its price reaches {price} USD has been canceled. To short another cryptocurrency or create a new order, please visit our short selling page.',
     },
   },
   me: {
@@ -1391,7 +1393,7 @@ export default {
       editActionLabel: 'Edit',
       explanations: 'For your security, we only use these bank details to process fund withdrawals or transfers. To deposit funds, please enter the amount you want to invest, and follow the instructions to make a wire transfer directly to our FDIC-insured custodian.',
       titleUpdateBank: 'Update bank',
-      yourKycName: '<p>Your KYC name: {name}</p>',
+      yourKycName: 'Your KYC name: {name}',
       bankCountry: 'Bank Country',
       swiftCode: 'Swift code',
       bankName: 'Bank Name',
@@ -6037,9 +6039,12 @@ export default {
       `,
     },
     borrowForm:  {
+      tooltipMarketPrice: 'Enable Use Market Price to open your short position immediately at the market price. Or, create a short-selling order by disabling this option and entering the price at which you’d like to short and your position will open automatically once that price is reached.',
       toolTipCollateral: 'The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to {upToRate}% of the value of your USD collateral. For example, if you have ${egBase} in your short-selling balance, you can short up to ${egUpTo} worth of the crypto in that pair.',
       toolTipTakeProfit: 'Take profit is the price at which you repay your shorted cryptocurrency. This should be at least 5% below the current market price. When the take profit price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. You keep the profits minus interest and matching fee.',
       toolTipStopLoss: 'The stop loss is the price at which you repay your shorted crypto to avoid accumulated losses. It should be at least 5% above the current market price. When the stop loss price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. This minimizes further losses in the event of price rises.',
+      successShortMarket: 'Done! You successfully opened a {crypto} short position',
+      successShort: 'Done! You’ve created an order to short {amount} {crypto} once its price reaches {price} USD. To amend or cancel this short-selling order, please visit your accounts page.',
     },
     howItWorks: {
       0: {
