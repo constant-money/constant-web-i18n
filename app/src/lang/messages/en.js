@@ -1502,7 +1502,9 @@ export default {
           false: '<p>Congratulations! Your balance will now earn 4% APY through Instant-access investing. You can withdraw anytime for free and your balance is protected by borrower collateral.</p><a href="https://blog.myconstant.com/flex-or-prime-trust-you-decide!" class="underline" target="_blank">Find out how Instant-access investing works</a>'
         }
       },
-      noteOff: `<p>Your balance is escrowed with Prime Trust and insured to $130,000,000.</p>`
+      noteOff: `<p>Your balance is escrowed with Prime Trust and insured to $130,000,000.</p>`,
+      primeTrustBalance: 'Your balance at Prime Trust',
+      primeTrustBalanceDesc: 'As you’ve disabled instant-access investing, your balance is stored with our custodian, Prime Trust. Your funds will be stored across multiple bank accounts and insured to $130 million. However, you won’t earn interest on it. You can enable instant-access investing at any time from this menu.',
     },
     emailSetting: {
       title: 'Email Settings',
@@ -1710,6 +1712,10 @@ export default {
         title: 'Short Selling',
         desc: 'Short BTC, ETH, and BNB.<br/>High risk. High reward.'
       },
+      cryptoFuture: {
+        title: 'Futures',
+        desc: 'Predict crypto prices.<br/>Get paid when you\'re right.',
+      },
       borrowCoins: {
         title: 'Crypto Credit',
         desc: 'Borrow cash, get crypto.<br/>No exchanges.'
@@ -1758,6 +1764,10 @@ export default {
       cryptoShort: {
         title: 'Short Selling',
         desc: 'Short BTC, ETH, and BNB. High risk. High reward.'
+      },
+      cryptoFuture: {
+        title: 'Futures',
+        desc: 'Predict crypto prices.<br/>Get paid when you\'re right.',
       },
       borrowCoins: {
         title: 'Crypto Credit',
@@ -1863,7 +1873,6 @@ export default {
         btn: 'Explore',
         desc: "Borrow against\n{numCollateral}+ cryptocurrencies",
         new_title: "BORROW\nCrypto Collateral",
-        btn: 'Explore',
       }
     }
   },
@@ -1877,108 +1886,6 @@ export default {
         numReview: '582',
         excellent: 'Excellent',
         points: '4.6/5',
-        data : {
-          0: {
-            star: '5',
-            title: 'Great for beginners.',
-            desc: `
-      <p>Great for beginners.<p>
-      `,
-            date: 'Aug 17, 2020',
-            auth: 'Kimberly Smith',
-            link: 'https://www.trustpilot.com/reviews/5f39c4fb9cc22a0600cd2338'
-          },
-          1: {
-            star: '5',
-            title: 'Love it!!!! A new way to make money and invest in others.',
-            desc: `
-      <p>I love the ease and flow of the app and the website. It is easy to navigate and easy to use. They give you a lot of information too!!<p>
-      `,
-            date: 'Aug 16, 2020',
-            auth: 'Alexander Clarence McIntosh',
-            link: 'https://www.trustpilot.com/reviews/5f3933219cc22a073c98cfce'
-          },
-          2: {
-            star: '5',
-            title: 'It\'s working great so far!!',
-            desc: `
-      <p>It's working great so far!!<p>
-      `,
-            date: 'Aug 16, 2020',
-            auth: 'James',
-            link: 'https://www.trustpilot.com/reviews/5f38ea749cc22a0600ccbb72'
-          },
-          3: {
-            star: '5',
-            title: '\'Constantly\' Excited to Learn, Invest, and Grow.',
-            desc: `
-      <p>The basis of this platform is useful and productive; but also, a wonderful use of resources with an economically brilliant business perspective in<p>
-      `,
-            date: 'Aug 16, 2020',
-            auth: 'Joseph A. Steadman',
-            link: 'https://www.trustpilot.com/reviews/5f38c1599cc22a073c989d41'
-          },
-          4: {
-            star: '5',
-            title: 'At first I was scared to do this but…',
-            desc: `
-      <p>At first I was scared to do this but slot of my friends told me about it and wow, they're right.. investment are my new thing.<p>
-      `,
-            date: 'Aug 15, 2020',
-            auth: 'Jose Torres',
-            link: 'https://www.trustpilot.com/reviews/5f36c69b9cc22a073c97dcdf'
-          },
-          5: {
-            star: '5',
-            title: 'So far so good',
-            desc: `
-      <p>So far so good<p>
-      `,
-            date: 'Aug 14, 2020',
-            auth: 'Alex',
-            link: 'https://www.trustpilot.com/reviews/5f361f649cc22a0600cb663e'
-          },
-          6: {
-            star: '5',
-            title: 'So Far MyConstant Rocks; Updates Will Follow',
-            desc: `
-      <p>I am new to Constant and must admit I was concerned about the legitimacy of Constant. I am happy to say that you can trust Constant<p>
-      `,
-            date: 'Aug 13, 2020',
-            auth: 'Jennifer A. Spagnola',
-            link: 'https://www.trustpilot.com/reviews/5f352a089cc22a0600cadd4a'
-          },
-          7: {
-            star: '5',
-            title: 'Great App!',
-            desc: `
-      <p>Wonderful App. Thanx you so much My Constant!<p>
-      `,
-            date: 'Aug 13, 2020',
-            auth: 'Trevor Edwin Lane',
-            link: 'https://www.trustpilot.com/reviews/5f34c4a41a5a6902684905ea'
-          },
-          8: {
-            star: '5',
-            title: 'I\'ve been very satisified with Constant',
-            desc: `
-      <p>I've been very satisified with my experience while using Constant. I would recommend them to other individuals looking for a stable<p>
-      `,
-            date: 'Aug 13, 2020',
-            auth: 'Christopher Reesman',
-            link: 'https://www.trustpilot.com/reviews/5f348dac1a5a69026848fc27'
-          },
-          9: {
-            star: '5',
-            title: 'I have been very pleased with my…',
-            desc: `
-      <p>I have been very pleased with my experience so far on MyConstant. I have been able to communicate with their online support on multiple<p>
-      `,
-            date: 'Aug 13, 2020',
-            auth: 'Derek',
-            link: 'https://www.trustpilot.com/reviews/5f345f3d1a5a690788a7d510'
-          },
-        }
       },
       socialMedia: {
         comments: {
@@ -3393,15 +3300,21 @@ export default {
         thankMsgDeposit: '<p>Please deposit {amount} to complete your investment.</p>',
         amount: 'Amount',
         bankName: 'Bank name',
+        depositoryBankName: 'Bank name',
         routingNumberWire: 'Routing number for Wire',
+        routingNumber: 'Routing number for Wire',
         swiftCode: 'Swift code',
         bankAddress: 'Bank address',
         accountName: 'Account name',
+        creditTo: 'Account name',
         accountNumber: 'Account number',
         accountType: 'Account Type',
         accountAddress: 'Account address',
+        beneficiaryAddress: 'Account address',
         bankPhone: 'Bank phone',
         refNumber: 'Reference number',
+        reference: 'Reference number',
+        notes: 'Notes',
         updateBalanceNote: "Please note it might take <strong class='yellow'>up to 1 business day</strong> to update your balance after receiving your deposit. We're working hard to reduce this time, so thanks for your patience.",
         referNote: 'Your reference number is {refNumber}',
         minuteWindow: 'Please complete your transfer within 3 days.',
@@ -3429,7 +3342,7 @@ export default {
               </div>
             `,
             subtitleGeneral: `
-              <p>Please wire your deposit of \${amount} using reference number {refNumber} to Prime Trust using the details below. When you have made your transfer, please email your wire receipt to <a href="mailto:finance@myconstant.com" style="color:#0053E2;">finance@myconstant.com</a>.</p>
+              <p><span class="yellow">Please include Reference Number <span class="semiBold">{refNumber}</span> in Reference/ Description box</span> when you set up wire template with your bank. If we receive a wire from your bank that does not include the Reference Number, the wire will get returned. When you have made your transfer, please email your wire receipt to <a href="mailto:finance@myconstant.com" style="color:#0053E2;">finance@myconstant.com</a>.</p>
             `,
             subtitleInvest: `
               <p>To complete your investment of \${amount} at {interest}% for {term} days, please wire your funds to our custodial partner, Prime Trust, using the details below.</p>
@@ -3438,6 +3351,7 @@ export default {
             `,
             feeCredit: 'No-fee credit',
             feeCreditDesc: 'For wire transfers from ${amountWire} or over, you receive an additional credit of ${creditWire} in your MyConstant balance. This helps cover the wire fee.',
+            referenceDesc: 'Please include this Reference Number in Reference/ Description box when you set up wire template with your bank. If we receive a wire from your bank that does not include the Reference Number, the wire will get returned.'
           },
           plaid: {
             title: 'Transfer via ACH to earn {rate}% instantly',
@@ -5787,11 +5701,6 @@ export default {
     question: 'Have a specific question?',
     questionDesc: 'Click a topic below and we’ll answer it as best we can.',
     socials: {
-      telegram: {
-        link: 'https://t.me/constantp2p',
-        title: 'Join our Telegram community',
-        desc: 'Get help from 1,000s of customers.'
-      },
       blog: {
         link: 'https://blog.myconstant.com',
         title: 'Read our blog',
@@ -5864,6 +5773,7 @@ export default {
     title: 'Fee schedule and collateral rules',
     headers: {
       coin: ' ',
+      network: 'Network',
       minAmount: 'Minimum withdrawal',
       fee: 'Withdrawal fee',
       price: 'Current price',
@@ -6045,6 +5955,7 @@ export default {
       toolTipStopLoss: 'The stop loss is the price at which you repay your shorted crypto to avoid accumulated losses. It should be at least 5% above the current market price. When the stop loss price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. This minimizes further losses in the event of price rises.',
       successShortMarket: 'Done! You successfully opened a {crypto} short position',
       successShort: 'Done! You’ve created an order to short {amount} {crypto} once its price reaches {price} USD. To amend or cancel this short-selling order, please visit your accounts page.',
+      errorShort: 'Sorry, we can\'t create your order at the moment. Please try again in a few minutes. If you keep seeing this message, please email us at hello@myconstant.com.',
     },
     howItWorks: {
       0: {
@@ -6082,5 +5993,76 @@ export default {
       PnL: 'Profit / Loss',
     },
     noRecord: 'No record found',
+  },
+  cryptoFuture: {
+    intro: {
+      content: `
+        <h1>Turn price predictions <br /><span class="orange">into profit</span> with Futures.</h1>
+      `,
+      contentDemo: `
+        <h1>Test your <span class="orange">prediction skills</span><br /> with your demo Futures account.</h1>
+      `,
+      desc: {
+        '1': 'Start from just $1',
+        '2': '50x leverage',
+        '3': 'Repay early',
+      }
+    },
+    form: {
+      liveDesc: 'This is your live account. When you open new Futures positions here, they are real orders and you stand to gain or lose depending on what the market does.',
+      virtualDesc: 'This is your virtual Futures training account. Create virtual orders here and see how well you can predict the market! As these aren’t real orders, you won’t earn a profit or lose a cent. When you’re ready to try real Futures trading, click the “Live” tab at the top.',
+      predictionDesc: 'Select “Rise” if you think the price will rise or “Fall” if you think the price will fall. Your position will automatically close when the price changes by {tpRate}% in your predicted direction (to bank profits) or {slRate}% in the opposite direction (to minimize losses) unless you repay early.',
+      amountDesc: 'To open a Futures position, you must have USD available in your balance for use as collateral. Enter a USD collateral amount here and we will buy the equivalent amount of crypto at {multipleRate}x leverage. You won’t be able to withdraw your collateral until your Futures position closes.',
+      feeDesc: 'The fee is {feeRate}% of your total leveraged position. For example, if you open a position with ${egAmount} and {multipleRate}x leverage, your fee would be: {feeRate}% x ({multipleRate} x ${egAmount}) = ${egFee}.',
+      winDesc: 'This is the amount of your profit at the point at which your position automatically closes. For a fall position, the position closes when the price falls by {futureRate}%. For a rise position, the position closes when the price rises by {futureRate}%. You can repay early to take profits sooner.',
+      loseDesc: 'This is the amount of your loss at the point at which your position automatically closes. For a fall position, the position closes when the price rises by {futureRate}%. For a rise position, the position closes when the price falls by {futureRate}%. You can minimize losses by repaying early.',
+      createOrderError: 'Sorry, we can\'t open your position at the moment. Please try again in a few minutes. If you keep seeing this message, please email us at hello@myconstant.com.',
+    },
+    howItWorks: {
+      0: {
+        title: 'Enter your prediction',
+        desc: 'Choose a rise or fall prediction and then enter an amount of crypto to borrow in USD (this will be reserved in your balance as collateral).<br/>Min: {min} USD. Max: {max} USD.',
+      },
+      1: {
+        title: 'We buy the crypto',
+        desc: 'You borrow the crypto at current market price using {multipleRate}x leverage. This means you borrow {multipleRate}x more crypto than your USD collateral.',
+      },
+      2: {
+        title: 'Cash out or repay',
+        desc: 'You profit when the price changes up to {tpRate}% in your predicted direction. Cash out anytime by repaying the borrowed crypto amount in USD.<br />Your position will automatically close at {tpRate}% to bank profits or at {slRate}% in the opposite direction to minimize losses.'
+      }
+    },
+    why: {
+      0: {
+        title: 'Easy to learn',
+        desc: 'Learn the basics with your virtual account and then open a small Futures position to test your prediction skills.',
+      },
+      1: {
+        title: 'Sensible limits',
+        desc: 'No need to risk everything on one guess. Start from just ${min} up to a maximum of ${max} for each position (no more than ${maxSize} across your account).',
+      },
+      2: {
+        title: 'Generous payouts',
+        desc: 'Since Futures use {multipleRate}x leverage, you can earn up to 150% profit when the price changes up to {tpRate}% in your predicted direction',
+      },
+    },
+    history: {
+      headers: {
+        id: '#',
+        time: 'Created At',
+        finishedAt: 'Finished At',
+        symbol: 'Crypto',
+        type: 'Prediction',
+        amount: 'Amount',
+        openPrice: 'Opening Price',
+        currentPrice: 'Current Price',
+        closePrice: 'Closing Price',
+        fee: 'Fee',
+        chart: 'Chart',
+        currentPnl: 'Current PNL',
+        pnl: 'PNL',
+        status: 'Status',
+      }
+    },
   }
 };
