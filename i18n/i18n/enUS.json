@@ -1518,7 +1518,9 @@
                     "false": "<p>Congratulations! Your balance will now earn 4% APY through Instant-access investing. You can withdraw anytime for free and your balance is protected by borrower collateral.</p><a href=\"https://blog.myconstant.com/flex-or-prime-trust-you-decide!\" class=\"underline\" target=\"_blank\">Find out how Instant-access investing works</a>"
                 }
             },
-            "noteOff": "<p>Your balance is escrowed with Prime Trust and insured to $130,000,000.</p>"
+            "noteOff": "<p>Your balance is escrowed with Prime Trust and insured to $130,000,000.</p>",
+            "primeTrustBalance": "Your balance at Prime Trust",
+            "primeTrustBalanceDesc": "As you’ve disabled instant-access investing, your balance is stored with our custodian, Prime Trust. Your funds will be stored across multiple bank accounts and insured to $130 million. However, you won’t earn interest on it. You can enable instant-access investing at any time from this menu."
         },
         "emailSetting": {
             "title": "Email Settings",
@@ -1727,6 +1729,10 @@
                 "title": "Short Selling",
                 "desc": "Short BTC, ETH, and BNB.<br/>High risk. High reward."
             },
+            "cryptoFuture": {
+                "title": "Futures",
+                "desc": "Predict crypto prices.<br/>Get paid when you're right."
+            },
             "borrowCoins": {
                 "title": "Crypto Credit",
                 "desc": "Borrow cash, get crypto.<br/>No exchanges."
@@ -1775,6 +1781,10 @@
             "cryptoShort": {
                 "title": "Short Selling",
                 "desc": "Short BTC, ETH, and BNB. High risk. High reward."
+            },
+            "cryptoFuture": {
+                "title": "Futures",
+                "desc": "Predict crypto prices.<br/>Get paid when you're right."
             },
             "borrowCoins": {
                 "title": "Crypto Credit",
@@ -1891,89 +1901,7 @@
                 "reviews": "Reviews",
                 "numReview": "835",
                 "excellent": "Excellent",
-                "points": "4.6/5",
-                "data": {
-                    "0": {
-                        "star": "5",
-                        "title": "Great UX and Returns",
-                        "desc": "MyConstant has been a great user experience. They offer the highest returns and their platform is solid with a very easy to use user interface. I also really like the different fun promotions. Keep up the good work!",
-                        "date": "Mar 3, 2021",
-                        "auth": "Gjlcards",
-                        "link": "https://www.trustpilot.com/reviews/603fda08f85d7509f86b79a0"
-                    },
-                    "1": {
-                        "star": "5",
-                        "title": "Couldn't be happier",
-                        "desc": "All loans are backed by collateral, so there's no need to worry about losing your money through defaulting loaners. Their customer support is second to none. Give it a shot with a small amount and see for yourself.",
-                        "date": "Mar 2, 2021",
-                        "auth": "Tony Pacheco",
-                        "link": "https://www.trustpilot.com/reviews/603da4a5f85d750b98a4b085"
-                    },
-                    "2": {
-                        "star": "5",
-                        "title": "Excellent service",
-                        "desc": "The service that ye provide is the best in the industry. I find MyConstant to be much better than others like Celsius where you could be waiting a week for a response. Looking forward to many years ahead of working together with ye in the crypto space",
-                        "date": "Mar 1, 2021",
-                        "auth": "Liam Frewen",
-                        "link": "https://www.trustpilot.com/reviews/603d5994f85d7509d8e843c4"
-                    },
-                    "3": {
-                        "star": "5",
-                        "title": "Great app",
-                        "desc": "Very good interests, very easy to use and the \"credit\" you receive is a great opportunity to try the app without using your money.",
-                        "date": "Mar 1, 2021",
-                        "auth": "Vicente Pavon Hernandez",
-                        "link": "https://www.trustpilot.com/reviews/603afa0cf85d7509d8e68ffe"
-                    },
-                    "4": {
-                        "star": "5",
-                        "title": "No better place to put your money",
-                        "desc": "I've had a very good experience with Constant. The interest rates are well above what you will get in a savings account and all my loans were paid back on time. Great customer service. I had some questions, booked a call and a representative called me and answered my questions.",
-                        "date": "Feb 24, 2021",
-                        "auth": "LaRue Stanley",
-                        "link": "https://www.trustpilot.com/reviews/6036507af85d7509d8e2fcea"
-                    },
-                    "5": {
-                        "star": "5",
-                        "title": "Interest rates are amazing",
-                        "desc": "I really enjoy the simplicity and overall easiness of using MyConstant. They offer a pretty cool referral bonus as well as membership badges that award points as well as actual cash. The experience of lending is super easy to follow and interest rates are amazing.",
-                        "date": "Feb 23, 2021",
-                        "auth": "Ryan",
-                        "link": "https://www.trustpilot.com/reviews/6033fe3af85d7509d8e11df5"
-                    },
-                    "6": {
-                        "star": "5",
-                        "title": "Very satisfied",
-                        "desc": "Most functionalities are automated and the interface is user-friendly. An improvement point is the non-automated deposit of non-ERC-20 tokens which, in certain case, requires me to contact Customer Support for expediting the confirmation of such deposit.",
-                        "date": "Feb 19, 2021",
-                        "auth": "Iraklis Tsirigotis",
-                        "link": "https://www.trustpilot.com/reviews/602edfd2f85d7509d8dd74b5"
-                    },
-                    "7": {
-                        "star": "5",
-                        "title": "Solid option for great returns",
-                        "desc": "All works smoothly and easily and I’m steadily gaining trust in the platform and service. I would like to have higher ach transfer limits, which would simplify moving my money around. Wire transfer is always an option but I don’t want to pay repeated transfer fees.",
-                        "date": "Feb 16, 2021",
-                        "auth": "Kevin Holmes",
-                        "link": "https://www.trustpilot.com/reviews/602ac4db679d9708b4d72f66"
-                    },
-                    "8": {
-                        "star": "5",
-                        "title": "Great way to earn money",
-                        "desc": "I cant wait to start seeing my investment making money by just sitting there, thats it! You can also earn money by referring or simply by going on there. Sounds to good to be true but it is true!",
-                        "date": "Feb 13, 2021",
-                        "auth": "Brandi Wilson",
-                        "link": "https://www.trustpilot.com/reviews/60277ee1679d9708b4d4bfc2"
-                    },
-                    "9": {
-                        "star": "5",
-                        "title": "10/10 would recommend",
-                        "desc": "I’m really enjoying MyConstant so far! The whole process of getting registered and set up has been quick and convenient. I’m learning about investing and about peer to peer lending. It’s an awesome sight!",
-                        "date": "Feb 12, 2020",
-                        "auth": "Keragyn Goodmansen",
-                        "link": "https://www.trustpilot.com/reviews/60257325679d97052cd4ddbe"
-                    }
-                }
+                "points": "4.6/5"
             },
             "socialMedia": {
                 "comments": {
@@ -3378,15 +3306,21 @@
                 "thankMsgDeposit": "<p>Please deposit {amount} to complete your investment.</p>",
                 "amount": "Amount",
                 "bankName": "Bank name",
+                "depositoryBankName": "Bank name",
                 "routingNumberWire": "Routing number for Wire",
+                "routingNumber": "Routing number for Wire",
                 "swiftCode": "Swift code",
                 "bankAddress": "Bank address",
                 "accountName": "Account name",
+                "creditTo": "Account name",
                 "accountNumber": "Account number",
                 "accountType": "Account Type",
                 "accountAddress": "Account address",
+                "beneficiaryAddress": "Account address",
                 "bankPhone": "Bank phone",
                 "refNumber": "Reference number",
+                "reference": "Reference number",
+                "notes": "Notes",
                 "updateBalanceNote": "Please note it might take <strong class='yellow'>up to 1 business day</strong> to update your balance after receiving your deposit. We're working hard to reduce this time, so thanks for your patience.",
                 "referNote": "Your reference number is {refNumber}",
                 "minuteWindow": "Please complete your transfer within 3 days.",
@@ -3408,10 +3342,11 @@
                         "minuteWindow": "15 MINUTE WINDOW",
                         "minuteWindowDescription": "Please complete your transfer within 15 minutes. After that, your order will be automatically cancelled.",
                         "needHelp": "\n              <div class=\"need-help\">\n                <div>Need help?</div>\n                <div><a target=\"_blank\" class=\"underline\" href=\"https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/\">Check out our guide to Prime Trust transfers.</a></div>\n              </div>\n            ",
-                        "subtitleGeneral": "\n              <p>Please wire your deposit of ${amount} using reference number {refNumber} to Prime Trust using the details below. When you have made your transfer, please email your wire receipt to <a href=\"mailto:finance@myconstant.com\" style=\"color:#0053E2;\">finance@myconstant.com</a>.</p>\n            ",
+                        "subtitleGeneral": "\n              <p><span class=\"yellow\">Please include Reference Number <span class=\"semiBold\">{refNumber}</span> in Reference/ Description box</span> when you set up wire template with your bank. If we receive a wire from your bank that does not include the Reference Number, the wire will get returned. When you have made your transfer, please email your wire receipt to <a href=\"mailto:finance@myconstant.com\" style=\"color:#0053E2;\">finance@myconstant.com</a>.</p>\n            ",
                         "subtitleInvest": "\n              <p>To complete your investment of ${amount} at {interest}% for {term} days, please wire your funds to our custodial partner, Prime Trust, using the details below.</p>\n              <p>IMPORTANT: Please include your reference number {refNumber} so we can match your deposit to your account. To speed this up, please email your wire receipt to <a href=\"mailto:finance@myconstant.com\">finance@myconstant.com</a>.</p>\n              <div class=\"need-help\"><strong>Need help?</strong> <a target=\"_blank\" href=\"https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/\">View our guide to Prime Trust wire transfers.</a></div>\n            ",
                         "feeCredit": "No-fee credit",
-                        "feeCreditDesc": "For wire transfers from ${amountWire} or over, you receive an additional credit of ${creditWire} in your MyConstant balance. This helps cover the wire fee."
+                        "feeCreditDesc": "For wire transfers from ${amountWire} or over, you receive an additional credit of ${creditWire} in your MyConstant balance. This helps cover the wire fee.",
+                        "referenceDesc": "Please include this Reference Number in Reference/ Description box when you set up wire template with your bank. If we receive a wire from your bank that does not include the Reference Number, the wire will get returned."
                     },
                     "plaid": {
                         "title": "Transfer via ACH to earn {rate}% instantly",
@@ -5552,11 +5487,6 @@
         "question": "Have a specific question?",
         "questionDesc": "Click a topic below and we’ll answer it as best we can.",
         "socials": {
-            "telegram": {
-                "link": "https://t.me/constantp2p",
-                "title": "Join our Telegram community",
-                "desc": "Get help from 1,000s of customers."
-            },
             "blog": {
                 "link": "https://blog.myconstant.com",
                 "title": "Read our blog",
@@ -5635,6 +5565,7 @@
         "title": "Fee schedule and collateral rules",
         "headers": {
             "coin": " ",
+            "network": "Network",
             "minAmount": "Minimum withdrawal",
             "fee": "Withdrawal fee",
             "price": "Current price",
@@ -5801,7 +5732,8 @@
             "toolTipTakeProfit": "Take profit is the price at which you repay your shorted cryptocurrency. This should be at least 5% below the current market price. When the take profit price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. You keep the profits minus interest and matching fee.",
             "toolTipStopLoss": "The stop loss is the price at which you repay your shorted crypto to avoid accumulated losses. It should be at least 5% above the current market price. When the stop loss price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. This minimizes further losses in the event of price rises.",
             "successShortMarket": "Done! You successfully opened a {crypto} short position",
-            "successShort": "Done! You’ve created an order to short {amount} {crypto} once its price reaches {price} USD. To amend or cancel this short-selling order, please visit your accounts page."
+            "successShort": "Done! You’ve created an order to short {amount} {crypto} once its price reaches {price} USD. To amend or cancel this short-selling order, please visit your accounts page.",
+            "errorShort": "Sorry, we can't create your order at the moment. Please try again in a few minutes. If you keep seeing this message, please email us at hello@myconstant.com."
         },
         "howItWorks": {
             "0": {
@@ -5839,5 +5771,72 @@
             "PnL": "Profit / Loss"
         },
         "noRecord": "No record found"
+    },
+    "cryptoFuture": {
+        "intro": {
+            "content": "\n        <h1>Turn price predictions <br /><span class=\"orange\">into profit</span> with Futures.</h1>\n      ",
+            "contentDemo": "\n        <h1>Test your <span class=\"orange\">prediction skills</span><br /> with your demo Futures account.</h1>\n      ",
+            "desc": {
+                "1": "Start from just $1",
+                "2": "50x leverage",
+                "3": "Repay early"
+            }
+        },
+        "form": {
+            "liveDesc": "This is your live account. When you open new Futures positions here, they are real orders and you stand to gain or lose depending on what the market does.",
+            "virtualDesc": "This is your virtual Futures training account. Create virtual orders here and see how well you can predict the market! As these aren’t real orders, you won’t earn a profit or lose a cent. When you’re ready to try real Futures trading, click the “Live” tab at the top.",
+            "predictionDesc": "Select “Rise” if you think the price will rise or “Fall” if you think the price will fall. Your position will automatically close when the price changes by {tpRate}% in your predicted direction (to bank profits) or {slRate}% in the opposite direction (to minimize losses) unless you repay early.",
+            "amountDesc": "To open a Futures position, you must have USD available in your balance for use as collateral. Enter a USD collateral amount here and we will buy the equivalent amount of crypto at {multipleRate}x leverage. You won’t be able to withdraw your collateral until your Futures position closes.",
+            "feeDesc": "The fee is {feeRate}% of your total leveraged position. For example, if you open a position with ${egAmount} and {multipleRate}x leverage, your fee would be: {feeRate}% x ({multipleRate} x ${egAmount}) = ${egFee}.",
+            "winDesc": "This is the amount of your profit at the point at which your position automatically closes. For a fall position, the position closes when the price falls by {futureRate}%. For a rise position, the position closes when the price rises by {futureRate}%. You can repay early to take profits sooner.",
+            "loseDesc": "This is the amount of your loss at the point at which your position automatically closes. For a fall position, the position closes when the price rises by {futureRate}%. For a rise position, the position closes when the price falls by {futureRate}%. You can minimize losses by repaying early.",
+            "createOrderError": "Sorry, we can't open your position at the moment. Please try again in a few minutes. If you keep seeing this message, please email us at hello@myconstant.com."
+        },
+        "howItWorks": {
+            "0": {
+                "title": "Enter your prediction",
+                "desc": "Choose a rise or fall prediction and then enter an amount of crypto to borrow in USD (this will be reserved in your balance as collateral).<br/>Min: {min} USD. Max: {max} USD."
+            },
+            "1": {
+                "title": "We buy the crypto",
+                "desc": "You borrow the crypto at current market price using {multipleRate}x leverage. This means you borrow {multipleRate}x more crypto than your USD collateral."
+            },
+            "2": {
+                "title": "Cash out or repay",
+                "desc": "You profit when the price changes up to {tpRate}% in your predicted direction. Cash out anytime by repaying the borrowed crypto amount in USD.<br />Your position will automatically close at {tpRate}% to bank profits or at {slRate}% in the opposite direction to minimize losses."
+            }
+        },
+        "why": {
+            "0": {
+                "title": "Easy to learn",
+                "desc": "Learn the basics with your virtual account and then open a small Futures position to test your prediction skills."
+            },
+            "1": {
+                "title": "Sensible limits",
+                "desc": "No need to risk everything on one guess. Start from just ${min} up to a maximum of ${max} for each position (no more than ${maxSize} across your account)."
+            },
+            "2": {
+                "title": "Generous payouts",
+                "desc": "Since Futures use {multipleRate}x leverage, you can earn up to 150% profit when the price changes up to {tpRate}% in your predicted direction"
+            }
+        },
+        "history": {
+            "headers": {
+                "id": "#",
+                "time": "Created At",
+                "finishedAt": "Finished At",
+                "symbol": "Crypto",
+                "type": "Prediction",
+                "amount": "Amount",
+                "openPrice": "Opening Price",
+                "currentPrice": "Current Price",
+                "closePrice": "Closing Price",
+                "fee": "Fee",
+                "chart": "Chart",
+                "currentPnl": "Current PNL",
+                "pnl": "PNL",
+                "status": "Status"
+            }
+        }
     }
 }
