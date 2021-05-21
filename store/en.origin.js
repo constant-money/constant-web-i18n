@@ -1518,7 +1518,9 @@
                     "false": "%%%.me.flexInterestConfig.enableFlex.enableFlexSuccess.false%%%"
                 }
             },
-            "noteOff": "%%%.me.flexInterestConfig.noteOff%%%"
+            "noteOff": "%%%.me.flexInterestConfig.noteOff%%%",
+            "primeTrustBalance": "%%%.me.flexInterestConfig.primeTrustBalance%%%",
+            "primeTrustBalanceDesc": "%%%.me.flexInterestConfig.primeTrustBalanceDesc%%%"
         },
         "emailSetting": {
             "title": "%%%.me.emailSetting.title%%%",
@@ -1727,6 +1729,10 @@
                 "title": "%%%.headerBar.extraMenu.cryptoShort.title%%%",
                 "desc": "%%%.headerBar.extraMenu.cryptoShort.desc%%%"
             },
+            "cryptoFuture": {
+                "title": "%%%.headerBar.extraMenu.cryptoFuture.title%%%",
+                "desc": "%%%.headerBar.extraMenu.cryptoFuture.desc%%%"
+            },
             "borrowCoins": {
                 "title": "%%%.headerBar.extraMenu.borrowCoins.title%%%",
                 "desc": "%%%.headerBar.extraMenu.borrowCoins.desc%%%"
@@ -1775,6 +1781,10 @@
             "cryptoShort": {
                 "title": "%%%.headerBar.extraMenuMobile.cryptoShort.title%%%",
                 "desc": "%%%.headerBar.extraMenuMobile.cryptoShort.desc%%%"
+            },
+            "cryptoFuture": {
+                "title": "%%%.headerBar.extraMenuMobile.cryptoFuture.title%%%",
+                "desc": "%%%.headerBar.extraMenuMobile.cryptoFuture.desc%%%"
             },
             "borrowCoins": {
                 "title": "%%%.headerBar.extraMenuMobile.borrowCoins.title%%%",
@@ -1891,89 +1901,7 @@
                 "reviews": "%%%.whyPeopleLoveUs.customers.trustPilot.reviews%%%",
                 "numReview": "%%%.whyPeopleLoveUs.customers.trustPilot.numReview%%%",
                 "excellent": "%%%.whyPeopleLoveUs.customers.trustPilot.excellent%%%",
-                "points": "%%%.whyPeopleLoveUs.customers.trustPilot.points%%%",
-                "data": {
-                    "0": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.0.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.0.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.0.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.0.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.0.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.0.link%%%"
-                    },
-                    "1": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.1.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.1.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.1.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.1.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.1.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.1.link%%%"
-                    },
-                    "2": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.2.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.2.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.2.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.2.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.2.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.2.link%%%"
-                    },
-                    "3": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.3.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.3.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.3.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.3.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.3.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.3.link%%%"
-                    },
-                    "4": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.4.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.4.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.4.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.4.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.4.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.4.link%%%"
-                    },
-                    "5": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.5.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.5.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.5.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.5.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.5.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.5.link%%%"
-                    },
-                    "6": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.6.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.6.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.6.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.6.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.6.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.6.link%%%"
-                    },
-                    "7": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.7.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.7.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.7.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.7.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.7.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.7.link%%%"
-                    },
-                    "8": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.8.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.8.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.8.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.8.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.8.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.8.link%%%"
-                    },
-                    "9": {
-                        "star": "%%%.whyPeopleLoveUs.customers.trustPilot.data.9.star%%%",
-                        "title": "%%%.whyPeopleLoveUs.customers.trustPilot.data.9.title%%%",
-                        "desc": "%%%.whyPeopleLoveUs.customers.trustPilot.data.9.desc%%%",
-                        "date": "%%%.whyPeopleLoveUs.customers.trustPilot.data.9.date%%%",
-                        "auth": "%%%.whyPeopleLoveUs.customers.trustPilot.data.9.auth%%%",
-                        "link": "%%%.whyPeopleLoveUs.customers.trustPilot.data.9.link%%%"
-                    }
-                }
+                "points": "%%%.whyPeopleLoveUs.customers.trustPilot.points%%%"
             },
             "socialMedia": {
                 "comments": {
@@ -3378,15 +3306,21 @@
                 "thankMsgDeposit": "%%%.home1.lendingSection.confirm.thankMsgDeposit%%%",
                 "amount": "%%%.home1.lendingSection.confirm.amount%%%",
                 "bankName": "%%%.home1.lendingSection.confirm.bankName%%%",
+                "depositoryBankName": "%%%.home1.lendingSection.confirm.depositoryBankName%%%",
                 "routingNumberWire": "%%%.home1.lendingSection.confirm.routingNumberWire%%%",
+                "routingNumber": "%%%.home1.lendingSection.confirm.routingNumber%%%",
                 "swiftCode": "%%%.home1.lendingSection.confirm.swiftCode%%%",
                 "bankAddress": "%%%.home1.lendingSection.confirm.bankAddress%%%",
                 "accountName": "%%%.home1.lendingSection.confirm.accountName%%%",
+                "creditTo": "%%%.home1.lendingSection.confirm.creditTo%%%",
                 "accountNumber": "%%%.home1.lendingSection.confirm.accountNumber%%%",
                 "accountType": "%%%.home1.lendingSection.confirm.accountType%%%",
                 "accountAddress": "%%%.home1.lendingSection.confirm.accountAddress%%%",
+                "beneficiaryAddress": "%%%.home1.lendingSection.confirm.beneficiaryAddress%%%",
                 "bankPhone": "%%%.home1.lendingSection.confirm.bankPhone%%%",
                 "refNumber": "%%%.home1.lendingSection.confirm.refNumber%%%",
+                "reference": "%%%.home1.lendingSection.confirm.reference%%%",
+                "notes": "%%%.home1.lendingSection.confirm.notes%%%",
                 "updateBalanceNote": "%%%.home1.lendingSection.confirm.updateBalanceNote%%%",
                 "referNote": "%%%.home1.lendingSection.confirm.referNote%%%",
                 "minuteWindow": "%%%.home1.lendingSection.confirm.minuteWindow%%%",
@@ -3411,7 +3345,8 @@
                         "subtitleGeneral": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.subtitleGeneral%%%",
                         "subtitleInvest": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.subtitleInvest%%%",
                         "feeCredit": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCredit%%%",
-                        "feeCreditDesc": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCreditDesc%%%"
+                        "feeCreditDesc": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCreditDesc%%%",
+                        "referenceDesc": "%%%.home1.lendingSection.confirm.paymentMethods.primetrust.referenceDesc%%%"
                     },
                     "plaid": {
                         "title": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.title%%%",
@@ -5552,11 +5487,6 @@
         "question": "%%%.helpAndSupport.question%%%",
         "questionDesc": "%%%.helpAndSupport.questionDesc%%%",
         "socials": {
-            "telegram": {
-                "link": "%%%.helpAndSupport.socials.telegram.link%%%",
-                "title": "%%%.helpAndSupport.socials.telegram.title%%%",
-                "desc": "%%%.helpAndSupport.socials.telegram.desc%%%"
-            },
             "blog": {
                 "link": "%%%.helpAndSupport.socials.blog.link%%%",
                 "title": "%%%.helpAndSupport.socials.blog.title%%%",
@@ -5635,6 +5565,7 @@
         "title": "%%%.withdrawFees.title%%%",
         "headers": {
             "coin": "%%%.withdrawFees.headers.coin%%%",
+            "network": "%%%.withdrawFees.headers.network%%%",
             "minAmount": "%%%.withdrawFees.headers.minAmount%%%",
             "fee": "%%%.withdrawFees.headers.fee%%%",
             "price": "%%%.withdrawFees.headers.price%%%",
@@ -5801,7 +5732,8 @@
             "toolTipTakeProfit": "%%%.cryptoShort.borrowForm.toolTipTakeProfit%%%",
             "toolTipStopLoss": "%%%.cryptoShort.borrowForm.toolTipStopLoss%%%",
             "successShortMarket": "%%%.cryptoShort.borrowForm.successShortMarket%%%",
-            "successShort": "%%%.cryptoShort.borrowForm.successShort%%%"
+            "successShort": "%%%.cryptoShort.borrowForm.successShort%%%",
+            "errorShort": "%%%.cryptoShort.borrowForm.errorShort%%%"
         },
         "howItWorks": {
             "0": {
@@ -5839,5 +5771,72 @@
             "PnL": "%%%.pairBalance.header.PnL%%%"
         },
         "noRecord": "%%%.pairBalance.noRecord%%%"
+    },
+    "cryptoFuture": {
+        "intro": {
+            "content": "%%%.cryptoFuture.intro.content%%%",
+            "contentDemo": "%%%.cryptoFuture.intro.contentDemo%%%",
+            "desc": {
+                "1": "%%%.cryptoFuture.intro.desc.1%%%",
+                "2": "%%%.cryptoFuture.intro.desc.2%%%",
+                "3": "%%%.cryptoFuture.intro.desc.3%%%"
+            }
+        },
+        "form": {
+            "liveDesc": "%%%.cryptoFuture.form.liveDesc%%%",
+            "virtualDesc": "%%%.cryptoFuture.form.virtualDesc%%%",
+            "predictionDesc": "%%%.cryptoFuture.form.predictionDesc%%%",
+            "amountDesc": "%%%.cryptoFuture.form.amountDesc%%%",
+            "feeDesc": "%%%.cryptoFuture.form.feeDesc%%%",
+            "winDesc": "%%%.cryptoFuture.form.winDesc%%%",
+            "loseDesc": "%%%.cryptoFuture.form.loseDesc%%%",
+            "createOrderError": "%%%.cryptoFuture.form.createOrderError%%%"
+        },
+        "howItWorks": {
+            "0": {
+                "title": "%%%.cryptoFuture.howItWorks.0.title%%%",
+                "desc": "%%%.cryptoFuture.howItWorks.0.desc%%%"
+            },
+            "1": {
+                "title": "%%%.cryptoFuture.howItWorks.1.title%%%",
+                "desc": "%%%.cryptoFuture.howItWorks.1.desc%%%"
+            },
+            "2": {
+                "title": "%%%.cryptoFuture.howItWorks.2.title%%%",
+                "desc": "%%%.cryptoFuture.howItWorks.2.desc%%%"
+            }
+        },
+        "why": {
+            "0": {
+                "title": "%%%.cryptoFuture.why.0.title%%%",
+                "desc": "%%%.cryptoFuture.why.0.desc%%%"
+            },
+            "1": {
+                "title": "%%%.cryptoFuture.why.1.title%%%",
+                "desc": "%%%.cryptoFuture.why.1.desc%%%"
+            },
+            "2": {
+                "title": "%%%.cryptoFuture.why.2.title%%%",
+                "desc": "%%%.cryptoFuture.why.2.desc%%%"
+            }
+        },
+        "history": {
+            "headers": {
+                "id": "%%%.cryptoFuture.history.headers.id%%%",
+                "time": "%%%.cryptoFuture.history.headers.time%%%",
+                "finishedAt": "%%%.cryptoFuture.history.headers.finishedAt%%%",
+                "symbol": "%%%.cryptoFuture.history.headers.symbol%%%",
+                "type": "%%%.cryptoFuture.history.headers.type%%%",
+                "amount": "%%%.cryptoFuture.history.headers.amount%%%",
+                "openPrice": "%%%.cryptoFuture.history.headers.openPrice%%%",
+                "currentPrice": "%%%.cryptoFuture.history.headers.currentPrice%%%",
+                "closePrice": "%%%.cryptoFuture.history.headers.closePrice%%%",
+                "fee": "%%%.cryptoFuture.history.headers.fee%%%",
+                "chart": "%%%.cryptoFuture.history.headers.chart%%%",
+                "currentPnl": "%%%.cryptoFuture.history.headers.currentPnl%%%",
+                "pnl": "%%%.cryptoFuture.history.headers.pnl%%%",
+                "status": "%%%.cryptoFuture.history.headers.status%%%"
+            }
+        }
     }
 }
