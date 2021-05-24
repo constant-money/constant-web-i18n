@@ -2511,7 +2511,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.home1.lendingSection.confirm.paymentMethods.email.notAvailableAmount%%%,"<p>The maximum amount you can send through Zelle is {amount}. Please choose either a wire transfer or ACH transfer (available for linked US bank accounts only).</p><p><a target=""_blank"" href=""https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/"">How to link a US bank account for ACH transfers.</a></p>"
 %%%.home1.lendingSection.confirm.paymentMethods.email.referNoteDesc%%%,"Please include your reference number when you make your Zelle transfer so we can match your deposit to your account."
 %%%.home1.lendingSection.confirm.paymentMethods.primetrust.titleDesc%%%,"<p>Fast. Secure. Unlimited.<br/>Get ${creditWire} cashback when sending from ${amountWire} or over</p>"
-%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCreditTitleDesc%%%,"All wires from ${amountWire} or over qualify for ${creditWire} cashback paid straight into your MyConstant balance. This helps cover the wire fee."
+%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCreditTitleDesc%%%,"All wires from ${amountWire} or over qualify for ${creditWire} cashback paid straight into your MyConstant balance. This helps cover the wire fee. (One wire credit per week only.)"
 %%%.home1.lendingSection.confirm.paymentMethods.primetrust.referNoteDesc%%%,"To receive your deposit you MUST include this reference number when your wire your funds from your bank."
 %%%.home1.lendingSection.confirm.paymentMethods.primetrust.minuteWindow%%%,"15 MINUTE WINDOW"
 %%%.home1.lendingSection.confirm.paymentMethods.primetrust.minuteWindowDescription%%%,"Please complete your transfer within 15 minutes. After that, your order will be automatically cancelled."
@@ -2530,7 +2530,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
               <div class=""need-help""><strong>Need help?</strong> <a target=""_blank"" href=""https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/"">View our guide to Prime Trust wire transfers.</a></div>
             "
 %%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCredit%%%,"No-fee credit"
-%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCreditDesc%%%,"For wire transfers from ${amountWire} or over, you receive an additional credit of ${creditWire} in your MyConstant balance. This helps cover the wire fee."
+%%%.home1.lendingSection.confirm.paymentMethods.primetrust.feeCreditDesc%%%,"For wire transfers from ${amountWire} or over, you receive an additional credit of ${creditWire} in your MyConstant balance. This helps cover the wire fee. (One wire credit per week only.)"
 %%%.home1.lendingSection.confirm.paymentMethods.primetrust.referenceDesc%%%,"Please include this Reference Number in Reference/ Description box when you set up wire template with your bank. If we receive a wire from your bank that does not include the Reference Number, the wire will get returned."
 %%%.home1.lendingSection.confirm.paymentMethods.plaid.title%%%,"Transfer via ACH to earn {rate}% instantly"
 %%%.home1.lendingSection.confirm.paymentMethods.plaid.titleDesc%%%,"<p>Instant interest. Linked US bank only.<br/>Less than ${max} per transaction</p>"
