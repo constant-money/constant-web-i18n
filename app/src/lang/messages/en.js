@@ -3331,7 +3331,7 @@ export default {
           },
           primetrust: {
             titleDesc: '<p>Fast. Secure. Unlimited.<br/>Get ${creditWire} cashback when sending from ${amountWire} or over</p>',
-            feeCreditTitleDesc: 'All wires from ${amountWire} or over qualify for ${creditWire} cashback paid straight into your MyConstant balance. This helps cover the wire fee.',
+            feeCreditTitleDesc: 'All wires from ${amountWire} or over qualify for ${creditWire} cashback paid straight into your MyConstant balance. This helps cover the wire fee. (One wire credit per week only.)',
             referNoteDesc: 'To receive your deposit you MUST include this reference number when your wire your funds from your bank.',
             minuteWindow: '15 MINUTE WINDOW',
             minuteWindowDescription: 'Please complete your transfer within 15 minutes. After that, your order will be automatically cancelled.',
@@ -3350,7 +3350,7 @@ export default {
               <div class="need-help"><strong>Need help?</strong> <a target="_blank" href="https://blog.myconstant.com/how-to-wire-your-money-to-constant-via-prime-trust/">View our guide to Prime Trust wire transfers.</a></div>
             `,
             feeCredit: 'No-fee credit',
-            feeCreditDesc: 'For wire transfers from ${amountWire} or over, you receive an additional credit of ${creditWire} in your MyConstant balance. This helps cover the wire fee.',
+            feeCreditDesc: 'For wire transfers from ${amountWire} or over, you receive an additional credit of ${creditWire} in your MyConstant balance. This helps cover the wire fee. (One wire credit per week only.)',
             referenceDesc: 'Please include this Reference Number in Reference/ Description box when you set up wire template with your bank. If we receive a wire from your bank that does not include the Reference Number, the wire will get returned.'
           },
           plaid: {
