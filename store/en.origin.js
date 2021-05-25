@@ -124,12 +124,6 @@
                 "title": "%%%.footer.social.linkedin.title%%%"
             }
         },
-        "mainPages": {
-            "flex": "%%%.footer.mainPages.flex%%%",
-            "titleConstant": "%%%.footer.mainPages.titleConstant%%%",
-            "invest": "%%%.footer.mainPages.invest%%%",
-            "borrow": "%%%.footer.mainPages.borrow%%%"
-        },
         "cta": {
             "type1": {
                 "title": "%%%.footer.cta.type1.title%%%",
@@ -174,7 +168,6 @@
         "serviceAgreement": "%%%.footer.serviceAgreement%%%",
         "AMLPolicy": "%%%.footer.AMLPolicy%%%",
         "kycGuidelines": "%%%.footer.kycGuidelines%%%",
-        "titleFoundation": "%%%.footer.titleFoundation%%%",
         "openSource": "%%%.footer.openSource%%%",
         "prices": "%%%.footer.prices%%%",
         "pricesDesc": "%%%.footer.pricesDesc%%%",
