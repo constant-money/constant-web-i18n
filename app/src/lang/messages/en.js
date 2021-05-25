@@ -113,12 +113,6 @@ export default {
         title: 'Linkedin'
       }
     },
-    mainPages: {
-      flex: 'Deposit',
-      titleConstant: 'MyConstant',
-      invest: 'Invest',
-      borrow: 'Borrow'
-    },
     cta: {
       type1: { title: '<div class="h3">Start earning interest</div>', btn: 'Make an investment' },
       type2: { title: '<div class="h3">Do more with your money</div>', btn: 'Open a free account' },
@@ -143,7 +137,6 @@ export default {
     serviceAgreement: 'Loan Matching Service Agreement',
     AMLPolicy: 'AML Policy',
     kycGuidelines: 'KYC guidelines',
-    titleFoundation: 'About',
     openSource: 'Open Source',
     prices: 'Pricing and service times',
     pricesDesc: 'Fees, schedules, and limits.',
@@ -815,14 +808,14 @@ export default {
         balanceCoin: 'Coin balance',
         saving: 'Invest now',
         deposit: 'Deposit',
-        depositDesc: 'Store your money in USD. Earn 4% APY with Instant-access investing.',
+        depositDesc: `Store your money in USD. Earn 4% APY <br/>with Instant-access investing.`,
         withdraw: 'Withdraw',
-        withdrawDesc: 'Withdraw funds to your bank account or wallet address.',
+        withdrawDesc: `Withdraw funds to your bank account <br/>or wallet address.`,
         withdrawFiat: 'USD',
         withdrawCrypto: 'Crypto',
         withdrawGiftCards: 'Gift cards',
         transfer: 'Transfer',
-        transferDesc: 'Send money across the world - to as many people as you like.',
+        transferDesc: `Send money across the world - to as <br/>many people as you like.`,
         saving_title: 'Investments',
         loanOriginatorInvestments: 'Loan Originator Investments',
         loans_title: 'Loans',
@@ -4697,7 +4690,7 @@ export default {
     }
   },
   yourSaving: {
-    hello: "      <strong>Hello {name}</strong>.<br/>Let's see how your money is doing today.    "
+    hello: "<span class='yellow'>Hello {name}!</span><br/>Let's see how your<br/> money is doing today."
   },
   common: {
     table: {
