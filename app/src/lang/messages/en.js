@@ -354,7 +354,8 @@ export default {
   },
   history: {
     deposit: {
-      title: 'Fiat - Deposits',
+      title: 'Deposits',
+      titleHistory: "Deposit USD History",
       tabs: { fiat: 'Fiat', crypto: 'Crypto', openOrders: 'Open Orders', collateral: 'Collateral' },
       headers: {
         date: 'Date',
@@ -383,6 +384,7 @@ export default {
     },
     depositCrypto: {
       header: 'Crypto - Deposits',
+      titleHistory: "Deposit Crypto History",
       status: { done: 'Done' },
       checkBalance: 'Check Balance',
       headers: {
@@ -404,7 +406,8 @@ export default {
       wireReceiptRemove: 'Remove receipt'
     },
     transferConstant: {
-      title: 'Transfer History',
+      title: 'Transfer',
+      titleHistory: 'Transfer History',
       tabs: {
         sent: 'Sent',
         received: 'Received',
@@ -425,7 +428,8 @@ export default {
       noHistoryData: 'Make a transfer to get started.'
     },
     withdrawFiat: {
-      title: 'Withdrawals History',
+      title: 'Withdrawals',
+      titleHistory: "Withdraw USD History",
       tabs: { fiat: 'Fiat', openOrders: 'Open Orders' },
       headers: {
         orderNo: '#',
@@ -443,7 +447,8 @@ export default {
       accountNumber: 'Account number'
     },
     withdrawCrypto: {
-      title: 'Crypto - Withdrawals',
+      title: 'Withdrawals',
+      titleHistory: "Withdraw Crypto History",
       tabs: { fiat: 'Fiat', crypto: 'Crypto', openOrders: 'Open Orders' },
       headers: {
         orderNo: '#',
