@@ -389,6 +389,7 @@
     "history": {
         "deposit": {
             "title": "%%%.history.deposit.title%%%",
+            "titleHistory": "%%%.history.deposit.titleHistory%%%",
             "tabs": {
                 "fiat": "%%%.history.deposit.tabs.fiat%%%",
                 "crypto": "%%%.history.deposit.tabs.crypto%%%",
@@ -422,6 +423,7 @@
         },
         "depositCrypto": {
             "header": "%%%.history.depositCrypto.header%%%",
+            "titleHistory": "%%%.history.depositCrypto.titleHistory%%%",
             "status": {
                 "done": "%%%.history.depositCrypto.status.done%%%"
             },
@@ -446,6 +448,7 @@
         },
         "transferConstant": {
             "title": "%%%.history.transferConstant.title%%%",
+            "titleHistory": "%%%.history.transferConstant.titleHistory%%%",
             "tabs": {
                 "sent": "%%%.history.transferConstant.tabs.sent%%%",
                 "received": "%%%.history.transferConstant.tabs.received%%%",
@@ -467,6 +470,7 @@
         },
         "withdrawFiat": {
             "title": "%%%.history.withdrawFiat.title%%%",
+            "titleHistory": "%%%.history.withdrawFiat.titleHistory%%%",
             "tabs": {
                 "fiat": "%%%.history.withdrawFiat.tabs.fiat%%%",
                 "openOrders": "%%%.history.withdrawFiat.tabs.openOrders%%%"
@@ -488,6 +492,7 @@
         },
         "withdrawCrypto": {
             "title": "%%%.history.withdrawCrypto.title%%%",
+            "titleHistory": "%%%.history.withdrawCrypto.titleHistory%%%",
             "tabs": {
                 "fiat": "%%%.history.withdrawCrypto.tabs.fiat%%%",
                 "crypto": "%%%.history.withdrawCrypto.tabs.crypto%%%",
