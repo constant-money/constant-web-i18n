@@ -95,6 +95,7 @@ export default {
     affiliate: 'Affiliate',
     blog: 'Blog',
     blogDesc: 'News, guides, and opinion.',
+    personalBudget: 'Personal budget',
     social: {
       fb: {
         link: 'https://www.facebook.com/myconstantp2p',
@@ -114,17 +115,13 @@ export default {
       }
     },
     cta: {
-      type1: { title: '<div class="h3">Start earning interest</div>', btn: 'Make an investment' },
-      type2: { title: '<div class="h3">Do more with your money</div>', btn: 'Open a free account' },
-      type3: {
-        title: '<div class="h3">Earn passive income with fully secured investments.</div>',
-        btn: 'Make an investment',
-      },
-      type4: { title: '<div class="h3">Get fixed-rate loans of any amount.</div>', btn: 'Borrow now' },
-      type5: { title: '<div class="h3">Invite your friends, earn a bonus</div>', btn: 'Invite now' },
-      type6: { title: '<div class="h3">Open an account and grow your money</div>', btn: 'Open an account' },
-      type10: { title: '<div class="h3">Invest the way you want</div>', btn: 'Sign up now' },
-      type11: { title: '<div class="h3">Borrow the way you want</div>', btn: 'Sign up now' },
+      deposit: { title: '<div class="h3">Start earning interest</div>', btn: 'Make an investment' },
+      signUp: { title: '<div class="h3">Open an account and<br/><strong>grow your money</strong></div>', btn: 'Open an account' },
+      invest: { title: '<div class="h3">Earn passive income with<br/><strong>fully secured investments</strong></div>', btn: 'Make an investment' },
+      borrow: { title: '<div class="h3">Get <strong>fixed-rate loans</strong><br/>of any amount</div>', btn: 'Borrow now' },
+      invite: { title: '<div class="h3">Invite your friends<br/><strong>Earn a bonus</strong></div>', btn: 'Invite now' },
+      investSignUp: { title: '<div class="h3">Invest the way you want</div>', btn: 'Sign up now' },
+      borrowSignUp: { title: '<div class="h3">Borrow the way you want</div>', btn: 'Sign up now' },
     },
     company: {
       name: ' 2020 MyConstant, Inc.',
@@ -144,7 +141,7 @@ export default {
     contactUs: 'Contact us',
     phone: {
       us: {
-        time: 'Mon - Fri 9am - 5pm<br />Mon-Thurs 6pm - 3am PST',
+        time: '<strong>Mon - Fri</strong> 9am - 5pm<br /><strong>Mon-Thurs</strong> 6pm - 3am PST',
         phone: '+1 646 809 8338',
         timeMobile: '<p><span>(Mon - Fri)</span> 9am - 5pm</p><p><span>(Mon - Thurs)</span> 6pm - 3am PST</p>',
       }
@@ -185,64 +182,6 @@ export default {
       headLine: 'You invest<br />or borrow',
       endDate: '180 days',
       levelInfo: { desc: 'You need', point: '{point} points' }
-    },
-    faqs: {
-      '1': {
-        question: 'Do the minimum investment/borrow amounts apply to single loans only?',
-        answer: '          <p>          No, you can invest or borrow multiple times within the 180 days to become a Gold, Platinum, or Diamond member.          </p>          '
-      },
-      '2': {
-        question: 'Do outstanding loans and investments qualify for points?',
-        answer: '          <p>          Yes. You can meet the minimum threshold for membership on active loans and investments that are yet to mature.          </p>          '
-      },
-      '3': {
-        question: 'Can I combine loans and investments to reach the membership threshold?',
-        answer: '          <p>          No. The membership thresholds apply separately to loans and investments. For example, you must invest $25,000 or borrow $25,000 to qualify for Gold membership.          </p>          '
-      },
-      '4': {
-        question: 'How long do membership rewards last?',
-        answer: '          <p>          The $50 cashback rewards and STAR bonus are <strong>one-off rewards only</strong>. The other benefits last as long as your points do. You earn a point for every dollar you invest or borrow and each point expires after 180 days. So, if you make a single investment of $25,000, for example, your points will last 180 days and so will the benefits.          </p>          <p>          If you invest several times to reach the minimum, your rewards will last 180 days from the first qualifying point you earned. For example, if you invest $10,000 and then $15,000 three months later, your benefits will continue until your first batch of points expire.           </p>          '
-      },
-      '5': {
-        question: 'Can I extend membership rewards?',
-        answer: '          <p>          Yes! When your points expire, simply invest or borrow again to top them up. This way, you can keep your membership benefits for as long as you want them.           </p>          '
-      },
-      '6': {
-        question: 'Do I need to contact you when I’ve reached the minimum amount?',
-        answer: '          <p>          No, you don’t need to do anything. We’ll track your investment and loan volume on a rolling six-month basis and when you meet the minimum threshold, we’ll immediately upgrade you to Gold, Platinum, or Diamond status.           </p>          '
-      },
-      '7': {
-        question: 'Why is there an expiration date on membership points?',
-        answer: '          <p>          While there is an expiration date on points there is no expiration date on the Membership Rewards program. This is our way of saying thank you to our most loyal and active customers, so we want to run the program for as long as possible. The expiration date allows us to tie membership strictly to active, regular users of our platform.           </p>          '
-      },
-      '8': {
-        question: 'Can you qualify for each level multiple times?',
-        answer: '          <p>          Yes, you can. However, the $150 and STAR bonuses can only be claimed once during the lifetime of your account. You can maintain the other benefits indefinitely.           </p>          '
-      },
-      '9': {
-        question: 'Can I earn all the benefits at once?',
-        answer: '          <p>          Interest from referrals is exclusive to each level of membership. The instant credit reward can each be earned only one time per each level. For example, if you invest $100,000, you’ll get $150 + 1 STAR + 20% of earned interest from referred friends’ Instant-access investing accounts (until your membership points expire).           </p>          '
-      },
-      '10': {
-        question: 'How do I redeem STAR?',
-        answer: '          <p>          By going to your <a href="/accounts" class="underline bold">Accounts</a> page you can redeem STAR against any active investment or loan. 1 STAR = +/- 1% interest (depending on if you’re a lender or borrower). The bonus or discount is applied from the date of redemption until the loan or investment matures. STAR tokens don’t expire, so you can save them up and redeem them in one go if you want.           </p>          '
-      },
-      '11': {
-        question: 'What happens when my points expire?',
-        answer: '          <p>          You can top points up to maintain your membership benefits. Your Membership Rewards page shows when your points expire and you’ll also receive an email reminder from us too. If you allow your points to expire, you will lose your membership and benefits, but can always re-qualify by earning enough points. Please note the $150 and STAR bonuses are one-time benefits — you can only earn them once per level.           </p>          '
-      },
-      '12': {
-        question: 'Will my referral interest change when my points expire?',
-        answer: '          <p>          As stated above, if you allow your points to expire, you will lose your membership and benefits. This includes bonus referral interest rates. However, all special interest rates from friends you refer will be upgraded upon achieving membership.           </p>          '
-      },
-      '13': {
-        question: 'Do I have to complete 3 Trustpilot reviews to get all $150?',
-        answer: '          <p>          When you reach a new membership level you will be prompted to leave a review on our Trustpilot. Once you click the link to our Trustpilot on our membership page and enter your username your reward will be automatically credited to your account. If you have done this once you never have to do it again. Thanks for spreading the word about our platform :).           </p>          '
-      },
-      '14': {
-        question: 'I am already a member. Can I claim an additional $50 or STAR reward for my current level?',
-        answer: '          <p>          If you’re already participating in our membership program then, first of all, thank you! But since you’ve already received a reward for your current level, you must move up a level to receive new rewards.           </p>           <p>          <strong>For example:</strong> if you are already a Gold member you won’t be able to earn $50 cashback for Gold again but can gain $50 rewards if you upgrade to Platinum or Diamond. If you’re already a Diamond member you’ll be unable to receive further one-time rewards from any level as you already have earned them.           </p>           <p>          You will, however, be able to receive all extra interest and rewards on your new referrals based on your current level as well as its new withdrawal/deposit options.           </p>          '
-      }
     },
     memberShipLevel: {
       level1: 'Gold',
@@ -318,6 +257,8 @@ export default {
         gift_ticket_transaction: 'Prize Wheel spin',
         user_tickets: 'Prize Wheel reward',
         gift_reward: 'Prize Wheel reward',
+        reward_membershiphistory: 'Achieved Gold status',
+        saving_userquizanswer: 'Won 30 quiz points',
       },
     },
   },
@@ -356,7 +297,7 @@ export default {
     deposit: {
       title: 'Deposits',
       titleHistory: "Deposit USD History",
-      tabs: { fiat: 'Fiat', crypto: 'Crypto', openOrders: 'Open Orders', collateral: 'Collateral' },
+      tabs: { fiat: 'Fiat', crypto: 'Crypto', stablecoin: 'Stablecoin', openOrders: 'Open Orders', collateral: 'Collateral' },
       headers: {
         date: 'Date',
         receivedAmount: 'Received amount',
@@ -366,6 +307,8 @@ export default {
         action: 'Action',
         coin: 'Coin',
         amount: 'Amount',
+        collateralAction: 'Action',
+        txHash: 'TxHash'
       },
       noHistoryData: 'Make a deposit to get started.',
       status: {
@@ -433,13 +376,15 @@ export default {
       tabs: { fiat: 'Fiat', openOrders: 'Open Orders' },
       headers: {
         orderNo: '#',
-        usdAmount: 'USD Amount',
+        usdAmount: 'Amount',
         currencyAmount: 'Currency Amount',
-        paymentMethod: 'Payment Method',
+        paymentMethod: 'Method',
         date: 'Date',
         status: 'Status',
         action: 'Action',
         type: 'Type',
+        accountNumber: 'Account number',
+        disbursementTo: 'Disbursement to',
       },
       noHistoryData: 'Make a withdrawal to get started.',
       bankName: 'Bank name',
@@ -449,7 +394,7 @@ export default {
     withdrawCrypto: {
       title: 'Withdrawals',
       titleHistory: "Withdraw Crypto History",
-      tabs: { fiat: 'Fiat', crypto: 'Crypto', openOrders: 'Open Orders' },
+      tabs: { fiat: 'Fiat', crypto: 'Crypto', stablecoin: 'Stablecoin', openOrders: 'Open Orders' },
       headers: {
         orderNo: '#',
         usdAmount: 'USD Amount',
@@ -1282,6 +1227,7 @@ export default {
       fiatStableCoin: 'Fiat - Stablecoins',
       collateral: 'Collateral',
       crypto: 'Crypto',
+      stablecoin: 'Stablecoin',
       topupHistory: 'Top-up History',
       localHistory: 'Transfers and interest earnings',
       fiat: 'Fiat',
@@ -1380,6 +1326,8 @@ export default {
       discardNoteTitle: 'Your KYC application has not yet been approved due to:',
       discardNote: 'Please make sure all your documents are in order and just click submit again.',
       seeFullDetail: 'See your full details',
+      waitForProcessingImage: 'Please wait for processing image',
+      waitForUploadingImage: 'Please wait for uploading image',
     },
     bankInfo: {
       subject: 'Bank account details for receiving withdrawals or transfers ',
@@ -1800,7 +1748,6 @@ export default {
     },
     whyItBetter: {
       title: 'Why it’s better',
-      desc: 'Unlike traditional <span style="color:#FFFFFF">P2P platforms</span> that prey on vulnerable borrowers and expect investors to shoulder the risk, <span style="color:#FFFFFF">MyConstant</span> is designed to protect them both.',
       data: {
         '0': {
           title: 'Reliable returns',
@@ -3208,9 +3155,6 @@ export default {
         },
       }
     },
-    buy: {
-      components: { sell: { title: 'Where should we send your funds to?' } }
-    },
     direct: {
       components: {
         sellInfoInput: {
@@ -3292,6 +3236,11 @@ export default {
         zelleFailed: 'Something went wrong. Please try again.',
         needKyc: '',
         buy2ndDesc: `Click confirm to agree to the <a href="{loanTermUrl}" target="_blank" class="underline">terms of the loan</a>, start your term, and begin earning interest. Once confirmed, you can’t cancel this investment but you can sell it early on the secondary market.`,
+        warningNonUSPrimeTrust:`
+          <p><strong>USD withdrawals are temporarily suspended for non-US bank accounts.</strong></p>
+          <p>Before you deposit, please note <strong>you can only withdraw in stablecoins or to US bank accounts</strong>. Due to an unusually high number of wire reversals, we’ve temporarily suspended USD withdrawals to banks outside of the US. We’re working with Prime Trust, our custodian, to reinstate fiat withdrawals to non-US banks as soon as possible.</p>
+          <p>Please only display these to non-US customers or US customers with non-US banks on site. Thanks</p>
+        `
       },
       confirm: {
         thankYou1: 'Almost there.',
@@ -4352,6 +4301,7 @@ export default {
       fileupload: 'Upload',
       retry: 'Something wrong happened. Please retry again.',
       remove: 'Remove',
+      error: 'OH! something went wrong!',
     },
     local: { type: { buy: 'Deposit', sell: 'Withdraw' } },
     goToHomePage: 'Go to Home page',
@@ -4384,6 +4334,13 @@ export default {
         <p><strong class="yellow">Get \${affiliateReward}</strong> for every person<sup>1</sup> you refer (no limits) plus <strong class="yellow">20% of their Instant-access investment interest</strong> in their first year (capped at $1 million). Refer as many people as you like.</p>
         <p class="reference"><sup>1</sup> To qualify for the \${affiliateReward} reward, your referee must be a US citizen.</p>
         `,
+      nonMemberTitle: `
+        <h1 class="header">Write, talk, or stream about us</h1>
+      `,
+      nonMemberDesc:`
+        <p><strong class="yellow">Earn \${affiliateReward} for every person who deposits USD / borrows</strong> using your unique affiliate link. You also <strong class="yellow">get 20% of their instant-access investment interest</strong> in their first year. Boost your earnings with bonuses, ad sponsorship, and more.</p>
+        <p>Apply to become our affiliate using the form below.</p>
+      `,
       userName: 'Your name',
       userEmail: 'Your email address',
       notValidEmail: 'Invalid email address',
@@ -4426,6 +4383,56 @@ export default {
     //     '2': { title: '$15M+', desc: 'matched loan volume' }
     //   }
     // },
+    register: {
+      aboveTheFold: {
+        title: '<p class="header">Hey, thanks for visiting. Here’s a <span class="yellow">${kycTrialAmount} free trial</span> to get you started</p>',
+        desc: '<p>Try crypto-backed lending for free. Your first investment is on us when you sign up and pass KYC. Earn {flexRate}% APY for two weeks on a free ${kycTrialAmount} bonus. After two weeks, the bonus expires but you keep the interest.</p>',
+      },
+      howItWorks: {
+        title: 'You won’t find a better place to grow your money',
+        desc: 'You deserve a great rate on your money but the banks won’t give you one. If you want to beat inflation and achieve real growth, put your money to work with crypto-backed lending instead.',
+        data: {
+          0: {
+            title: 'Earn up to 50x more',
+            desc: 'The top US banks pay just fractions of a percent. With us, you could earn up to 50x more interest than a savings account and up to double that of a CD.'
+          },
+          1: {
+            title: 'Real-time growth',
+            desc: 'Your interest is compounded and paid every second, so you can literally watch your money grow. See how quickly your returns stack up in just a few weeks.',
+          },
+          2: {
+            title: 'Withdraw anytime',
+            desc: 'Once the free trial ends and you invest your own money, you can withdraw again anytime. No limits, fees, or restrictions. You won’t find a more flexible investment account!',
+          },
+          3: {
+            title: 'Backed by crypto',
+            desc: 'When you invest, you fund borrowers who’ve put up cryptocurrency collateral. If they don’t repay or their collateral falls too much in value, we sell it to repay you.',
+          },
+        }
+      }
+    },
+    joinAffiliateProgram: {
+      title: 'Join one of the best affiliate programs in finance',
+      desc: 'If you already do finance affiliate marketing, you could multiply your earnings with our peer-to-peer lending program.',
+      data: {
+        0: {
+          title: 'INSTANT PAYMENT',
+          desc: 'No waiting around or admin. Your bonuses are paid into your account immediately after your referees deposit USD or borrow.'
+        },
+        1: {
+          title: 'PASSIVE INCOME',
+          desc: 'After the bonus, you continue to earn a passive income of 20% of the referee’s instant-access investment interest.',
+        },
+        2: {
+          title: 'HUGE MARKET',
+          desc: 'The P2P lending market is worth over $2.3 billion, and we’re growing 25% each month. Get your cut!',
+        },
+        3: {
+          title: 'CUSTOMERS LOVE US',
+          desc: 'We consistently maintain a Trustpilot score of 4.5 or above across over 1,000 reviews.',
+        },
+      }
+    },
     whyBecome: {
       title: 'The best rewards in the business',
       formula: {
@@ -4481,6 +4488,24 @@ export default {
         },
       }
     },
+    howAffiliateProgramWorks: {
+      title: 'How does our affiliate program work?',
+      desc: 'Like most finance affiliate programs, you share a unique referral link which deposits a cookie on your referee’s computer.',
+      data: {
+        0: {
+          title: 'Share your unique affiliate link',
+          desc: 'When customers click your affiliate link, we deposit a cookie in their browser that lasts 30 days. If they deposit USD or borrow with that cookie on their computer, you get paid.'
+        },
+        1: {
+          title: 'Your referee signs up and deposits',
+          desc: 'To qualify for the bonus payment and interest, your referee must sign up, verify their ID, and deposit at least $10 or make a crypto-backed loan.'
+        },
+        2: {
+          title: 'Receive your rewards',
+          desc: 'You get ${affiliateReward} paid instantly and automatically into your account. You also earn 20% of their instant-access interest for their first year with us.'
+        },
+      }
+    },
     howItWorks: {
       title: 'How it works',
       data: {
@@ -4490,7 +4515,7 @@ export default {
         },
         '1': {
           title: ' ',
-          desc: 'Referee signs up, passes KYC, and makes their first deposit (min $10).'
+          desc: 'Referee makes their first deposit or initiates a loan.'
         },
         '2': {
           title: ' ',
@@ -4498,11 +4523,11 @@ export default {
         },
         '3': {
           title: ' ',
-          desc: 'Your referee invests in Instant-access investing for {flexRate}% APY.',
+          desc: 'Your referee invests in instant-access earning {flexRate}% APY.',
         },
         '4': {
           title: ' ',
-          desc: 'You get 20% of their Instant-access investment earnings, paid every second.'
+          desc: 'You get 20% of their instant-access earnings, paid every second.'
         }
       },
       desc: '      <p>There are <strong>no limits</strong> to the number of people you can refer for the ${affiliateReward} bonus.</p>      <p>Your Instant-access investment earnings are capped at $1,000,000.</p>'
@@ -5671,7 +5696,12 @@ export default {
     zelleOverLimit: `Sorry, Zelle restrictions mean we're unable to process any further Zelle withdrawals at the moment. Please try again tomorrow or choose another withdrawal method. For more information, please check our <a href="/getPrices" target="_blank" class="underline">service times</a>. Thank you.` ,
     makeDirectOrderSuccess: 'Thanks! Your transfer is now processing.',
     makeDirectOrderFailed: "Sorry, we couldn't create your order this time. Please try again. If you continue experiencing problems, please contact us at hello@myconstant.com. Thank you.",
-    transferConfirm: "We've already sent you a verification link by email. Please click this link to approve your transaction."
+    transferConfirm: "We've already sent you a verification link by email. Please click this link to approve your transaction.",
+    transferConfirmPrimeTrust: `Prime Trust, our custodian, has sent you a verification link by email. Please <strong>click this link to approve your transaction</strong> otherwise it'll be automatically cancelled.`,
+    warningNonUSPrimeTrust:`
+      <p><strong>Sorry, we’re currently unable to process USD withdrawals to non-US banks. </strong></p>
+      <p>Due to an unusually high number of wire reversals, we’ve temporarily suspended USD withdrawals to banks outside of the US. <strong>If you’re a non-US resident, please note you can only withdraw in stablecoins or to a US bank account</strong>. We’re working with Prime Trust, our custodian, to reinstate fiat withdrawals for non-US customers and will let you know as soon as service resumes.</p>
+    `
   },
   callUs: {
     title: 'Call Us',
@@ -5946,7 +5976,9 @@ export default {
         <h2 class="last">High risk. High reward.</h2>
       `,
     },
-    borrowForm:  {
+    form:  {
+      liveDesc: 'This is your live account. When you open new Short Selling positions here, they are real orders and you stand to gain or lose depending on what the market does.',
+      demoDesc: 'This is your demo Short Selling training account. Create virtual orders here and see how well you can predict the market! As these aren’t real orders, you won’t earn a profit or lose a cent. When you’re ready to try real Short Selling trading, click the “Live” tab at the top.',
       tooltipMarketPrice: 'Enable Use Market Price to open your short position immediately at the market price. Or, create a short-selling order by disabling this option and entering the price at which you’d like to short and your position will open automatically once that price is reached.',
       toolTipCollateral: 'The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to {upToRate}% of the value of your USD collateral. For example, if you have ${egBase} in your short-selling balance, you can short up to ${egUpTo} worth of the crypto in that pair.',
       toolTipTakeProfit: 'Take profit is the price at which you repay your shorted cryptocurrency. This should be at least 5% below the current market price. When the take profit price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. You keep the profits minus interest and matching fee.',
@@ -6008,7 +6040,7 @@ export default {
     },
     form: {
       liveDesc: 'This is your live account. When you open new Futures positions here, they are real orders and you stand to gain or lose depending on what the market does.',
-      virtualDesc: 'This is your virtual Futures training account. Create virtual orders here and see how well you can predict the market! As these aren’t real orders, you won’t earn a profit or lose a cent. When you’re ready to try real Futures trading, click the “Live” tab at the top.',
+      demoDesc: 'This is your demo Futures training account. Create virtual orders here and see how well you can predict the market! As these aren’t real orders, you won’t earn a profit or lose a cent. When you’re ready to try real Futures trading, click the “Live” tab at the top.',
       predictionDesc: 'Select “Rise” if you think the price will rise or “Fall” if you think the price will fall. Your position will automatically close when the price changes by {tpRate}% in your predicted direction (to bank profits) or {slRate}% in the opposite direction (to minimize losses) unless you repay early.',
       amountDesc: 'To open a Futures position, you must have USD available in your balance for use as collateral. Enter a USD collateral amount here and we will buy the equivalent amount of crypto at {multipleRate}x leverage. You won’t be able to withdraw your collateral until your Futures position closes.',
       feeDesc: 'The fee is {feeRate}% of your total leveraged position. For example, if you open a position with ${egAmount} and {multipleRate}x leverage, your fee would be: {feeRate}% x ({multipleRate} x ${egAmount}) = ${egFee}.',
@@ -6062,5 +6094,55 @@ export default {
         status: 'Status',
       }
     },
-  }
+  },
+  budget: {
+    title: 'Earn, save, and manage money <span style="color:#F5A623;">the easy way</span> with our free budgeting app.',
+    desc1: "Acheieve your financial goals fast with Personal Budget. Sync budgets to your bank account so you never miss a transaction. Set up overspend reminders to stay on traget. No receipts. No spreadsheets. Available in the MyConstant app now. ",
+    feature1: "Track your income and expenses automatically",
+    feature2: "Stay focused on your goals with overspend reminders",
+    feature3: "Generate financial reports for deeper insights",
+    tips: {
+      title: "How it work",
+      desc: "Budgeting needn’t be all spreadsheets and penny-pinching. Get started with Personal Budget today and see how easy it is to earn, track, and manage your money. Your financial goals are just a few steps away!",
+      tip_label_1: 'Link bank accounts',
+      tip_desc_1: "Link up to two unique bank accounts to synchronize all incoming and outgoing transactions. When you open the app, your budgets will update automatically, with no input from you.",
+      tip_label_2: "Create your budget",
+      tip_desc_2: "Set up budgets for your financial goals, whether that’s a vacation, home improvements, wedding, or retirement planning. The choices are unlimited – and better yet – yours!",
+      tip_label_3: "Track your progress",
+      tip_desc_3: "Drop by the app once in a while to check in on your progress. With handy status bars, charts, and color-coded summaries, it takes just moments to spot your financial strengths (and weaknesses!)."
+    },
+    why: {
+      title: "Why use Personal Budget?",
+      desc: "Achieve your financial goals fast with these powerful benefits at zero cost to you.",
+      label_1: "Save hours of time and effort",
+      desc_1: "Link a bank account to synchronize transactions automatically. No need to keep receipts or enter details manually.",
+      label_2: "Keep focused on your goals",
+      desc_2: "Set budgets, overspend warnings, and reminders so you don’t fall back into bad habits.",
+      label_3: "Tailor budgets to you",
+      desc_3: "Create and customize categories for your income and expenses so your budgets match your lifestyle and financial goals.",
+      label_4: "Stay motivated",
+      desc_4: "With at-a-glance graphics showing your progress and available spending money, it’s easier than every to stay motivated.",
+      label_5: "Identify problem spending",
+      desc_5: "Generate monthly spending reports to gain deeper insight into where your money goes."
+    },
+    download: {
+      title: "Start creating wealth today.\nDownload it now.",
+      desc: 'Earn, save, and grow with Personal Budget: A world of <span style="color:#F5A623;">financial power</span> in your pocket.'
+    },
+    faq: {
+      title: "Frequently-asked questions (FAQs)",
+    },
+    feature: {
+      title: "Everything you need to achieve your financial goals",
+      desc: "Stop scrimping and start saving with Personal Budget’s all-in-one money-management tools.",
+      label_1: "Real-time tracking",
+      desc_1: "Link a bank account and transactions synchronize automatically. No data entry required!",
+      label_2: "Multi-budget",
+      desc_2: "Create and customize multiple budgets for different purposes or financial goals.",
+      label_3: "Graphs & Reports",
+      desc_3: "View progress towards your goals as well as periodic income and expense reports and charts",
+      label_4: "Overspend reminders",
+      desc_4: "Receive a notification every time you spend over your budget, helping you stay on track."
+    }
+  },
 };
