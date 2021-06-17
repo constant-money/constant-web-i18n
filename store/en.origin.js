@@ -95,6 +95,7 @@
         "affiliate": "%%%.footer.affiliate%%%",
         "blog": "%%%.footer.blog%%%",
         "blogDesc": "%%%.footer.blogDesc%%%",
+        "personalBudget": "%%%.footer.personalBudget%%%",
         "social": {
             "fb": {
                 "link": "%%%.footer.social.fb.link%%%",
@@ -125,37 +126,33 @@
             }
         },
         "cta": {
-            "type1": {
-                "title": "%%%.footer.cta.type1.title%%%",
-                "btn": "%%%.footer.cta.type1.btn%%%"
+            "deposit": {
+                "title": "%%%.footer.cta.deposit.title%%%",
+                "btn": "%%%.footer.cta.deposit.btn%%%"
             },
-            "type2": {
-                "title": "%%%.footer.cta.type2.title%%%",
-                "btn": "%%%.footer.cta.type2.btn%%%"
+            "signUp": {
+                "title": "%%%.footer.cta.signUp.title%%%",
+                "btn": "%%%.footer.cta.signUp.btn%%%"
             },
-            "type3": {
-                "title": "%%%.footer.cta.type3.title%%%",
-                "btn": "%%%.footer.cta.type3.btn%%%"
+            "invest": {
+                "title": "%%%.footer.cta.invest.title%%%",
+                "btn": "%%%.footer.cta.invest.btn%%%"
             },
-            "type4": {
-                "title": "%%%.footer.cta.type4.title%%%",
-                "btn": "%%%.footer.cta.type4.btn%%%"
+            "borrow": {
+                "title": "%%%.footer.cta.borrow.title%%%",
+                "btn": "%%%.footer.cta.borrow.btn%%%"
             },
-            "type5": {
-                "title": "%%%.footer.cta.type5.title%%%",
-                "btn": "%%%.footer.cta.type5.btn%%%"
+            "invite": {
+                "title": "%%%.footer.cta.invite.title%%%",
+                "btn": "%%%.footer.cta.invite.btn%%%"
             },
-            "type6": {
-                "title": "%%%.footer.cta.type6.title%%%",
-                "btn": "%%%.footer.cta.type6.btn%%%"
+            "investSignUp": {
+                "title": "%%%.footer.cta.investSignUp.title%%%",
+                "btn": "%%%.footer.cta.investSignUp.btn%%%"
             },
-            "type10": {
-                "title": "%%%.footer.cta.type10.title%%%",
-                "btn": "%%%.footer.cta.type10.btn%%%"
-            },
-            "type11": {
-                "title": "%%%.footer.cta.type11.title%%%",
-                "btn": "%%%.footer.cta.type11.btn%%%"
+            "borrowSignUp": {
+                "title": "%%%.footer.cta.borrowSignUp.title%%%",
+                "btn": "%%%.footer.cta.borrowSignUp.btn%%%"
             }
         },
         "company": {
@@ -218,64 +215,6 @@
             "levelInfo": {
                 "desc": "%%%.memberShip.howItWorks.levelInfo.desc%%%",
                 "point": "%%%.memberShip.howItWorks.levelInfo.point%%%"
-            }
-        },
-        "faqs": {
-            "1": {
-                "question": "%%%.memberShip.faqs.1.question%%%",
-                "answer": "%%%.memberShip.faqs.1.answer%%%"
-            },
-            "2": {
-                "question": "%%%.memberShip.faqs.2.question%%%",
-                "answer": "%%%.memberShip.faqs.2.answer%%%"
-            },
-            "3": {
-                "question": "%%%.memberShip.faqs.3.question%%%",
-                "answer": "%%%.memberShip.faqs.3.answer%%%"
-            },
-            "4": {
-                "question": "%%%.memberShip.faqs.4.question%%%",
-                "answer": "%%%.memberShip.faqs.4.answer%%%"
-            },
-            "5": {
-                "question": "%%%.memberShip.faqs.5.question%%%",
-                "answer": "%%%.memberShip.faqs.5.answer%%%"
-            },
-            "6": {
-                "question": "%%%.memberShip.faqs.6.question%%%",
-                "answer": "%%%.memberShip.faqs.6.answer%%%"
-            },
-            "7": {
-                "question": "%%%.memberShip.faqs.7.question%%%",
-                "answer": "%%%.memberShip.faqs.7.answer%%%"
-            },
-            "8": {
-                "question": "%%%.memberShip.faqs.8.question%%%",
-                "answer": "%%%.memberShip.faqs.8.answer%%%"
-            },
-            "9": {
-                "question": "%%%.memberShip.faqs.9.question%%%",
-                "answer": "%%%.memberShip.faqs.9.answer%%%"
-            },
-            "10": {
-                "question": "%%%.memberShip.faqs.10.question%%%",
-                "answer": "%%%.memberShip.faqs.10.answer%%%"
-            },
-            "11": {
-                "question": "%%%.memberShip.faqs.11.question%%%",
-                "answer": "%%%.memberShip.faqs.11.answer%%%"
-            },
-            "12": {
-                "question": "%%%.memberShip.faqs.12.question%%%",
-                "answer": "%%%.memberShip.faqs.12.answer%%%"
-            },
-            "13": {
-                "question": "%%%.memberShip.faqs.13.question%%%",
-                "answer": "%%%.memberShip.faqs.13.answer%%%"
-            },
-            "14": {
-                "question": "%%%.memberShip.faqs.14.question%%%",
-                "answer": "%%%.memberShip.faqs.14.answer%%%"
             }
         },
         "memberShipLevel": {
@@ -351,7 +290,9 @@
                 "users__referee": "%%%.memberShip.pointHistory.activity.users__referee%%%",
                 "gift_ticket_transaction": "%%%.memberShip.pointHistory.activity.gift_ticket_transaction%%%",
                 "user_tickets": "%%%.memberShip.pointHistory.activity.user_tickets%%%",
-                "gift_reward": "%%%.memberShip.pointHistory.activity.gift_reward%%%"
+                "gift_reward": "%%%.memberShip.pointHistory.activity.gift_reward%%%",
+                "reward_membershiphistory": "%%%.memberShip.pointHistory.activity.reward_membershiphistory%%%",
+                "saving_userquizanswer": "%%%.memberShip.pointHistory.activity.saving_userquizanswer%%%"
             }
         }
     },
@@ -393,6 +334,7 @@
             "tabs": {
                 "fiat": "%%%.history.deposit.tabs.fiat%%%",
                 "crypto": "%%%.history.deposit.tabs.crypto%%%",
+                "stablecoin": "%%%.history.deposit.tabs.stablecoin%%%",
                 "openOrders": "%%%.history.deposit.tabs.openOrders%%%",
                 "collateral": "%%%.history.deposit.tabs.collateral%%%"
             },
@@ -404,7 +346,9 @@
                 "refNo": "%%%.history.deposit.headers.refNo%%%",
                 "action": "%%%.history.deposit.headers.action%%%",
                 "coin": "%%%.history.deposit.headers.coin%%%",
-                "amount": "%%%.history.deposit.headers.amount%%%"
+                "amount": "%%%.history.deposit.headers.amount%%%",
+                "collateralAction": "%%%.history.deposit.headers.collateralAction%%%",
+                "txHash": "%%%.history.deposit.headers.txHash%%%"
             },
             "noHistoryData": "%%%.history.deposit.noHistoryData%%%",
             "status": {
@@ -483,7 +427,9 @@
                 "date": "%%%.history.withdrawFiat.headers.date%%%",
                 "status": "%%%.history.withdrawFiat.headers.status%%%",
                 "action": "%%%.history.withdrawFiat.headers.action%%%",
-                "type": "%%%.history.withdrawFiat.headers.type%%%"
+                "type": "%%%.history.withdrawFiat.headers.type%%%",
+                "accountNumber": "%%%.history.withdrawFiat.headers.accountNumber%%%",
+                "disbursementTo": "%%%.history.withdrawFiat.headers.disbursementTo%%%"
             },
             "noHistoryData": "%%%.history.withdrawFiat.noHistoryData%%%",
             "bankName": "%%%.history.withdrawFiat.bankName%%%",
@@ -496,6 +442,7 @@
             "tabs": {
                 "fiat": "%%%.history.withdrawCrypto.tabs.fiat%%%",
                 "crypto": "%%%.history.withdrawCrypto.tabs.crypto%%%",
+                "stablecoin": "%%%.history.withdrawCrypto.tabs.stablecoin%%%",
                 "openOrders": "%%%.history.withdrawCrypto.tabs.openOrders%%%"
             },
             "headers": {
@@ -1324,6 +1271,7 @@
             "fiatStableCoin": "%%%.me.navigation.fiatStableCoin%%%",
             "collateral": "%%%.me.navigation.collateral%%%",
             "crypto": "%%%.me.navigation.crypto%%%",
+            "stablecoin": "%%%.me.navigation.stablecoin%%%",
             "topupHistory": "%%%.me.navigation.topupHistory%%%",
             "localHistory": "%%%.me.navigation.localHistory%%%",
             "fiat": "%%%.me.navigation.fiat%%%",
@@ -1389,7 +1337,9 @@
             "uploadImageClick": "%%%.me.kyc.uploadImageClick%%%",
             "discardNoteTitle": "%%%.me.kyc.discardNoteTitle%%%",
             "discardNote": "%%%.me.kyc.discardNote%%%",
-            "seeFullDetail": "%%%.me.kyc.seeFullDetail%%%"
+            "seeFullDetail": "%%%.me.kyc.seeFullDetail%%%",
+            "waitForProcessingImage": "%%%.me.kyc.waitForProcessingImage%%%",
+            "waitForUploadingImage": "%%%.me.kyc.waitForUploadingImage%%%"
         },
         "bankInfo": {
             "subject": "%%%.me.bankInfo.subject%%%",
@@ -1817,7 +1767,6 @@
         },
         "whyItBetter": {
             "title": "%%%.newHome.whyItBetter.title%%%",
-            "desc": "%%%.newHome.whyItBetter.desc%%%",
             "data": {
                 "0": {
                     "title": "%%%.newHome.whyItBetter.data.0.title%%%",
@@ -3216,13 +3165,6 @@
                 }
             }
         },
-        "buy": {
-            "components": {
-                "sell": {
-                    "title": "%%%.home.buy.components.sell.title%%%"
-                }
-            }
-        },
         "direct": {
             "components": {
                 "sellInfoInput": {
@@ -3297,7 +3239,8 @@
                 "zelleSuccess": "%%%.home1.lendingSection.alert.zelleSuccess%%%",
                 "zelleFailed": "%%%.home1.lendingSection.alert.zelleFailed%%%",
                 "needKyc": "%%%.home1.lendingSection.alert.needKyc%%%",
-                "buy2ndDesc": "%%%.home1.lendingSection.alert.buy2ndDesc%%%"
+                "buy2ndDesc": "%%%.home1.lendingSection.alert.buy2ndDesc%%%",
+                "warningNonUSPrimeTrust": "%%%.home1.lendingSection.alert.warningNonUSPrimeTrust%%%"
             },
             "confirm": {
                 "thankYou1": "%%%.home1.lendingSection.confirm.thankYou1%%%",
@@ -4286,7 +4229,8 @@
             "uploading": "%%%.app.common.uploading%%%",
             "fileupload": "%%%.app.common.fileupload%%%",
             "retry": "%%%.app.common.retry%%%",
-            "remove": "%%%.app.common.remove%%%"
+            "remove": "%%%.app.common.remove%%%",
+            "error": "%%%.app.common.error%%%"
         },
         "local": {
             "type": {
@@ -4304,6 +4248,8 @@
             "titleDescReward": "%%%.affiliates.applyForm.titleDescReward%%%",
             "title": "%%%.affiliates.applyForm.title%%%",
             "titleDesc": "%%%.affiliates.applyForm.titleDesc%%%",
+            "nonMemberTitle": "%%%.affiliates.applyForm.nonMemberTitle%%%",
+            "nonMemberDesc": "%%%.affiliates.applyForm.nonMemberDesc%%%",
             "userName": "%%%.affiliates.applyForm.userName%%%",
             "userEmail": "%%%.affiliates.applyForm.userEmail%%%",
             "notValidEmail": "%%%.affiliates.applyForm.notValidEmail%%%",
@@ -4333,6 +4279,56 @@
             "requestFailed": "%%%.affiliates.applicationForm.requestFailed%%%",
             "emailExisted": "%%%.affiliates.applicationForm.emailExisted%%%",
             "notValidEmail": "%%%.affiliates.applicationForm.notValidEmail%%%"
+        },
+        "register": {
+            "aboveTheFold": {
+                "title": "%%%.affiliates.register.aboveTheFold.title%%%",
+                "desc": "%%%.affiliates.register.aboveTheFold.desc%%%"
+            },
+            "howItWorks": {
+                "title": "%%%.affiliates.register.howItWorks.title%%%",
+                "desc": "%%%.affiliates.register.howItWorks.desc%%%",
+                "data": {
+                    "0": {
+                        "title": "%%%.affiliates.register.howItWorks.data.0.title%%%",
+                        "desc": "%%%.affiliates.register.howItWorks.data.0.desc%%%"
+                    },
+                    "1": {
+                        "title": "%%%.affiliates.register.howItWorks.data.1.title%%%",
+                        "desc": "%%%.affiliates.register.howItWorks.data.1.desc%%%"
+                    },
+                    "2": {
+                        "title": "%%%.affiliates.register.howItWorks.data.2.title%%%",
+                        "desc": "%%%.affiliates.register.howItWorks.data.2.desc%%%"
+                    },
+                    "3": {
+                        "title": "%%%.affiliates.register.howItWorks.data.3.title%%%",
+                        "desc": "%%%.affiliates.register.howItWorks.data.3.desc%%%"
+                    }
+                }
+            }
+        },
+        "joinAffiliateProgram": {
+            "title": "%%%.affiliates.joinAffiliateProgram.title%%%",
+            "desc": "%%%.affiliates.joinAffiliateProgram.desc%%%",
+            "data": {
+                "0": {
+                    "title": "%%%.affiliates.joinAffiliateProgram.data.0.title%%%",
+                    "desc": "%%%.affiliates.joinAffiliateProgram.data.0.desc%%%"
+                },
+                "1": {
+                    "title": "%%%.affiliates.joinAffiliateProgram.data.1.title%%%",
+                    "desc": "%%%.affiliates.joinAffiliateProgram.data.1.desc%%%"
+                },
+                "2": {
+                    "title": "%%%.affiliates.joinAffiliateProgram.data.2.title%%%",
+                    "desc": "%%%.affiliates.joinAffiliateProgram.data.2.desc%%%"
+                },
+                "3": {
+                    "title": "%%%.affiliates.joinAffiliateProgram.data.3.title%%%",
+                    "desc": "%%%.affiliates.joinAffiliateProgram.data.3.desc%%%"
+                }
+            }
         },
         "whyBecome": {
             "title": "%%%.affiliates.whyBecome.title%%%",
@@ -4371,6 +4367,24 @@
                 "4": {
                     "title": "%%%.affiliates.theBestOpportunity.data.4.title%%%",
                     "desc": "%%%.affiliates.theBestOpportunity.data.4.desc%%%"
+                }
+            }
+        },
+        "howAffiliateProgramWorks": {
+            "title": "%%%.affiliates.howAffiliateProgramWorks.title%%%",
+            "desc": "%%%.affiliates.howAffiliateProgramWorks.desc%%%",
+            "data": {
+                "0": {
+                    "title": "%%%.affiliates.howAffiliateProgramWorks.data.0.title%%%",
+                    "desc": "%%%.affiliates.howAffiliateProgramWorks.data.0.desc%%%"
+                },
+                "1": {
+                    "title": "%%%.affiliates.howAffiliateProgramWorks.data.1.title%%%",
+                    "desc": "%%%.affiliates.howAffiliateProgramWorks.data.1.desc%%%"
+                },
+                "2": {
+                    "title": "%%%.affiliates.howAffiliateProgramWorks.data.2.title%%%",
+                    "desc": "%%%.affiliates.howAffiliateProgramWorks.data.2.desc%%%"
                 }
             }
         },
@@ -5457,7 +5471,9 @@
         "zelleOverLimit": "%%%.send.zelleOverLimit%%%",
         "makeDirectOrderSuccess": "%%%.send.makeDirectOrderSuccess%%%",
         "makeDirectOrderFailed": "%%%.send.makeDirectOrderFailed%%%",
-        "transferConfirm": "%%%.send.transferConfirm%%%"
+        "transferConfirm": "%%%.send.transferConfirm%%%",
+        "transferConfirmPrimeTrust": "%%%.send.transferConfirmPrimeTrust%%%",
+        "warningNonUSPrimeTrust": "%%%.send.warningNonUSPrimeTrust%%%"
     },
     "callUs": {
         "title": "%%%.callUs.title%%%",
@@ -5724,14 +5740,16 @@
         "intro": {
             "content": "%%%.cryptoShort.intro.content%%%"
         },
-        "borrowForm": {
-            "tooltipMarketPrice": "%%%.cryptoShort.borrowForm.tooltipMarketPrice%%%",
-            "toolTipCollateral": "%%%.cryptoShort.borrowForm.toolTipCollateral%%%",
-            "toolTipTakeProfit": "%%%.cryptoShort.borrowForm.toolTipTakeProfit%%%",
-            "toolTipStopLoss": "%%%.cryptoShort.borrowForm.toolTipStopLoss%%%",
-            "successShortMarket": "%%%.cryptoShort.borrowForm.successShortMarket%%%",
-            "successShort": "%%%.cryptoShort.borrowForm.successShort%%%",
-            "errorShort": "%%%.cryptoShort.borrowForm.errorShort%%%"
+        "form": {
+            "liveDesc": "%%%.cryptoShort.form.liveDesc%%%",
+            "demoDesc": "%%%.cryptoShort.form.demoDesc%%%",
+            "tooltipMarketPrice": "%%%.cryptoShort.form.tooltipMarketPrice%%%",
+            "toolTipCollateral": "%%%.cryptoShort.form.toolTipCollateral%%%",
+            "toolTipTakeProfit": "%%%.cryptoShort.form.toolTipTakeProfit%%%",
+            "toolTipStopLoss": "%%%.cryptoShort.form.toolTipStopLoss%%%",
+            "successShortMarket": "%%%.cryptoShort.form.successShortMarket%%%",
+            "successShort": "%%%.cryptoShort.form.successShort%%%",
+            "errorShort": "%%%.cryptoShort.form.errorShort%%%"
         },
         "howItWorks": {
             "0": {
@@ -5782,7 +5800,7 @@
         },
         "form": {
             "liveDesc": "%%%.cryptoFuture.form.liveDesc%%%",
-            "virtualDesc": "%%%.cryptoFuture.form.virtualDesc%%%",
+            "demoDesc": "%%%.cryptoFuture.form.demoDesc%%%",
             "predictionDesc": "%%%.cryptoFuture.form.predictionDesc%%%",
             "amountDesc": "%%%.cryptoFuture.form.amountDesc%%%",
             "feeDesc": "%%%.cryptoFuture.form.feeDesc%%%",
@@ -5835,6 +5853,56 @@
                 "pnl": "%%%.cryptoFuture.history.headers.pnl%%%",
                 "status": "%%%.cryptoFuture.history.headers.status%%%"
             }
+        }
+    },
+    "budget": {
+        "title": "%%%.budget.title%%%",
+        "desc1": "%%%.budget.desc1%%%",
+        "feature1": "%%%.budget.feature1%%%",
+        "feature2": "%%%.budget.feature2%%%",
+        "feature3": "%%%.budget.feature3%%%",
+        "tips": {
+            "title": "%%%.budget.tips.title%%%",
+            "desc": "%%%.budget.tips.desc%%%",
+            "tip_label_1": "%%%.budget.tips.tip_label_1%%%",
+            "tip_desc_1": "%%%.budget.tips.tip_desc_1%%%",
+            "tip_label_2": "%%%.budget.tips.tip_label_2%%%",
+            "tip_desc_2": "%%%.budget.tips.tip_desc_2%%%",
+            "tip_label_3": "%%%.budget.tips.tip_label_3%%%",
+            "tip_desc_3": "%%%.budget.tips.tip_desc_3%%%"
+        },
+        "why": {
+            "title": "%%%.budget.why.title%%%",
+            "desc": "%%%.budget.why.desc%%%",
+            "label_1": "%%%.budget.why.label_1%%%",
+            "desc_1": "%%%.budget.why.desc_1%%%",
+            "label_2": "%%%.budget.why.label_2%%%",
+            "desc_2": "%%%.budget.why.desc_2%%%",
+            "label_3": "%%%.budget.why.label_3%%%",
+            "desc_3": "%%%.budget.why.desc_3%%%",
+            "label_4": "%%%.budget.why.label_4%%%",
+            "desc_4": "%%%.budget.why.desc_4%%%",
+            "label_5": "%%%.budget.why.label_5%%%",
+            "desc_5": "%%%.budget.why.desc_5%%%"
+        },
+        "download": {
+            "title": "%%%.budget.download.title%%%",
+            "desc": "%%%.budget.download.desc%%%"
+        },
+        "faq": {
+            "title": "%%%.budget.faq.title%%%"
+        },
+        "feature": {
+            "title": "%%%.budget.feature.title%%%",
+            "desc": "%%%.budget.feature.desc%%%",
+            "label_1": "%%%.budget.feature.label_1%%%",
+            "desc_1": "%%%.budget.feature.desc_1%%%",
+            "label_2": "%%%.budget.feature.label_2%%%",
+            "desc_2": "%%%.budget.feature.desc_2%%%",
+            "label_3": "%%%.budget.feature.label_3%%%",
+            "desc_3": "%%%.budget.feature.desc_3%%%",
+            "label_4": "%%%.budget.feature.label_4%%%",
+            "desc_4": "%%%.budget.feature.desc_4%%%"
         }
     }
 }
