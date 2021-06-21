@@ -325,7 +325,8 @@
         "payInterestIn": "%%%.exchangeInputDepositForm.payInterestIn%%%",
         "depositCollateralSuccess": "%%%.exchangeInputDepositForm.depositCollateralSuccess%%%",
         "trc20Note": "%%%.exchangeInputDepositForm.trc20Note%%%",
-        "makeLocalOrderFailed": "%%%.exchangeInputDepositForm.makeLocalOrderFailed%%%"
+        "makeLocalOrderFailed": "%%%.exchangeInputDepositForm.makeLocalOrderFailed%%%",
+        "maxAmountRequired": "%%%.exchangeInputDepositForm.maxAmountRequired%%%"
     },
     "history": {
         "deposit": {
@@ -759,6 +760,7 @@
             "disableModal": {
                 "title": "%%%.me.twoFa.disableModal.title%%%",
                 "inputPassword": "%%%.me.twoFa.disableModal.inputPassword%%%",
+                "password": "%%%.me.twoFa.disableModal.password%%%",
                 "inputAuthCode": "%%%.me.twoFa.disableModal.inputAuthCode%%%",
                 "cancel": "%%%.me.twoFa.disableModal.cancel%%%",
                 "confirm": "%%%.me.twoFa.disableModal.confirm%%%",
@@ -775,6 +777,7 @@
                 "canNotScanCode": "%%%.me.twoFa.qrScanModal.canNotScanCode%%%",
                 "step2": "%%%.me.twoFa.qrScanModal.step2%%%",
                 "inputPassword": "%%%.me.twoFa.qrScanModal.inputPassword%%%",
+                "password": "%%%.me.twoFa.qrScanModal.password%%%",
                 "inputAuthCode": "%%%.me.twoFa.qrScanModal.inputAuthCode%%%",
                 "cancel": "%%%.me.twoFa.qrScanModal.cancel%%%",
                 "confirm": "%%%.me.twoFa.qrScanModal.confirm%%%",
