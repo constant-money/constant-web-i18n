@@ -283,7 +283,7 @@ export default {
     generateAddress: 'Generate address',
     deposit: 'Deposit',
     depositSuccess: 'Your deposit was completed successfully',
-    earnInterest: 'Earn an automatic {interest}% {interestType} {inCollateral}',
+    earnInterest: `Earn an automatic <strong>{interest}% {interestType} {inCollateral}</strong>`,
     depositCryptoDescription: 'Choose a crypto or stablecoin below and then send your funds to the wallet address shown. There is no minimum or maximum deposit.',
     getCurrencyListFailed: 'Failed while getting supported currencies',
     minDeposit: 'Please transfer a minimum of {amount} to the following wallet address',
@@ -292,6 +292,7 @@ export default {
     depositCollateralSuccess: `Thanks – you'll now earn {interest}% {interestType} interest on your {collateral} balance, paid in {inCollateral}.`,
     trc20Note: 'Transfer USDT over the Tron Network (TRC20) to reduce fees and transfer times.',
     makeLocalOrderFailed: "Sorry, we couldn't create your order this time. Please try again. If you continue experiencing problems, please contact us at hello@myconstant.com. Thank you.",
+    maxAmountRequired: 'Please enter an amount smaller than {amount} {currency}',
   },
   history: {
     deposit: {
@@ -704,6 +705,7 @@ export default {
       disableModal: {
         title: 'Disabled Google authenticator',
         inputPassword: 'Enter password',
+        password: 'Password',
         inputAuthCode: 'Google authentication code',
         cancel: 'Cancel',
         confirm: 'Confirm',
@@ -726,6 +728,7 @@ export default {
         canNotScanCode: 'If you are unable to scan the QR code, please enter this code manually into the app.',
         step2: 'Step 2',
         inputPassword: 'Enter password',
+        password: 'Password',
         inputAuthCode: 'Google authentication code',
         cancel: 'Cancel',
         confirm: 'Confirm',
@@ -2251,7 +2254,7 @@ export default {
         monthLoan: '{term}-month loan',
         monthsLoan: '{term}-month loan',
         dayLoan: '{term}-day loans',
-        receiveAmountLabel: 'Choose USD or crypto you want to receive?',
+        receiveAmountLabel: 'Loan in USD or cryptocurrency?',
         receiveAmountLabelDesc: 'We can pay your loan in USD or cryptocurrency. When choosing to receive your loan in cryptocurrency, you’re borrowing USD which we use to buy your chosen cryptocurrency. We search multiple exchanges for the best prices, and you might receive a little more or less cryptocurrency than the amount indicated below depending on the final price paid.',
         overCollateralCap: `We've reached our collateral limit on new loans against {symbol}. Please choose another cryptocurrency as collateral.`,
         overBorrowAmount: 'Sorry, the maximum you can borrow in one order is ${max}. Please choose a smaller amount and try again. <a href="#landing-faqs">Why is there a maximum?</a>',
@@ -3268,7 +3271,7 @@ export default {
         minuteWindowDescription: 'For the sake of security, this session will time-out after 3 days. If you need a little longer, just re-enter the amount you would like to invest when you’re ready.',
         paymentMethods: {
           email: {
-            titleDesc: '<p>Fast. Free. Easy.<br/>Up to ${max} per transaction</p>',
+            titleDesc: '<p><span class="method-title">Fast. Free. Easy.</span><br/>Up to ${max} per transaction</p>',
             note: 'Before making a transfer, please enter the full name associated with the Zelle account here',
             paymentInfo: '              <div class="row">                <div class="col">                    <label>Amount</label>                    <p>{amount} USD</p>                </div>                <div class="col">                    <label>Send to</label>                    <p>{email}</p>                </div>              </div>              <div class="row">                <div class="col">                    <label>Full name</label>                    <p>{name}</p>                </div>                <div class="col">                    <label>Type</label>                    <p>{type}</p>                </div>              </div>            ',
             placeholder: 'Please enter the full name here',
@@ -3277,7 +3280,7 @@ export default {
             referNoteDesc: 'Please include your reference number when you make your Zelle transfer so we can match your deposit to your account.',
           },
           primetrust: {
-            titleDesc: '<p>Fast. Secure. Unlimited.<br/>Get ${creditWire} cashback when sending from ${amountWire} or over</p>',
+            titleDesc: '<p><span class="method-title">Fast. Secure. Unlimited.</span><br/>Get ${creditWire} cashback when sending from ${amountWire} or over</p>',
             feeCreditTitleDesc: 'All wires from ${amountWire} or over qualify for ${creditWire} cashback paid straight into your MyConstant balance. This helps cover the wire fee. (One wire credit per week only.)',
             referNoteDesc: 'To receive your deposit you MUST include this reference number when your wire your funds from your bank.',
             minuteWindow: '15 MINUTE WINDOW',
@@ -3302,7 +3305,7 @@ export default {
           },
           plaid: {
             title: 'Transfer via ACH to earn {rate}% instantly',
-            titleDesc: '<p>Instant interest. Linked US bank only.<br/>Less than ${max} per transaction</p>',
+            titleDesc: '<p><span class="method-title">Instant interest. Linked US bank only.</span><br/>Less than ${max} per transaction</p>',
             subtitle: {
               enoughInstantCredit: '<p>Invest your deposit of ${instantAmount} instantly while your ACH clears. Get {flexRate}% APY through Instant-access investing or invest in a fixed term loan for up to {maxRate}%. (Please note: While you can invest your deposit instantly, you can’t withdraw it until your ACH clears.)</p>',
               overInstantCredit: '<p>Invest up to ${instantAmount} of your deposit instantly while your ACH clears. Get {flexRate}% APY through Instant-access investing or invest in a fixed term loan for up to {maxRate}%. The remainder of your deposit will credit when your funds reach us. (Please note: While you can invest up to ${instantAmount} of your deposit instantly, you can’t withdraw it until your ACH clears.)</p>',
@@ -4276,7 +4279,7 @@ export default {
     },
     sellBtn: 'Send',
     recipientBankInformation: 'Recipient’s bank information',
-    availableBalance: 'Your available balance',
+    availableBalance: 'Available balance',
     email: { name: 'Recipient', placeholder: 'Enter receiving email address' },
     countryNotSupport: 'Your country is not supported at the moment. Our support team will get in touch with you via email.',
     validateMaxInput: 'Please make sure your balance is sufficient.',
