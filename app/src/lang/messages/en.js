@@ -418,7 +418,7 @@ export default {
       transfers: 'Transfers',
     },
     shortSelling: {
-      title: 'Crypto - Short selling',
+      title: 'Crypto - Short selling (Advanced)',
       tabs: {
         transfer: 'Transfer',
         borrow: 'Borrow',
@@ -779,7 +779,7 @@ export default {
         secondInvestmentsLODesc: 'Buy and sell matched investments on our secondary market. Sell your investment to end your term early or buy another investor’s order to earn their interest. View or cancel your secondary market orders below.',
         spendings: 'Gift Cards',
         spendingsDesc: 'Gift cards and other items or services bought using your MyConstant balance.',
-        shortSelling: 'Short selling',
+        shortSelling: 'Short selling (Advanced)',
         termStatusFilter: {
           investment: {
             pending: 'Pending',
@@ -1238,7 +1238,7 @@ export default {
       invest: 'Invest',
       accountActivities: 'Account Activity',
       addressBook: 'Saved wallet addresses',
-      shortSelling: 'Short selling',
+      shortSelling: 'Short selling (Advanced)',
     },
     kyc: {
       verifiedTitle: 'You have verified your ID',
@@ -1658,8 +1658,8 @@ export default {
         desc: 'Your terms. Best rates.<br/>No credit checks.'
       },
       cryptoShort: {
-        title: 'Short Selling',
-        desc: 'Short BTC, ETH, and BNB.<br/>High risk. High reward.'
+        title: 'Short Selling (Advanced)',
+        desc: 'Short major cryptos inc. BTC, ETH, BNB & more...'
       },
       cryptoFuture: {
         title: 'Futures',
@@ -1668,7 +1668,11 @@ export default {
       borrowCoins: {
         title: 'Crypto Credit',
         desc: 'Borrow cash, get crypto.<br/>No exchanges.'
-      }
+      },
+      shortSimple: {
+        title: 'Short Selling (Simple)',
+        desc: 'Crypto short-selling made easy. High risk, high reward.'
+      },
     },
     yourSaving: 'Accounts',
     crypto: 'Crypto',
@@ -1711,8 +1715,12 @@ export default {
         desc: 'Your terms. Best rates. No credit checks.'
       },
       cryptoShort: {
-        title: 'Short Selling',
+        title: 'Short Selling (Advanced)',
         desc: 'Short BTC, ETH, and BNB. High risk. High reward.'
+      },
+      shortSimple: {
+        title: 'Short Selling (Simple)',
+        desc: 'Crypto short-selling made easy. High risk, high reward.'
       },
       cryptoFuture: {
         title: 'Futures',
@@ -5277,7 +5285,8 @@ export default {
     btnSecondaryMarket: 'Secondary market',
     btnLOSecondaryMarket: '<div class="textLeft"><small>Secondary market</small><div>Loan Originator</div></div>',
     btnLoans: 'Loans',
-    btnShortSelling: 'Short selling',
+    btnShortSelling: 'Short selling (Advanced)',
+    btnshortSimple: 'Short Selling (Simple)',
     btnLoansC2C: 'Crypto Credit',
     btnLoanSettings: '<div class="textLeft"><small>Loan</small><div>Settings</div></div>',
     btnSpending: 'Gift Cards',
@@ -6146,6 +6155,44 @@ export default {
       desc_3: "View progress towards your goals as well as periodic income and expense reports and charts",
       label_4: "Overspend reminders",
       desc_4: "Receive a notification every time you spend over your budget, helping you stay on track."
+    }
+  },
+  shortSimple: {
+    intro: {
+      content: `
+        <h2>New to short selling?</h2>
+        <h1 class="hightlight">Want a fast, easy way to start?</h1>
+        <h2 class="last">Try simplified short-selling.</h2>
+      `,
+    },
+    form:  {
+      liveDesc: 'This is your live account. When you open new Short Selling positions here, they are real orders and you stand to gain or lose depending on what the market does.',
+      demoDesc: 'This is your demo Short Selling training account. Create virtual orders here and see how well you can predict the market! As these aren’t real orders, you won’t earn a profit or lose a cent. When you’re ready to try real Short Selling trading, click the “Live” tab at the top.',
+      tooltipMarketPrice: 'Enable Use Market Price to open your short position immediately at the market price. Or, create a short-selling order by disabling this option and entering the price at which you’d like to short and your position will open automatically once that price is reached.',
+      toolTipCollateral: 'The Loan to Value ratio (LTV) measures the maximum you can borrow against your USD collateral. For the purpose of shorting, you can borrow up to {upToRate}% of the value of your USD collateral. For example, if you have ${egBase} in your short-selling balance, you can short up to ${egUpTo} worth of the crypto in that pair.',
+      toolTipTakeProfit: 'Take profit is the price at which you repay your shorted cryptocurrency. This should be at least 5% below the current market price. When the take profit price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. You keep the profits minus interest and matching fee.',
+      toolTipStopLoss: 'The stop loss is the price at which you repay your shorted crypto to avoid accumulated losses. It should be at least 5% above the current market price. When the stop loss price is reached, your shorted crypto will be repaid in its USD equivalent automatically from your short-selling balance. This minimizes further losses in the event of price rises.',
+      successShortMarket: 'Done! You successfully opened a {crypto} short position',
+      successShort: 'Done! You’ve created an order to short {amount} {crypto} once its price reaches {price} USD. To amend or cancel this short-selling order, please visit your accounts page.',
+      errorShort: 'Sorry, we can\'t create your order at the moment. Please try again in a few minutes. If you keep seeing this message, please email us at hello@myconstant.com.',
+    },
+    howItWorks: {
+      0: {
+        title: 'Choose the crypto you want to short',
+        desc: 'We support BTC, ETH, and BNB pairs.'
+      },
+      1: {
+        title: 'Set stop loss and take profit prices',
+        desc: 'Select an upper and lower price point to protect your gains and limit losses.',
+      },
+      2: {
+        title: 'We sell the crypto at market prices',
+        desc: 'The proceeds go back to your USD short-selling balance.',
+      },
+      3: {
+        title: 'Repay the crypto, pocketing any difference',
+        desc: 'If your prediction pays off, you keep the profits.',
+      },
     }
   },
 };
