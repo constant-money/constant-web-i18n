@@ -1687,6 +1687,10 @@
             "borrowCoins": {
                 "title": "%%%.headerBar.extraMenu.borrowCoins.title%%%",
                 "desc": "%%%.headerBar.extraMenu.borrowCoins.desc%%%"
+            },
+            "shortSimple": {
+                "title": "%%%.headerBar.extraMenu.shortSimple.title%%%",
+                "desc": "%%%.headerBar.extraMenu.shortSimple.desc%%%"
             }
         },
         "yourSaving": "%%%.headerBar.yourSaving%%%",
@@ -1732,6 +1736,10 @@
             "cryptoShort": {
                 "title": "%%%.headerBar.extraMenuMobile.cryptoShort.title%%%",
                 "desc": "%%%.headerBar.extraMenuMobile.cryptoShort.desc%%%"
+            },
+            "shortSimple": {
+                "title": "%%%.headerBar.extraMenuMobile.shortSimple.title%%%",
+                "desc": "%%%.headerBar.extraMenuMobile.shortSimple.desc%%%"
             },
             "cryptoFuture": {
                 "title": "%%%.headerBar.extraMenuMobile.cryptoFuture.title%%%",
@@ -5109,6 +5117,7 @@
         "btnLOSecondaryMarket": "%%%.menuMobile.btnLOSecondaryMarket%%%",
         "btnLoans": "%%%.menuMobile.btnLoans%%%",
         "btnShortSelling": "%%%.menuMobile.btnShortSelling%%%",
+        "btnshortSimple": "%%%.menuMobile.btnshortSimple%%%",
         "btnLoansC2C": "%%%.menuMobile.btnLoansC2C%%%",
         "btnLoanSettings": "%%%.menuMobile.btnLoanSettings%%%",
         "btnSpending": "%%%.menuMobile.btnSpending%%%",
@@ -5906,6 +5915,40 @@
             "desc_3": "%%%.budget.feature.desc_3%%%",
             "label_4": "%%%.budget.feature.label_4%%%",
             "desc_4": "%%%.budget.feature.desc_4%%%"
+        }
+    },
+    "shortSimple": {
+        "intro": {
+            "content": "%%%.shortSimple.intro.content%%%"
+        },
+        "form": {
+            "liveDesc": "%%%.shortSimple.form.liveDesc%%%",
+            "demoDesc": "%%%.shortSimple.form.demoDesc%%%",
+            "tooltipMarketPrice": "%%%.shortSimple.form.tooltipMarketPrice%%%",
+            "toolTipCollateral": "%%%.shortSimple.form.toolTipCollateral%%%",
+            "toolTipTakeProfit": "%%%.shortSimple.form.toolTipTakeProfit%%%",
+            "toolTipStopLoss": "%%%.shortSimple.form.toolTipStopLoss%%%",
+            "successShortMarket": "%%%.shortSimple.form.successShortMarket%%%",
+            "successShort": "%%%.shortSimple.form.successShort%%%",
+            "errorShort": "%%%.shortSimple.form.errorShort%%%"
+        },
+        "howItWorks": {
+            "0": {
+                "title": "%%%.shortSimple.howItWorks.0.title%%%",
+                "desc": "%%%.shortSimple.howItWorks.0.desc%%%"
+            },
+            "1": {
+                "title": "%%%.shortSimple.howItWorks.1.title%%%",
+                "desc": "%%%.shortSimple.howItWorks.1.desc%%%"
+            },
+            "2": {
+                "title": "%%%.shortSimple.howItWorks.2.title%%%",
+                "desc": "%%%.shortSimple.howItWorks.2.desc%%%"
+            },
+            "3": {
+                "title": "%%%.shortSimple.howItWorks.3.title%%%",
+                "desc": "%%%.shortSimple.howItWorks.3.desc%%%"
+            }
         }
     }
 }
