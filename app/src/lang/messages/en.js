@@ -2273,23 +2273,23 @@ export default {
         data: {
           0: {
             title: 'Withdraw in fiat or crypto',
-            desc: '<p>Get USD straight to your bank account or trade your loan for cryptocurrency. We search multiple exchanges for the best prices in the market and never charge you trading fees.</p>',
+            desc: '<div>Get USD straight to your bank account or trade your loan for cryptocurrency. We search multiple exchanges for the best prices in the market and never charge you trading fees.</div>',
           },
           1: {
             title: 'Flexible terms',
-            desc: '<p>Borrow any amount for 1, 3, or 6 months, giving you the flexibility to repay at a time that suits you.</p>',
+            desc: '<div>Borrow any amount for 1, 3, or 6 months, giving you the flexibility to repay at a time that suits you.</div>',
           },
           2: {
             title: 'Combine or isolate collateral',
-            desc: '<p>Borrow against your whole portfolio (multi-collateral) or isolate a single crypto, giving you better leverage, repayment, and top-up options.</p>',
+            desc: '<div>Borrow against your whole portfolio (multi-collateral) or isolate a single crypto, giving you better leverage, repayment, and top-up options.</div>',
           },
           3: {
             title: 'Secure escrow',
-            desc: '<p>Smart contracts and Prime Trust custody protect your collateral while ensuring we can return it to you as quickly as possible.</p>',
+            desc: '<div>Smart contracts and Prime Trust custody protect your collateral while ensuring we can return it to you as quickly as possible.</div>',
           },
           4: {
             title: 'No credit scoring',
-            desc: '<p>No credit scoring or background checks. Get funds instantly, no month-long waiting games for approval.</p>',
+            desc: '<div>No credit scoring or background checks. Get funds instantly, no month-long waiting games for approval.</div>',
           },
         }
       },
@@ -2298,23 +2298,23 @@ export default {
         data: {
           0: {
             title: '{step}. Choose a term',
-            desc: '<p>Borrow any amount for 30, 90, or 180 days. The shorter your term, the lower the interest.</p>',
+            desc: '<div>Borrow any amount for 30, 90, or 180 days. The shorter your term, the lower the interest.</div>',
           },
           1: {
             title: '{step}. Choose cash or crypto',
-            desc: '<p>Receive your loan in USD or cryptocurrency. We always source the best cryptocurrency prices from multiple exchanges and you never pay any trading fees.</p>',
+            desc: '<div>Receive your loan in USD or cryptocurrency. We always source the best cryptocurrency prices from multiple exchanges and you never pay any trading fees.</div>',
           },
           2: {
             title: '{step}. Deposit your collateral',
-            desc: '<p>Send collateral to secure your loan. You can combine different cryptocurrencies to meet the minimum collateral value.</p>',
+            desc: '<div>Send collateral to secure your loan. You can combine different cryptocurrencies to meet the minimum collateral value.</div>',
           },
           3: {
             title: '{step}. Withdraw your loan',
-            desc: '<p>Once you’ve sent your collateral, you can withdraw your loan in fiat or stablecoins. Your collateral is securely stored and returned to you when you repay.</p>',
+            desc: '<div>Once you’ve sent your collateral, you can withdraw your loan in fiat or stablecoins. Your collateral is securely stored and returned to you when you repay.</div>',
           },
           4: {
             title: '{step}. Repay at any time',
-            desc: '<p>Repay anytime in fiat, stablecoins, or crypto to get your collateral back from escrow. Then withdraw your collateral to your wallet of choice or use it for another loan.</p>',
+            desc: '<div>Repay anytime in fiat, stablecoins, or crypto to get your collateral back from escrow. Then withdraw your collateral to your wallet of choice or use it for another loan.</div>',
           },
         },
       },
