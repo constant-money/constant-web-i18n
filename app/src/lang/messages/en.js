@@ -1361,6 +1361,19 @@ export default {
       linkBankSectionTitle: 'Link your bank account',
       linkBankSectionDesc: '<p>Deposit or withdraw using ACH bank transfers with Plaid. Link up to two bank accounts now to save time and money transferring funds to and from your MyConstant account.<br/>Since most savings accounts limit the number of withdrawals, we recommend you link a checking account not a savings account to avoid ACH reversals.<br/><a href="https://blog.myconstant.com/how-to-link-your-bank-account-for-ach-transfers-on-constant/" target="_blank">How to avoid ACH reversals</a>.</p>',
       linkBankImportantNote: '<strong>Please note</strong>: When you link a bank account via Plaid, your bank is assigned a unique ID. For your security, Plaid ACH deposits can only be withdrawn again <strong>via the same method and bank ID</strong> from which you deposited for a period of 60 days. This restriction <strong>does not</strong> apply to deposits via wire or Zelle.',
+      newLinkBankSectionTitle: 'Link your bank account to deposit via ACH',
+      newLinkBankSectionDesc: `
+        <p>To deposit via ACH, you need to link your bank account through our ACH processing partner, Plaid. We recommend linking a checking not a savings account to avoid ACH reversals.</p>
+        <p>The maximum you can deposit is <strong>$5,000 per transaction</strong>. Please also note that it can take <strong>up to 10 business days</strong> to process your deposit (but is usually much quicker). In the meantime, your deposit will earn interest under our <a href="https://blog.myconstant.com/what-is-instant-credit-and-how-does-it-work/" target="_blank">instant credit</a> program.</p>
+        <p>For your security, a 7-day holding period applies before you can withdraw your deposit again. In addition, you must only withdraw to the same linked account for a period of 60 days.</p>
+      `,
+      newLinkBankImportantNote: 'Already linked an account? Due to new KYC rules, everyone must link a new account for deposits, however your previously-linked account will work as normal for withdrawals.',
+      oldLinkBankSectionTitle: 'How to withdraw to a linked bank account via ACH',
+      oldLinkBankSectionDesc: `
+      <p>If you’ve previously linked a bank account for ACH transfers, it’ll appear below. You can withdraw to this account and any other account you link for deposits, at any time, for free.</p>
+      <p>Please note you can only withdraw via ACH to US bank accounts, and only to those bearing the same name as in your KYC documents. International withdrawals are unavailable at the moment.</p>
+      `,
+      oldLinkBankImportantNote: 'Already linked an account? Due to new KYC rules, everyone must link a new account for deposits. Both your previously-linked account and any new account you link will work as normal for withdrawals.',
       unlinkBankSectionTitle: 'International Bank',
       unlinkBankSectionDesc: '<p>If you want to send more than $5,000 per transaction, or if your bank is outside of the US or doesn\'t support ACH transfers through Plaid, please add alternative banking details below. You can then preselect these details the next time you create a withdrawal order.</p>',
       nonUSbankSectionTitle: 'Add a bank account for deposits and withdrawals',
@@ -3339,7 +3352,7 @@ export default {
                     <p>Each order will be processed under the same linked bank account you choose from below.</p>
                 `,
               investNoteInstantCredit: `
-                <p>While your ACH clears, you’ll earn {flexRate}% APY instantly on \${instantAmount} through our Instant Credit program. You can also reinvest Instant Credit in a fixed-term loan for up to 7% APR.</p>
+                <p>While your ACH clears, you’ll earn {flexRate}% APY instantly on \${instantAmount} through our Instant Credit program. You can also reinvest Instant Credit in a fixed-term loan for up to {investRate}% APR.</p>
               `,
               pleaseNote: '<p><strong>Please note:</strong> ACH transfers are available for linked US bank accounts only and each ACH deposit can take <strong>up to 5 business days</strong> to clear.</p>',
               haveLinkedBank: '<div>To confirm your deposit, please choose a linked bank account below and then click <strong class="yellow">Submit</strong>.</div>',
@@ -3394,7 +3407,7 @@ export default {
             `,
             plaidSplitResultDeposit: {
               investNoteSuccess1: `<p>Your deposit of \${amount} was processed successfully.</p>`,
-              investNoteSuccess2: `<p>You’re now earning 4% APY on \${instantAmount} of Instant Credit. You can also reinvest your Instant Credit in a fixed-term loan for up to 7% APR.</p>`,
+              investNoteSuccess2: `<p>You’re now earning 4% APY on \${instantAmount} of Instant Credit. You can also reinvest your Instant Credit in a fixed-term loan for up to {investRate}% APR.</p>`,
               investNoteSuccess3: `<p>ACH deposits take 3-5 business days to clear (not including weekends) and your funds will be available for withdrawal 7 days <strong>after</strong> they clear.</p>`,
               splitNote: '<p>Sorry, we couldn’t process all the transactions for your deposit. Here’s a summary:</p>',
               investNote: `
