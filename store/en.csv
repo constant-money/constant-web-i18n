@@ -1712,7 +1712,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.home.constantLoan.howItWorks.data.3.desc%%%,"<div>Once you’ve sent your collateral, you can withdraw your loan in fiat or stablecoins. Your collateral is securely stored and returned to you when you repay.</div>"
 %%%.home.constantLoan.howItWorks.data.4.title%%%,"{step}. Repay at any time"
 %%%.home.constantLoan.howItWorks.data.4.desc%%%,"<div>Repay anytime in fiat, stablecoins, or crypto to get your collateral back from escrow. Then withdraw your collateral to your wallet of choice or use it for another loan.</div>"
-%%%.home.constantLoan.compareTable.title%%%,"MyConstant vs"
+%%%.home.constantLoan.compareTable.title%%%,"Why borrow against your crypto with MyConstant?"
 %%%.home.constantLoan.compareTable.cryptoBackedLender.title%%%,"Other crypto-backed lenders"
 %%%.home.constantLoan.compareTable.cryptoBackedLender.benefits%%%,"Benefits"
 %%%.home.constantLoan.compareTable.cryptoBackedLender.nexo%%%,"Nexo"
