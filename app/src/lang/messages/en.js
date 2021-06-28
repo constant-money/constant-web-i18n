@@ -2332,7 +2332,7 @@ export default {
         },
       },
       compareTable: {
-        title: 'MyConstant vs',
+        title: 'Why borrow against your crypto with MyConstant?',
         cryptoBackedLender: {
           title: 'Other crypto-backed lenders',
           benefits: 'Benefits',
