@@ -4305,7 +4305,7 @@ export default {
     countryNotSupport: 'Your country is not supported at the moment. Our support team will get in touch with you via email.',
     validateMaxInput: 'Please make sure your balance is sufficient.',
     validateMaxInputBalanceZero: 'Please make sure your balance is sufficient.',
-    suggestOtherPayment: "Minimum withdrawal by bank transfer is ${minDirect}. Please use Zelle instead (it's much faster, too).",
+    suggestOtherPayment: 'Minimum withdrawal by bank transfer is ${minDirect}.',
     noAvailableMethod: 'There is no available method for you, please contact our support.',
   },
   termSelector: {
