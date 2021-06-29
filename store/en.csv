@@ -3175,7 +3175,7 @@ Click confirm to start your term and receive your loan. Once your term begins yo
 %%%.exchangeInputSellForm.countryNotSupport%%%,"Your country is not supported at the moment. Our support team will get in touch with you via email."
 %%%.exchangeInputSellForm.validateMaxInput%%%,"Please make sure your balance is sufficient."
 %%%.exchangeInputSellForm.validateMaxInputBalanceZero%%%,"Please make sure your balance is sufficient."
-%%%.exchangeInputSellForm.suggestOtherPayment%%%,"Minimum withdrawal by bank transfer is ${minDirect}. Please use Zelle instead (it's much faster, too)."
+%%%.exchangeInputSellForm.suggestOtherPayment%%%,"Minimum withdrawal by bank transfer is ${minDirect}."
 %%%.exchangeInputSellForm.noAvailableMethod%%%,"There is no available method for you, please contact our support."
 %%%.termSelector.getTermFailed%%%,"Get terms failed."
 %%%.app.common.required%%%,"Required"
