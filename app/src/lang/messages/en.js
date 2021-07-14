@@ -250,6 +250,7 @@ export default {
         collateral_loan_matched: 'Borrowed ${amount}',
         lo_investment_investment: 'Invested ${amount}',
         saving_termdeposit: 'Invested ${amount}',
+        sold_saving_termdeposit: 'Sold ${amount}',
         saving_lottery_term: 'Invested ${amount}',
         user_badge_result: 'Achieved {badgeName} Badge',
         user_referral_kyc_passed: 'Your referee passed KYC – you\'ve earned 200 points',
@@ -440,6 +441,19 @@ export default {
       },
       cancelSuccess: 'Done! Your order to short {amount} {crypto} once its price reaches {price} USD has been canceled. To short another cryptocurrency or create a new order, please visit our short selling page.',
     },
+    lendingLottery: {
+      headers: {
+        orderNo: '#',
+        time: 'Time',
+        date: 'Date',
+        status: 'Status',
+        amount: 'Amount',
+        rewardAmount: 'Reward Amount',
+        ticket: 'Ticket',
+        ticketPending: 'Tickets pending',
+        action: ' '
+      }
+    }
   },
   me: {
     history: {
@@ -780,6 +794,8 @@ export default {
         spendings: 'Gift Cards',
         spendingsDesc: 'Gift cards and other items or services bought using your MyConstant balance.',
         shortSelling: 'Short selling (Advanced)',
+        lendingLottery: 'Lending Lottery',
+        lendingLotteryDesc: 'Lending Lottery investments are fixed-term investments of 30 days. You earn lottery tickets for every $100 you invest. You can cancel Lending Lottery investments before your term ends, but you’ll lose all tickets, winnings, and interest earned.',
         termStatusFilter: {
           investment: {
             pending: 'Pending',
@@ -1069,7 +1085,7 @@ export default {
         interestAmount: 'Total interest',
         haveTimeAccount: '{term}-{termType} investment',
         month: 'month',
-        day: 'day',
+        date: 'day',
         anyTimeAccount: 'Anytime deposit',
         balanceInterestDesc: `
         <div>Available balance: <strong>\${availableBalance}</strong></div>
@@ -1239,6 +1255,11 @@ export default {
       accountActivities: 'Account Activity',
       addressBook: 'Saved wallet addresses',
       shortSelling: 'Short selling (Advanced)',
+      lendingLottery: 'Lending Lottery',
+      rewards: 'Rewards',
+      pendingTicket: 'Pending tickets',
+      availableTicket: 'Available tickets',
+      expiredTicket: 'Expired tickets'
     },
     kyc: {
       verifiedTitle: 'You have verified your ID',
@@ -1329,8 +1350,8 @@ export default {
       discardNoteTitle: 'Your KYC application has not yet been approved due to:',
       discardNote: 'Please make sure all your documents are in order and just click submit again.',
       seeFullDetail: 'See your full details',
-      waitForProcessingImage: 'Please wait for processing image',
-      waitForUploadingImage: 'Please wait for uploading image',
+      waitForProcessingImage: 'We\'re processing your image. Please wait.',
+      waitForUploadingImage: 'We\'re uploading your image. Please wait.',
     },
     bankInfo: {
       subject: 'Bank account details for receiving withdrawals or transfers ',
@@ -1633,6 +1654,7 @@ export default {
     testimonialDesc: 'Praise from customers, partners, and press.',
     history: 'History',
     prizeWheel: 'Prize Wheel',
+    lendingLottery: 'Lending Lottery',
     extraMenu: {
       invest: {
         title: 'Invest',
@@ -3342,6 +3364,41 @@ export default {
                     <li>3rd ACH reversal — $50 fee</li>       
                 </ul>
               `,
+              creditScore: 'Your ACH credits: ',
+              creditScoreDesc: `
+              <div><strong>How much can you deposit via ACH?</strong></div>
+              <p>To minimize ACH reversals (which result in bank fees), you earn a higher deposit limit with each successful deposit through our credit system.</p>
+              <p>You start with zero deposit credits, which gives you <strong>a deposit limit of 30% of your available bank balance.</strong></p>
+              <p>When your deposit succeeds, you earn 5 credits, which increases your deposit limit. The more points you earn, the higher your deposit limit:</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th><span class="underline">ACH credits</span></th>
+                    <th><span class="underline">The percentage you can deposit</span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>From 0 to 5</td>
+                    <td style="padding-left: 5px;">30% of your available balance</td>
+                  </tr>
+                  <tr>
+                    <td>From 5 to 10</td>
+                    <td style="padding-left: 5px;">40% of your available balance</td>
+                  </tr>
+                  <tr>
+                    <td>From 10 to 15</td>
+                    <td style="padding-left: 5px;">50% of your available balance</td>
+                  </tr>
+                    <td>Above 15</td>
+                    <td style="padding-left: 5px;">70% of your available balance</td>
+                  </tr>   
+                </tbody>
+              </table>
+              <br/>
+              <div><strong>What happens if your ACH is reversed?</strong></div>
+              <p>For every <a href="https://blog.myconstant.com/how-to-avoid-the-cost-hassle-and-delays-caused-by-ach-reversals/" target="_blank" class="underline">ACH reversal</a>, 10 points are deducted from your score. <strong>Your account will also be suspended</strong> until our customer support team resolves the issue. If your score drops below zero, please contact us on <a href="mailto:hello@myconstant.com" target="_blank" class="underline">hello@myconstant.com</a>.</p>
+              `,
             },
             subTitleSplitDeposit: {
               splitNote: `
@@ -3432,6 +3489,15 @@ export default {
             },
             unknownError: '<p>Sorry, something went wrong and we couldn\'t process your ACH transaction. Please try again later. If the problem continues, please contact us on hello@myconstant.com.</p>',
             insufficient_bank_account: '<p>Sorry, your deposit amount can\'t be higher than 70% of your available bank balance. Please enter a smaller amount.</p><p><strong>Important</strong>: please ensure you don\'t exceed this limit while your deposit is being processed otherwise your ACH will be reversed.</p>',
+            insufficient_bank_account_2: `
+              <p><strong>Insufficient funds:</strong></p>
+              <p>We’re sorry, but your deposit amount can’t be higher than {limitBalancePer}% of your available bank balance. Please enter a smaller amount. Your current available balance is \${availableBalance} which means your limited balance can only be \${limitBalance}.</p>
+              <p>Please ensure that you don’t exceed this limit while your deposit is being processed, otherwise you risk having an ACH reversal which will cost your money and suspend your account.</p>
+            `,
+            not_enough_credit_score: `
+              <p><strong>Attention!</strong></p>
+              <p><strong>You can not make an ACH deposit at this time</strong> because your credit score is below zero. To resolve this issue, please contact customer support at <a href="mailto:hello@myconstant.com" target="_blank" class="underline">hello@myconstant.com</a></p>  
+            `
           },
           gift_card: {
             titleDesc: 'Instantly. Free. <span class="yellow">3% cashback</span> to your Instant-access investing.'
@@ -4448,8 +4514,8 @@ export default {
           desc: 'After the bonus, you continue to earn a passive income of 20% of the referee’s instant-access investment interest.',
         },
         2: {
-          title: 'HUGE MARKET',
-          desc: 'The P2P lending market is worth over $2.3 billion, and we’re growing 25% each month. Get your cut!',
+          title: 'FREE MATERIALS',
+          desc: 'We supply you with everything you need to earn quickly and easily, including <a href="https://drive.google.com/drive/folders/17bjgVIz61xkCN9Wur5Xt_xL8QkNjzGzm" target="_blank" class="underline">brand assets</a> and <a href="https://blog.myconstant.com/myconstants-blog-template-for-affiliates/" target="_blank" class="underline">blog templates</a>.',
         },
         3: {
           title: 'CUSTOMERS LOVE US',
@@ -5235,6 +5301,7 @@ export default {
       userPhoneNumberInvalid: 'PhoneNumber is invalid',
       inValidWalletAddress: 'Receive address invalid',
       missingUserDocuments: 'Please upload required documents.',
+      bankInfoError: 'We couldn’t save your details. Please ensure there are no spaces in the account or routing numbers and then try again.',
     },
     expiredSession: 'Your session has expired. Please log in again.',
     withdrawLessThanOrEqual: 'The maximum withdrawal amount is {max}. Please try other available methods.',
@@ -5264,6 +5331,8 @@ export default {
     btnGiftCard: '<div class="textLeft"><div>Gift Cards</div></div>',
     btnDailyLogin: '<div class="textLeft"><small>Claim your</small><div>Daily Login</div></div>',
     btnWithdrawGiftcards: '<div class="textLeft"><small>Withdraw as</small><div>Gift card</div></div>',
+    btnLendingLottery: '<div class="textCenter">Lending Lottery</div>',
+    lendingLottery: 'Lending Lottery',
     greeting: {
       hi: 'Hi you',
       title: 'Good',
@@ -5311,6 +5380,7 @@ export default {
     accountActivityDesc: 'View interest earnings, deposits, withdrawals, and more.',
     dashBoard: 'Dashboard',
     dashBoardDesc: 'View your balance, deposit, withdraw, and more.',
+    lendingLotteryDesc: 'View fixed-term investments.',
   },
   landingPage: {
     steadyGrowth: {
@@ -5888,7 +5958,7 @@ export default {
       sizeInvestment: 'Average size of investments',
       sizeInvestmentDesc: 'This is the average invested amount since launch, updated daily.',
       totalInterest: 'Total interest earned',
-      totalInterestDesc: 'This is the total interest earned by all of our investors since launch, updated daily.',
+      totalInterestDesc: 'This is the total interest earned by all of our investors since launch, updated secondly.',
       defaultRate: 'Liquidation rate',
       defaultRateDesc: 'This is the percentage of loans that were liquidated due to borrower default or collateral devaluation since launch. This figure is updated daily.',
       recoveryRate: 'Recovery rate',
@@ -6206,6 +6276,156 @@ export default {
         title: 'Repay the crypto, pocketing any difference',
         desc: 'If your prediction pays off, you keep the profits.',
       },
+    }
+  },
+  luckyDraw: {
+    pickingPeriodStartingDateDesc: 'This is the starting date of the next draw for which your tickets are valid. You have up until midnight (PST) on the Sunday before this date to choose your numbers, after which they\'ll be chosen by the system automatically so you don\'t miss the start of the weekly draw on Monday.',
+    intro: {
+      contentHtml: `
+          <h1 class="last">Invest and win up to <span class="hightlight">$10 million</span> in our Lending Lottery</h1>
+          <p>Lend your money to decentralized exchanges to earn {rate}% APR and a chance to win up to $10 million.  Get 1 ticket for every {amount_per_ticket} you invest. Pick your own numbers. Weekly lotteries drawn at 9pm PST every night.  No fees.</p>
+          <p>The Lending Lottery is limited to $10 million total active investments and is backed by MyConstant Guarantee<sup>1</sup>.</p>
+          <p class="reference"><sup>1</sup> The MyConstant Guarantee is a cap on total investments below which we can reimburse you for funds lost or stolen while in the custody of exchange partners.</p>
+        `,
+      desc: {
+        1: '1,000s of cash prizes to be won',
+        2: 'New draws every week',
+        3: 'Earn up to 10x more than top US banks',
+      },
+      learnMore: 'Learn more here',
+    },
+    howItWorks: {
+      title: 'How it works',
+      desc: `Lend your money to decentralized exchanges to earn 1% APR and a chance to win up to $10 million. Get 1 ticket for every $100 you invest. <br/><br/>Pick your own numbers. Weekly lotteries drawn at 9pm PST every night. No fees.`,
+      data: {
+        0: {
+          title: 'Deposit',
+          desc: `
+            <h2>Deposit</h2>
+            <p>If your balance is insufficient, deposit the funds for your 30-day investment.</p>
+          `,
+        },
+        1: {
+          title: 'Invest',
+          desc: `
+            <h2>Invest</h2>
+            <p>Create your order and start earning {rate}% APR. For every {amount_per_ticket} you invest, you also receive 1 lottery ticket.</p>
+          `,
+        },
+        2: {
+          title: 'Pick your numbers',
+          desc: `
+            <h2>Pick your numbers</h2>
+            <p>Choose six numbers (from 1-70) and a MegaBall (from 1-25). If you prefer, you can generate the numbers automatically.</p>
+          `,
+        },
+        3: {
+          title: 'Check your numbers',
+          desc: `
+            <h2>Check your numbers</h2>
+            <p>Contests are weekly, with a number drawn every day at 9pm PST. The more you match, the more you win!</p>
+          `,
+        },
+        4: {
+          title: 'Automatic winnings',
+          desc: `
+            <h2>Automatic winnings</h2>
+            <p>Prizes are paid automatically to your account and are available to withdraw or reinvest when your term ends.</p>
+          `,
+        }
+      }
+    },
+    form: {
+      maxTerm: 'Length of term',
+      placeholder: { amount: 'How much do you want to lend?' },
+      text1: 'Set your own lending terms',
+      text2: 'As soon as our custodian (Prime Trust) receives your funds you\'ll get your tickets and start earning interest. You can cancel your investment at any time and receive your principal back, but you’ll lose all tickets, winnings, and interest earned.',
+      btn1: 'Invest now',
+    },
+    history: {
+      headers: {
+        orderNo: '#',
+        date: 'Draw started',
+        numTicket: 'Numbers drawn',
+        totalPrizes: 'Prizes won',
+        status: 'Status',
+      },
+      status: {
+        picked: 'Picked',
+        closed: 'Closed',
+      },
+      noHistoryData: 'No data available'
+    },
+    investments: {
+      termStatusFilter: {
+        matched: 'Matched',
+        closed: 'Done',
+        cancelled: 'Cancelled',
+      },
+      headers: {
+        createdDate: 'Created Date',
+        amount: 'Principal',
+        totalInterest: 'Total interest',
+        interest: 'Interest to date',
+        rate: 'Rate',
+        term: 'Term',
+        endTerm: 'Term ends',
+        numTicket: 'Tickets'
+      },
+      termStatus: {
+        created: 'Matched',
+        closed: 'Done',
+        voided: 'Cancelled',
+      },
+      footer: { desc: 'Showing {start} - {end} of {total} selected entries' },
+      noInvestment: 'Invest now for your chance to win up to $10 million',
+      dialog: {
+        cancelInvestment: {
+          messageConfirm: 'Are you sure you want to cancel this investment? You will lose all tickets, winnings, and interest earned.',
+          confirm: 'Cancel investment',
+          cancel: 'Keep investment'
+        },
+        autoRenewInvestment: {
+          messageConfirm: {
+            false: 'When your term ends, you can automatically reinvest your principal at the same rate and term to earn another set of lottery tickets. Would you like to reinvest your principal automatically?',
+            true: 'Are you sure you want to disable Auto Reinvest? With Auto Reinvest, you earn new lottery tickets every time your term ends, giving you more chances to win the $10 million prize (and other cash rewards, too).'
+          },
+          confirm: 'Yes',
+          cancel: 'Cancel',
+          autoRenewInvestmentSuccess: {
+            principal: 'Thank you. We will automatically reinvest your principal only at the same rate and term. You can pause auto reinvest or change its settings at any time from your accounts page.',
+            disabled: 'Disabled Auto Reinvest successfully'
+          },
+          autoRenewInvestmentFailed: {
+            true: 'Failed to disable Auto Reinvest',
+            false: 'Failed to enable Auto Reinvest'
+          }
+        },
+      },
+      alert: {
+        stopSavingSuccess: 'You successfully cancelled your investment.',
+      },
+      cancel: 'Cancel',
+      autoRenew: 'Auto reinvest',
+      heading: `Lending Lottery History`,
+      heading_detail: 'Lending Lottery Detail',
+      autoRenewDesc: 'Enable Auto Reinvest to reinvest your principal when your term ends and receive new lottery tickets (and more chances to win!).'
+    },
+    rewards: {
+      status: {
+        created: 'Pending',
+        transferred: 'Paid',
+        voided: 'Voided',
+        cancelled: 'Canceled',
+      }
+    },
+    tickets: {
+      status: {
+        created: 'Pending',
+        picked: 'Active',
+        voided: 'Canceled',
+        closed: 'Closed',
+      }
     }
   },
 };
