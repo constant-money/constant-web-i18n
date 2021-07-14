@@ -284,6 +284,7 @@
                 "collateral_loan_matched": "%%%.memberShip.pointHistory.activity.collateral_loan_matched%%%",
                 "lo_investment_investment": "%%%.memberShip.pointHistory.activity.lo_investment_investment%%%",
                 "saving_termdeposit": "%%%.memberShip.pointHistory.activity.saving_termdeposit%%%",
+                "sold_saving_termdeposit": "%%%.memberShip.pointHistory.activity.sold_saving_termdeposit%%%",
                 "saving_lottery_term": "%%%.memberShip.pointHistory.activity.saving_lottery_term%%%",
                 "user_badge_result": "%%%.memberShip.pointHistory.activity.user_badge_result%%%",
                 "user_referral_kyc_passed": "%%%.memberShip.pointHistory.activity.user_referral_kyc_passed%%%",
@@ -489,6 +490,19 @@
                 "status": "%%%.history.shortSelling.headers.status%%%"
             },
             "cancelSuccess": "%%%.history.shortSelling.cancelSuccess%%%"
+        },
+        "lendingLottery": {
+            "headers": {
+                "orderNo": "%%%.history.lendingLottery.headers.orderNo%%%",
+                "time": "%%%.history.lendingLottery.headers.time%%%",
+                "date": "%%%.history.lendingLottery.headers.date%%%",
+                "status": "%%%.history.lendingLottery.headers.status%%%",
+                "amount": "%%%.history.lendingLottery.headers.amount%%%",
+                "rewardAmount": "%%%.history.lendingLottery.headers.rewardAmount%%%",
+                "ticket": "%%%.history.lendingLottery.headers.ticket%%%",
+                "ticketPending": "%%%.history.lendingLottery.headers.ticketPending%%%",
+                "action": "%%%.history.lendingLottery.headers.action%%%"
+            }
         }
     },
     "me": {
@@ -829,6 +843,8 @@
                 "spendings": "%%%.me.proSaving.listApplications.spendings%%%",
                 "spendingsDesc": "%%%.me.proSaving.listApplications.spendingsDesc%%%",
                 "shortSelling": "%%%.me.proSaving.listApplications.shortSelling%%%",
+                "lendingLottery": "%%%.me.proSaving.listApplications.lendingLottery%%%",
+                "lendingLotteryDesc": "%%%.me.proSaving.listApplications.lendingLotteryDesc%%%",
                 "termStatusFilter": {
                     "investment": {
                         "pending": "%%%.me.proSaving.listApplications.termStatusFilter.investment.pending%%%",
@@ -1118,7 +1134,7 @@
                 "interestAmount": "%%%.me.proSaving.listApplications.interestAmount%%%",
                 "haveTimeAccount": "%%%.me.proSaving.listApplications.haveTimeAccount%%%",
                 "month": "%%%.me.proSaving.listApplications.month%%%",
-                "day": "%%%.me.proSaving.listApplications.day%%%",
+                "date": "%%%.me.proSaving.listApplications.date%%%",
                 "anyTimeAccount": "%%%.me.proSaving.listApplications.anyTimeAccount%%%",
                 "balanceInterestDesc": "%%%.me.proSaving.listApplications.balanceInterestDesc%%%",
                 "balanceInterestDescNotTrial": "%%%.me.proSaving.listApplications.balanceInterestDescNotTrial%%%",
@@ -1282,7 +1298,12 @@
             "invest": "%%%.me.navigation.invest%%%",
             "accountActivities": "%%%.me.navigation.accountActivities%%%",
             "addressBook": "%%%.me.navigation.addressBook%%%",
-            "shortSelling": "%%%.me.navigation.shortSelling%%%"
+            "shortSelling": "%%%.me.navigation.shortSelling%%%",
+            "lendingLottery": "%%%.me.navigation.lendingLottery%%%",
+            "rewards": "%%%.me.navigation.rewards%%%",
+            "pendingTicket": "%%%.me.navigation.pendingTicket%%%",
+            "availableTicket": "%%%.me.navigation.availableTicket%%%",
+            "expiredTicket": "%%%.me.navigation.expiredTicket%%%"
         },
         "kyc": {
             "verifiedTitle": "%%%.me.kyc.verifiedTitle%%%",
@@ -1645,6 +1666,7 @@
         "testimonialDesc": "%%%.headerBar.testimonialDesc%%%",
         "history": "%%%.headerBar.history%%%",
         "prizeWheel": "%%%.headerBar.prizeWheel%%%",
+        "lendingLottery": "%%%.headerBar.lendingLottery%%%",
         "extraMenu": {
             "invest": {
                 "title": "%%%.headerBar.extraMenu.invest.title%%%",
@@ -3315,7 +3337,9 @@
                             "investNote": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.subtitle.investNote%%%",
                             "pleaseNote": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.subtitle.pleaseNote%%%",
                             "haveLinkedBank": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.subtitle.haveLinkedBank%%%",
-                            "attention": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.subtitle.attention%%%"
+                            "attention": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.subtitle.attention%%%",
+                            "creditScore": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.subtitle.creditScore%%%",
+                            "creditScoreDesc": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.subtitle.creditScoreDesc%%%"
                         },
                         "subTitleSplitDeposit": {
                             "splitNote": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.subTitleSplitDeposit.splitNote%%%",
@@ -3364,7 +3388,9 @@
                             "transactionError": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.plaidSplitResultInvestment.transactionError%%%"
                         },
                         "unknownError": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.unknownError%%%",
-                        "insufficient_bank_account": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.insufficient_bank_account%%%"
+                        "insufficient_bank_account": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.insufficient_bank_account%%%",
+                        "insufficient_bank_account_2": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.insufficient_bank_account_2%%%",
+                        "not_enough_credit_score": "%%%.home1.lendingSection.confirm.paymentMethods.plaid.not_enough_credit_score%%%"
                     },
                     "gift_card": {
                         "titleDesc": "%%%.home1.lendingSection.confirm.paymentMethods.gift_card.titleDesc%%%"
@@ -5058,7 +5084,8 @@
             "userTaxIDNumberInvalid": "%%%.error.serverCode.userTaxIDNumberInvalid%%%",
             "userPhoneNumberInvalid": "%%%.error.serverCode.userPhoneNumberInvalid%%%",
             "inValidWalletAddress": "%%%.error.serverCode.inValidWalletAddress%%%",
-            "missingUserDocuments": "%%%.error.serverCode.missingUserDocuments%%%"
+            "missingUserDocuments": "%%%.error.serverCode.missingUserDocuments%%%",
+            "bankInfoError": "%%%.error.serverCode.bankInfoError%%%"
         },
         "expiredSession": "%%%.error.expiredSession%%%",
         "withdrawLessThanOrEqual": "%%%.error.withdrawLessThanOrEqual%%%",
@@ -5088,6 +5115,8 @@
         "btnGiftCard": "%%%.menuMobile.btnGiftCard%%%",
         "btnDailyLogin": "%%%.menuMobile.btnDailyLogin%%%",
         "btnWithdrawGiftcards": "%%%.menuMobile.btnWithdrawGiftcards%%%",
+        "btnLendingLottery": "%%%.menuMobile.btnLendingLottery%%%",
+        "lendingLottery": "%%%.menuMobile.lendingLottery%%%",
         "greeting": {
             "hi": "%%%.menuMobile.greeting.hi%%%",
             "title": "%%%.menuMobile.greeting.title%%%",
@@ -5134,7 +5163,8 @@
         "secondaryMarketDesc": "%%%.menuMobile.secondaryMarketDesc%%%",
         "accountActivityDesc": "%%%.menuMobile.accountActivityDesc%%%",
         "dashBoard": "%%%.menuMobile.dashBoard%%%",
-        "dashBoardDesc": "%%%.menuMobile.dashBoardDesc%%%"
+        "dashBoardDesc": "%%%.menuMobile.dashBoardDesc%%%",
+        "lendingLotteryDesc": "%%%.menuMobile.lendingLotteryDesc%%%"
     },
     "landingPage": {
         "steadyGrowth": {
@@ -5954,6 +5984,140 @@
             "3": {
                 "title": "%%%.shortSimple.howItWorks.3.title%%%",
                 "desc": "%%%.shortSimple.howItWorks.3.desc%%%"
+            }
+        }
+    },
+    "luckyDraw": {
+        "pickingPeriodStartingDateDesc": "%%%.luckyDraw.pickingPeriodStartingDateDesc%%%",
+        "intro": {
+            "contentHtml": "%%%.luckyDraw.intro.contentHtml%%%",
+            "desc": {
+                "1": "%%%.luckyDraw.intro.desc.1%%%",
+                "2": "%%%.luckyDraw.intro.desc.2%%%",
+                "3": "%%%.luckyDraw.intro.desc.3%%%"
+            },
+            "learnMore": "%%%.luckyDraw.intro.learnMore%%%"
+        },
+        "howItWorks": {
+            "title": "%%%.luckyDraw.howItWorks.title%%%",
+            "desc": "%%%.luckyDraw.howItWorks.desc%%%",
+            "data": {
+                "0": {
+                    "title": "%%%.luckyDraw.howItWorks.data.0.title%%%",
+                    "desc": "%%%.luckyDraw.howItWorks.data.0.desc%%%"
+                },
+                "1": {
+                    "title": "%%%.luckyDraw.howItWorks.data.1.title%%%",
+                    "desc": "%%%.luckyDraw.howItWorks.data.1.desc%%%"
+                },
+                "2": {
+                    "title": "%%%.luckyDraw.howItWorks.data.2.title%%%",
+                    "desc": "%%%.luckyDraw.howItWorks.data.2.desc%%%"
+                },
+                "3": {
+                    "title": "%%%.luckyDraw.howItWorks.data.3.title%%%",
+                    "desc": "%%%.luckyDraw.howItWorks.data.3.desc%%%"
+                },
+                "4": {
+                    "title": "%%%.luckyDraw.howItWorks.data.4.title%%%",
+                    "desc": "%%%.luckyDraw.howItWorks.data.4.desc%%%"
+                }
+            }
+        },
+        "form": {
+            "maxTerm": "%%%.luckyDraw.form.maxTerm%%%",
+            "placeholder": {
+                "amount": "%%%.luckyDraw.form.placeholder.amount%%%"
+            },
+            "text1": "%%%.luckyDraw.form.text1%%%",
+            "text2": "%%%.luckyDraw.form.text2%%%",
+            "btn1": "%%%.luckyDraw.form.btn1%%%"
+        },
+        "history": {
+            "headers": {
+                "orderNo": "%%%.luckyDraw.history.headers.orderNo%%%",
+                "date": "%%%.luckyDraw.history.headers.date%%%",
+                "numTicket": "%%%.luckyDraw.history.headers.numTicket%%%",
+                "totalPrizes": "%%%.luckyDraw.history.headers.totalPrizes%%%",
+                "status": "%%%.luckyDraw.history.headers.status%%%"
+            },
+            "status": {
+                "picked": "%%%.luckyDraw.history.status.picked%%%",
+                "closed": "%%%.luckyDraw.history.status.closed%%%"
+            },
+            "noHistoryData": "%%%.luckyDraw.history.noHistoryData%%%"
+        },
+        "investments": {
+            "termStatusFilter": {
+                "matched": "%%%.luckyDraw.investments.termStatusFilter.matched%%%",
+                "closed": "%%%.luckyDraw.investments.termStatusFilter.closed%%%",
+                "cancelled": "%%%.luckyDraw.investments.termStatusFilter.cancelled%%%"
+            },
+            "headers": {
+                "createdDate": "%%%.luckyDraw.investments.headers.createdDate%%%",
+                "amount": "%%%.luckyDraw.investments.headers.amount%%%",
+                "totalInterest": "%%%.luckyDraw.investments.headers.totalInterest%%%",
+                "interest": "%%%.luckyDraw.investments.headers.interest%%%",
+                "rate": "%%%.luckyDraw.investments.headers.rate%%%",
+                "term": "%%%.luckyDraw.investments.headers.term%%%",
+                "endTerm": "%%%.luckyDraw.investments.headers.endTerm%%%",
+                "numTicket": "%%%.luckyDraw.investments.headers.numTicket%%%"
+            },
+            "termStatus": {
+                "created": "%%%.luckyDraw.investments.termStatus.created%%%",
+                "closed": "%%%.luckyDraw.investments.termStatus.closed%%%",
+                "voided": "%%%.luckyDraw.investments.termStatus.voided%%%"
+            },
+            "footer": {
+                "desc": "%%%.luckyDraw.investments.footer.desc%%%"
+            },
+            "noInvestment": "%%%.luckyDraw.investments.noInvestment%%%",
+            "dialog": {
+                "cancelInvestment": {
+                    "messageConfirm": "%%%.luckyDraw.investments.dialog.cancelInvestment.messageConfirm%%%",
+                    "confirm": "%%%.luckyDraw.investments.dialog.cancelInvestment.confirm%%%",
+                    "cancel": "%%%.luckyDraw.investments.dialog.cancelInvestment.cancel%%%"
+                },
+                "autoRenewInvestment": {
+                    "messageConfirm": {
+                        "false": "%%%.luckyDraw.investments.dialog.autoRenewInvestment.messageConfirm.false%%%",
+                        "true": "%%%.luckyDraw.investments.dialog.autoRenewInvestment.messageConfirm.true%%%"
+                    },
+                    "confirm": "%%%.luckyDraw.investments.dialog.autoRenewInvestment.confirm%%%",
+                    "cancel": "%%%.luckyDraw.investments.dialog.autoRenewInvestment.cancel%%%",
+                    "autoRenewInvestmentSuccess": {
+                        "principal": "%%%.luckyDraw.investments.dialog.autoRenewInvestment.autoRenewInvestmentSuccess.principal%%%",
+                        "disabled": "%%%.luckyDraw.investments.dialog.autoRenewInvestment.autoRenewInvestmentSuccess.disabled%%%"
+                    },
+                    "autoRenewInvestmentFailed": {
+                        "true": "%%%.luckyDraw.investments.dialog.autoRenewInvestment.autoRenewInvestmentFailed.true%%%",
+                        "false": "%%%.luckyDraw.investments.dialog.autoRenewInvestment.autoRenewInvestmentFailed.false%%%"
+                    }
+                }
+            },
+            "alert": {
+                "stopSavingSuccess": "%%%.luckyDraw.investments.alert.stopSavingSuccess%%%"
+            },
+            "cancel": "%%%.luckyDraw.investments.cancel%%%",
+            "autoRenew": "%%%.luckyDraw.investments.autoRenew%%%",
+            "heading": "%%%.luckyDraw.investments.heading%%%",
+            "heading_detail": "%%%.luckyDraw.investments.heading_detail%%%",
+            "autoRenewDesc": "%%%.luckyDraw.investments.autoRenewDesc%%%"
+        },
+        "rewards": {
+            "status": {
+                "created": "%%%.luckyDraw.rewards.status.created%%%",
+                "transferred": "%%%.luckyDraw.rewards.status.transferred%%%",
+                "voided": "%%%.luckyDraw.rewards.status.voided%%%",
+                "cancelled": "%%%.luckyDraw.rewards.status.cancelled%%%"
+            }
+        },
+        "tickets": {
+            "status": {
+                "created": "%%%.luckyDraw.tickets.status.created%%%",
+                "picked": "%%%.luckyDraw.tickets.status.picked%%%",
+                "voided": "%%%.luckyDraw.tickets.status.voided%%%",
+                "closed": "%%%.luckyDraw.tickets.status.closed%%%"
             }
         }
     }
