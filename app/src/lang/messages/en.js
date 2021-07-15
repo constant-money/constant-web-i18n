@@ -1255,7 +1255,7 @@ export default {
       accountActivities: 'Account Activity',
       addressBook: 'Saved wallet addresses',
       shortSelling: 'Short selling (Advanced)',
-      lendingLottery: 'Lending Lottery',
+      lendingLottery: 'Lottery Tickets',
       rewards: 'Rewards',
       pendingTicket: 'Pending tickets',
       availableTicket: 'Available tickets',
@@ -6316,7 +6316,7 @@ export default {
           title: 'Pick your numbers',
           desc: `
             <h2>Pick your numbers</h2>
-            <p>Choose six numbers (from 1-70) and a MegaBall (from 1-25). If you prefer, you can generate the numbers automatically.</p>
+            <p>Choose six numbers (from 1-70) and a ConstantBall (from 1-25). If you prefer, you can generate the numbers automatically.</p>
           `,
         },
         3: {
