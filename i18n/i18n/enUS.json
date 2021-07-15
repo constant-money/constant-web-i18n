@@ -1299,7 +1299,7 @@
             "accountActivities": "Account Activity",
             "addressBook": "Saved wallet addresses",
             "shortSelling": "Short selling (Advanced)",
-            "lendingLottery": "Lending Lottery",
+            "lendingLottery": "Lottery Tickets",
             "rewards": "Rewards",
             "pendingTicket": "Pending tickets",
             "availableTicket": "Available tickets",
@@ -6012,7 +6012,7 @@
                 },
                 "2": {
                     "title": "Pick your numbers",
-                    "desc": "\n            <h2>Pick your numbers</h2>\n            <p>Choose six numbers (from 1-70) and a MegaBall (from 1-25). If you prefer, you can generate the numbers automatically.</p>\n          "
+                    "desc": "\n            <h2>Pick your numbers</h2>\n            <p>Choose six numbers (from 1-70) and a ConstantBall (from 1-25). If you prefer, you can generate the numbers automatically.</p>\n          "
                 },
                 "3": {
                     "title": "Check your numbers",
